@@ -10,6 +10,7 @@
 !tools/**/*.py
 !scripts/**/*.py
 !scripts/**/*.ps1
+# text/ holds English only (id, ja_hash, en, notes). Japanese working copies live in work/ (never tracked).
 !text/**/*.csv
 !text/**/*.json
 !docs/**
@@ -18,6 +19,8 @@
 game/
 build/
 dump/
+work/
+__pycache__/
 *.bin
 *.elf
 *.self
