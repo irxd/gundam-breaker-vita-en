@@ -10,6 +10,10 @@ Koei Tecmo, so none of SGM's LINKDATA/G1T code applies.
 | Base game | PCSG00126 | 01.00 | 3,930,256 B | `dump/eboot/app/eboot.bin.elf` (7,776,902 B) |
 | Update | PCSG00126 | 01.02 | 3,909,680 B | `dump/eboot/patch/eboot.bin.elf` (7,732,198 B) |
 
+Original `GxArchivedFile000.dat`: 1,497,701,319 B, SHA-1 `0cbdab3cf7c5ea798ead3e9284de9e61ba8e4ede`.
+FAGDec `self_auth.bin` is the same for both versions (authid `0x210000101cce007e`). `scripts/make_eboot.py` builds a
+fake-signed eboot from the ELF. Converting it back with SGM's `unfself.py` gives a byte-identical ELF.
+
 The update (`ux0:patch/PCSG00126`) has **only** the eboot, modules and sce_sys, so all game data comes from the base
 game. 1.01 added a control-scheme screen for PS TV and showed the version on the title screen; 1.02 is "stability".
 No DLC folder has been checked yet.
