@@ -9,10 +9,11 @@ Format (big-endian):
           u32 offset  (absolute, in this file)
           u32 size
   Entries are packed back to back with no gaps, in offset order.
+  hash1 = name_hash(path) for named files (see below); in 001/002 (pac bundles) it is a running ID.
 
 Each entry starts with a 0x80-byte header:
   0x00  type tag as reversed fourcc, e.g. b"\\0kpm" = "mpk", b"\\0xet" = "tex", b"\\02td" = "dt2"
-  0x04  u32 2 (version?), 0x08 u32 subtype, 0x2C u32 1 = BILZ payload follows
+  0x04  u32 2 (version?), 0x08 u32 subtype, 0x2C u32 1 = BILZ payload follows, 0 = raw payload (pac)
 Then at 0x80, when present:
   "BILZ"  u32 uncompressed size  u32 stored size  u32 level
   stored data (level 0 = raw, otherwise a zlib stream)
@@ -45,10 +46,27 @@ def type_of(data):
     return data[1:4][::-1].decode("latin1")
 
 
+def name_hash(path):
+    """hash1 of an entry: h = 37, then h = h*37 + byte for each byte of the path.
+
+    The path is as stored in pac records, without extension, e.g. "GP/text/voice_event_text".
+    """
+    h = 37
+    for c in path.encode("utf-8"):
+        h = (h * 37 + c) & 0xFFFFFFFF
+    return h
+
+
+def has_header(data):
+    """True for entries with the 0x80-byte header (type tag starts with a NUL)."""
+    return len(data) >= 0x80 and data[0] == 0
+
+
 def unpack(data):
-    """Return the payload of an entry (decompressed when BILZ)."""
+    """Return the payload of an entry: decompressed when BILZ, after the 0x80 header when stored raw
+    (pac), or the whole entry when it has no header (@UTF, DSSP)."""
     if data[0x80:0x84] != b"BILZ":
-        return data
+        return data[0x80:] if has_header(data) else data
     usize, csize, level = struct.unpack_from(">III", data, 0x84)
     body = data[0x90:0x90 + csize]
     out = body if level == 0 else zlib.decompress(body)
@@ -60,7 +78,7 @@ def unpack(data):
 def repack(orig_entry, payload):
     """Build a new entry from an original one (header kept) and a new payload."""
     if orig_entry[0x80:0x84] != b"BILZ":
-        return payload
+        return orig_entry[:0x80] + payload if has_header(orig_entry) else payload
     level = struct.unpack_from(">I", orig_entry, 0x8C)[0]
     body = payload if level == 0 else zlib.compress(payload, 9)
     return (orig_entry[:0x80] + b"BILZ"
