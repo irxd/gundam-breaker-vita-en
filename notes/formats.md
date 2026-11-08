@@ -165,6 +165,23 @@ about 50–55 Latin characters ("To test your machine and your aptitude as a pil
   variants, UTF-8/UTF-16) gives the hash1 of those probed names. It has to be found in the eboot (follow the
   `stat` → archive fallback).
 
+## Gundam Breaker 3
+
+Read only as the source for terms (notes/terms.md). Dump: `dump_gb3/app/PCSH10042/` (Vita, Asia, English + Korean;
+no update). Checked 2026-11-08.
+
+- Same engine and layout (`masterPSP2/GxArchivedFile000-002.dat`, `finalizedPSP2/` for movies, sound, shaders),
+  but the GDAT is **little-endian**: "GDAT", u32 N, then N × {u32 hash1 (name), u32 hash0 (type), u32 offset,
+  u32 size}. `tools/gdat.read_table` (big-endian) doesn't read it.
+- Entry type tags are written forwards (`dt2\0`, `pac\0`, `tex\0`), not reversed. Payload at 0x80 as in GB1.
+- Archive 000 holds only `pac` bundles (89), which `tools/pac.py` parses. Archives 001/002 hold loose entries.
+- All 27,515 dt2 tables parse with `tools/dt2.py` unchanged.
+- Text tables come in pairs, English and Korean, whose hash1 differ by 0xE2 (a language suffix in the path).
+  Records line up one to one. GB1's `GP/text/*` names don't hash to any GB3 entry.
+- The Japanese text tables are not in this build. Japanese remains only in data tables (`GP/unitData/*`,
+  `GP/csv/*`, internal labels), so Japanese and English can't be paired automatically. Terms were matched by
+  searching the English for each name.
+
 ## Open questions
 
 1. dt2: confirm the relocation-table theory (lengthen one string, test in Vita3K).

@@ -25,6 +25,8 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) crashed once, on
   OpenGL, so it's unproven. Re-test on Vulkan before translating those.
 - Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).
+- GB3 English (PCSH10042) is dumped in `dump_gb3/` as the terms source: little-endian GDAT, no Japanese text
+  tables (see notes/formats.md). Terms checked against it have status `gb3` in notes/terms.csv.
 - Pillow lives in user site-packages, which `-I` hides: run image scripts with `python -E -P` instead.
 
 Update this section as facts are confirmed. Write findings down in `notes/` (for example `notes/formats.md`).
