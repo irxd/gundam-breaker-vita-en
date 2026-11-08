@@ -68,7 +68,11 @@ Reference only (Koei Tecmo-specific): `linkdata.py`, `g1t*.py`, `dxt.py`, `font.
 
 ## Translation conventions
 
-- Working text format: CSV/JSON with id, Japanese, English, notes, and max width.
+- **The repo will be public: never commit Japanese game text.** Workflow:
+  1. `python -I scripts/extract_text.py` → `work/<name>.csv` (git-ignored): id, ja, en, notes. Safe to re-run.
+  2. Translate in `work/`.
+  3. `python -I scripts/sync_text.py` → `text/<name>.csv` (committed): id, ja_hash, en, notes. Commit that.
+  `id` = record:field in the original table; `ja_hash` = SHA-1[:8] of the Japanese (checks the line still matches).
 - Use the official **Gundam Breaker 3 English** (Asia, PS4/Vita) as the terms source for MS names, parts, skills and menu
   words. Keep a terms list in `notes/terms.md` (or `.csv`).
 - A machine draft is fine as a starting point, but every line needs a human check.
