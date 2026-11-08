@@ -9,11 +9,15 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 
 ## Status
 
-**Phase 0: waiting for the game dump.** No file formats are known yet. Nothing is confirmed until it's checked against the dump.
+**Phase 0 done: GO (2026-11-08).** Details in [notes/formats.md](notes/formats.md).
 
-- Title ID: TBD (read `sce_sys/param.sfo`)
-- Game version / update / DLC: TBD (`ux0:patch/<ID>`, `ux0:addcont/<ID>`)
-- Engine / archive format: TBD (it's probably not Koei Tecmo, so SGM's LINKDATA/G1T tools likely don't apply)
+- Title ID: **PCSG00126**. Base 01.00, update 01.02 (the update is only the eboot). DLC: not checked.
+- Engine: Crafts & Meister "Gx". Data is in `masterPSP2/GxArchivedFile00x.dat` (GDAT, big-endian, entries are
+  zlib "BILZ"). Tool: `tools/gdat.py`.
+- Text: UTF-8 inside `dt2` tables (~5.5k unique strings), with a relocation table for the strings.
+- Font: DXT5 atlas with full ASCII, packed proportionally. The glyph table (`csh`) is not decoded yet.
+- Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).
+- Pillow lives in user site-packages, which `-I` hides: run image scripts with `python -E -P` instead.
 
 Update this section as facts are confirmed. Write findings down in `notes/` (for example `notes/formats.md`).
 
