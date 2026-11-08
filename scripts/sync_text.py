@@ -3,12 +3,14 @@
   python -I scripts/sync_text.py
 
 For every work/<name>.csv, writes text/<name>.csv with id, ja_hash, en, notes for the rows that have English or
-notes. No Japanese is written to text/. Rows that were in text/ but are now empty in work/ are dropped (so
+notes. No Japanese is written to text/: if any en or notes cell contains kana or kanji, nothing is written. Rows that were in text/ but are now empty in work/ are dropped (so
 clearing a translation in work/ removes it).
 """
 import os
+import re
 import sys
 
+KANA_KANJI = re.compile("[぀-ヿ一-鿿]")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import textdb  # noqa: E402
@@ -18,10 +20,14 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     if not os.path.isdir(textdb.WORK):
         sys.exit("no work/ folder: run scripts/extract_text.py first")
+    names = sorted(f for f in os.listdir(textdb.WORK) if f.endswith(".csv"))
+    # text/ is public: refuse kana/kanji anywhere in en or notes (write romaji or English in notes instead).
+    bad = [f"work/{f} id {r['id']} {col}: {r[col]}"
+           for f in names for r in textdb.read_work(f).values() for col in ("en", "notes") if KANA_KANJI.search(r[col])]
+    if bad:
+        sys.exit("Japanese in en/notes would be committed; nothing written:\n" + "\n".join(f"- {b}" for b in bad))
     total = 0
-    for fname in sorted(os.listdir(textdb.WORK)):
-        if not fname.endswith(".csv"):
-            continue
+    for fname in names:
         work = textdb.read_work(fname)
         rows = [{"id": r["id"], "ja_hash": textdb.ja_hash(r["ja"]), "en": r["en"], "notes": r["notes"]}
                 for r in work.values() if r["en"] or r["notes"]]
