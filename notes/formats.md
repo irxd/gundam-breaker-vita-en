@@ -95,6 +95,22 @@ Header (decompressed): `u16 width, u16 height` (LE), then 4 format bytes `12 41 
 0x0C. Low nibble `d` of byte 7 = DXT; byte 6 `0x20` = DXT5 (otherwise DXT1); high nibble of byte 7 looks like the
 mip count (1 = no mips). Swizzle as above. Images with Japanese text are not catalogued yet.
 
+## pac bundles (GxArchivedFile001/002) and the name hash
+
+- **The text the game shows comes from here**, not from the dt2 entries in archive 000 (the tag build that only
+  changed 000 left all in-game text Japanese). E.g. `GP/text/voice_event_text` (mission dialogue, 150 KB),
+  `GP/text/mission_object_detail` (objectives), `GP/text/information_detail`, `GP/unitData/itemSkillParam`.
+- `pac` entries: 0x80 header with flag 0 (no BILZ), then the bundle (LE):
+  `u32 count, u32 largest member size, count x {char path[0x100], u32 type hash, u32 size}`, then the members
+  back to back, each a full entry (0x80 header + BILZ). Tool: [tools/pac.py](../tools/pac.py), byte-identical
+  round trip on all 5,078 bundles (57,253 members, 33,707 distinct paths).
+- 1,278 dt2 files with Japanese live in bundles, each in 1–2 bundles (identical copies). All copies must be patched.
+- **Name hash** (hash1 in archive 000): `h = 37; for each byte: h = h*37 + byte` (32-bit) over the path as stored
+  in the bundles, no extension, e.g. `GP/text/voice_event_text`. Matches 1,612 of 1,703 content-matched pairs
+  (the rest are files with identical content). `gdat.name_hash()`. The type hash (hash0) is a different function,
+  but the bundles store it.
+- **Markup** seen in strings: `<br>` (line break), `<c02>…</c>` (colour). Keep exactly.
+
 ## Running in Vita3K (2026-11-08)
 
 - Works up to the title screen with: the fself eboot **and** fself `sce_module/*.suprx` (from FAGDec-decrypted 1.02
