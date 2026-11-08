@@ -1,8 +1,9 @@
 ja,en,category,status,notes
 ガンプラ,Gunpla,system,official,
 パーツ,Parts,system,gb3?,
-プラモランナー,Plamo Runner,system,draft,"dropped item that becomes a part; short form ランナー = Runner"
-ランナー,Runner,system,draft,
+プラモランナー,Runner,system,ok,"decided: ""Runner"" everywhere (the real model-kit word, what menus use); プラモ is not translated"
+ランナー,Runner,system,ok,
+ガンプラランナー,Gunpla Runner,system,ok,blue drop symbol
 オプション装備,Option Parts,system,gb3?,"head vulcans, missiles etc. used with the d-pad"
 EXアクション,EX Action,system,gb3?,
 覚醒,Awakening,system,gb3?,
@@ -48,7 +49,7 @@ EXPブースター,EXP Booster,item,draft,
 ドット迷彩,Dot Camo,item,draft,
 ヘッド,Head,slot,gb3?,
 ボディ,Body,slot,gb3?,
-アーム,Arms,slot,gb3?,"plural in GB3 part lists (to check)"
+アーム,Arms,slot,gb3?,plural in GB3 part lists (to check)
 レッグ,Legs,slot,gb3?,
 バックパック,Backpack,slot,gb3?,
 ウェポン,Weapon,slot,gb3?,
@@ -64,14 +65,14 @@ EXPブースター,EXP Booster,item,draft,
 橘サクヤ,Sakuya Tachibana,character,official,God Eater guest
 楠リッカ,Licca Kusunoki,character,official,God Eater guest
 藤木コウタ,Kota Fujiki,character,official,God Eater guest
-曹長,Sergeant Major,rank,draft,
-少尉,Ensign,rank,draft,"UC Federation convention (Amuro is an Ensign)"
-大尉,Lieutenant,rank,draft,"check: Navy-style Lieutenant vs Army Captain"
-少佐,Lieutenant Commander,rank,draft,"or Major; keep the ladder consistent"
-大佐,Captain,rank,draft,"or Colonel"
-少将,Rear Admiral,rank,draft,"or Major General"
-大将,Admiral,rank,draft,"or General"
-元帥,Fleet Admiral,rank,draft,"or Marshal"
+曹長,Chief Petty Officer,rank,ok,Navy-style ladder (decided)
+少尉,Ensign,rank,ok,Navy-style ladder (decided); Amuro is an Ensign
+大尉,Lieutenant,rank,ok,Navy-style ladder (decided)
+少佐,Lieutenant Commander,rank,ok,Navy-style ladder (decided)
+大佐,Captain,rank,ok,Navy-style ladder (decided)
+少将,Rear Admiral,rank,ok,Navy-style ladder (decided)
+大将,Admiral,rank,ok,Navy-style ladder (decided)
+元帥,Fleet Admiral,rank,ok,Navy-style ladder (decided)
 地球連邦軍,Earth Federation Forces,faction,official,
 ジオン公国軍,Principality of Zeon,faction,official,
 エゥーゴ,AEUG,faction,official,
@@ -111,17 +112,17 @@ Zガンダム,Zeta Gundam,ms,official,
 ZZガンダム,ZZ Gundam,ms,official,
 キュベレイ,Qubeley,ms,official,
 キュベレイMk-Ⅱ,Qubeley Mk-II,ms,official,
-νガンダム,ν Gundam,ms,official,or Nu Gundam; check GB3
-Hi-νガンダム,Hi-ν Gundam,ms,official,
+νガンダム,Nu Gundam,ms,ok,"decided: Nu, not ν"
+Hi-νガンダム,Hi-Nu Gundam,ms,ok,"decided: Nu, not ν"
 サザビー,Sazabi,ms,official,
 ギラ・ドーガ,Geara Doga,ms,official,
 ギラ・ドーガ（レズン専用機）,Geara Doga (Rezin Schnyder Custom),ms,official,
 ドライセン,Dreissen,ms,official,
 シナンジュ,Sinanju,ms,official,
-ユニコーンガンダム【U】,Unicorn Gundam (Unicorn Mode),ms,official,
-ユニコーンガンダム【D】,Unicorn Gundam (Destroy Mode),ms,official,
-バンシィ【U】,Banshee (Unicorn Mode),ms,official,
-バンシィ【D】,Banshee (Destroy Mode),ms,official,
+ユニコーンガンダム【U】,Unicorn Gundam (Unicorn Mode),ms,ok,"decided: full mode names, also in part names"
+ユニコーンガンダム【D】,Unicorn Gundam (Destroy Mode),ms,ok,"decided: full mode names, also in part names"
+バンシィ【U】,Banshee (Unicorn Mode),ms,ok,"decided: full mode names, also in part names"
+バンシィ【D】,Banshee (Destroy Mode),ms,ok,"decided: full mode names, also in part names"
 アームド・アーマー,Armed Armor,ms,official,
 クロスボーン・ガンダムX1,Crossbone Gundam X1,ms,official,
 クロスボーン・ガンダムX1改・改,Crossbone Gundam X1 Kai Kai,ms,official,
@@ -133,7 +134,7 @@ Hi-νガンダム,Hi-ν Gundam,ms,official,
 ガンダムデスサイズヘル（EW）,Gundam Deathscythe Hell (EW),ms,official,
 ガンダムヘビーアームズ（EW）,Gundam Heavyarms (EW),ms,official,
 ガンダムX,Gundam X,ms,official,
-∀ガンダム,Turn A Gundam,ms,official,"∀ is in the font, but Turn A reads better in English"
+∀ガンダム,Turn A Gundam,ms,ok,decided
 ストライクガンダム,Strike Gundam,ms,official,
 ストライクガンダム【エール】,Aile Strike Gundam,ms,official,
 ストライクガンダム【ランチャー】,Launcher Strike Gundam,ms,official,

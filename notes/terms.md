@@ -23,14 +23,16 @@ is confirmed against GB3.
 - **Part names** = grade + MS + slot: `HG ザクⅡヘッド` → `HG Zaku II Head`. Slots: see `slot` rows in terms.csv.
 - **専用 (personal custom)**: `シャア専用ザクⅡ` → `Char's Zaku II`. `（レズン専用機）` → `(Rezin Schnyder Custom)`.
 - **【…】 variants** use the official name where one exists (`ストライクガンダム【エール】` → `Aile Strike Gundam`),
-  otherwise parentheses: `【…装備】` → `(… Equipped)`. `【U】`/`【D】` are `(Unicorn Mode)`/`(Destroy Mode)` in
-  descriptions; in part names, where space is tight, `(U)`/`(D)` (draft, decide once box widths are known).
+  otherwise parentheses: `【…装備】` → `(… Equipped)`. `【U】`/`【D】` are always written in full:
+  `(Unicorn Mode)`/`(Destroy Mode)`, also in part names (decided).
+- **Runners**: `プラモランナー` and `ランナー` are both `Runner`; `ガンプラランナー` is `Gunpla Runner` (decided).
 - **（EW）, （黒）** etc. keep the parentheses: `(EW)`, `(Black)`.
 - **Weapon owner in parentheses** stays: `ビーム・サーベル（ジム）` → `Beam Saber (GM)`.
-- **Roman numerals** Ⅱ/Ⅲ become `II`/`III` (ASCII). Greek `ν` and `∀` are in the font and may stay
-  (`ν Gundam`), but see the `∀` row.
+- **Roman numerals** Ⅱ/Ⅲ become `II`/`III` (ASCII). Greek letters are spelled out: `ν` → `Nu` (`Nu Gundam`,
+  `Hi-Nu Gundam`, `Nu Shield`), `∀` → `Turn A` (decided).
 - **Button icons** (`⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑲ ⑳`, drawn as Vita buttons) are copied as they are. The build checks this.
 - **Markup** (`<br>`, `<cNN>…</c>`, `\n`) is copied as it is. Colour tags keep their order.
-- **Ranks** follow the UC Earth Federation convention used in English Gundam material.
+- **Ranks** use the Navy-style ladder of the UC Earth Federation (decided): Chief Petty Officer, Ensign,
+  Lieutenant, Lieutenant Commander, Captain, Rear Admiral, Admiral, Fleet Admiral.
 - **Developer leftovers** (e.g. `出たらバグです…`, `使用しません 旧：…`, `ハンガーでスタートボタン押すと出る`) are never
   shown: leave them untranslated.
