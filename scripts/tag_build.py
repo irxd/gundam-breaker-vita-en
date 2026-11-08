@@ -2,7 +2,10 @@
 
 Purpose: check that the game font draws ASCII, and find out which file/line each on-screen text comes from.
 
-  python -I scripts/tag_build.py
+  python -I scripts/tag_build.py [--only PREFIX ...]
+
+--only limits the tagging inside pac bundles to members whose path starts with one of the prefixes (e.g.
+--only GP/text/). Archive 000 is always tagged.
 
 Covers the dt2 entries in GxArchivedFile000.dat and the dt2 members of the pac bundles in 001/002 (the copies the
 game actually shows, e.g. GP/text/voice_event_text).
@@ -108,6 +111,7 @@ def eboot_strings():
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
+    only = tuple(sys.argv[sys.argv.index("--only") + 1:]) if "--only" in sys.argv else None
     tagger = Tagger(eboot_strings())
     os.makedirs(OUT, exist_ok=True)
 
@@ -124,7 +128,7 @@ def main():
             for item in items:
                 fname, typ, entry = item
                 names[gdat.name_hash(fname)] = fname
-                if typ != DT2:
+                if typ != DT2 or (only and not fname.startswith(only)):
                     continue
                 new = tagger.tag(gdat.unpack(entry), fname)
                 if new is not None:
