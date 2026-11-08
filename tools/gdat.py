@@ -21,6 +21,7 @@ Some entries (@UTF, DSSP) have no 0x80 header and are raw.
 Usage (run with python -I):
   gdat.py list    ARCHIVE [--type dt2]
   gdat.py extract ARCHIVE OUTDIR [--type dt2] [--raw]
+  gdat.py rebuild ARCHIVE OUT.dat [--replace HASH0_HASH1=payload.bin ...]
 """
 import argparse
 import os
@@ -56,6 +57,57 @@ def unpack(data):
     return out
 
 
+def repack(orig_entry, payload):
+    """Build a new entry from an original one (header kept) and a new payload."""
+    if orig_entry[0x80:0x84] != b"BILZ":
+        return payload
+    level = struct.unpack_from(">I", orig_entry, 0x8C)[0]
+    body = payload if level == 0 else zlib.compress(payload, 9)
+    return (orig_entry[:0x80] + b"BILZ"
+            + struct.pack(">III", len(payload), len(body), level) + body)
+
+
+def rebuild(src, dst, replace):
+    """Copy archive src to dst, swapping the payloads given in replace {(h0, h1): bytes}.
+
+    Table order and data order are kept; offsets are recomputed.
+    """
+    with open(src, "rb") as f:
+        ents = read_table(f)
+        by_off = sorted(range(len(ents)), key=lambda i: ents[i][2])
+        new_off = [0] * len(ents)
+        new_size = [e[3] for e in ents]
+        new_data = {}
+        for i, (h0, h1, off, size) in enumerate(ents):
+            if (h0, h1) in replace:
+                f.seek(off)
+                new_data[i] = repack(f.read(size), replace[(h0, h1)])
+                new_size[i] = len(new_data[i])
+        missing = set(replace) - {(e[0], e[1]) for e in ents}
+        if missing:
+            raise KeyError(f"not in archive: {missing}")
+        pos = 8 + 16 * len(ents)
+        for i in by_off:
+            new_off[i] = pos
+            pos += new_size[i]
+        tmp = dst + ".tmp"
+        with open(tmp, "wb") as o:
+            o.write(b"GDAT" + struct.pack(">I", len(ents)))
+            for i, (h0, h1, _, _) in enumerate(ents):
+                o.write(struct.pack(">IIII", h0, h1, new_off[i], new_size[i]))
+            for i in by_off:
+                if i in new_data:
+                    o.write(new_data[i])
+                else:
+                    f.seek(ents[i][2])
+                    left = ents[i][3]
+                    while left:
+                        chunk = f.read(min(left, 1 << 22))
+                        o.write(chunk)
+                        left -= len(chunk)
+        os.replace(tmp, dst)
+
+
 def iter_entries(path, want=None):
     with open(path, "rb") as f:
         for h0, h1, off, size in read_table(f):
@@ -70,13 +122,28 @@ def iter_entries(path, want=None):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["list", "extract"])
+    ap.add_argument("cmd", choices=["list", "extract", "rebuild"])
     ap.add_argument("archive")
-    ap.add_argument("outdir", nargs="?")
+    ap.add_argument("outdir", nargs="?", help="extract: output folder; rebuild: output archive")
     ap.add_argument("--type", action="append", help="only this entry type (repeatable)")
     ap.add_argument("--raw", action="store_true", help="extract without decompressing")
+    ap.add_argument("--replace", action="append", default=[],
+                    help="rebuild: HASH0_HASH1=FILE, a decompressed payload (repeatable)")
     a = ap.parse_args()
     want = set(a.type) if a.type else None
+
+    if a.cmd == "rebuild":
+        if not a.outdir:
+            ap.error("rebuild needs an output path")
+        rep = {}
+        for r in a.replace:
+            key, path = r.split("=", 1)
+            h0, h1 = (int(x, 16) for x in key.split("_"))
+            with open(path, "rb") as p:
+                rep[(h0, h1)] = p.read()
+        rebuild(a.archive, a.outdir, rep)
+        print(f"wrote {a.outdir} ({len(rep)} entries replaced)")
+        return
 
     if a.cmd == "list":
         for h0, h1, off, size, t, _ in iter_entries(a.archive, want):
