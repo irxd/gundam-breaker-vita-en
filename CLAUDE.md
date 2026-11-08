@@ -14,8 +14,16 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Title ID: **PCSG00126**. Base 01.00, update 01.02 (the update is only the eboot). DLC: not checked.
 - Engine: Crafts & Meister "Gx". Data is in `masterPSP2/GxArchivedFile00x.dat` (GDAT, big-endian, entries are
   zlib "BILZ"). Tool: `tools/gdat.py`.
-- Text: UTF-8 inside `dt2` tables (~5.5k unique strings), with a relocation table for the strings.
-- Font: DXT5 atlas with full ASCII, packed proportionally. The glyph table (`csh`) is not decoded yet.
+- Text: UTF-8 inside `dt2` tables. What the game shows comes from `GP/text/*` inside the `pac` bundles in
+  `GxArchivedFile002.dat` (`tools/pac.py`) and from `dt2` entries in archive 000 (e.g. loading tips).
+  Records/descriptors are decoded (`tools/dt2.py`); **replacing strings and re-packing a table works in game**.
+- Names: entry hash1 = `gdat.name_hash(path)` (h = 37; h = h*37 + byte).
+- Font: DXT5 atlas with full ASCII, packed proportionally; English renders fine in game. The glyph table (`csh`)
+  is not decoded yet.
+- Vita3K: use **Vulkan** (black 3D world, text fine). OpenGL crashes on mission load even with original files.
+  Needs fake-signed eboot and `sce_module` (`scripts/make_eboot.py`).
+- Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) crashed once, on
+  OpenGL, so it's unproven. Re-test on Vulkan before translating those.
 - Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).
 - Pillow lives in user site-packages, which `-I` hides: run image scripts with `python -E -P` instead.
 

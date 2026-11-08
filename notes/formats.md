@@ -123,6 +123,14 @@ mip count (1 = no mips). Swizzle as above. Images with Japanese text are not cat
   happened on OpenGL. Re-test on Vulkan before relying on them. The build still keeps tables from growing
   (costs nothing).
 
+## Re-pack test: confirmed in game (Vita3K Vulkan, 2026-11-08)
+
+`scripts/test_dt2_strings.py`: three first-mission lines in `GP/text/voice_event_text` replaced with English,
+one of them longer in bytes than the Japanese; the table re-packed (records shifted, field offsets updated,
+leftover bytes cleared, raw and compressed size smaller than the original). **All three show correctly**, the
+following Japanese lines (in shifted records) are intact, `<br>` breaks lines. The dialogue box takes two lines of
+about 50–55 Latin characters ("To test your machine and your aptitude as a pilot," nearly fills a line).
+
 ## Tag build results (Vita3K, mostly OpenGL, 2026-11-08)
 
 - **ASCII renders in the game font**, proportionally spaced (`NEW GAME1GW`, `上1GX`). System dialogs (drawn by
