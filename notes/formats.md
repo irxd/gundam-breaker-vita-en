@@ -112,7 +112,18 @@ mip count (1 = no mips). Swizzle as above. Images with Japanese text are not cat
 - **Markup** seen in strings: `<br>` (line break), `<c02>…</c>` (colour), `\n` as two literal characters in
   system-dialog texts. Keep exactly.
 
-## Tag build results (Vita3K, Vulkan, 2026-11-08)
+## Vita3K renderer (important for reading test results)
+
+- **OpenGL** draws the 3D world but **crashes on mission load now and then, even with the original files**
+  (`sceGxmCreateRenderTarget` → `SCE_GXM_ERROR_DRIVER`, "two different surfaces have the same base address",
+  then an access violation). The config had silently stayed on OpenGL for most of the tests below.
+- **Vulkan** loads the mission with the original files, but the 3D world is black. HUD and dialogue text render
+  fine, so use Vulkan for text tests.
+- So the crashes below that were blamed on the data tables and on tables growing are **not proven**. They all
+  happened on OpenGL. Re-test on Vulkan before relying on them. The build still keeps tables from growing
+  (costs nothing).
+
+## Tag build results (Vita3K, mostly OpenGL, 2026-11-08)
 
 - **ASCII renders in the game font**, proportionally spaced (`NEW GAME1GW`, `上1GX`). System dialogs (drawn by
   Vita3K) also show the dt2 text, so the "empty" Yes/No dialog was a Japanese dt2 message Vita3K couldn't draw.
