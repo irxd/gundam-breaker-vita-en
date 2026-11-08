@@ -95,6 +95,26 @@ Header (decompressed): `u16 width, u16 height` (LE), then 4 format bytes `12 41 
 0x0C. Low nibble `d` of byte 7 = DXT; byte 6 `0x20` = DXT5 (otherwise DXT1); high nibble of byte 7 looks like the
 mip count (1 = no mips). Swizzle as above. Images with Japanese text are not catalogued yet.
 
+## Running in Vita3K (2026-11-08)
+
+- Works up to the title screen with: the fself eboot **and** fself `sce_module/*.suprx` (from FAGDec-decrypted 1.02
+  modules; `scripts/make_eboot.py` builds both). With the encrypted modules from the dump, libc fails to load and
+  the main thread crashes 0.6 s after boot while the launch image stays on screen.
+- The title screen shows **"Game Version: 1.12"** with the 1.02 update (internal version number).
+- On first boot the save is created **silently** (no dialog). A Yes/No system dialog with an empty body appears
+  (Vita3K draws system dialogs; it isn't the dt2 save message). Changing system messages #3–#6 showed nothing, so
+  the relocation theory is **not confirmed yet**. It needs a string drawn by the game itself.
+- **Loose files before the archive:** for some files the game calls `stat` on `app0:/masterPSP2/<path>` first and
+  only falls back to the archive when it's missing. It also probes `GxArchivedFile003.dat` / `004.dat` (missing),
+  which suggests extra archives can be added. Paths seen in one boot (88): engine shaders (`GxCore/…`, `GxShader/…`),
+  `GP/unitData/preset/presetNNNN.dt2`, `GP/csv/default_colorset_param.dt2`, `GP/partsConfig/default.cpc`,
+  `pacPSP2/ui/uiNNNN.pac`, `pacPSP2/sysgameboot.pac`, `sysgamecommon.pac`, `sysunitcsv.pac`.
+  - If loose files override archive entries, a release can ship small files through rePatch instead of a 1.5 GB
+    archive. Not tested yet.
+- Name hash: none of fnv1/1a, djb2, sdbm, CRC32, Jenkins one-at-a-time, ELF hash or x31/33/37/131/65599 (on path
+  variants, UTF-8/UTF-16) gives the hash1 of those probed names. It has to be found in the eboot (follow the
+  `stat` → archive fallback).
+
 ## Open questions
 
 1. dt2: confirm the relocation-table theory (lengthen one string, test in Vita3K).
