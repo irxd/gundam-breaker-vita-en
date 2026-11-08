@@ -109,7 +109,22 @@ mip count (1 = no mips). Swizzle as above. Images with Japanese text are not cat
   in the bundles, no extension, e.g. `GP/text/voice_event_text`. Matches 1,612 of 1,703 content-matched pairs
   (the rest are files with identical content). `gdat.name_hash()`. The type hash (hash0) is a different function,
   but the bundles store it.
-- **Markup** seen in strings: `<br>` (line break), `<c02>…</c>` (colour). Keep exactly.
+- **Markup** seen in strings: `<br>` (line break), `<c02>…</c>` (colour), `\n` as two literal characters in
+  system-dialog texts. Keep exactly.
+
+## Tag build results (Vita3K, Vulkan, 2026-11-08)
+
+- **ASCII renders in the game font**, proportionally spaced (`NEW GAME1GW`, `上1GX`). System dialogs (drawn by
+  Vita3K) also show the dt2 text, so the "empty" Yes/No dialog was a Japanese dt2 message Vita3K couldn't draw.
+- **Both sources are live:** dialogue, menus and help come from `GP/text/*` inside the bundles in 002; the loading
+  tips come from a dt2 entry in archive 000 (`000:8a96336f`). Patch both.
+- **Changing names in the data tables inside the 002 bundles crashed mission loading** (`GP/csv/NPCParam`,
+  `GP/unitData/*`, `GP/csv/MA/*`, `GP/map/*`; render-target error, then an access violation). Tagging only
+  `GP/text/*` (13 files in 2 bundles) plus all of archive 000 works. Some names in those data tables are probably
+  used as keys. Translate them only after finding which fields are display-only.
+- Text drawn from images (e.g. the GUNPLA CONTROL loading screen) stays Japanese.
+- String finding: record ID bytes in front of a string can be 0x80–0xBF, so don't use a "not after a continuation
+  byte" look-behind.
 
 ## Running in Vita3K (2026-11-08)
 

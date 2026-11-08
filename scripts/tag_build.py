@@ -41,9 +41,11 @@ OUT = os.path.join(OUT_DIR, "PCSG00126", "masterPSP2")
 DT2 = 0x2C1CF0E2
 
 U8 = rb"(?:[\x0a\x20-\x7e]|[\xc2-\xdf][\x80-\xbf]|[\xe0-\xef][\x80-\xbf]{2})"
-STRING = re.compile(rb"(?<![\x80-\xbf])" + U8 + rb"+?\x00")
-JP = re.compile(r"[　-ヿ一-鿿＀-￯]")
-KANA = re.compile(r"[　-ヿ＀-￯]")  # kana, Japanese punctuation, full-width forms
+# No look-behind: a continuation byte can never start a match, and record ID bytes in front of a string can be
+# 0x80-0xBF (e.g. "83 ミッション..."), which a look-behind would wrongly reject.
+STRING = re.compile(U8 + rb"+?\x00")
+JP = re.compile("[　-ヿ一-鿿＀-￯]")
+KANA = re.compile("[　-ヿ＀-￯]")  # kana, Japanese punctuation, full-width forms
 
 
 def b36(n):
