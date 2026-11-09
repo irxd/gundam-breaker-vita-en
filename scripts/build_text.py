@@ -2,6 +2,9 @@
 
   python -I scripts/build_text.py           check, then write build/patched/PCSG00126/masterPSP2/*.dat
   python -I scripts/build_text.py --check   only check the translations (fast, writes nothing)
+  python -I scripts/build_text.py --allow-growth
+                                            accept compressed entries/bundles that grow (tables still may not);
+                                            the archive offsets are rebuilt either way. Being tested in Vita3K.
 
 Lines with an empty `en` keep the Japanese. All problems are collected and the build fails if there are any:
   * id unknown, or ja_hash doesn't match the Japanese in the dump
@@ -62,6 +65,7 @@ def check(ja, en, charset):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     check_only = "--check" in sys.argv
+    allow_growth = "--allow-growth" in sys.argv
     tables = gbtext.load_tables(SRC)
     charset = {chr(c) for c in range(0x20, 0x7F)}
     for t in tables:
@@ -127,7 +131,11 @@ def main():
     def entry(old, payload, what):
         new = gdat.repack(old, payload)
         if len(new) > len(old):
-            size_errors.append(f"{what}: compressed entry would grow {len(old)} -> {len(new)} bytes")
+            msg = f"{what}: compressed entry would grow {len(old)} -> {len(new)} bytes"
+            if allow_growth:
+                print(f"warning: {msg}")
+            else:
+                size_errors.append(msg + " (--allow-growth to accept)")
         return new
 
     # Archive 002: every bundle that holds a changed GP/text member.
