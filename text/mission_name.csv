@@ -1,13 +1,686 @@
 id,ja_hash,en,notes
 1:1,07e367e5,Recon in Force 1,"draft, tutorial mission"
-1:6,335ee20c,Battle with enemy patrols,"draft, tutorial mission"
-1:7,1a2e920b,None,"draft, tutorial mission"
+1:6,335ee20c,Battle with enemy patrols,draft
+1:7,1a2e920b,None,draft
 1:9,a0922fc7,"We now begin our counteroffensive against the mysterious enemy<br>forces spread across the Earth Sphere. First, as piloting practice,<br>run a recon-in-force into enemy-held territory.<br>Take a GM into the Jungle Base area, engage the patrols there,<br>and assess the enemy's strength in the area.","draft, tutorial mission"
-1:10,976f4d65,Engaging enemy forces!,"draft, tutorial mission"
-1:11,976f4d65,Engaging enemy forces!,"draft, tutorial mission"
+1:10,976f4d65,Engaging enemy forces!,draft
+1:11,976f4d65,Engaging enemy forces!,draft
 2:1,fa98f003,Recon in Force 2,"draft, tutorial mission"
-2:6,335ee20c,Battle with enemy patrols,"draft, tutorial mission"
-2:7,1a2e920b,None,"draft, tutorial mission"
+2:6,335ee20c,Battle with enemy patrols,draft
+2:7,1a2e920b,None,draft
 2:9,3c514d01,"Before full-scale combat with the mysterious enemy begins,<br>run another recon-in-force against the enemy patrols in the<br>Jungle Base area to gather more intel. This time you'll<br>operate with another squad member. Take two GMs into the area,<br>engage the reinforced enemy patrols, and wipe them out together.","draft, tutorial mission"
-2:10,976f4d65,Engaging enemy forces!,"draft, tutorial mission"
-2:11,976f4d65,Engaging enemy forces!,"draft, tutorial mission"
+2:10,976f4d65,Engaging enemy forces!,draft
+2:11,976f4d65,Engaging enemy forces!,draft
+3:1,b5341ed7,Advance Begins,draft
+3:6,1f1e6dc5,Annihilate the enemy forces,draft
+3:7,c84cf86f,Time runs out,draft
+3:9,70b9dfb6,"At last, a large-scale counteroffensive against the mysterious enemy has begun<br>across the Earth Sphere! We, the ""Gundam Breaker Squad"", join as a mobile<br>reserve, first in a joint operation with the main force retaking the facility in<br>the Jungle Base area. Our first official battle: wipe out the defense forces<br>guarding enemy territory. Weaken the enemy's defense line and light the signal<br>fire of our counterattack.",draft
+3:10,d663c39b,Clearing Phase 1 missions,draft
+3:11,d663c39b,Clearing Phase 1 missions,draft
+4:1,49b9fcd7,The White Devil,draft
+4:6,dbc43fe9,Destroy the large machine deep in the war zone,draft
+4:7,c84cf86f,Time runs out,draft
+4:9,0fbf5682,"The first battle of the counteroffensive went far better than expected, but it<br>also told the enemy we mean to fight back. The enemy has begun sending more<br>forces to every war zone; in the Jungle Base area, a new high-energy signal,<br>likely a large machine, has been detected. No more holding back. Force through<br>the enemy front, find the target and destroy it!",draft
+4:10,d663c39b,Clearing Phase 1 missions,draft
+4:11,d663c39b,Clearing Phase 1 missions,draft
+4:12,86adb618,<c00>HG Beam Rifle (Mk-II)</c> (Giant Main Machine)<br><c00>HG Beam Javelin</c> (Giant Main Machine),draft
+5:1,017c93d5,Sieg Zeon!,draft
+5:6,1f1e6dc5,Annihilate the enemy forces,draft
+5:7,c84cf86f,Time runs out,draft
+5:9,c6077fe7,"A bonus mission with special settings. This time, head to a battlefield in ""a<br>world other than this one"" and train in combat against enemy forces made up only<br>of Zeon machines. There are also reports that a powerful Unidentified Machine<br>appears there. Be careful.",draft
+5:10,d663c39b,Clearing Phase 1 missions,draft
+5:11,d663c39b,Clearing Phase 1 missions,draft
+5:12,4bd9b107,<c04>HG ??? Parts</c> (Unidentified Machine),draft
+6:1,08abad89,Operation V,draft
+6:6,1f1e6dc5,Annihilate the enemy forces,draft
+6:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+6:9,d84b3dd9,"A mission with special settings. Head to a battlefield in ""a world other than<br>this one"" and train in combat against enemy forces made up only of Federation<br>machines. The enemy includes the ""White Devil"" itself: the HG Gundam. There are<br>also reports of a powerful Unidentified Machine. Be careful.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+6:10,d663c39b,Clearing Phase 1 missions,draft
+6:11,d663c39b,Clearing Phase 1 missions,draft
+6:12,ea9f4bc0,<c04>HG ??? Parts</c> (Unidentified Machine)<br><c00>HG Armor Schneider</c> (Main Machine),draft
+7:1,710a01b5,A Pack of Devils,draft
+7:6,1f1e6dc5,Annihilate the enemy forces,draft
+7:7,c84cf86f,Time runs out,draft
+7:9,4262e09a,"Recon units in the Jungle Base area report that large numbers of HG Gundams have<br>been deployed there. Your enemy this time is a pack of the legendary ""White<br>Devil"". Wipe them out! Special traps have been set in the war zone, and a<br>powerful Unidentified Machine is said to be hiding there. Expect the unexpected.<br>Be very careful.",draft
+7:10,d663c39b,Clearing Phase 1 missions,draft
+7:11,d663c39b,Clearing Phase 1 missions,draft
+7:12,dd49c21f,<c04>HG ??? Parts</c> (Unidentified Machine)<br><c00>HG Beam Rifle (Mk-II)</c> (Main Machine),draft
+8:1,361e35d2,Underground Defense,draft
+8:6,9137b3cb,Defend several Data Probes,draft
+8:7,99685980,The Data Probe is destroyed,draft
+8:9,0cd899e1,"The enemy's true nature is still unknown, and its source remains a mystery. So<br>HQ has started an operation to collect and analyze enemy data with intel-<br>gathering probes: ""Data Probes"". This mission is to defend a Data Probe set up<br>in the war zone. Protect it from enemy attacks until it finishes collecting<br>enemy data.",draft
+8:10,d663c39b,Clearing Phase 1 missions,draft
+8:11,d663c39b,Clearing Phase 1 missions,draft
+8:12,dd49c21f,<c04>HG ??? Parts</c> (Unidentified Machine)<br><c00>HG Beam Rifle (Mk-II)</c> (Main Machine),draft
+9:1,812a51be,Red Phantom,draft
+9:6,c34ccd92,Destroy the giant enemy weapon,draft
+9:7,c84cf86f,Time runs out,draft
+9:9,6c544d13,"[Special Mission]<br>A massive unidentified enemy weapon has appeared at sea outside the war zone!<br>It's heading for a coastal city. An allied carrier sent to stop it is under<br>attack and in extreme danger. Rush to the area, engage this massive weapon and<br>destroy it!",draft
+9:10,d663c39b,Clearing Phase 1 missions,draft
+9:11,d663c39b,Clearing Phase 1 missions,draft
+10:1,b97751db,Yellow Sand Front,draft
+10:6,e176c5f1,Defeat the enemy forces around the war zone,draft
+10:7,c84cf86f,Time runs out,draft
+10:9,3acd4569,"Our squad has been asked to join operations in the desert area. It's a scorching<br>land over 50 degrees Celsius, and a fierce war zone with powerful machines. Come<br>fully equipped. This mission is to assess the enemy's strength in the desert<br>area. Engage the enemy forces around the area and survey the situation in the<br>war zone.",draft
+10:10,bd871cde,Clearing Phase 2 missions,draft
+10:11,bd871cde,Clearing Phase 2 missions,draft
+10:12,00c82c55,<c00>HG Prototype 9.1m Anti-Ship Sword</c> (Main Machine)<br><c00>HG Raketen Bazooka</c> (Unidentified Machine),draft
+11:1,cd035290,Silver Battlefield,draft
+11:6,e176c5f1,Defeat the enemy forces around the war zone,draft
+11:7,c84cf86f,Time runs out,draft
+11:9,be851f72,"Our squad has been asked to join operations in the mountain base area. The base<br>sits near the summit of a peak over 5000 m high, a frozen land of glaciers.<br>There are many powerful enemy machines too. Come fully equipped. This mission is<br>to assess the enemy's strength in the mountain base area. Engage the enemy<br>forces around the area and survey the situation in the war zone.",draft
+11:10,bd871cde,Clearing Phase 2 missions,draft
+11:11,bd871cde,Clearing Phase 2 missions,draft
+11:12,ea44ce1a,<c00>HG MMP-80 Zaku Machine Gun</c> (Main Machine)<br><c00>HG 57mm High-Energy Beam Rifle</c> (Main Machine),draft
+12:1,577f5d0d,The Black Gundam,draft
+12:6,2ebded76,Destroy the main enemy machine,draft
+12:7,c84cf86f,Time runs out,draft
+12:9,ce4c9ff5,"A powerful main enemy machine has been confirmed deep in the desert area.<br>According to recon, it's a large black machine that looks like the ""White<br>Devil"", the Gundam. The enemy keeps growing stronger, and we can't take our time<br>either. Go in as the assault unit, break through the front and hit the main<br>machine beyond it.",draft
+12:10,bd871cde,Clearing Phase 2 missions,draft
+12:11,bd871cde,Clearing Phase 2 missions,draft
+12:12,397cc12f,<c04>HG ??? Parts</c> (Unidentified Machine)<br><c00>HG Combined Shield</c> (Giant Main Machine),draft
+13:1,92bceb0b,Heir to the Era,draft
+13:6,2ebded76,Destroy the main enemy machine,draft
+13:7,c84cf86f,Time runs out,draft
+13:9,eb349b4a,"An extremely powerful main enemy machine has been confirmed on the summit of the<br>mountain base area. The enemy seems to be building a strong defense around it.<br>To keep things from getting worse, destroying it is urgent. This mission: push<br>through no matter what and destroy this main machine. It's a forced operation,<br>so the unexpected may happen. Proceed with great care.",draft
+13:10,bd871cde,Clearing Phase 2 missions,draft
+13:11,bd871cde,Clearing Phase 2 missions,draft
+13:12,917968c6,<c00>HG Beam Rifle (Z)</c> (Giant Main Machine)<br><c00>HG 57mm High-Energy Beam Rifle</c> (Unidentified Machine),draft
+14:1,cb10c1ed,Souls of the Dead,draft
+14:6,5b2a6edd,Annihilate the enemy forces in the war zone,draft
+14:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+14:9,ecba44a5,"Having lost the Zeta Gundam, the core of its defense line in the mountain base<br>area, the enemy is desperately rebuilding its defenses with jammers and new<br>machines. This mission is to wipe out the enemy forces dug in in a war zone<br>disrupted by jammers. Expect fierce resistance, but now is our chance.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+14:10,bd871cde,Clearing Phase 2 missions,draft
+14:11,bd871cde,Clearing Phase 2 missions,draft
+14:12,69323f68,<c04>HG Beam Scissors</c> (Main Machine)<br><c00>HG Beam Rifle (Z)</c> (Unidentified Machine),draft
+15:1,2b506e0a,The Unorthodox,draft
+15:6,5b2a6edd,Annihilate the enemy forces in the war zone,draft
+15:7,c84cf86f,Time runs out,draft
+15:9,17334223,"The main force continuing to retake the Jungle Base area reports a new, strange<br>type of MG machine, unlike any seen so far. Our mission this time: return to the<br>Jungle Base area, engage and destroy this new MG machine, and support the main<br>force. This strange new machine's abilities are still unknown. Be careful.",draft
+15:10,bd871cde,Clearing Phase 2 missions,draft
+15:11,bd871cde,Clearing Phase 2 missions,draft
+15:12,5bd3595c,<c00>HG God Slash</c> (Unidentified Machine),draft
+16:1,f1ee47c6,Crossing Worlds,draft
+16:6,2ebded76,Destroy the main enemy machine,draft
+16:7,c84cf86f,Time runs out,draft
+16:9,2ed9b814,"As if drawn in by the strange machine, the Astray, that appeared in the Jungle<br>Base area, many HG Astray series machines and a new large main enemy machine<br>have been sent into the war zone. Destroying this new main machine is our<br>objective. By its looks, it seems related to the Astray series, but it appears<br>to have special abilities none of them had. Be very careful.",draft
+16:10,bd871cde,Clearing Phase 2 missions,draft
+16:11,bd871cde,Clearing Phase 2 missions,draft
+16:12,c0c06f00,<c04>HG Strike Gundam + IWSP Backpack</c> (Giant Main Machine),draft
+17:1,0b27be1a,Crossfire,draft
+17:6,8ece837e,Defend the Data Probe,draft
+17:7,99685980,The Data Probe is destroyed,draft
+17:9,e79856fe,"A ""Data Probe"" that collects and analyzes enemy intel has drifted into another<br>dimension. On a battlefield in ""a world other than this one"", defend it from<br>enemy forces made up of machines with powerful ranged weapons. Every enemy is<br>strong, but taking their part runners here should let you power up your machine<br>further. Give it everything.",draft
+17:10,bd871cde,Clearing Phase 2 missions,draft
+17:11,bd871cde,Clearing Phase 2 missions,draft
+17:12,de403f33,<c00>HG Launcher Strike Gundam Backpack</c> (Main Machine),draft
+18:1,d7b2578f,White Blade of a Crimson Soul,draft
+18:6,2ebded76,Destroy the main enemy machine,draft
+18:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+18:9,1e0e79a4,"A strange main enemy machine with twin swords like katana has appeared in the<br>desert area too. At the same time, many HG and MG machines with large swords<br>seem to have joined the enemy forces holding the defense line. Wipe out these<br>forces and destroy the red main enemy machine beyond them.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+18:10,bd871cde,Clearing Phase 2 missions,draft
+18:11,bd871cde,Clearing Phase 2 missions,draft
+18:12,28c72af8,<c04>HG Gerbera Straight</c> (Giant Main Machine)<br><c04>HG Gerbera Straight/Tiger Pierce</c> (Giant Main Machine),draft
+19:1,8a8a430e,Double Attack,draft
+19:6,260e8d7f,Destroy several main enemy machines,draft
+19:7,c84cf86f,Time runs out,draft
+19:9,c01c38d7,"Our units in the mountain base area report two high-energy signals, likely PG<br>machines, near the summit at the far end of the war zone. The enemy has finally<br>begun sending several main machines into one war zone at once. This mission is<br>to destroy these main enemy machines. It'll be a tough fight, but I'm sure you<br>can do it.",draft
+19:10,bd871cde,Clearing Phase 2 missions,draft
+19:11,bd871cde,Clearing Phase 2 missions,draft
+19:12,ba477b1b,<c00>HG Beam Saber (Strike)</c> (Giant Main Machine),draft
+20:1,9ab82258,Prototype Mobile Weapon,draft
+20:6,c34ccd92,Destroy the giant enemy weapon,draft
+20:7,c84cf86f,Time runs out,draft
+20:9,cd062b30,"[Special Mission]<br>We've received word that the enemy dropped a giant mobile weapon into the<br>mountain base area! The main force is engaging it now, but against its high<br>mobility and overwhelming firepower it's struggling badly and is being forced to<br>retreat. Rush to the summit of the mountain base area and destroy the giant<br>mobile weapon!",draft
+20:10,bd871cde,Clearing Phase 2 missions,draft
+20:11,bd871cde,Clearing Phase 2 missions,draft
+21:1,f47f9167,Space Fortress,draft
+21:6,e176c5f1,Defeat the enemy forces around the war zone,draft
+21:7,c84cf86f,Time runs out,draft
+21:9,d760b2ea,"Our squad, with results far beyond HQ's expectations, has been asked to join<br>operations at a space fortress. This fortress can move on its own with nuclear<br>pulse engines; if it falls to the enemy, the worst could happen to humanity on<br>Earth. It's a top-priority defense target. First, intel. Engage the enemy forces<br>in the war zone and survey their strength.",draft
+21:10,d284e49a,Clearing Phase 3 missions,draft
+21:11,d284e49a,Clearing Phase 3 missions,draft
+21:12,a55ecb2e,<c00>HG Mega Gatling Gun</c> (Main Machine)<br><c00>HG Qubeley Parts</c> (Unidentified Machine),draft
+22:1,1f903051,The White Meteor,draft
+22:6,2ebded76,Destroy the main enemy machine,draft
+22:7,c84cf86f,Time runs out,draft
+22:9,0a30c81c,"There are several powerful main enemy machines in the space fortress. This<br>mission is to destroy one of them: the ""Nu Gundam"". The Nu Gundam is the<br>successor of the ""White Devil"", the Gundam. Well-balanced and high-performance,<br>it uses all-range attacks with its fin funnels: an extremely powerful enemy. But<br>we're only allowed to move forward. Destroy it at all costs.",draft
+22:10,d284e49a,Clearing Phase 3 missions,draft
+22:11,d284e49a,Clearing Phase 3 missions,draft
+22:12,076241fd,<c04>HG Nu Gundam Backpack</c> (Giant Main Machine)<br><c04>HG Sazabi Backpack</c> (Unidentified Machine),draft
+23:1,11946e8e,Land Floating in Space,draft
+23:6,e176c5f1,Defeat the enemy forces around the war zone,draft
+23:7,c84cf86f,Time runs out,draft
+23:9,b0cb3d72,"Our squad, with results far beyond HQ's expectations, has been asked to join<br>operations inside a space colony. This war zone is a front line where the enemy<br>has deployed many powerful machines, and it may also hide the key to finding the<br>enemy's still-unknown base. First, a test. Engage the enemy forces and survey<br>the situation in the war zone.",draft
+23:10,d284e49a,Clearing Phase 3 missions,draft
+23:11,d284e49a,Clearing Phase 3 missions,draft
+23:12,5790bbf4,<c00>HG Twin Sword Rifle</c> (Main Machine)<br><c00>HG Heat Lance</c> (Unidentified Machine),draft
+24:1,75809e4b,System of Ruin,draft
+24:6,2ebded76,Destroy the main enemy machine,draft
+24:7,c84cf86f,Time runs out,draft
+24:9,2198e616,"Several powerful main enemy machines have been confirmed inside the colony too.<br>This mission is to destroy one of them: the ""Unicorn Gundam"". A full psycho-<br>frame machine known for the red glow across its body, it combines overwhelming<br>mobility with super-powerful shots from its ""Beam Magnum"". It's expected to be a<br>hard mission. Come fully equipped.",draft
+24:10,d284e49a,Clearing Phase 3 missions,draft
+24:11,d284e49a,Clearing Phase 3 missions,draft
+24:12,a1bd78b9,<c04>HG Beam Magnum</c> (Giant Main Machine)<br><c04>HG ??? Parts</c> (Unidentified Machine),draft
+25:1,afedd16f,Hellfire,draft
+25:6,8ece837e,Defend the Data Probe,draft
+25:7,99685980,The Data Probe is destroyed,draft
+25:9,61c48d23,"To solve the enemy's mystery, an operation has begun to gather and analyze intel<br>with a Data Probe on the powerful enemy forces stationed inside the colony.<br>Sensing this, the enemy has sent an assault force built around heavily armored<br>and heavy-weapon machines to destroy the Data Probe. Repel the enemy's waves of<br>attacks and defend the probe until it finishes gathering intel.",draft
+25:10,d284e49a,Clearing Phase 3 missions,draft
+25:11,d284e49a,Clearing Phase 3 missions,draft
+25:12,4a78cb92,<c04>HG Astray Blue Frame Second Revise Backpack</c> (Main Machine)<br><c04>HG Shiranui/Unryu</c> (Unidentified Machine),draft
+26:1,7c224ac4,Wings That Split Space,draft
+26:6,2ebded76,Destroy the main enemy machine,draft
+26:7,c84cf86f,Time runs out,draft
+26:9,04fbf45e,"This mission is to destroy a powerful main enemy machine that forms one wing of<br>the enemy attack force at the space fortress. The main force that fought it<br>reports creature-like wing mechanisms on its back, and a fighting style built on<br>fast, powerful shots from rifles in both hands. Against ranged machines,<br>reaction speed is your lifeline. Don't let your guard down for a moment.",draft
+26:10,d284e49a,Clearing Phase 3 missions,draft
+26:11,d284e49a,Clearing Phase 3 missions,draft
+26:12,be86978c,<c04>HG Twin Buster Rifle</c> (Giant Main Machine)<br><c04>MG GM Parts</c> (Giant Main Machine),draft
+27:1,f958cea6,God of Battle,draft
+27:6,2ebded76,Destroy the main enemy machine,draft
+27:7,c84cf86f,Time runs out,draft
+27:9,d2540632,"Units operating in the mountain base area report a new type of powerful main<br>enemy machine. It carries no ranged or melee weapons as its main arms, and<br>fights with very human martial arts moves using its fists and legs. Rush to the<br>mountain base area, engage this main machine and destroy it. Many fighter-type<br>machines also seem to be in its vanguard. Be careful.",draft
+27:10,d284e49a,Clearing Phase 3 missions,draft
+27:11,d284e49a,Clearing Phase 3 missions,draft
+27:12,5e419cd6,<c04>HG God Gundam Arm</c> (Giant Main Machine),draft
+28:1,603a33af,Those with Wings,draft
+28:6,8ece837e,Defend the Data Probe,draft
+28:7,99685980,The Data Probe is destroyed,draft
+28:9,d033aeb7,"Another round of intel gathering with a Data Probe will take place inside the<br>colony. The enemy has sent many high-mobility machines into the colony, and<br>collecting their data should allow more precise analysis. It'll have a big<br>effect on the whole war, but it'll be a hard fight. Defend the Data Probe from<br>the powerful enemy forces until it finishes gathering intel.",draft
+28:10,d284e49a,Clearing Phase 3 missions,draft
+28:11,d284e49a,Clearing Phase 3 missions,draft
+28:12,53e78416,<c04>HG Freedom Gundam Leg</c> (Main Machine)<br><c04>HG Freedom Gundam Backpack</c> (Main Machine),draft
+29:1,a09f0617,Black Surge,draft
+29:6,2ebded76,Destroy the main enemy machine,draft
+29:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+29:9,ba149b79,"A martial-arts fighter-type main enemy machine has appeared at the space<br>fortress too. It uses the same moves as the one at the mountain base, but this<br>one is wrapped in black with a sinister look; it's probably close to the core of<br>the enemy forces. Head to the space fortress, engage this mysterious machine,<br>and destroy it if you can!<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+29:10,d284e49a,Clearing Phase 3 missions,draft
+29:11,d284e49a,Clearing Phase 3 missions,draft
+29:12,b002e2e4,<c04>HG Master Gundam Arm</c> (Giant Main Machine),draft
+30:1,bb56614d,Fist and Sword,draft
+30:6,50330a06,Annihilate the enemy assault force,draft
+30:7,c84cf86f,Time runs out,draft
+30:9,2a5a51bb,"We've received word that the enemy has sent a special assault force into the<br>space fortress. It's advancing from two directions: one made of the fighter-type<br>machines we've already fought, the other of dual-blade machines including a new<br>black one. There are also reports of a separate, unidentified Gundam-type<br>machine. Intercept the enemy special assault force and stop its advance.",draft
+30:10,d284e49a,Clearing Phase 3 missions,draft
+30:11,d284e49a,Clearing Phase 3 missions,draft
+30:12,fd2954d2,<c04>HG Astray Red Frame Kai Backpack</c> (Main Machine)<br><c00>HG Schwert Gewehr</c> (Main Machine),draft
+31:1,46f57ed9,Freedom Through Power,draft
+31:6,2ebded76,Destroy the main enemy machine,draft
+31:7,c84cf86f,Time runs out,draft
+31:9,62addb4a,"This mission is to destroy the last remaining main enemy machine inside the<br>colony. The target is the core of the enemy's strength inside the colony: an<br>all-round, ultra-high-performance machine with double rifles and double sabers,<br>powerful beam cannons and railguns, and even all-range attacks. It will<br>certainly be a hard fight. Come fully prepared.",draft
+31:10,d284e49a,Clearing Phase 3 missions,draft
+31:11,d284e49a,Clearing Phase 3 missions,draft
+31:12,d1dacb50,<c04>HG Strike Freedom Gundam Backpack</c> (Giant Main Machine)<br><c04>HG Super Lacerta Beam Saber</c> (Giant Main Machine),draft
+32:1,4ca8531a,"Red, Black & White",draft
+32:6,8ece837e,Defend the Data Probe,draft
+32:7,99685980,The Data Probe is destroyed,draft
+32:9,a444851d,"A bonus mission with special settings. Search for and find a Data Probe that<br>drifted into ""a world other than this one"" again, and defend it from enemy<br>forces invading across time and space. This time the enemy is built around full<br>psycho-frame machines. Take their powerful part runners and prepare for the<br>final stage of the war that draws near.",draft
+32:10,d284e49a,Clearing Phase 3 missions,draft
+32:11,d284e49a,Clearing Phase 3 missions,draft
+32:12,dab320d6,<c04>HG Strike Freedom Gundam Parts</c> (Unidentified Machine)<br><c00>HG Banshee (Destroy Mode) Parts</c> (Main Machine),draft
+33:1,68403d2b,Fallen Angel,draft
+33:6,2ebded76,Destroy the main enemy machine,draft
+33:7,c84cf86f,Time runs out,draft
+33:9,97feba99,"An emergency. Two extremely powerful energy signals suddenly appeared and were<br>confirmed descending toward Earth. The predicted landing point is near the<br>desert area. They're probably machines far stronger than anything before. Rush<br>to the desert area, and first find one of these signals, which seems to be an<br>extremely powerful PG machine, and intercept it with everything you have.",draft
+33:10,d284e49a,Clearing Phase 3 missions,draft
+33:11,d284e49a,Clearing Phase 3 missions,draft
+33:12,7a756bc9,<c04>HG GN Sword III</c> (Giant Main Machine)<br><c04>HG 00 Raiser Backpack</c> (Unidentified Machine),draft
+34:1,1ec23948,Seed of the Bizarre,draft
+34:6,c34ccd92,Destroy the giant enemy weapon,draft
+34:7,c84cf86f,Time runs out,draft
+34:9,7947355f,"[Special Mission]<br>The other high-energy signal that descended on the desert area was a giant enemy<br>mobile weapon. This bizarre weapon took the center of the war zone in one swoop,<br>and with powerful fire and impregnable defenses it has completely shut down our<br>counterattack. Rush to the desert area and destroy it before it starts invading<br>other areas!",draft
+34:10,d284e49a,Clearing Phase 3 missions,draft
+34:11,d284e49a,Clearing Phase 3 missions,draft
+35:1,272d3358,The Future Where All Sleep,draft
+35:6,e176c5f1,Defeat the enemy forces around the war zone,draft
+35:7,c84cf86f,Time runs out,draft
+35:9,a87e07b9,"At last, the battle at the enemy's main camp! We leave the defense of the Earth<br>Sphere to the main force and charge the enemy base as an independent unit.<br>First, survey the enemy's strength in this unknown war zone: the ""Forbidden<br>Land"". Engage the enemy forces that appear and scout out the war zone. From here<br>on, we fight alone and unsupported in enemy territory. Never let your guard<br>down.",draft
+35:10,d4b37378,Clearing Phase 4 missions,draft
+35:11,d4b37378,Clearing Phase 4 missions,draft
+35:12,00118055,<c04>HG Beam Scissors</c> (Main Machine)<br><c00>HG Master Cross</c> (Main Machine),draft
+36:6,2ebded76,Destroy the main enemy machine,draft
+36:7,c84cf86f,Time runs out,draft
+36:9,a4c905c6,"The enemy has noticed our intrusion and seems to be forming a large interception<br>force gathering the Gundam-type machines at the heart of its strength. This<br>mission: wipe out this interception force of Gundams of every era, and destroy<br>the two main machines leading it. A battle fit for ""the end point of Gundam's<br>history"". Give it everything.",draft
+36:10,d4b37378,Clearing Phase 4 missions,draft
+36:11,d4b37378,Clearing Phase 4 missions,draft
+36:12,ffbcea84,<c04>HG Arondight</c> (Giant Main Machine)<br><c04>HG Beam Rifle (Nu)</c> (Giant Main Machine),draft
+37:6,260e8d7f,Destroy several main enemy machines,draft
+37:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+37:9,c1a4dbf5,"A mission with special settings, on a battlefield in ""a world other than this<br>one"". Against an enemy army limited to machines from Universal Century Gundam<br>works, try to wipe out their forces and destroy several main enemy machines.<br>Feel the weighty history of the Universal Century, which began with ""Gundam"".<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+37:10,d4b37378,Clearing Phase 4 missions,draft
+37:11,d4b37378,Clearing Phase 4 missions,draft
+37:12,7ad2a8fa,<c04>HG Hyper Mega Rifle</c> (Giant Main Machine),draft
+38:1,20391cb2,Another,draft
+38:6,260e8d7f,Destroy several main enemy machines,draft
+38:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+38:9,43246de0,"A mission with special settings, on a battlefield in ""a world other than this<br>one"". Against an enemy army limited to machines from the alternate-universe<br>Gundam works, try to wipe out their forces and destroy several main enemy<br>machines. Feel the variety of the worlds that grew out of ""Gundam"".<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+38:10,d4b37378,Clearing Phase 4 missions,draft
+38:11,d4b37378,Clearing Phase 4 missions,draft
+38:12,7be92e6d,<c04>HG Twin Buster Rifle</c> (Giant Main Machine)<br><c04>HG God Gundam Arm</c> (Giant Main Machine),draft
+39:1,ddb60523,The Beast That Hunts Time,draft
+39:6,260e8d7f,Destroy several main enemy machines,draft
+39:7,c84cf86f,Time runs out,draft
+39:9,d6355f10,"The enemy seems to be getting serious about stopping us at last. From here on<br>it'll be one fierce, hard battle after another. Give it everything! This mission<br>is to destroy a tag team of psycho-frame main enemy machines: the Nu Gundam and<br>the Unicorn Gundam. Watch out for high-mobility disruption, accurate and<br>powerful fire, and all-range attacks!",draft
+39:10,d4b37378,Clearing Phase 4 missions,draft
+39:11,d4b37378,Clearing Phase 4 missions,draft
+39:12,093fe879,<c04>HG Hyper Mega Rifle</c> (Giant Main Machine)<br><c04>HG Beam Magnum</c> (Giant Main Machine),draft
+40:1,641031f8,Eight Swords,draft
+40:6,260e8d7f,Destroy several main enemy machines,draft
+40:7,c84cf86f,Time runs out,draft
+40:9,d4894df9,"This mission is to destroy a tag team of main enemy machines with powerful melee<br>weapons: Astray Red Frame Kai and 00 Raiser. The Red Frame Kai's dual blades,<br>the 00 Raiser's two kinds of GN Swords and all kinds of secondary weapons will<br>rain slashes on you. Pay close attention to melee range and break through them!",draft
+40:10,d4b37378,Clearing Phase 4 missions,draft
+40:11,d4b37378,Clearing Phase 4 missions,draft
+40:12,73c48866,<c04>HG GN Sword III</c> (Giant Main Machine)<br><c04>HG Gerbera Straight/Tiger Pierce</c> (Giant Main Machine),draft
+41:1,feb46d44,The King's Wind of Ruin,draft
+41:6,260e8d7f,Destroy several main enemy machines,draft
+41:7,c84cf86f,Time runs out,draft
+41:9,88d47970,"This mission is to destroy a tag team of main enemy machines with powerful<br>martial-arts attacks: God Gundam and Master Gundam! Fighter machines with fast,<br>powerful melee moves, yet they also master area-type special moves that work<br>from a distance: fearsome opponents. Watch out for their combos and charge<br>attacks, and destroy them!",draft
+41:10,d4b37378,Clearing Phase 4 missions,draft
+41:11,d4b37378,Clearing Phase 4 missions,draft
+41:12,00bb1f72,<c04>HG Heat Rod (Epyon)</c> (Giant Main Machine)<br><c04>HG Beam Machine Gun (X Divider)</c> (Unidentified Machine),draft
+42:1,fe41c3f9,The End of Time,draft
+42:6,260e8d7f,Destroy several main enemy machines,draft
+42:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+42:9,72b75275,This mission is to destroy two of the very strongest main enemy machines: Strike<br>Freedom Gundam and 00 Raiser! Both are fearsome enemies with high-performance<br>ranged and melee attacks and devastating finishers. Joining this operation is<br>not mandatory. Take it on if you're confident in your skills.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>,draft
+42:10,d4b37378,Clearing Phase 4 missions,draft
+42:11,d4b37378,Clearing Phase 4 missions,draft
+42:12,6b34692b,<c04>HG GN Sword III</c> (Giant Main Machine)<br><c04>HG Super Lacerta Beam Saber</c> (Giant Main Machine),draft
+43:1,3575c173,Messenger of Evolution,draft
+43:6,0b987080,Destroy the main enemy machine guarding the gate,draft
+43:7,c84cf86f,Time runs out,draft
+43:9,7f2cbdb7,"At last, the entrance to the space-time gate leading to the heart of the enemy<br>base has been found! Whatever rules the enemy forces is likely hiding beyond it.<br>The gate is sealed by an energy field created by two main enemy machines.<br>Destroy these gatekeepers... the two Master Gundams! The time of the final<br>battle seems near at last. Give it everything!",draft
+43:10,d4b37378,Clearing Phase 4 missions,draft
+43:11,d4b37378,Clearing Phase 4 missions,draft
+43:12,9820f545,<c00>HG Master Gundam Arm</c> (Giant Main Machine)<br><c00>HG Beam Machine Gun (Geara Doga)</c> (Unidentified Machine),draft
+44:1,0e7f8a33,Ruler of Darkness,draft
+44:6,f28133f7,Destroy the giant machine at the enemy core,draft
+44:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+44:9,94f24194,"At last, the attack route into the heart of the enemy base has opened before us!<br>We will now storm the core area of the enemy base and destroy the ultra-high-<br>energy source inside, probably a giant machine! If it succeeds, this should be<br>our last operation.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+44:10,d4b37378,Clearing Phase 4 missions,draft
+44:11,d4b37378,Clearing Phase 4 missions,draft
+45:1,c582e79d,Dance of the Chosen,draft
+45:6,bd148102,Succeed in the Final Mission,draft
+45:7,c84cf86f,Time runs out,draft
+45:9,458d5cc8,"[Final Mission]<br>As a selected player, take part in the exhibition battle that closes Gundam<br>Great Front.<br><c05>*In multiplayer (online), clearing this mission</c><br>　 <c05>automatically disbands the party and returns to the title screen.</c>",draft
+45:10,d4b37378,Clearing Phase 4 missions,draft
+45:11,d4b37378,Clearing Phase 4 missions,draft
+45:12,7d6fd70c,<c04>HG GN Sword III</c> (Giant Main Machine)<br><c04>HG Beam Gatling Gun</c> (Giant Main Machine),draft
+46:1,4dcaee62,A New Battle,draft
+46:6,5e5eeb31,Destroy the PG Gundam,draft
+46:7,c84cf86f,Time runs out,draft
+46:9,8e7a1e3b,"Back to basics: a mission to destroy the PG Gundam in the Jungle Base area. But<br>more MG machines appear than in the previous version's mission, and the PG<br>machine is an enhanced version customized for this version by a pro modeler,<br>different from the original. Go in thinking it's the same as before and you'll<br>regret it. Stay sharp.",draft
+46:10,dc990644,Clearing Extra Mission Phase 1,draft
+46:11,dc990644,Clearing Extra Mission Phase 1,draft
+46:12,8278c8c0,<c00>MG Armor Schneider</c> (Giant Main Machine)<br><c00>MG Gatling Shield</c> (Giant Main Machine),draft
+47:1,9511b0a6,Beyond Time,draft
+47:6,f02cfbd9,Destroy several main enemy machines in a row,draft
+47:7,c84cf86f,Time runs out,draft
+47:9,61257508,"In the same format as the ""Final Mission"" on the last day of Gundam Great Front,<br>take on the main enemy machines that appear one after another. The main machines<br>are the Gundam, the Gundam Mk-II and the Zeta Gundam. New this time, HG and MG<br>machines also appear alongside the main machines. It'll be quite a melee, but<br>with your skills you should enjoy it.",draft
+47:10,dc990644,Clearing Extra Mission Phase 1,draft
+47:11,dc990644,Clearing Extra Mission Phase 1,draft
+47:12,94deb3b0,<c00>MG Beam Saber (Mk-II)</c> (Giant Main Machine)<br><c00>MG Beam Rifle (Mk-II)</c> (Giant Main Machine),draft
+48:1,7894fbf0,Tears of the End,draft
+48:6,d8b356a7,Destroy the 1/60 Nu Gundam,draft
+48:7,c84cf86f,Time runs out,draft
+48:9,a23ee516,"A mission to destroy the 1/60 scale Nu Gundam at the space fortress. The enemy<br>interception force in the vanguard is chosen to match the world where the Nu<br>Gundam fought, and many machines with funnels appear. Get through the storm of<br>all-range attacks from the MG Sazabi, MG Nu Gundam and more, and destroy the<br>enhanced 1/60 scale Nu Gundam beyond them.",draft
+48:10,dc990644,Clearing Extra Mission Phase 1,draft
+48:11,dc990644,Clearing Extra Mission Phase 1,draft
+48:12,c146400a,<c04>MG Nu Gundam Backpack</c> (Giant Main Machine)<br><c04>MG Hi-Nu Gundam Backpack</c> (Unidentified Machine),draft
+49:1,2f2fdaed,Martial Waltz,draft
+49:6,337a16e6,Destroy the 1/60 Wing Gundam Zero (EW),draft
+49:7,c84cf86f,Time runs out,draft
+49:9,f899d471,"This time you fight enemy forces made of G Gundam and Gundam W machines. Break<br>through the powerful melee and ranged combos of the hero duo, MG God Gundam and<br>MG Wing Gundam Zero (EW), and the varied waves of attacks from distinctive<br>machines, then destroy this mission's main enemy machine: the enhanced 1/60<br>scale Wing Gundam Zero (EW).",draft
+49:10,dc990644,Clearing Extra Mission Phase 1,draft
+49:11,dc990644,Clearing Extra Mission Phase 1,draft
+49:12,8ca0ad3e,<c04>MG Twin Buster Rifle</c> (Giant Main Machine)<br><c04>MG Beam Axe</c> (Unidentified Machine),draft
+50:1,a67e92f8,Cosmic Era,draft
+50:6,80cb38fb,Destroy the PG Strike Rouge,draft
+50:7,c84cf86f,Time runs out,draft
+50:9,e5de1531,"This time, a mission modeled on the battles of the Cosmic Era. The Strike Gundam<br>appears in its Aile, Sword, Launcher and IWSP forms, along with many powerful<br>fakes built through customization. The final target is the main enemy machine,<br>the PG Strike Rouge. Watch how its attacks change as it swaps Striker Packs, and<br>destroy it.",draft
+50:10,dc990644,Clearing Extra Mission Phase 1,draft
+50:11,dc990644,Clearing Extra Mission Phase 1,draft
+50:12,e5bacf98,<c04>MG Launcher Strike Gundam Backpack</c> (Giant Main Machine)<br><c04>MG Sword Strike Gundam Backpack</c> (Giant Main Machine),draft
+51:1,2d717025,Astrays,draft
+51:6,9840f544,Destroy the 1/60 Astray Red Frame Kai,draft
+51:7,c84cf86f,Time runs out,draft
+51:9,2c30d5f3,"This mission features every machine of the Astray series. The Astray Red Frame,<br>Blue Frame and Green Frame, their advanced forms Red Frame Kai and Blue Frame<br>Second Revise, and customized fakes as leader machines appear. The objective is<br>the enhanced 1/60 scale Astray Red Frame Kai.",draft
+51:10,dc990644,Clearing Extra Mission Phase 1,draft
+51:11,dc990644,Clearing Extra Mission Phase 1,draft
+51:12,701384db,<c04>MG Gerbera Straight</c> (Giant Main Machine)<br><c04>MG Gerbera Straight/Tiger Pierce</c> (Giant Main Machine),draft
+52:1,a1c6c17c,Ruler of Another Space,draft
+52:6,8ece837e,Defend the Data Probe,draft
+52:7,99685980,The Data Probe is destroyed,draft
+52:9,a744a5a3,"A mission where MG versions of the strongest alternate-universe Gundams attack:<br>Freedom and Strike Freedom, 00 and Susanowo. Each alone is as strong as a main<br>machine so far, and a storm of attacks from customized fake units joins them.<br>Survive the fierce battle!",draft
+52:10,dc990644,Clearing Extra Mission Phase 1,draft
+52:11,dc990644,Clearing Extra Mission Phase 1,draft
+52:12,f6bf73df,<c04>MG 00 Raiser Backpack</c> (Giant Main Machine)<br><c04>MG Super Lacerta Beam Saber</c> (Giant Main Machine),draft
+53:1,95a98096,Unicorn and Lion,draft
+53:6,a61ca6a8,Destroy the 1/60 Unicorn Gundam,draft
+53:7,c84cf86f,Time runs out,draft
+53:9,c6e7ca2d,"A mission where powerful enemy forces built around the psycho-frame machines<br>Unicorn Gundam, Banshee and Sinanju attack. The MG Unicorn Gundam and MG Banshee<br>in Destroy Mode are especially dangerous. Engage them with great care. The<br>objective is to destroy the enhanced 1/60 scale Unicorn Gundam.",draft
+53:10,dc990644,Clearing Extra Mission Phase 1,draft
+53:11,dc990644,Clearing Extra Mission Phase 1,draft
+53:12,60841521,<c04>MG Beam Magnum</c> (Giant Main Machine)<br><c04>MG Astray Red Frame Kai Backpack</c> (Unidentified Machine),draft
+54:1,2d4d61b6,Wheel of Fortune,draft
+54:6,8ece837e,Defend the Data Probe,draft
+54:7,99685980,The Data Probe is destroyed,draft
+54:9,fa42affb,"This time, a concept mission themed on a casino stage. Inspired by roulette,<br>defend the Data Probe from fierce mixed attacks by enemy forces split into a<br>Black team and a Red team. Earn Ace Points and a golden bonus enemy force<br>appears too. The mission is far from easy, but we hope you enjoy the atmosphere.",draft
+54:10,01463f82,Clearing Extra Mission Phase 2,draft
+54:11,01463f82,Clearing Extra Mission Phase 2,draft
+54:12,357b5193,<c04>MG Master Gundam Arm</c> (Giant Main Machine)<br><c04>MG Beam Axe</c> (Main Machine),draft
+55:1,08aa6eb8,Counterattack of the High Grade,draft
+55:6,1f1e6dc5,Annihilate the enemy forces,draft
+55:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+55:9,7f1c725e,"A concept mission that puts HG-size machines at the center again. Many of the<br>very strongest HG machines appear, and you fight while constantly shrunk by<br>Jammer: Scale. Remember how scary HG machines can be.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+55:10,01463f82,Clearing Extra Mission Phase 2,draft
+55:11,01463f82,Clearing Extra Mission Phase 2,draft
+55:12,eab17cf7,<c04>MG MA-M21KF High-Energy Beam Rifle</c> (Unidentified Machine)<br><c04>MG Beam Ribbon</c> (Main Machine),draft
+56:1,975934c7,Threat Above the Clouds,draft
+56:6,bc760af0,Destroy the enhanced Apsalus II,draft
+56:7,c84cf86f,Time runs out,draft
+56:9,246e60a6,"A mission against an enhanced version of the large Mobile Armor Apsalus II.<br>Unlike the past special mission, to reach the objective on the summit of the<br>mountain base area you must wipe out the enemy forces on the front line. The<br>enemy is mainly One Year War machines: Zaku, Dom, GM, a Ground Type-style Gundam<br>and more. Enjoy the feel of a ""fierce battle on the snowy mountain"".",draft
+56:10,01463f82,Clearing Extra Mission Phase 2,draft
+56:11,01463f82,Clearing Extra Mission Phase 2,draft
+57:6,8ece837e,Defend the Data Probe,draft
+57:7,99685980,The Data Probe is destroyed,draft
+57:9,7d6e673a,"This time, a concept mission themed on a Gunpla workbench. Defend the Data Probe<br>against enemy forces made of custom machines that modelers built themselves. The<br>enemies mix all kinds of machine parts, so you likely can't tell their strength<br>by their looks. Stay alert against every enemy.",draft
+57:10,01463f82,Clearing Extra Mission Phase 2,draft
+57:11,01463f82,Clearing Extra Mission Phase 2,draft
+57:12,d9c9252b,<c00>MG GN Sword II</c> (Main Machine),draft
+58:1,ece715d8,Gundam Fight!!,draft
+58:6,1536507c,Destroy the 1/60 God Gundam,draft
+58:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+58:9,ba7fb27a,"A concept mission with only fighter machines. Centered on martial-arts machines<br>like God Gundam and Master Gundam, every enemy comes at you in close combat<br>relying on raw machine power. Take them on with a fighter-type machine yourself<br>for a different kind of play.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+58:10,01463f82,Clearing Extra Mission Phase 2,draft
+58:11,01463f82,Clearing Extra Mission Phase 2,draft
+58:12,1c778b89,<c04>MG God Gundam Arm</c> (Giant Main Machine)<br><c04>MG Beam Saber (Unicorn)</c> (Unidentified Machine),draft
+59:1,95a2efe3,Twin Cross,draft
+59:6,f02cfbd9,Destroy several main enemy machines in a row,draft
+59:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+59:9,d7b2fc1c,"A mission to destroy, one after another, main enemy machines with powerful melee<br>and ranged attacks. The Strike Gundam switching between Launcher and Sword, the<br>dual-blade Red Frame Kai, and the Wing Gundam Zero (EW) with its Twin Buster<br>Rifle appear in turn. Near the end, two enhanced main machines appear at once.<br>Destroy them.<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+59:10,01463f82,Clearing Extra Mission Phase 2,draft
+59:11,01463f82,Clearing Extra Mission Phase 2,draft
+59:12,a3657807,<c04>MG Gerbera Straight</c> (Giant Main Machine)<br><c04>MG Twin Buster Rifle</c> (Giant Main Machine),draft
+60:1,dd0c95b5,Deadline of Destiny,draft
+60:6,b5fa3e25,Destroy the enhanced Gells-Ghe,draft
+60:7,c84cf86f,Time runs out,draft
+60:9,7ea5d314,"A mission against an enhanced version of the large Mobile Armor Gells-Ghe. In<br>the desert area, engage and wipe out the enemy forces on the front line, then<br>fight the objective deep in the war zone. The enemy forces are modeled on<br>powerful machines from the Cosmic Era. Enjoy the feel of a ""battle of destiny"".",draft
+60:10,01463f82,Clearing Extra Mission Phase 2,draft
+60:11,01463f82,Clearing Extra Mission Phase 2,draft
+60:12,2cdb3b90,<c04>MG Arondight</c> (Unidentified Machine)<br><c04>MG Freedom Gundam Backpack</c> (Unidentified Machine),draft
+61:1,b132695b,Inferno Fire,draft
+61:6,8ece837e,Defend the Data Probe,draft
+61:7,5f5910a2,The Data Probe is destroyed or <c05>your machine is disabled</c>,draft
+61:9,1ebbf114,"A high-difficulty defense mission where you must protect the Data Probe set up<br>in the underground corridor area of the ""Forbidden Land"" from extremely powerful<br>enemy forces. The enemy assault force calls to mind the fires of the underworld:<br>red machines, including many rival machines from the original works. Watch out<br>especially for the MG Sazabi with funnels and the high-mobility MG Sinanju.",draft
+61:10,54a692b1,Clearing Extra Mission Phase 3,draft
+61:11,54a692b1,Clearing Extra Mission Phase 3,draft
+61:12,701384db,<c04>MG Gerbera Straight</c> (Giant Main Machine)<br><c04>MG Gerbera Straight/Tiger Pierce</c> (Giant Main Machine),draft
+62:1,1ace8638,Exploder,draft
+62:6,483e3f36,Destroy the 1/60 Master Gundam,draft
+62:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+62:9,6bb9939e,"A mission against enemy forces of machines with powerful heavy weapons and<br>solid-round and explosive attacks. Survive a terrifying battlefield swept by<br>bazooka shells and missile pod blasts. The objective is the enhanced 1/60 scale<br>Master Gundam, which uses the Darkness Finger with its fierce explosive finish,<br>and the Chokyu Haow Den-eidan.",draft
+62:10,54a692b1,Clearing Extra Mission Phase 3,draft
+62:11,54a692b1,Clearing Extra Mission Phase 3,draft
+62:12,4c51ab85,<c04>MG Master Gundam Arm</c> (Giant Main Machine)<br><c04>MG Astray Red Frame Kai Backpack</c> (Unidentified Machine),draft
+63:1,bbb27d39,Beam Storm,draft
+63:6,60706c90,Destroy the PG Strike Freedom Gundam,draft
+63:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+63:9,e6799131,"A mission against forces of machines with powerful beam attacks. Survive a<br>stormy battlefield where countless beams fly, from fast rifle fire to large-<br>caliber beam cannons. The objective is the enhanced PG Strike Freedom Gundam.<br>Watch out for its varied ranged attacks and Full Burst, which combines them all.",draft
+63:10,54a692b1,Clearing Extra Mission Phase 3,draft
+63:11,54a692b1,Clearing Extra Mission Phase 3,draft
+63:12,46b8fa40,<c04>MG Strike Freedom Gundam Backpack</c> (Giant Main Machine)<br><c04>MG Super Lacerta Beam Saber</c> (Giant Main Machine),draft
+64:1,bf0e3338,Tornado Bringer,draft
+64:6,f49c801c,Destroy the PG 00 Raiser,draft
+64:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+64:9,cc63c77d,"A mission against enemy forces built around machines with axes and great swords,<br>known for their rough attacks. Survive a hellish battlefield where area-type EX-<br>Actions hit you one after another. The objective is the enhanced PG 00 Raiser.<br>Watch out for the Raiser Sword, which destroys everything in one hit, and Trans-<br>Am Burst.",draft
+64:10,54a692b1,Clearing Extra Mission Phase 3,draft
+64:11,54a692b1,Clearing Extra Mission Phase 3,draft
+64:12,353afa6c,<c04>MG GN Sword III</c> (Giant Main Machine)<br><c04>MG Arondight</c> (Leader Machine),draft
+65:6,8ece837e,Defend the Data Probe,draft
+65:7,5f5910a2,The Data Probe is destroyed or <c05>your machine is disabled</c>,draft
+65:9,ef1d9db0,"A defense mission themed on a model workbench again. Defend the Data Probe from<br>attacks by enemy forces built around powerful custom machines that modelers made<br>themselves. Every enemy combines parts from high-end machines, with high base<br>performance and powerful weapons. Stay alert against every one and give it<br>everything.",draft
+65:10,54a692b1,Clearing Extra Mission Phase 3,draft
+65:11,54a692b1,Clearing Extra Mission Phase 3,draft
+65:12,12aac6df,<c04>MG Twin Buster Rifle</c> (Main Machine)<br><c04>MG Beam Scissors</c> (Main Machine),draft
+66:1,d6614cb9,Phantom of the Blue Sea,draft
+66:6,8b47c5b9,Destroy the enhanced Shamblo,draft
+66:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+66:9,f70a7ddb,"A mission against an enhanced version of the super-giant Mobile Armor Shamblo. A<br>special elite force, centered on blue machines that put up quietly brilliant<br>fights in the original works and including Gundam types, forms the vanguard.<br>Engage and wipe out this elite force, then destroy the giant objective that<br>appears: the enhanced Shamblo, with stronger armor and extra weapons.",draft
+66:10,54a692b1,Clearing Extra Mission Phase 3,draft
+66:11,54a692b1,Clearing Extra Mission Phase 3,draft
+66:12,35700fe8,<c04>MG Heat Rod (Epyon)</c> (Unidentified Machine)<br><c04>MG Astray Blue Frame Second Revise Backpack</c> (Leader Machine),draft
+67:1,17fe4c6c,Rivalry,draft
+67:6,f050065d,Destroy several main enemy machines,draft
+67:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+67:9,9043340d,A mission where rival machines form units and both attack at once. Try breaking<br>through unknown combined attacks as a unit of charismatic hero machines joins up<br>with a unit of the rival machines that threatened them. The goal of this mission<br>is to destroy the master-and-student duo: the enhanced 1/60 scale God Gundam and<br>Master Gundam.,draft
+67:10,54a692b1,Clearing Extra Mission Phase 3,draft
+67:11,54a692b1,Clearing Extra Mission Phase 3,draft
+67:12,5c53f2fd,<c04>MG God Gundam Arm</c> (Giant Main Machine)<br><c04>MG Master Gundam Arm</c> (Giant Main Machine),draft
+68:1,67e3e75b,Lineage of G,draft
+68:6,f050065d,Destroy several main enemy machines,draft
+68:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+68:9,48e87632,"A mission where the hero Gundams of every era appear one after another. This<br>time they appear in new formations beyond era and world, making the most of each<br>machine. Try breaking through their varied and powerful combined attacks. The<br>final objective is a tag team of the newest Gundam types: the enhanced PG 00<br>Raiser and the 1/60 scale Unicorn Gundam.",draft
+68:10,54a692b1,Clearing Extra Mission Phase 3,draft
+68:11,54a692b1,Clearing Extra Mission Phase 3,draft
+68:12,324483ff,<c04>MG GN Sword III</c> (Giant Main Machine)<br><c04>MG Beam Magnum</c> (Giant Main Machine),draft
+69:1,fa339463,Dance of Heroes,draft
+69:6,f02cfbd9,Destroy several main enemy machines in a row,draft
+69:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+69:9,96372159,"The ultimate mission: destroy enhanced versions of the Gundams of every era, one<br>after another. All the enhanced main enemy machines appear two at a time. They<br>are ""Gundam + Zeta Gundam"", ""Nu Gundam + Unicorn Gundam"", ""God Gundam + Wing<br>Gundam Zero (EW)"", and ""Strike Freedom Gundam + 00 Raiser"".",draft
+69:10,54a692b1,Clearing Extra Mission Phase 3,draft
+69:11,54a692b1,Clearing Extra Mission Phase 3,draft
+69:12,3db0d06f,<c04>MG Twin Buster Rifle</c> (Giant Main Machine)<br><c04>MG Hyper Mega Rifle</c> (Giant Main Machine),draft
+70:1,a2b29e17,Rebirth from Darkness,draft
+70:6,d6542357,Destroy the enhanced Grand Master Gundam,draft
+70:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+70:9,f9909e9f,"A mission against an enhanced version of the Grand Master Gundam. In the<br>otherworldly area, engage and wipe out the black machines, vanguard of darkness<br>guarding it, then destroy the objective that appears. The enhanced Grand Master<br>Gundam is much stronger in both attack and defense, and has new attacks too.<br>Survive the deadly battle and come back alive.",draft
+70:10,54a692b1,Clearing Extra Mission Phase 3,draft
+70:11,54a692b1,Clearing Extra Mission Phase 3,draft
+71:1,6b0f79be,White Doll,draft
+71:6,1f1e6dc5,Annihilate the enemy forces,draft
+71:7,c84cf86f,Time runs out,draft
+71:9,ecbdfd18,"A new white enemy machine has been spotted entering the Jungle Base area. With a<br>mustache-like ornament on its head, it seems connected to the Gundam, but what<br>it is and what it can do are completely unknown. There are also reports of a<br>separate, powerful Unidentified Machine. Engage them and find out what they are.",draft
+71:10,d663c39b,Clearing Phase 1 missions,draft
+71:11,d663c39b,Clearing Phase 1 missions,draft
+71:12,92a90bc2,<c04>HG ??? Head</c> (Main Machine)<br><c04>HG ??? Parts</c> (Unidentified Machine),draft
+72:1,dc856789,Is the Moon Out?,draft
+72:6,1f1e6dc5,Annihilate the enemy forces,draft
+72:7,c84cf86f,Time runs out,draft
+72:9,b7d91107,"Allies defending a mining facility in the desert area report an assault by a new<br>machine armed with a large beam cannon of overwhelming destructive power beyond<br>common sense. Head to the desert area at night and stop this assault machine's<br>advance. When it fires the beam cannon, the reflectors on its back spread into<br>an X shape. Get in the line of fire and it's over. Watch the enemy closely and<br>strike before it shoots!",draft
+72:10,d284e49a,Clearing Phase 3 missions,draft
+72:11,d284e49a,Clearing Phase 3 missions,draft
+72:12,5cd7ed49,<c04>HG Gundam X Backpack</c> (Main Machine)<br><c04>HG Turn A Gundam Body</c> (Unidentified Machine),draft
+73:1,7b20fdbd,Visitor in Black,draft
+73:6,1f1e6dc5,Annihilate the enemy forces,draft
+73:7,c84cf86f,Time runs out,draft
+73:9,69b48ab3,"The enemy garrison at the space fortress, pushed onto the defensive by our main<br>force, seems to have called on mysterious space pirates for reinforcements. The<br>pirates' machines use unique weapons specialized for close combat, and their<br>leader-class machines wear beam-coated mantles. Wipe out the remaining enemy<br>forces and the space pirates, and finish off the main enemy machine beyond them.",draft
+73:10,d284e49a,Clearing Phase 3 missions,draft
+73:11,d284e49a,Clearing Phase 3 missions,draft
+73:12,6189b037,<c04>HG Nu Gundam Backpack</c> (Giant Main Machine)<br><c04>HG Destiny Gundam Backpack</c> (Unidentified Machine),draft
+74:1,788dfea3,Roar of Destruction,draft
+74:6,260e8d7f,Destroy several main enemy machines,draft
+74:7,c84cf86f,Time runs out,draft
+74:9,9cce9d44,New heavyweight enemy machines have been confirmed in the space fortress area.<br>Two kinds: a heavily armed Gundam type and what looks like an advanced Dom. The<br>Gundam-type machines team up with Gundams of the same line and are destroying<br>our allies one after another with high mobility and firepower. Engage the elite<br>enemy forces including these and destroy them!,draft
+74:10,d284e49a,Clearing Phase 3 missions,draft
+74:11,d284e49a,Clearing Phase 3 missions,draft
+74:12,869ffdd9,<c04>HG ZZ Gundam Head</c> (Main Machine)<br><c00>HG Build Strike Gundam Parts</c> (Unidentified Machine),draft
+75:1,808555d7,Chain of Causality,draft
+75:6,9137b3cb,Defend several Data Probes,draft
+75:7,99685980,The Data Probe is destroyed,draft
+75:9,1c0373d7,"To search for a route to the heart of the enemy base, where whatever commands<br>the enemy is thought to be, we carry out an intel-gathering operation inside the<br>""Forbidden Land"". This time we're on our own with no allies and need to be<br>efficient, so our squad alone must defend the Data Probes in several areas.<br>After each finishes collecting data, move area by area and defend every Data<br>Probe.",draft
+75:10,d4b37378,Clearing Phase 4 missions,draft
+75:11,d4b37378,Clearing Phase 4 missions,draft
+75:12,d346f6d5,<c04>HG Gundam X Backpack</c> (Main Machine)<br><c04>HG Beam Rifle (Turn A)</c> (Main Machine),draft
+76:1,c9af3ae2,Mega Riders,draft
+76:6,f050065d,Destroy several main enemy machines,draft
+76:7,c84cf86f,Time runs out,draft
+76:9,abd4e405,"A mission in the desert area against machines from the First Neo Zeon War. Led<br>by the ZZ Gundam with its High Mega Cannon, an irregular Gundam team including<br>the Qubeley Mk-II and desert-spec Zeon machines appear. The main enemy machines<br>are the Gundam Mk-II and an enhanced Zeta Gundam.",draft
+76:10,dc990644,Clearing Extra Mission Phase 1,draft
+76:11,dc990644,Clearing Extra Mission Phase 1,draft
+76:12,ba0cdc95,<c00>MG ZZ Gundam Head</c> (Unidentified Machine)<br><c00>MG Beam Tomahawk (Dreissen)</c> (Main Machine),draft
+77:1,0d07cd8f,Light Dancing on Earth,draft
+77:6,1f1e6dc5,Annihilate the enemy forces,draft
+77:7,c84cf86f,Time runs out,draft
+77:9,3a6022e7,"An annihilation mission in the Jungle Base area at night, bathed in moonlight.<br>Break through front-line forces built around machines good at ground combat,<br>like One Year War Zeon machines and G Gundam fighters, and destroy the main<br>enemy machine beyond them: the MG Turn A Gundam. Seal away the Turn A Gundam's<br>""Moonlight Butterfly"", said to have ""buried Earth's civilization"".",draft
+77:10,dc990644,Clearing Extra Mission Phase 1,draft
+77:11,dc990644,Clearing Extra Mission Phase 1,draft
+77:12,ff3c1020,<c04>MG Turn A Gundam Body</c> (Main Machine)<br><c04>MG Gundam X Backpack</c> (Unidentified Machine),draft
+78:1,d21d7ec5,Legacy of the Void,draft
+78:6,f050065d,Destroy several main enemy machines,draft
+78:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+78:9,20cd0621,"A concept mission featuring every machine with a space-battle image. Many ZZ<br>Gundams, Unicorn Gundams, Gundam Xs, Crossbone Gundams and more appear, and<br>machines with high-thrust backpacks appear as leaders. Enjoy the feel of an all-<br>Gundam ""fierce battle in space"".<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+78:10,01463f82,Clearing Extra Mission Phase 2,draft
+78:11,01463f82,Clearing Extra Mission Phase 2,draft
+78:12,29421980,<c04>MG 00 Raiser Backpack</c> (Giant Main Machine)<br><c04>MG Beam Magnum</c> (Giant Main Machine),draft
+79:1,3a198ab0,Silhouette Striker,draft
+79:6,f050065d,Destroy several main enemy machines,draft
+79:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+79:9,c1948e3a,"A mission against enemy forces of mainly Cosmic Era machines, led by leader<br>machines with powerful weapons on their backpacks. Combo attacks of high-<br>firepower cannons and devastating anti-ship swords can be fatal even if they<br>only graze you. Be very careful. The objectives are the PG Strike Gundam and PG<br>Strike Rouge, which swap packs.",draft
+79:10,54a692b1,Clearing Extra Mission Phase 3,draft
+79:11,54a692b1,Clearing Extra Mission Phase 3,draft
+79:12,275c9b20,<c04>MG Arondight</c> (Unidentified Machine)<br><c04>MG Beam Axe</c> (Unidentified Machine),draft
+80:1,009a8903,Double Code,draft
+80:6,f050065d,Destroy several main enemy machines,draft
+80:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+80:9,4912f29e,"A mission where a powerful mixed force built around the ZZ Gundam, 00 Gundam and<br>others, with no blind spots in melee or ranged, attacks you. Beyond them wait<br>two enhanced PG 00 Raisers. Probably no one can survive a Raiser Sword or Trans-<br>Am Raiser unleashed by both at once... Go in ready to die!",draft
+80:10,54a692b1,Clearing Extra Mission Phase 3,draft
+80:11,54a692b1,Clearing Extra Mission Phase 3,draft
+80:12,c981d2ad,<c04>MG GN Sword III</c> (Giant Main Machine)<br><c04>MG Beam Machine Gun (X Divider)</c> (Unidentified Machine),draft
+81:1,a3fe02a5,Light and Shadow,draft
+81:6,f02cfbd9,Destroy several main enemy machines in a row,draft
+81:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+81:9,057d239e,"A concept mission built around machines that exist as white and black twins.<br>Powerful leader machines like the Gundam Mk-II, Unicorn Gundam and Banshee, and<br>the Crossbone Gundam appear one after another. The objectives are two PG Gundam<br>Mk-IIs in AEUG and Titans colors, then the PG Nu Gundam + an enhanced PG Nu<br>Gundam, one after another.",draft
+81:10,54a692b1,Clearing Extra Mission Phase 3,draft
+81:11,54a692b1,Clearing Extra Mission Phase 3,draft
+81:12,fe523134,<c04>MG New Hyper Bazooka</c> (Giant Main Machine)<br><c04>MG Zanbuster</c> (Unidentified Machine),draft
+82:1,28f2b98c,Door to the World,draft
+82:6,f050065d,Destroy several main enemy machines,draft
+82:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+82:9,f43303f9,"The hardest annihilation mission. Powerful machines from every work are thrown<br>in without restraint, and attacks with overwhelming pressure come at you one<br>after another, with nowhere to run. Destroy the two 1/60 scale Unicorn Gundams<br>waiting at the end to clear it. Defeat the strongest foes of every world and<br>open the door to a new world.",draft
+82:10,54a692b1,Clearing Extra Mission Phase 3,draft
+82:11,54a692b1,Clearing Extra Mission Phase 3,draft
+82:12,5730c7e9,<c04>MG Super Lacerta Beam Saber</c> (Giant Main Machine)<br><c04>MG Beam Magnum</c> (Giant Main Machine),draft
+83:1,1062f08e,Jungle Clash,draft
+83:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+83:7,0ac4995d,Your Force Gauge reaches zero,draft
+83:9,eda23664,"A team of elite enemy machines has challenged our squad to a battle. We accept<br>the challenge and fight a team battle against the enemy elite in the designated<br>battlefield, the Jungle Base area. Destroying enemy machines lowers the enemy's<br>force; losing our machines lowers ours. Whittle the enemy's force down to<br>nothing and we win. Give it everything.",draft
+83:10,bd871cde,Clearing Phase 2 missions,draft
+83:11,bd871cde,Clearing Phase 2 missions,draft
+83:12,ac3c7510,<c04>HG Heat Lance</c> (Item Box)<br><c04>HG Beam Gatling</c> (Item Box),draft
+84:1,c2152eea,Desert Death Match,draft
+84:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+84:7,0ac4995d,Your Force Gauge reaches zero,draft
+84:9,d6c9f7fd,"Again, a team of enemy elites has challenged our squad. This time it's a team<br>battle in the designated battlefield, the desert area, against Astray-type and<br>Strike-type machines. Head to the desert area and take on the enemy's challenge<br>fair and square.",draft
+84:10,d284e49a,Clearing Phase 3 missions,draft
+84:11,d284e49a,Clearing Phase 3 missions,draft
+84:12,beacd9bf,<c04>HG Lacerta Beam Saber</c> (Item Box)<br><c04>HG Lupus Beam Rifle</c> (Item Box),draft
+85:1,aa17711f,Light of Dead Souls,draft
+85:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+85:7,0ac4995d,Your Force Gauge reaches zero,draft
+85:9,e3b47b12,"An elite enemy team built around bio-sensor and psycho-frame machines like Zeta,<br>ZZ, Nu and Unicorn has challenged our squad. They're all extremely powerful<br>machines, rumored to ""suck in souls"", but if we can defeat them, we should blow<br>a big hole in the enemy's strength. Head to the colony interior area, beat back<br>the challenge and win!",draft
+85:10,d284e49a,Clearing Phase 3 missions,draft
+85:11,d284e49a,Clearing Phase 3 missions,draft
+85:12,61ebf69f,<c04>HG Master Cross</c> (Item Box)<br><c04>HG Beam Machine Gun (Geara Doga)</c> (Item Box),draft
+86:1,021cd8b6,Memories of Dreams,draft
+86:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+86:7,0ac4995d,Your Force Gauge reaches zero,draft
+86:9,1cbb0d51,"We have touched the ""memories of the past"" sleeping in the Forbidden Land. Once,<br>in many histories and many worlds, ""Gundams"" appeared and fought, and in the end<br>were all buried... Their legacy is the ""Forbidden Land"". This time we fight<br>these ""memories of the past"". Fight the memories of the Gundams, buried heroes<br>or devils, and break free of their curse.",draft
+86:10,d4b37378,Clearing Phase 4 missions,draft
+86:11,d4b37378,Clearing Phase 4 missions,draft
+86:12,3a3d29b6,<c04>HG Arondight</c> (Item Box)<br><c04>HG Gerbera Straight/Tiger Pierce</c> (Item Box),draft
+87:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+87:7,0ac4995d,Your Force Gauge reaches zero,draft
+87:9,05ee303e,"A team battle mission against MG versions of mass-production machines. Unlike<br>the team battles so far, your opponents are mass-production machines with low<br>force costs, so to whittle down the enemy Force Gauge you should need to destroy<br>many more of them. Win against an enemy army attacking with overwhelming<br>numbers.",draft
+87:10,01463f82,Clearing Extra Mission Phase 2,draft
+87:11,01463f82,Clearing Extra Mission Phase 2,draft
+87:12,c7ffe519,<c00>MG Hyper Beam Saber</c> (Item Box)<br><c00>MG Double Beam Rifle</c> (Item Box),draft
+88:1,f889c2b4,Proof of the Strongest,draft
+88:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+88:7,0ac4995d,Your Force Gauge reaches zero,draft
+88:9,dcd38a38,"A team battle mission where only Gundam-type machines appear, in platoons. From<br>the ""Early U.C. Team"" of Gundam, Zeta Gundam, ZZ Gundam and Nu Gundam, to the<br>""Alternate Gundam Team"" of God, Wing, Strike Freedom and 00 Raiser, four teams<br>appear in all. Defeat the elite enemy teams of the Gundams of every era and<br>seize the glory of victory.",draft
+88:10,01463f82,Clearing Extra Mission Phase 2,draft
+88:11,01463f82,Clearing Extra Mission Phase 2,draft
+88:12,108552e0,<c04>MG Beam Scissors</c> (Item Box)<br><c04>MG New Hyper Bazooka</c> (Item Box),draft
+89:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+89:7,0ac4995d,Your Force Gauge reaches zero,draft
+89:9,d57540d9,"We've prepared a slightly unusual mission. This time it's a team battle mission<br>where the enemies recreate the builds of custom machines used by the Battle<br>Live-G players. Four teams appear in all, and at the end the final selected<br>players' machines join in. Stand up to the powerful machines of the ""Master<br>Builders"" and beat them.",draft
+89:10,54a692b1,Clearing Extra Mission Phase 3,draft
+89:11,54a692b1,Clearing Extra Mission Phase 3,draft
+89:12,a22dc012,<c04>MG Gerbera Straight</c> (Item Box)<br><c04>MG Gerbera Straight/Tiger Pierce</c> (Item Box),draft
+90:1,f0d4167c,Innovating Power,draft
+90:6,d79f68f3,Reduce the enemy Force Gauge to zero,draft
+90:7,0ac4995d,Your Force Gauge reaches zero,draft
+90:9,be107360,"A high-difficulty team battle mission featuring machines selected from G Gundam,<br>Gundam 00, Gundam UC and Gundam SEED DESTINY. Answer the challenge of the<br>strongest elites with ""the power to change the world"", and show them your power<br>as new heroes.",draft
+90:10,54a692b1,Clearing Extra Mission Phase 3,draft
+90:11,54a692b1,Clearing Extra Mission Phase 3,draft
+90:12,712d450e,<c04>MG Beam Scissors</c> (Item Box)<br><c04>MG Beam Gatling Gun</c> (Item Box),draft
+91:1,8a06edb9,Scorching Battle,draft
+91:6,f3d0b045,Capture all enemy bases,draft
+91:7,0ac4995d,Your Force Gauge reaches zero,draft
+91:9,be129e94,"We've received word that the enemy forces in the desert area have set up several<br>Base Units in the war zone and are trying to strengthen the area's defenses. To<br>counter this, our squad begins an operation to capture the enemy bases. Approach<br>an enemy Base Unit in the war zone and clear the enemies around it; after a<br>while it's ""captured"". Capture every enemy base to complete the operation.",draft
+91:10,bd871cde,Clearing Phase 2 missions,draft
+91:11,bd871cde,Clearing Phase 2 missions,draft
+91:12,59331196,<c04>HG Turn A Gundam Body</c> (Item Box)<br><c00>HG Build Strike Gundam Parts</c> (Item Box),draft
+92:1,693b0493,Mountain Battle,draft
+92:6,f3d0b045,Capture all enemy bases,draft
+92:7,0ac4995d,Your Force Gauge reaches zero,draft
+92:9,939f2d84,"Allies in the mountain base area report that an enemy special operations unit<br>has slipped in and set up several Base Units, catching the main force off guard.<br>We head to the mountain base area to capture the enemy bases. Capture every<br>enemy Base Unit and stop the enemy from growing stronger.",draft
+92:10,d284e49a,Clearing Phase 3 missions,draft
+92:11,d284e49a,Clearing Phase 3 missions,draft
+92:12,0b09e096,<c04>HG Hyper Mega Rifle</c> (Item Box)<br><c04>HG Super Lacerta Beam Saber</c> (Item Box),draft
+93:1,06fee4ca,Colony Takeover,draft
+93:6,f3d0b045,Capture all enemy bases,draft
+93:7,0ac4995d,Your Force Gauge reaches zero,draft
+93:9,50cbefa9,"On the colony front, where the battle still swings back and forth, recon units<br>seem to have found several Base Units transferring enemy reinforcements. The<br>main force has launched an operation to capture them, and has asked us to join.<br>Our main goal now is the ""Forbidden Land"", so joining is optional, but if you<br>want parts from machines you rarely meet, it's worth it.",draft
+93:10,d4b37378,Clearing Phase 4 missions,draft
+93:11,d4b37378,Clearing Phase 4 missions,draft
+93:12,90b608d7,<c04>HG Zanbuster</c> (Item Box)<br><c04>HG Beam Machine Gun (X Divider)</c> (Item Box),draft
+94:1,173d4539,Like Raging Fire,draft
+94:6,f3d0b045,Capture all enemy bases,draft
+94:7,0ac4995d,Your Force Gauge reaches zero,draft
+94:9,4b9fa547,"A base capture mission in the ""Forbidden Land"" area, surrounded by scorching<br>magma, against machines with powerful solid-round weapons. You'll fight machines<br>with powerful bazookas and missile pods, including the all-guns Heavyarms and<br>the ZZ Gundam with its 21-tube missile launcher. Leading this enemy army is the<br>1/60 scale Master Gundam.",draft
+94:10,01463f82,Clearing Extra Mission Phase 2,draft
+94:11,01463f82,Clearing Extra Mission Phase 2,draft
+94:12,70191a69,<c04>MG Master Gundam Arm</c> (Item Box)<br><c04>MG Gundam Hammer</c> (Item Box),draft
+95:1,ce1737de,Cutting Flash,draft
+95:6,f3d0b045,Capture all enemy bases,draft
+95:7,0ac4995d,Your Force Gauge reaches zero,draft
+95:9,85884e80,"A capture mission to take every enemy Base Unit against forces led by machines<br>with powerful beam cannons. The Gundam X with its Satellite Cannon, the ZZ<br>Gundam with its High Mega Cannon, the Destiny Gundam, a Nobel Gundam with the<br>Beargguy randoseru backpack and more will concentrate fire to stop you capturing<br>the bases. Win with teamwork.",draft
+95:10,01463f82,Clearing Extra Mission Phase 2,draft
+95:11,01463f82,Clearing Extra Mission Phase 2,draft
+95:12,90556e12,<c04>HG Strike Gundam + IWSP Backpack</c> (Item Box)<br><c04>HG Launcher Strike Gundam Backpack</c> (Item Box),draft
+96:1,0d9c7cfa,Specializer,draft
+96:6,f3d0b045,Capture all enemy bases,draft
+96:7,0ac4995d,Your Force Gauge reaches zero,draft
+96:9,0e78cf12,"A high-difficulty capture mission featuring every machine with unique equipment<br>or moves: mines, missile pods, railguns, large-caliber cannons and more. Get<br>through tricky attacks from special weapons and a storm of one-hit-kill fire,<br>and capture every base in the war zone!",draft
+96:10,54a692b1,Clearing Extra Mission Phase 3,draft
+96:11,54a692b1,Clearing Extra Mission Phase 3,draft
+96:12,5e2c3b5b,<c04>MG GN Lance</c> (Item Box)<br><c04>MG Beam Rifle (Turn A)</c> (Item Box),draft
+97:1,ed0a759b,Nameless Heroes,draft
+97:6,f3d0b045,Capture all enemy bases,draft
+97:7,0ac4995d,Your Force Gauge reaches zero,draft
+97:9,04eda1ac,"A capture mission with only mass-production machines: not the Gundam, hero of<br>the battlefield, and not custom machines bearing an ace pilot's name. But in the<br>GBS, where a machine's name doesn't decide its strength and Gunpla-building<br>skill does, you can't underestimate mass-production machines. Capture every base<br>in the war zone against powerful mass-production machines.",draft
+97:10,54a692b1,Clearing Extra Mission Phase 3,draft
+97:11,54a692b1,Clearing Extra Mission Phase 3,draft
+97:12,c3e144cf,<c04>MG Hyper Mega Rifle</c> (Item Box)<br><c04>MG Heat Rod (Epyon)</c> (Item Box),draft
+98:1,2b9a5495,Another Name,draft
+98:6,9137b3cb,Defend several Data Probes,draft
+98:7,5f5910a2,The Data Probe is destroyed or <c05>your machine is disabled</c>,draft
+98:9,9303fdb6,"A defense mission across several areas, against machines whose pilots have<br>""nicknames"" in the original works, like the Red Comet and the Black Tri-Stars.<br>Defend every Data Probe from the onslaught of a mixed force of machines feared<br>by their enemies under their epithets (though some are self-proclaimed...).<br><c05>*Special rule: No return. The mission fails if your machine is disabled.</c>",draft
+98:10,01463f82,Clearing Extra Mission Phase 2,draft
+98:11,01463f82,Clearing Extra Mission Phase 2,draft
+98:12,5a7104ae,<c04>MG Master Gundam Arm</c> (Giant Main Machine)<br><c04>MG God Gundam Arm</c> (Giant Main Machine),draft
+99:1,09b942de,Eternal Fire,draft
+99:6,9137b3cb,Defend several Data Probes,draft
+99:7,5f5910a2,The Data Probe is destroyed or <c05>your machine is disabled</c>,draft
+99:9,16d92dcd,"The hardest defense mission. Heavy-firepower machines from the earlier defense<br>missions with ""Fire"" in their names, and machines of fierce destructive power,<br>mercilessly attack the Data Probe. Defend the Data Probes in every area and win<br>this fierce battle.",draft
+99:10,54a692b1,Clearing Extra Mission Phase 3,draft
+99:11,54a692b1,Clearing Extra Mission Phase 3,draft
+99:12,c4536ab5,<c04>MG Hyper Bazooka (Unicorn)</c> (Unidentified Machine)<br><c04>MG Twin Buster Rifle</c> (Giant Main Machine),draft
+100:1,3f1848e6,Final Dance: Ultimate,draft
+100:6,adfd19f0,Destroy main enemy machines in a row,draft
+100:7,6fc0c052,<c05>Your machine is disabled</c>,draft
+100:9,cd009971,"A mission to destroy, one after another, the enhanced main enemy machines seen<br>so far. From the first, the PG Wing Gundam Zero (EW), to the last, the PG 00<br>Raiser, you face 12 main enemy machines in a row. This mission is the<br>culmination of the battles against main enemy machines. Give it everything.",draft
+100:10,54a692b1,Clearing Extra Mission Phase 3,draft
+100:11,54a692b1,Clearing Extra Mission Phase 3,draft
+100:12,6ad67db5,<c04>MG ???</c> (Item Box),draft
