@@ -1,0 +1,246 @@
+id,ja_hash,en,notes
+1:1,040da7fa,Durability +5000,draft
+2:1,abce7e18,Durability +10000,draft
+3:1,0cd8f058,Beam Armor +4000,draft
+4:1,8b67d520,Beam Armor +7500,draft
+5:1,a18d6875,Physical Armor +4000,draft
+6:1,e5375bee,Physical Armor +7500,draft
+7:1,fdd6ec7f,Capacity +1500,draft
+8:1,71ffee4b,Capacity +2500,draft
+9:1,b323f7d6,EX Charge rate +15％,draft
+10:1,6b1098f7,<c03>Green symbol/Repair Kit</c> and<br><c02>Armor Repair</c> restore<br>+20％ more of your durability,draft
+11:1,c1bccc27,<c03>Green symbol/Repair Kit</c> and<br><c02>Armor Repair</c> restore<br>+30％ more of your durability,draft
+12:1,df71e5c9,<c03>Green symbol/Repair Kit</c> and<br><c02>Armor Repair</c> restore<br>+40％ more of your durability,draft
+13:1,0c09a613,<c03>Green symbol/Repair Kit</c> and<br><c02>Armor Repair</c> restore<br>+50％ more of your durability,draft
+14:1,d70c86f2,Shield durability +20000,draft
+15:1,88c2c297,Shield durability +35000,draft
+16:1,23530588,Shield durability +50000,draft
+17:1,4e053ad8,Your part break chance -40％,draft
+18:1,90ea67ca,Rifle Aptitude +2,draft
+19:1,403e502f,Rifle Aptitude +3,draft
+20:1,e823847d,Rifle Aptitude +4,draft
+21:1,fa409339,Long Rifle Aptitude +2,draft
+22:1,5026b195,Long Rifle Aptitude +3,draft
+23:1,aa132f94,Long Rifle Aptitude +4,draft
+24:1,ab1a5f6b,Machine Gun Aptitude +2,draft
+25:1,f2265261,Machine Gun Aptitude +3,draft
+26:1,5351d4cf,Machine Gun Aptitude +4,draft
+27:1,8227e253,Gatling Gun Aptitude +2,draft
+28:1,781e49b9,Gatling Gun Aptitude +3,draft
+29:1,74beb2c2,Gatling Gun Aptitude +4,draft
+30:1,5c4da43b,Bazooka Aptitude +2,draft
+31:1,700860e9,Bazooka Aptitude +3,draft
+32:1,ade75061,Bazooka Aptitude +4,draft
+33:1,8c5cc9de,Saber Aptitude +2,draft
+34:1,d350b43b,Saber Aptitude +3,draft
+35:1,502fc3d4,Saber Aptitude +4,draft
+36:1,32dbc17a,Axe Aptitude +2,draft
+37:1,79ea638f,Axe Aptitude +3,draft
+38:1,0df3e264,Axe Aptitude +4,draft
+39:1,337194cb,Great Sword Aptitude +2,draft
+40:1,d8483461,Great Sword Aptitude +3,draft
+41:1,ee4b7841,Great Sword Aptitude +4,draft
+42:1,ab72ade7,Whip Aptitude +2,draft
+43:1,2666ddbe,Whip Aptitude +3,draft
+44:1,f17deceb,Whip Aptitude +4,draft
+45:1,ec9be192,Lance Aptitude +2,draft
+46:1,222cc922,Lance Aptitude +3,draft
+47:1,f64fb396,Lance Aptitude +4,draft
+48:1,583a2b9c,Fist Aptitude +2,draft
+49:1,0153b977,Fist Aptitude +3,draft
+50:1,5c51795a,Fist Aptitude +4,draft
+51:1,2d9eee93,Enemy kill: EX Charge +3％,draft
+52:1,44342226,Enemy kill: EX Charge +4％,draft
+53:1,ed719195,Attack hit: EX Charge +0.15％,draft
+54:1,e54a9a0d,Attack hit: EX Charge +0.2％,draft
+55:1,e2d8fd2f,Durability auto-recovery 0.5％/sec,draft
+56:1,34c7a1db,Durability auto-recovery 1％/sec,draft
+57:1,55491af6,Recover 8％ of damage dealt as durability,draft
+58:1,f8367183,Recover 15％ of damage dealt as durability,draft
+59:1,5c58a436,Enemy kill: Durability recovery 5％,draft
+60:1,b368deab,Enemy kill: Durability recovery 7.5％,draft
+61:1,08a511d2,<c04>Higher chance of better runner colors</c>,draft
+62:1,08a511d2,<c04>Higher chance of better runner colors</c>,draft
+63:1,6c07d41e,Successful guard: EX Charge +2％,draft
+64:1,87639fe4,Successful guard: Durability recovery 5％,draft
+65:1,479a5a53,Enemy kill: Blue option equipment +5％,draft
+66:1,19eefd9e,Enemy kill: Blue option equipment +7.5％,draft
+67:1,1353f484,Blue option equipment auto-refill 0.25％/sec,draft
+68:1,aac73a7f,Blue option equipment auto-refill 0.5％/sec,draft
+69:1,973e2349,Awakening duration +2 sec,draft
+70:1,3683a5ab,Awakening duration +3 sec,draft
+71:1,56b76926,Awakening gauge rate +25％,draft
+72:1,b18d6900,Awakening gauge rate +50％,draft
+73:1,a8c10b09,Part break: Awakening gauge +5％,draft
+74:1,a745bf1a,Part break: EX Charge +10％,draft
+75:1,cfc602a6,Part break: Blue option equipment +10％,draft
+76:1,39effd2b,No small flinch<br><c05>Can't stop the big flinch from heavy hits</c><br><c05>such as explosions or long rifles</c>,draft
+77:1,ac9e26cf,No big flinch<br><c05>Can't stop the small flinch</c><br><c05>from taking constant hits</c>,draft
+78:1,3e55c328,No knockback,draft
+79:1,a0fdd43c,Cancels 1 retry penalty,draft
+80:1,8ecc209d,Cancels 2 retry penalties,draft
+81:1,35b56883,Cancels 3 retry penalties,draft
+82:1,b7d4d8d6,Attack +15％ when in a pinch,draft
+83:1,b9d2ffeb,Attack +25％ when in a pinch,draft
+84:1,e8c75962,Start in a pinch<br>No recovery,draft
+85:1,030d15d8,Faster machine movement<br><c05>Effects don't stack</c>,draft
+86:1,cf132b33,Faster machine movement (large)<br><c05>Effects don't stack</c>,draft
+87:1,0838cf25,Longer step distance<br><c05>Effects don't stack</c>,draft
+88:1,02660063,Longer step distance (large)<br><c05>Effects don't stack</c>,draft
+89:1,76de2f01,Durability +5000<br>Beam/Physical Armor +5000,draft
+90:1,a77be6b6,Durability +5000<br>Capacity +1500,draft
+91:1,46dc19a8,Durability +5000<br>EX Charge rate +10％,draft
+92:1,b23f9ed2,Durability +5000<br>Enemy kill: EX Charge +2.5％,draft
+93:1,6366567f,Durability +5000<br>Attack hit: EX Charge +0.1％,draft
+94:1,539c87c5,Durability +5000<br>Durability auto-recovery 0.75％/sec,draft
+95:1,6a1ff649,Durability +5000<br>Recover 10％ of damage dealt as durability,draft
+96:1,d3ef285f,Durability +5000<br>Enemy kill: Durability recovery 5％,draft
+97:1,5c3c4379,Durability +5000<br>Successful guard: EX Charge +2％,draft
+98:1,04295b8b,Durability +5000<br>Successful guard: Durability recovery 5％,draft
+99:1,4fae0f66,Durability +5000<br>Enemy kill: Blue option equipment +5％,draft
+100:1,321ca4a8,Durability +5000<br>Blue option equipment auto-refill 0.5％/sec,draft
+101:1,c1c68e4b,Durability +5000<br>Awakening duration +2 sec,draft
+102:1,0751db70,Durability +5000<br>Awakening gauge rate +35％,draft
+103:1,87caa1e0,Durability +5000<br>Part break: Awakening gauge +5％,draft
+104:1,8f9051c3,Durability +5000<br>Part break: EX Charge +6.5％,draft
+105:1,7abcdeda,Durability +5000<br>Part break: Blue option equipment +10％,draft
+106:1,2b9274d9,Beam/Physical Armor +5000<br>Capacity +1500,draft
+107:1,ce606e08,Beam/Physical Armor +5000<br>EX Charge rate +10％,draft
+108:1,6bd90a8e,Beam/Physical Armor +5000<br>Enemy kill: EX Charge +2.5％,draft
+109:1,fe593d6f,Beam/Physical Armor +5000<br>Attack hit: EX Charge +0.1％,draft
+110:1,fe860836,Beam/Physical Armor +5000<br>Durability auto-recovery 0.75％/sec,draft
+111:1,f562efa9,Beam/Physical Armor +5000<br>Recover 10％ of damage dealt as durability,draft
+112:1,31b8bda1,Beam/Physical Armor +5000<br>Enemy kill: Durability recovery 5％,draft
+113:1,5dbb77d7,Beam/Physical Armor +5000<br>Successful guard: EX Charge +2％,draft
+114:1,e2d1c454,Beam/Physical Armor +5000<br>Successful guard: Durability recovery 5％,draft
+115:1,2d0483b6,Beam/Physical Armor +5000<br>Enemy kill: Blue option equipment +5％,draft
+116:1,3b3404c8,Beam/Physical Armor +5000<br>Blue option equipment auto-refill 0.5％/sec,draft
+117:1,bea69bfa,Beam/Physical Armor +5000<br>Awakening duration +2 sec,draft
+118:1,d1946ea3,Beam/Physical Armor +5000<br>Awakening gauge rate +35％,draft
+119:1,f703534b,Beam/Physical Armor +5000<br>Part break: Awakening gauge +5％,draft
+120:1,b3164344,Beam/Physical Armor +5000<br>Part break: EX Charge +6.5％,draft
+121:1,f814ef2b,Beam/Physical Armor +5000<br>Part break: Blue option equipment +10％,draft
+122:1,e20ba497,Capacity +1500<br>EX Charge rate +10％,draft
+123:1,23c2d4cf,Capacity +1500<br>Enemy kill: EX Charge +2.5％,draft
+124:1,3f8bc3c1,Capacity +1500<br>Attack hit: EX Charge +0.1％,draft
+125:1,3cb553e0,Capacity +1500<br>Durability auto-recovery 0.75％/sec,draft
+126:1,2d2fc95a,Capacity +1500<br>Recover 10％ of damage dealt as durability,draft
+127:1,cb60b237,Capacity +1500<br>Enemy kill: Durability recovery 5％,draft
+128:1,dd4afd77,Capacity +1500<br>Successful guard: EX Charge +2％,draft
+129:1,e7324cd2,Capacity +1500<br>Successful guard: Durability recovery 5％,draft
+130:1,738a6f98,Capacity +1500<br>Enemy kill: Blue option equipment +5％,draft
+131:1,7388a9d7,Capacity +1500<br>Blue option equipment auto-refill 0.5％/sec,draft
+132:1,988e29d1,Capacity +1500<br>Awakening duration +2 sec,draft
+133:1,0e94b3f5,Capacity +1500<br>Awakening gauge rate +35％,draft
+134:1,93564905,Capacity +1500<br>Part break: Awakening gauge +5％,draft
+135:1,a5ce2193,Capacity +1500<br>Part break: EX Charge +6.5％,draft
+136:1,a4ab1fea,Capacity +1500<br>Part break: Blue option equipment +10％,draft
+137:1,ceb8b326,EX Charge rate +3％<br>Enemy kill: EX Charge +2.5％,draft
+138:1,99a047a7,EX Charge rate +6.5％<br>Attack hit: EX Charge +0.05％,draft
+139:1,b2df2d03,EX Charge rate +10％<br>Durability auto-recovery 0.75％/sec,draft
+140:1,d29c1019,EX Charge rate +10％<br>Recover 10％ of damage dealt as durability,draft
+141:1,cb097494,EX Charge rate +10％<br>Enemy kill: Durability recovery 5％,draft
+142:1,785949bd,EX Charge rate +3％<br>Successful guard: EX Charge +2％,draft
+143:1,ba639898,EX Charge rate +10％<br>Successful guard: Durability recovery 5％,draft
+144:1,b529faff,EX Charge rate +10％<br>Enemy kill: Blue option equipment +5％,draft
+145:1,c1b57eee,EX Charge rate +10％<br>Blue option equipment auto-refill 0.5％/sec,draft
+146:1,d46cb664,EX Charge rate +10％<br>Awakening duration +2 sec,draft
+147:1,3185a590,EX Charge rate +10％<br>Awakening gauge rate +35％,draft
+148:1,5e6af425,EX Charge rate +10％<br>Part break: Awakening gauge +5％,draft
+149:1,5a49eacc,EX Charge rate +6.5％<br>Part break: EX Charge +6.5％,draft
+150:1,daf716a3,EX Charge rate +10％<br>Part break: Blue option equipment +10％,draft
+151:1,fb915fcc,Enemy kill: EX Charge +2.5％<br>Attack hit: EX Charge +0.05％,draft
+152:1,63c668e1,Enemy kill: EX Charge +2.5％<br>Durability auto-recovery 0.75％/sec,draft
+153:1,1f5811b9,Enemy kill: EX Charge +2.5％<br>Recover 10％ of damage dealt as durability,draft
+154:1,f3a8fe9f,Enemy kill: EX Charge +2.5％<br>Enemy kill: Durability recovery 5％,draft
+155:1,b8ee93c4,Enemy kill: EX Charge +2.5％<br>Successful guard: EX Charge +2％,draft
+156:1,ace977dd,Enemy kill: EX Charge +2.5％<br>Successful guard: Durability recovery 5％,draft
+157:1,b51af058,Enemy kill: EX Charge +2.5％<br>Enemy kill: Blue option equipment +5％,draft
+158:1,fad64877,Enemy kill: EX Charge +2.5％<br>Blue option equipment auto-refill 0.5％/sec,draft
+159:1,4e352919,Enemy kill: EX Charge +2.5％<br>Awakening duration +2 sec,draft
+160:1,f256a7ac,Enemy kill: EX Charge +2.5％<br>Awakening gauge rate +35％,draft
+161:1,145b2d3e,Enemy kill: EX Charge +2.5％<br>Part break: Awakening gauge +5％,draft
+162:1,9f7ae66f,Enemy kill: EX Charge +2.5％<br>Part break: EX Charge +6.5％,draft
+163:1,47e6acd3,Enemy kill: EX Charge +2.5％<br>Part break: Blue option equipment +10％,draft
+164:1,2427de98,Attack hit: EX Charge +0.1％<br>Durability auto-recovery 0.75％/sec,draft
+165:1,6c270d5f,Attack hit: EX Charge +0.1％<br>Recover 10％ of damage dealt as durability,draft
+166:1,a658917b,Attack hit: EX Charge +0.1％<br>Enemy kill: Durability recovery 5％,draft
+167:1,d1543318,Attack hit: EX Charge +0.1％<br>Successful guard: EX Charge +2％,draft
+168:1,14001c88,Attack hit: EX Charge +0.1％<br>Successful guard: Durability recovery 5％,draft
+169:1,a3d17199,Attack hit: EX Charge +0.1％<br>Enemy kill: Blue option equipment +5％,draft
+170:1,4c887614,Attack hit: EX Charge +0.1％<br>Blue option equipment auto-refill 0.5％/sec,draft
+171:1,98f1fbf8,Attack hit: EX Charge +0.1％<br>Awakening duration +2 sec,draft
+172:1,74f07004,Attack hit: EX Charge +0.1％<br>Awakening gauge rate +35％,draft
+173:1,29c513ec,Attack hit: EX Charge +0.1％<br>Part break: Awakening gauge +5％,draft
+174:1,55fdba1f,Attack hit: EX Charge +0.05％<br>Part break: EX Charge +6.5％,draft
+175:1,33a27e79,Attack hit: EX Charge +0.1％<br>Part break: Blue option equipment +10％,draft
+176:1,4bc15cd6,Durability auto-recovery 0.75％/sec<br>Recover 10％ of damage dealt as durability,draft
+177:1,a8a1d02b,Durability auto-recovery 0.75％/sec<br>Enemy kill: Durability recovery 5％,draft
+178:1,95dea6c1,Durability auto-recovery 0.75％/sec<br>Successful guard: EX Charge +2％,draft
+179:1,043b0f64,Durability auto-recovery 0.75％/sec<br>Successful guard: Durability recovery 5％,draft
+180:1,542e1054,Durability auto-recovery 0.75％/sec<br>Enemy kill: Blue option equipment +5％,draft
+181:1,32a76035,Durability auto-recovery 0.75％/sec<br>Blue option equipment auto-refill 0.5％/sec,draft
+182:1,0b66e475,Durability auto-recovery 0.75％/sec<br>Awakening duration +2 sec,draft
+183:1,2ae26989,Durability auto-recovery 0.75％/sec<br>Awakening gauge rate +35％,draft
+184:1,db240edc,Durability auto-recovery 0.75％/sec<br>Part break: Awakening gauge +5％,draft
+185:1,bf728182,Durability auto-recovery 0.75％/sec<br>Part break: EX Charge +6.5％,draft
+186:1,e267d591,Durability auto-recovery 0.75％/sec<br>Part break: Blue option equipment +10％,draft
+187:1,a1a21bcc,Recover 10％ of damage dealt as durability<br>Enemy kill: Durability recovery 5％,draft
+188:1,5bb55682,Recover 10％ of damage dealt as durability<br>Successful guard: EX Charge +2％,draft
+189:1,64706826,Recover 10％ of damage dealt as durability<br>Successful guard: Durability recovery 5％,draft
+190:1,214e3b9c,Recover 10％ of damage dealt as durability<br>Enemy kill: Blue option equipment +5％,draft
+191:1,1cc0eeec,Recover 10％ of damage dealt as durability<br>Blue option equipment auto-refill 0.5％/sec,draft
+192:1,14cd080f,Recover 10％ of damage dealt as durability<br>Awakening duration +2 sec,draft
+193:1,7ef28637,Recover 10％ of damage dealt as durability<br>Awakening gauge rate +35％,draft
+194:1,1c3f9e91,Recover 10％ of damage dealt as durability<br>Part break: Awakening gauge +5％,draft
+195:1,b5708a28,Recover 10％ of damage dealt as durability<br>Part break: EX Charge +6.5％,draft
+196:1,aeb050f9,Recover 10％ of damage dealt as durability<br>Part break: Blue option equipment +10％,draft
+197:1,3a306711,Enemy kill: Durability recovery 5％<br>Successful guard: EX Charge +2％,draft
+198:1,e9e0afc1,Enemy kill: Durability recovery 5％<br>Successful guard: Durability recovery 5％,draft
+199:1,eda015bc,Enemy kill: Durability recovery 5％<br>Enemy kill: Blue option equipment +5％,draft
+200:1,592f319b,Enemy kill: Durability recovery 5％<br>Blue option equipment auto-refill 0.5％/sec,draft
+201:1,f32331a1,Enemy kill: Durability recovery 5％<br>Awakening duration +2 sec,draft
+202:1,6e39ef8e,Enemy kill: Durability recovery 5％<br>Awakening gauge rate +35％,draft
+203:1,0621411a,Enemy kill: Durability recovery 5％<br>Part break: Awakening gauge +5％,draft
+204:1,6b1c155d,Enemy kill: Durability recovery 5％<br>Part break: EX Charge +6.5％,draft
+205:1,045804ff,Enemy kill: Durability recovery 5％<br>Part break: Blue option equipment +10％,draft
+206:1,3eda4ba8,Successful guard: EX Charge +2％<br>Successful guard: Durability recovery 5％,draft
+207:1,741ca69a,Successful guard: EX Charge +2％<br>Enemy kill: Blue option equipment +5％,draft
+208:1,e7fa7896,Successful guard: EX Charge +2％<br>Blue option equipment auto-refill 0.5％/sec,draft
+209:1,ad1733f9,Successful guard: EX Charge +2％<br>Awakening duration +2 sec,draft
+210:1,bfd5a268,Successful guard: EX Charge +2％<br>Awakening gauge rate +35％,draft
+211:1,1edb20d8,Successful guard: EX Charge +2％<br>Part break: Awakening gauge +5％,draft
+212:1,5668c737,Successful guard: EX Charge +2％<br>Part break: EX Charge +6.5％,draft
+213:1,097a90a0,Successful guard: EX Charge +2％<br>Part break: Blue option equipment +10％,draft
+214:1,11f5e2d8,Successful guard: Durability recovery 5％<br>Enemy kill: Blue option equipment +5％,draft
+215:1,b1b987d7,Successful guard: Durability recovery 5％<br>Blue option equipment auto-refill 0.5％/sec,draft
+216:1,38c5e127,Successful guard: Durability recovery 5％<br>Awakening duration +2 sec,draft
+217:1,1d8f12c1,Successful guard: Durability recovery 5％<br>Awakening gauge rate +35％,draft
+218:1,9a778a76,Successful guard: Durability recovery 5％<br>Part break: Awakening gauge +5％,draft
+219:1,b81788b4,Successful guard: Durability recovery 5％<br>Part break: EX Charge +6.5％,draft
+220:1,0d5a6b5d,Successful guard: Durability recovery 5％<br>Part break: Blue option equipment +10％,draft
+221:1,5be582a4,Enemy kill: Blue option equipment +5％<br>Blue option equipment auto-refill 0.5％/sec,draft
+222:1,7f74b764,Enemy kill: Blue option equipment +5％<br>Awakening duration +2 sec,draft
+223:1,db1bb40e,Enemy kill: Blue option equipment +5％<br>Awakening gauge rate +35％,draft
+224:1,85241b96,Enemy kill: Blue option equipment +5％<br>Part break: Awakening gauge +5％,draft
+225:1,df778236,Enemy kill: Blue option equipment +5％<br>Part break: EX Charge +6.5％,draft
+226:1,74b168e0,Enemy kill: Blue option equipment +5％<br>Part break: Blue option equipment +10％,draft
+227:1,76656f18,Blue option equipment auto-refill 0.5％/sec<br>Awakening duration +2 sec,draft
+228:1,5d5f5422,Blue option equipment auto-refill 0.5％/sec<br>Awakening gauge rate +35％,draft
+229:1,8f58d6c9,Blue option equipment auto-refill 0.5％/sec<br>Part break: Awakening gauge +5％,draft
+230:1,903718ad,Blue option equipment auto-refill 0.5％/sec<br>Part break: EX Charge +6.5％,draft
+231:1,b1ce2720,Blue option equipment auto-refill 0.5％/sec<br>Part break: Blue option equipment +10％,draft
+232:1,1538af89,Awakening duration +2 sec<br>Awakening gauge rate +35％,draft
+233:1,9ccbc4d2,Awakening duration +2 sec<br>Part break: Awakening gauge +5％,draft
+234:1,c93b1695,Awakening duration +2 sec<br>Part break: EX Charge +6.5％,draft
+235:1,712662d6,Awakening duration +2 sec<br>Part break: Blue option equipment +10％,draft
+236:1,10045276,Awakening gauge rate +35％<br>Part break: Awakening gauge +5％,draft
+237:1,b4b587f9,Awakening gauge rate +35％<br>Part break: EX Charge +6.5％,draft
+238:1,8c0144fe,Awakening gauge rate +35％<br>Part break: Blue option equipment +10％,draft
+239:1,d0a0b893,Part break: Awakening gauge +5％<br>Part break: EX Charge +6.5％,draft
+240:1,2e80f39f,Part break: Awakening gauge +5％<br>Part break: Blue option equipment +10％,draft
+241:1,5187aadd,Part break: EX Charge +6.5％<br>Part break: Blue option equipment +10％,draft
+242:1,88a09fba,No flinching,draft
+243:1,d9d9a8ed,No flinching<br>No knockback,draft
+244:1,619d15b9,Faster machine movement<br>Longer step distance<br><c05>Effects don't stack</c>,draft
+245:1,3faf523c,Faster machine movement (large)<br>Longer step distance (large)<br><c05>Effects don't stack</c>,draft

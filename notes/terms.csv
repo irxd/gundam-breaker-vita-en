@@ -65,14 +65,14 @@ EXPブースター,EXP Booster,item,draft,
 橘サクヤ,Sakuya Tachibana,character,official,God Eater guest
 楠リッカ,Licca Kusunoki,character,official,God Eater guest
 藤木コウタ,Kota Fujiki,character,official,God Eater guest
-曹長,Chief Petty Officer,rank,ok,Navy-style ladder (decided)
-少尉,Ensign,rank,ok,Navy-style ladder (decided); Amuro is an Ensign
-大尉,Lieutenant,rank,ok,Navy-style ladder (decided)
-少佐,Lieutenant Commander,rank,ok,Navy-style ladder (decided)
-大佐,Captain,rank,ok,Navy-style ladder (decided)
-少将,Rear Admiral,rank,ok,Navy-style ladder (decided)
-大将,Admiral,rank,ok,Navy-style ladder (decided)
-元帥,Fleet Admiral,rank,ok,Navy-style ladder (decided)
+曹長,Chief Petty Officer,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation CPO (table can't grow)
+少尉,Ensign,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation ENS (table can't grow)
+大尉,Lieutenant,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation LT (table can't grow)
+少佐,Lieutenant Commander,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation LCDR (table can't grow)
+大佐,Captain,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation CAPT (table can't grow)
+少将,Rear Admiral,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation RADM (table can't grow)
+大将,Admiral,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation ADM (table can't grow)
+元帥,Fleet Admiral,rank,ok,Navy-style ladder (decided); rank_name table uses the abbreviation FADM (table can't grow)
 地球連邦軍,Earth Federation Forces,faction,gb3,
 ジオン公国軍,Principality of Zeon,faction,gb3,
 エゥーゴ,AEUG,faction,official,

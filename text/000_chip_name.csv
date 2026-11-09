@@ -1,0 +1,246 @@
+id,ja_hash,en,notes
+1:1,8ce2736d,Titanium Alloy Armor,draft
+2:1,df6c772e,Luna Titanium Alloy Armor,draft
+3:1,06fdb2da,Anti-Beam Coating,draft
+4:1,9876007a,I-Field Barrier,draft
+5:1,62f10f7e,Additional Armor,draft
+6:1,3a74739e,PS Armor,draft
+7:1,1114bd32,Nuclear Fusion Reactor,draft
+8:1,7ad6b95e,Nuclear Fission Reactor,draft
+9:1,04b4cce2,EX Charger,draft
+10:1,d8007983,Repair Augmenter,draft
+11:1,df3c309d,Repair Augmenter+,draft
+12:1,c885b0ee,Recovery Augmenter,draft
+13:1,2ce6547d,Recovery Augmenter+,draft
+14:1,bafafc2a,Shield Reinforcement,draft
+15:1,d14fa339,Shield Additional Armor,draft
+16:1,f40b86d3,Shield Large Additional Armor,draft
+17:1,db713c2f,Joint Precision Upgrade,draft
+18:1,459d2314,Rifle Program,draft
+19:1,d5428eca,Rifle Mastery,draft
+20:1,8c049168,Rifle Mastery+,draft
+21:1,ea215d6c,Long Rifle Program,draft
+22:1,3755c838,Long Rifle Mastery,draft
+23:1,067d4d7d,Long Rifle Mastery+,draft
+24:1,c8103d1d,Machine Gun Program,draft
+25:1,4d39db04,Machine Gun Mastery,draft
+26:1,15bfecdf,Machine Gun Mastery+,draft
+27:1,713ae293,Gatling Gun Program,draft
+28:1,40199397,Gatling Gun Mastery,draft
+29:1,b0a5c75f,Gatling Gun Mastery+,draft
+30:1,6af47c3d,Bazooka Program,draft
+31:1,6ce619a7,Bazooka Mastery,draft
+32:1,4ad007b1,Bazooka Mastery+,draft
+33:1,e23566cd,Saber Program,draft
+34:1,307f745a,Saber Mastery,draft
+35:1,8e4c1d09,Saber Mastery+,draft
+36:1,c68b596b,Axe Program,draft
+37:1,08358086,Axe Mastery,draft
+38:1,b76642a9,Axe Mastery+,draft
+39:1,851c1c3e,Great Sword Program,draft
+40:1,4a8b078a,Great Sword Mastery,draft
+41:1,da7466f8,Great Sword Mastery+,draft
+42:1,0d3eed36,Whip Program,draft
+43:1,bc2373bc,Whip Mastery,draft
+44:1,aa1c15e3,Whip Mastery+,draft
+45:1,cbe64f52,Lance Program,draft
+46:1,075cdfae,Lance Mastery,draft
+47:1,1f73125d,Lance Mastery+,draft
+48:1,addffa1b,Fist Program,draft
+49:1,0cdc752f,Fist Mastery,draft
+50:1,9a40b4dd,Mobile Trace System,draft
+51:1,057ce107,Eliminate EX Charger,draft
+52:1,d70cf565,Eliminate EX Charger+,draft
+53:1,e684d73e,Attack EX Charger,draft
+54:1,cf34cefc,Attack EX Charger+,draft
+55:1,68baf6dd,Auto Recovery,draft
+56:1,2ed07c53,Auto Recovery+,draft
+57:1,11261c70,Armor Steal,draft
+58:1,e3411176,Armor Steal+,draft
+59:1,8ea7668e,Eliminate Recovery,draft
+60:1,093d7ca7,Eliminate Recovery+,draft
+61:1,8c5dce4b,Treasure Hunter,draft
+62:1,9aa65427,Treasure Hunter+,draft
+63:1,cbb6e63d,Guard EX Charger,draft
+64:1,ecbae3ff,Guard Recovery,draft
+65:1,a2479648,Break Supply,draft
+66:1,a5a2dc6a,Break Supply+,draft
+67:1,88834e3b,Auto Supply,draft
+68:1,7eb79080,Auto Supply+,draft
+69:1,687f32fb,GAIOS Improvement Code,draft
+70:1,1f713633,GAIOS Improvement Program,draft
+71:1,de696c7d,GAIOS Expansion Code,draft
+72:1,d3b5ce80,GAIOS Expansion Program,draft
+73:1,1ab0b13e,GAIOS Breaker Program,draft
+74:1,62039026,EX Charge Breaker,draft
+75:1,9bb2b533,Supply Breaker,draft
+76:1,13840f50,Stabilizer,draft
+77:1,9eff577d,Auto Balancer,draft
+78:1,a981e94d,Vectored Nozzle,draft
+79:1,9d49baf7,Recruit Program,draft
+80:1,77e833fb,Trainer Program,draft
+81:1,7dca80f4,Beginner Program,draft
+82:1,e32635cd,Berserker Program,draft
+83:1,c5471c1b,Berserker System,draft
+84:1,0d28dc56,Anti-Recovery,draft
+85:1,fe93133a,Magnetic Coating,draft
+86:1,30daebd4,Bio-Sensor,draft
+87:1,0e04666f,Additional Thruster,draft
+88:1,76370cae,Additional Large Thruster,draft
+89:1,777605ad,Armor Barrier,draft
+90:1,e84f8c77,Armor Generator,draft
+91:1,87a4c023,Armor EX Charge,draft
+92:1,922c5d23,Armor EX Gain,draft
+93:1,da604348,Armor EX Steal,draft
+94:1,9686d31d,Armor Regenerator,draft
+95:1,c5931601,Armor Absorber,draft
+96:1,e45915b0,Armor Blaster,draft
+97:1,cad3e23f,Armor EX Defender,draft
+98:1,23a30985,Armor Defender,draft
+99:1,af511bb7,Armor Supplier,draft
+100:1,dfff127c,Armor Loader,draft
+101:1,3cd9b172,Armor GAI Custom,draft
+102:1,8d773333,Armor GAI Booster,draft
+103:1,3bbc7354,Armor GAI Breaker,draft
+104:1,b8392f54,Armor EX Breaker,draft
+105:1,2290cefd,Armor Breaker,draft
+106:1,9ca31937,Reactive Generator,draft
+107:1,2847b236,Reactive EX Charge,draft
+108:1,be74bc3c,Reactive EX Gain,draft
+109:1,87554e18,Reactive EX Steal,draft
+110:1,92c45f94,Reactive Regenerator,draft
+111:1,039dab4f,Reactive Absorber,draft
+112:1,f54d8ac1,Reactive Blaster,draft
+113:1,2e2b8a8b,Reactive EX Defender,draft
+114:1,575f6bbf,Reactive Defender,draft
+115:1,526f3946,Reactive Supplier,draft
+116:1,b8d6f89c,Reactive Loader,draft
+117:1,f4349b9c,Reactive GAI Custom,draft
+118:1,24898740,Reactive GAI Booster,draft
+119:1,156aacb4,Reactive GAI Breaker,draft
+120:1,fa7883a1,Reactive EX Breaker,draft
+121:1,8e54eb45,Reactive Breaker,draft
+122:1,dc6f02b6,Capacity EX Charge,draft
+123:1,541586fe,Capacity EX Gain,draft
+124:1,2d33348f,Capacity EX Steal,draft
+125:1,894b50e3,Capacity Regenerator,draft
+126:1,af58a4b1,Capacity Absorber,draft
+127:1,554697ff,Capacity Blaster,draft
+128:1,63c8e506,Capacity EX Defender,draft
+129:1,30b81290,Capacity Defender,draft
+130:1,f7f7f9c9,Capacity Supplier,draft
+131:1,d3256ac1,Capacity Loader,draft
+132:1,ea6a5b1b,Capacity GAI Custom,draft
+133:1,2e0a30a3,Capacity GAI Booster,draft
+134:1,0042b72b,Capacity GAI Breaker,draft
+135:1,cf1fc15c,Capacity EX Breaker,draft
+136:1,3bddae50,Capacity Breaker,draft
+137:1,05daed32,Ex EX Gain,draft
+138:1,578bba9d,Ex EX Steal,draft
+139:1,b8daf428,Ex Regenerator,draft
+140:1,1052f0c2,Ex Absorber,draft
+141:1,ae82f46a,Ex Blaster,draft
+142:1,b11613d1,Ex EX Defender,draft
+143:1,da5eefcb,Ex Defender,draft
+144:1,b0620c70,Ex Supplier,draft
+145:1,a1910141,Ex Loader,draft
+146:1,ca023e6a,Ex GAI Custom,draft
+147:1,9f474088,Ex GAI Booster,draft
+148:1,86a917f3,Ex GAI Breaker,draft
+149:1,3c65812d,Ex EX Breaker,draft
+150:1,6658a49d,Ex Breaker,draft
+151:1,5ab9264c,Ex-Hunt EX Steal,draft
+152:1,65748a92,Ex-Hunt Regenerator,draft
+153:1,1271ed8f,Ex-Hunt Absorber,draft
+154:1,7bbb2eee,Ex-Hunt Blaster,draft
+155:1,2a408202,Ex-Hunt EX Defender,draft
+156:1,5e305bff,Ex-Hunt Defender,draft
+157:1,daa53eab,Ex-Hunt Supplier,draft
+158:1,e8d48cdc,Ex-Hunt Loader,draft
+159:1,d794ff05,Ex-Hunt GAI Custom,draft
+160:1,0ddab614,Ex-Hunt GAI Booster,draft
+161:1,065f3ecb,Ex-Hunt GAI Breaker,draft
+162:1,b4452f79,Ex-Hunt EX Breaker,draft
+163:1,2aa07f70,Ex-Hunt Breaker,draft
+164:1,81bd0ed6,Ex-Hit Regenerator,draft
+165:1,ed6ed9ec,Ex-Hit Absorber,draft
+166:1,47b4fa56,Ex-Hit Blaster,draft
+167:1,0efa6d36,Ex-Hit EX Defender,draft
+168:1,9ae3d5d0,Ex-Hit Defender,draft
+169:1,31f949c0,Ex-Hit Supplier,draft
+170:1,d45d437d,Ex-Hit Loader,draft
+171:1,9df16972,Ex-Hit GAI Custom,draft
+172:1,6ecfbf2d,Ex-Hit GAI Booster,draft
+173:1,fc8ccc88,Ex-Hit GAI Breaker,draft
+174:1,d9c6abaa,Ex-Hit EX Breaker,draft
+175:1,dac1a1f6,Ex-Hit Breaker,draft
+176:1,e276b5c4,Recovery Absorber,draft
+177:1,6fd02c73,Recovery Blaster,draft
+178:1,412c6c93,Recovery EX Defender,draft
+179:1,6571df15,Recovery Defender,draft
+180:1,9927412e,Recovery Supplier,draft
+181:1,371f52e0,Recovery Loader,draft
+182:1,b8c46a93,Recovery GAI Custom,draft
+183:1,33c6fd13,Recovery GAI Booster,draft
+184:1,92fda093,Recovery GAI Breaker,draft
+185:1,a08462dc,Recovery EX Breaker,draft
+186:1,28f6dae9,Recovery Breaker,draft
+187:1,1864ed22,Steal Blaster,draft
+188:1,21be59d5,Steal EX Defender,draft
+189:1,dbcf768a,Steal Defender,draft
+190:1,ffc712a6,Steal Supplier,draft
+191:1,63d1dbf0,Steal Loader,draft
+192:1,c43fcd89,Steal GAI Custom,draft
+193:1,a7e8fcf3,Steal GAI Booster,draft
+194:1,e5bdd799,Steal GAI Breaker,draft
+195:1,f4ec44f9,Steal EX Breaker,draft
+196:1,d15c9d5d,Steal Breaker,draft
+197:1,db71acc5,Eliminate EX Defender,draft
+198:1,5577381c,Eliminate Defender,draft
+199:1,b6dfcafc,Eliminate Supplier,draft
+200:1,ff9ef637,Eliminate Loader,draft
+201:1,8ad7477a,Eliminate GAI Custom,draft
+202:1,0eb55fa8,Eliminate GAI Booster,draft
+203:1,570ac43c,Eliminate GAI Breaker,draft
+204:1,f492c2ad,Eliminate EX Breaker,draft
+205:1,7c4fb91f,Eliminate Breaker,draft
+206:1,16eac17e,Ex-Guard Defender,draft
+207:1,00ca97b6,Ex-Guard Supplier,draft
+208:1,55c70c17,Ex-Guard Loader,draft
+209:1,474a27a2,Ex-Guard GAI Custom,draft
+210:1,e6cbadcc,Ex-Guard GAI Booster,draft
+211:1,43c51fef,Ex-Guard GAI Breaker,draft
+212:1,ccc46b2c,Ex-Guard EX Breaker,draft
+213:1,d737dce4,Ex-Guard Breaker,draft
+214:1,bb9f24ab,Energy Guard Supplier,draft
+215:1,53ca080a,Energy Guard Loader,draft
+216:1,60abd62f,Energy Guard GAI Custom,draft
+217:1,97f3b504,Energy Guard GAI Booster,draft
+218:1,95d811e3,Energy Guard GAI Breaker,draft
+219:1,1923022d,Energy Guard EX Breaker,draft
+220:1,ade67407,Energy Guard Breaker,draft
+221:1,175ec2cb,Smash Loader,draft
+222:1,3a41cbc3,Smash GAI Custom,draft
+223:1,6106b868,Smash GAI Booster,draft
+224:1,6539b038,Smash GAI Breaker,draft
+225:1,8ecc1426,Smash EX Breaker,draft
+226:1,3d06843c,Smash Breaker,draft
+227:1,0843c083,Firearm GAI Custom,draft
+228:1,434d9e5d,Firearm GAI Booster,draft
+229:1,3e498238,Firearm GAI Breaker,draft
+230:1,2ec4d5dc,Firearm EX Breaker,draft
+231:1,189607a0,Firearm Breaker,draft
+232:1,38840d1a,Burst GAI Booster,draft
+233:1,49b9b7e2,Burst GAI Breaker,draft
+234:1,f28d0a2a,Burst EX Breaker,draft
+235:1,261e28c4,Burst Breaker,draft
+236:1,ac863a4f,Burst Gain GAI Breaker,draft
+237:1,751b87f9,Burst Gain EX Breaker,draft
+238:1,b34d6334,Burst Gain Breaker,draft
+239:1,a775d354,Burst Off EX Breaker,draft
+240:1,b8918f2c,Burst Off Breaker,draft
+241:1,1efc1f72,Ex-Off Breaker,draft
+242:1,4e10a3a3,Auto Calibrator,draft
+243:1,4237339e,Feedforward Control Unit,draft
+244:1,dacf27e9,Neural Linkage,draft
+245:1,031b9166,Psycho-Frame,draft

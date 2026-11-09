@@ -1,0 +1,357 @@
+id,ja_hash,en,notes
+1:1,0cc6cb3b,⑪/⑫ attacks switch between ranged and melee automatically by distance.<br>Hold ⑮ and press ⑪/⑫ to shoot at any distance.,draft
+1:2,3da81030,⑪/⑫ for melee attacks.<br>Hold ⑮ and press ⑪/⑫ for ranged attacks.,draft
+2:1,d4fce609,Press ⑪/⑫ repeatedly for a melee combo.,draft
+2:2,d4fce609,Press ⑪/⑫ repeatedly for a melee combo.,draft
+3:1,1b5b052c,The order you press ⑪/⑫ changes what kind of melee attack you unleash.,draft
+3:2,1b5b052c,The order you press ⑪/⑫ changes what kind of melee attack you unleash.,draft
+4:1,8479e2a2,Sabers attack quickly.<br>Slice enemies to pieces with combos!,draft
+4:2,8479e2a2,Sabers attack quickly.<br>Slice enemies to pieces with combos!,draft
+5:1,4924faca,"Saber ⑪ is a wide horizontal slash,<br>⑫ is a fast, powerful vertical slash.",draft
+5:2,4924faca,"Saber ⑪ is a wide horizontal slash,<br>⑫ is a fast, powerful vertical slash.",draft
+6:1,5e59db89,Saber combo ⑪⑪⑫ can break shields.,draft
+6:2,5e59db89,Saber combo ⑪⑪⑫ can break shields.,draft
+7:1,b72cf92d,Saber combo ⑪⑫ is a very powerful thrust.<br>Follow up with option equipment or an EX-Action!,draft
+7:2,b72cf92d,Saber combo ⑪⑫ is a very powerful thrust.<br>Follow up with option equipment or an EX-Action!,draft
+8:1,72866562,Saber combo ⑫⑪ sweeps the enemy's legs.<br>Go after enemies knocked into the air!,draft
+8:2,72866562,Saber combo ⑫⑪ sweeps the enemy's legs.<br>Go after enemies knocked into the air!,draft
+9:1,56951b68,Saber combo ⑫⑫⑫ is perfect for scattering nearby enemies.,draft
+9:2,56951b68,Saber combo ⑫⑫⑫ is perfect for scattering nearby enemies.,draft
+10:1,e5a733db,Axes deal heavy blows.<br>Get into a one-on-one and finish the enemy for sure!,draft
+10:2,e5a733db,Axes deal heavy blows.<br>Get into a one-on-one and finish the enemy for sure!,draft
+11:1,42d3a481,Axes knock enemy parts off more easily than other weapons.,draft
+11:2,42d3a481,Axes knock enemy parts off more easily than other weapons.,draft
+12:1,87aa4bbc,"Axe ⑪ is a quick horizontal slash,<br>⑫ is a big but powerful vertical slash.",draft
+12:2,87aa4bbc,"Axe ⑪ is a quick horizontal slash,<br>⑫ is a big but powerful vertical slash.",draft
+13:1,da8cc3c8,"After axe combo ⑫⑫⑫ launches an enemy,<br>you can follow up with ⑪ and other attacks.",draft
+13:2,da8cc3c8,"After axe combo ⑫⑫⑫ launches an enemy,<br>you can follow up with ⑪ and other attacks.",draft
+14:1,fb0ac818,Axe ⑫ from a distance launches the enemy.<br>Follow up with a horizontal slash or a jump.,draft
+14:2,fb0ac818,Axe ⑫ from a distance launches the enemy.<br>Follow up with a horizontal slash or a jump.,draft
+15:1,b9ff4e21,Axe combo ⑫⑪ is a wide rising slash.<br>Go after enemies in the air!,draft
+15:2,b9ff4e21,Axe combo ⑫⑪ is a wide rising slash.<br>Go after enemies in the air!,draft
+16:1,7311aea6,Axe combo ⑫⑫⑪ is a very powerful swing.<br>Slam it into troublesome enemies and destroy them fast.,draft
+16:2,7311aea6,Axe combo ⑫⑫⑪ is a very powerful swing.<br>Slam it into troublesome enemies and destroy them fast.,draft
+17:1,cc442a68,Axe combo ⑪⑫ is a powerful sweeping slash.<br>Mow down the enemies in front of you.,draft
+17:2,cc442a68,Axe combo ⑪⑫ is a powerful sweeping slash.<br>Mow down the enemies in front of you.,draft
+18:1,bee19689,Axe combo ⑪⑪⑫ is a strong rising slash that launches enemies high.<br>You can hit falling enemies again.,draft
+18:2,bee19689,Axe combo ⑪⑪⑫ is a strong rising slash that launches enemies high.<br>You can hit falling enemies again.,draft
+19:1,8709b1ca,Lance ⑫ is a strong thrust that breaks shields in one hit.<br>⑪ is a wide swinging attack.,draft
+19:2,8709b1ca,Lance ⑫ is a strong thrust that breaks shields in one hit.<br>⑪ is a wide swinging attack.,draft
+20:1,ca584901,"Used from a distance, lance ⑫<br>charges into the enemy while thrusting.",draft
+20:2,ca584901,"Used from a distance, lance ⑫<br>charges into the enemy while thrusting.",draft
+21:1,f43b0de3,Lance combo ⑫⑪ lifts the enemy slightly.<br>Follow up on the lifted enemy with ⑫.,draft
+21:2,f43b0de3,Lance combo ⑫⑪ lifts the enemy slightly.<br>Follow up on the lifted enemy with ⑫.,draft
+22:1,1ee4ffaf,Lance combo ⑫⑫ on an airborne enemy sends it high.<br>Follow up with a jump and an aerial attack.,draft
+22:2,1ee4ffaf,Lance combo ⑫⑫ on an airborne enemy sends it high.<br>Follow up with a jump and an aerial attack.,draft
+23:1,bbd1c390,The number of hits of lance combo ⑫⑫⑫'s charge depends on the weapon.,draft
+23:2,bbd1c390,The number of hits of lance combo ⑫⑫⑫'s charge depends on the weapon.,draft
+24:1,01c83e44,"Every great sword attack breaks shields in one hit.<br>It's slow and clumsy, but its crowd control and power are top class.",draft
+24:2,01c83e44,"Every great sword attack breaks shields in one hit.<br>It's slow and clumsy, but its crowd control and power are top class.",draft
+25:1,20341d32,"During great sword combo ⑫⑫⑫'s charge,<br>mash ⑫ while it hits to add more hits.",draft
+25:2,20341d32,"During great sword combo ⑫⑫⑫'s charge,<br>mash ⑫ while it hits to add more hits.",draft
+26:1,3300a54f,Great sword combo ⑪⑪⑫ launches enemies high.<br>Hit them with ⑫ or ⑪ as they fall.,draft
+26:2,3300a54f,Great sword combo ⑪⑪⑫ launches enemies high.<br>Hit them with ⑫ or ⑪ as they fall.,draft
+27:1,41f26622,Great sword combo ⑫⑫ on an airborne enemy lifts it.<br>A chance for more follow-ups.,draft
+27:2,41f26622,Great sword combo ⑫⑫ on an airborne enemy lifts it.<br>A chance for more follow-ups.,draft
+28:1,62887792,"Great sword combo ⑫⑪ is its only nimble move.<br>If it connects, cancel it with a jump or step; it leaves little opening.",draft
+28:2,62887792,"Great sword combo ⑫⑪ is its only nimble move.<br>If it connects, cancel it with a jump or step; it leaves little opening.",draft
+29:1,ce558381,"With certain arm parts,<br>unarmed melee changes from normal ""Fist"" attacks<br>to very fast martial arts attacks with many hits.",draft
+29:2,ce558381,"With certain arm parts,<br>unarmed melee changes from normal ""Fist"" attacks<br>to very fast martial arts attacks with many hits.",draft
+30:1,c3c8f7bc,"Martial arts ⑪ is a very fast combo.<br>Hold ⑫ to charge a powerful attack.<br>You are fully invincible while charging ⑫, and many have special effects.",draft
+30:2,c3c8f7bc,"Martial arts ⑪ is a very fast combo.<br>Hold ⑫ to charge a powerful attack.<br>You are fully invincible while charging ⑫, and many have special effects.",draft
+31:1,dc845df3,Charge martial arts ⑫ to the max by holding ⑫<br>to lift enemies or send them flying.,draft
+31:2,dc845df3,Charge martial arts ⑫ to the max by holding ⑫<br>to lift enemies or send them flying.,draft
+32:1,451dc3ac,"Fully charged, martial arts combo ⑪⑪⑪⑪⑪⑪⑫<br>unleashes a palm strike that blows the enemy apart in one hit.",draft
+32:2,451dc3ac,"Fully charged, martial arts combo ⑪⑪⑪⑪⑪⑪⑫<br>unleashes a palm strike that blows the enemy apart in one hit.",draft
+33:1,3878c3e3,"Martial arts ⑪ is weak against shields.<br>If they guard, link into ⑫ to break their shield.",draft
+33:2,3878c3e3,"Martial arts ⑪ is weak against shields.<br>If they guard, link into ⑫ to break their shield.",draft
+34:1,4f44d4f5,Martial arts combo ⑪⑪⑫ is a great stomp that staggers nearby enemies<br>and lifts the enemy in front.<br>Charging makes it even stronger.,draft
+34:2,4f44d4f5,Martial arts combo ⑪⑪⑫ is a great stomp that staggers nearby enemies<br>and lifts the enemy in front.<br>Charging makes it even stronger.,draft
+35:1,4a3f2326,"Double sabers strike fast with a saber in each hand.<br>With the many hits of dual wielding, they're unmatched one-on-one.<br>Now, fair and square! En garde!",draft
+35:2,4a3f2326,"Double sabers strike fast with a saber in each hand.<br>With the many hits of dual wielding, they're unmatched one-on-one.<br>Now, fair and square! En garde!",draft
+36:1,243e9ee2,Most double saber attacks can be canceled with a jump or step.<br>Dodge enemy attacks gracefully and land lightning-fast slashes!,draft
+36:2,243e9ee2,Most double saber attacks can be canceled with a jump or step.<br>Dodge enemy attacks gracefully and land lightning-fast slashes!,draft
+37:1,c8b2d0bd,"Double saber combo ⑫⑫⑫ is a sweep that lifts the enemy in front.<br>Another ⑫ sends it higher, into an aerial attack.",draft
+37:2,c8b2d0bd,"Double saber combo ⑫⑫⑫ is a sweep that lifts the enemy in front.<br>Another ⑫ sends it higher, into an aerial attack.",draft
+38:1,1d47a01d,The body slams of double saber combos ⑪⑪⑫ and ⑫⑪<br>can break enemy shields.,draft
+38:2,1d47a01d,The body slams of double saber combos ⑪⑪⑫ and ⑫⑪<br>can break enemy shields.,draft
+39:1,44087aa1,"If double saber aerial ⑫ hits an airborne enemy and you land first,<br>you can follow up with ground attacks.",draft
+39:2,44087aa1,"If double saber aerial ⑫ hits an airborne enemy and you land first,<br>you can follow up with ground attacks.",draft
+40:1,9ca8fc7e,Double saber aerial combo ⑪⑪⑪ can be canceled with a boost<br>for even more follow-ups.,draft
+40:2,9ca8fc7e,Double saber aerial combo ⑪⑪⑪ can be canceled with a boost<br>for even more follow-ups.,draft
+41:1,906bc52f,Rifle ⑪ can fire repeatedly.<br>You can also shoot while moving.,draft
+41:2,c0dc0664,Rifle ⑮+⑪ can fire repeatedly.<br>You can also shoot while moving.,draft
+42:1,a061b2bd,"Rifle ⑫ is a charged shot.<br>It fires an aimed, high-power round.<br>It can even pierce enemy shields.",draft
+42:2,c6a7430f,"Rifle ⑮+⑫ is a charged shot.<br>It fires an aimed, high-power round.<br>It can even pierce enemy shields.",draft
+43:1,43d5e7f2,Hold ⑪ to fire a machine gun continuously.<br>Close in fast while shooting and fight up close.,draft
+43:2,88d37071,Hold ⑮+⑪ to fire a machine gun continuously.<br>Close in fast while shooting and fight up close.,draft
+44:1,f0aff17c,Machine gun ⑫ is a sweeping barrage.<br>It keeps approaching enemies in check.,draft
+44:2,91abf702,Machine gun ⑮+⑫ is a sweeping barrage.<br>It keeps approaching enemies in check.,draft
+45:1,44fc2b58,"Bazooka ⑪ fires an explosive warhead.<br>Slow and risky, but it damages everything around the impact.",draft
+45:2,93c35852,"Bazooka ⑮+⑪ fires an explosive warhead.<br>Slow and risky, but it damages everything around the impact.",draft
+46:1,a27b8ce9,Bazooka ⑫ fires special warheads such as homing or spread shots.<br>The type depends on the weapon.,draft
+46:2,a7d0cd5e,Bazooka ⑮+⑫ fires special warheads such as homing or spread shots.<br>The type depends on the weapon.,draft
+47:1,6365f8b1,"Long rifles leave bigger openings than normal rifles,<br>but they hit much harder.",draft
+47:2,6365f8b1,"Long rifles leave bigger openings than normal rifles,<br>but they hit much harder.",draft
+48:1,1871a849,"Depending on the weapon, long rifle ⑪ can fire repeatedly.<br>Find a safe spot and pick off your targets!",draft
+48:2,d7b7cba5,"Depending on the weapon, long rifle ⑮+⑪ can fire repeatedly.<br>Find a safe spot and pick off your targets!",draft
+49:1,8a8c3065,"Long rifle ⑫ is a charged shot.<br>It fires an aimed, high-power precision shot.<br>It can even pierce enemy shields.",draft
+49:2,973ef840,"Long rifle ⑮+⑫ is a charged shot.<br>Like the rifle, it fires an aimed, high-power shot.<br>It can even pierce enemy shields.",draft
+50:1,76d7b54d,"Gatling guns stop you in place while firing, so they're a bit clumsy,<br>but they lay down a strong, steady barrage.",draft
+50:2,76d7b54d,"Gatling guns stop you in place while firing, so they're a bit clumsy,<br>but they lay down a strong, steady barrage.",draft
+51:1,52042794,"Gatling guns built into a shield<br>can't be used with another shield,<br>but you can Shield Guard with the attached shield.",draft
+51:2,52042794,"Gatling guns built into a shield<br>can't be used with another shield,<br>but you can Shield Guard with the attached shield.",draft
+52:1,f6f0908c,Hold ⑪ to fire a Gatling gun continuously.<br>Riddle enemies with holes from a distance.,draft
+52:2,dfed05e2,Hold ⑮+⑪ to fire a Gatling gun continuously.<br>Riddle enemies with holes from a distance.,draft
+53:1,f0f3bd22,Gatling gun ⑫ is a sweeping barrage.<br>It keeps a wide area in front in check.,draft
+53:2,3e5bada7,Gatling gun ⑮+⑫ is a sweeping barrage.<br>It keeps a wide area in front in check.,draft
+54:1,91f54441,Double rifles fire very fast with a gun in each hand.<br>Shoot wildly!,draft
+54:2,91f54441,Double rifles fire very fast with a gun in each hand.<br>Shoot wildly!,draft
+55:1,da854083,"Double rifle ⑫ is a charged shot.<br>Like the rifle, it fires an aimed, high-power shot.<br>It can even pierce enemy shields.",draft
+55:2,97451fb8,"Double rifle ⑮+⑫ is a charged shot.<br>Like the rifle, it fires an aimed, high-power shot.<br>It can even pierce enemy shields.",draft
+56:1,b575ff52,Get close to an enemy missing its leg part and press ⑪/⑫ for a Ground Break.<br>It finishes off a stuck enemy; normal enemies go down in one hit.,draft
+56:2,b575ff52,Get close to an enemy missing its leg part and press ⑪/⑫ for a Ground Break.<br>It finishes off a stuck enemy; normal enemies go down in one hit.,draft
+57:1,863de05a,"Some attacks can be canceled with a step, jump or boost.",draft
+57:2,863de05a,"Some attacks can be canceled with a step, jump or boost.",draft
+58:1,dad15987,Tap ⑭ to jump.<br>Jump over small ledges.,draft
+58:2,dad15987,Tap ⑭ to jump.<br>Jump over small ledges.,draft
+59:1,82eb1beb,Careless jumping is dangerous.<br>In the air you're defenseless and limited in what you can do.,draft
+59:2,82eb1beb,Careless jumping is dangerous.<br>In the air you're defenseless and limited in what you can do.,draft
+60:1,71a0577b,"Hold ⑭ + left stick to boost: fast movement over long distances.<br>Boosting takes time to start, so it's not good for dodging in battle.",draft
+60:2,71a0577b,"Hold ⑭ + left stick to boost: fast movement over long distances.<br>Boosting takes time to start, so it's not good for dodging in battle.",draft
+61:1,88b0186a,⑯+⑭ to step.<br>You're invincible right after a step.<br>Dodge enemy attacks!,draft
+61:2,88b0186a,⑯+⑭ to step.<br>You're invincible right after a step.<br>Dodge enemy attacks!,draft
+62:1,956cade0,You can also step by holding ⑯+⑭.,draft
+62:2,956cade0,You can also step by holding ⑯+⑭.,draft
+63:1,c885b2e2,"Hold ⑯+⑭ to step repeatedly.<br>As long as it doesn't hit, it doesn't matter.",draft
+63:2,c885b2e2,"Hold ⑯+⑭ to step repeatedly.<br>As long as it doesn't hit, it doesn't matter.",draft
+64:1,ccb11d01,Hold ⑯+⑭ after an attack<br>to cancel the recovery with a step.,draft
+64:2,ccb11d01,Hold ⑯+⑭ after an attack<br>to cancel the recovery with a step.,draft
+65:1,ed88f258,⑬ uses option equipment.<br>Switch option equipment with the D-pad.,draft
+65:2,ed88f258,⑬ uses option equipment.<br>Switch option equipment with the D-pad.,draft
+66:1,f04e1f8f,Option equipment can also cancel ⑪/⑫ attacks.<br>Mix attacks to create your own combos!,draft
+66:2,f04e1f8f,Option equipment can also cancel ⑪/⑫ attacks.<br>Mix attacks to create your own combos!,draft
+67:1,5a2d661d,One-handed beam saber option equipment slashes enemies upward.<br>Jump quickly after it to chase them into the air.,draft
+67:2,5a2d661d,One-handed beam saber option equipment slashes enemies upward.<br>Jump quickly after it to chase them into the air.,draft
+68:1,9f0a6996,"Head Vulcan option equipment is weak,<br>but after an attack it lets you move again quickly.",draft
+68:2,9f0a6996,"Head Vulcan option equipment is weak,<br>but after an attack it lets you move again quickly.",draft
+69:1,b32adab8,You can cancel option equipment into other option equipment.<br>The same one can't be used twice in one combination.,draft
+69:2,b32adab8,You can cancel option equipment into other option equipment.<br>The same one can't be used twice in one combination.,draft
+70:1,115d4cff,"Option equipment from the Players' Shop is often powerful,<br>but its uses can't be refilled during a mission.",draft
+70:2,115d4cff,"Option equipment from the Players' Shop is often powerful,<br>but its uses can't be refilled during a mission.",draft
+71:1,2ea1ef72,"Machine cannon option equipment lifts enemies it hits a little.<br>It's fast, so it can follow up where Head Vulcans are too slow.",draft
+71:2,2ea1ef72,"Machine cannon option equipment lifts enemies it hits a little.<br>It's fast, so it can follow up where Head Vulcans are too slow.",draft
+72:1,ed184ce1,"Boomerang-type option equipment such as the Midas Messer or GN Beam Saber<br>attacks quickly, so it easily follows up on enemies a little away.",draft
+72:2,ed184ce1,"Boomerang-type option equipment such as the Midas Messer or GN Beam Saber<br>attacks quickly, so it easily follows up on enemies a little away.",draft
+73:1,89384aa6,Some option equipment on parts with many ★<br>can stun enemies.<br>Stop them in their tracks and go all out.,draft
+73:2,89384aa6,Some option equipment on parts with many ★<br>can stun enemies.<br>Stop them in their tracks and go all out.,draft
+74:1,8146dcc0,"Hold ⑬ to multi-lock with option equipment such as Homing Missiles,<br>then release ⑬ to fire at all locked targets at once.",draft
+74:2,8146dcc0,"Hold ⑬ to multi-lock with option equipment such as Homing Missiles,<br>then release ⑬ to fire at all locked targets at once.",draft
+75:1,d857ea0a,"The ""Mine"" option equipment on the Zaku Minelayer backpack<br>explodes when an enemy approaches after it's laid.<br>Explosive attacks can set it off too.",draft
+75:2,d857ea0a,"The ""Mine"" option equipment on the Zaku Minelayer backpack<br>explodes when an enemy approaches after it's laid.<br>Explosive attacks can set it off too.",draft
+76:1,5868e0d0,"Touch the icon at bottom left to point the camera to the front of your machine.<br>If you were locked on, the lock turns off.",draft
+76:2,5868e0d0,"Touch the icon at bottom left to point the camera to the front of your machine.<br>If you were locked on, the lock turns off.",draft
+77:1,64604121,"Touch the icon at bottom right to turn lock-on on/off.<br>While locked on, switch targets with the right stick left/right.",draft
+77:2,64604121,"Touch the icon at bottom right to turn lock-on on/off.<br>While locked on, switch targets with the right stick left/right.",draft
+78:1,53193533,"While locked on, right stick down targets the nearest enemy,<br>up targets bosses and destruction targets first.",draft
+78:2,53193533,"While locked on, right stick down targets the nearest enemy,<br>up targets bosses and destruction targets first.",draft
+79:1,9935c347,Machines with a shield can block attacks by holding ⑯.<br>Move while holding ⑯ to guard automatically when attacked.,draft
+79:2,9935c347,Machines with a shield can block attacks by holding ⑯.<br>Move while holding ⑯ to guard automatically when attacked.,draft
+80:1,d6f37386,A shield breaks when it takes more damage than its durability.,draft
+80:2,d6f37386,A shield breaks when it takes more damage than its durability.,draft
+81:1,f20ea373,Some enemies have shields too.<br>Break them with continuous or heavy attacks.,draft
+81:2,f20ea373,Some enemies have shields too.<br>Break them with continuous or heavy attacks.,draft
+82:1,d22842dc,Enemy attacks can knock parts off your machine.,draft
+82:2,d22842dc,Enemy attacks can knock parts off your machine.,draft
+83:1,025291c3,"Pick up lost parts yourself,<br>or stand still and hold ⑯ for a Recapture Beam to recover them.",draft
+83:2,025291c3,"Pick up lost parts yourself,<br>or stand still and hold ⑯ for a Recapture Beam to recover them.",draft
+84:1,829f7fae,Without your head part you can't lock on.<br>Not yet! It's only the main camera that got hit!,draft
+84:2,829f7fae,Without your head part you can't lock on.<br>Not yet! It's only the main camera that got hit!,draft
+85:1,2f12426c,Lose an arm holding a weapon and you can't attack with it.<br>Lose the arm with your shield and you can't Shield Guard.,draft
+85:2,2f12426c,Lose an arm holding a weapon and you can't attack with it.<br>Lose the arm with your shield and you can't Shield Guard.,draft
+86:1,27a6cc67,Without your backpack part you can't boost.,draft
+86:2,27a6cc67,Without your backpack part you can't boost.,draft
+87:1,9c3b9adc,Lose your leg part and you're stuck! (They're not just decoration!)<br>The only way back is the Recapture Beam: hold ⑯.,draft
+87:2,9c3b9adc,Lose your leg part and you're stuck! (They're not just decoration!)<br>The only way back is the Recapture Beam: hold ⑯.,draft
+88:1,68f0b279,⑯+⑪/⑫/⑬ for an EX-Action!<br>Mow down enemies with a powerful attack!,draft
+88:2,68f0b279,⑯+⑪/⑫/⑬ for an EX-Action!<br>Mow down enemies with a powerful attack!,draft
+89:1,d171dd76,You can also trigger EX-Actions mid-action<br>by holding ⑯+⑪/⑫/⑬.,draft
+89:2,d171dd76,You can also trigger EX-Actions mid-action<br>by holding ⑯+⑪/⑫/⑬.,draft
+90:1,2e062a76,You're fully invincible during an EX-Action.<br>Unleash it in the middle of the enemy!,draft
+90:2,2e062a76,You're fully invincible during an EX-Action.<br>Unleash it in the middle of the enemy!,draft
+91:1,2a597f19,EX-Actions can be used again after a while.<br>Use them often and mow the enemy down!,draft
+91:2,2a597f19,EX-Actions can be used again after a while.<br>Use them often and mow the enemy down!,draft
+92:1,77deb8eb,Some EX-Actions can be chained during another EX-Action.<br>Finish the enemy for sure!,draft
+92:2,77deb8eb,Some EX-Actions can be chained during another EX-Action.<br>Finish the enemy for sure!,draft
+93:1,a3335658,"Keep using the same type of weapon, and the Learning OS<br>may come up with a new EX-Action for it.",draft
+93:2,a3335658,"Keep using the same type of weapon, and the Learning OS<br>may come up with a new EX-Action for it.",draft
+94:1,1090d3a1,Some EX-Actions are learned by creating certain parts.,draft
+94:2,1090d3a1,Some EX-Actions are learned by creating certain parts.,draft
+95:1,b10e8499,"Some EX-Actions only work while certain parts are set.<br>If you remove that part in Customize,<br>the matching EX-Action is removed automatically too.",draft
+95:2,b10e8499,"Some EX-Actions only work while certain parts are set.<br>If you remove that part in Customize,<br>the matching EX-Action is removed automatically too.",draft
+96:1,bf65e666,"The saber EX-Action ""Cross Slash"" slices enemies quickly with shockwaves.<br>It's stronger when used right up against the enemy.",draft
+96:2,bf65e666,"The saber EX-Action ""Cross Slash"" slices enemies quickly with shockwaves.<br>It's stronger when used right up against the enemy.",draft
+97:1,fd5d9609,"The axe EX-Action ""Tornado Axe""<br>is a fierce spinning slash that knocks back nearby enemies.",draft
+97:2,fd5d9609,"The axe EX-Action ""Tornado Axe""<br>is a fierce spinning slash that knocks back nearby enemies.",draft
+98:1,857cc14e,"Catch airborne enemies high with ""Tornado Axe""<br>to follow up even more.",draft
+98:2,857cc14e,"Catch airborne enemies high with ""Tornado Axe""<br>to follow up even more.",draft
+99:1,a0d1f524,"The rifle EX-Action ""Mirage Shot""<br>splits the muzzle into three beams that hit enemies in a straight line.<br>It works at any distance and ignores terrain.",draft
+99:2,a0d1f524,"The rifle EX-Action ""Mirage Shot""<br>splits the muzzle into three beams that hit enemies in a straight line.<br>It works at any distance and ignores terrain.",draft
+100:1,4700facb,"The bazooka EX-Action ""Triple Blast"" fires from the air,<br>scattering big explosions at mid-range ahead.<br>Used well, you can follow up with an aerial attack!",draft
+100:2,4700facb,"The bazooka EX-Action ""Triple Blast"" fires from the air,<br>scattering big explosions at mid-range ahead.<br>Used well, you can follow up with an aerial attack!",draft
+101:1,1b2c2051,"The long rifle EX-Action ""Stinger Shoot""<br>is a powerful precision shot very likely to knock parts off.",draft
+101:2,1b2c2051,"The long rifle EX-Action ""Stinger Shoot""<br>is a powerful precision shot very likely to knock parts off.",draft
+102:1,94edec9c,"Land a ""Stinger Shoot"" just before defeating an enemy<br>to collect runners efficiently!",draft
+102:2,94edec9c,"Land a ""Stinger Shoot"" just before defeating an enemy<br>to collect runners efficiently!",draft
+103:1,23723541,"The machine gun EX-Action ""Powered Bullet""<br>sweeps stronger-than-normal rounds horizontally.",draft
+103:2,23723541,"The machine gun EX-Action ""Powered Bullet""<br>sweeps stronger-than-normal rounds horizontally.",draft
+104:1,1954a567,"""Powered Bullet"" covers a wide area,<br>but it's also effective right up against large enemies.",draft
+104:2,1954a567,"""Powered Bullet"" covers a wide area,<br>but it's also effective right up against large enemies.",draft
+105:1,555a6d89,"The Gatling gun EX-Action ""Gatling Assault""<br>is a tackle into a strong barrage.<br>It shines when a group of enemies closes in.",draft
+105:2,555a6d89,"The Gatling gun EX-Action ""Gatling Assault""<br>is a tackle into a strong barrage.<br>It shines when a group of enemies closes in.",draft
+106:1,b5d10936,"The Fist EX-Action ""Hammer Blow"" is a powerful downward punch.<br>Its reach is short, so judge the distance before you land it.",draft
+106:2,b5d10936,"The Fist EX-Action ""Hammer Blow"" is a powerful downward punch.<br>Its reach is short, so judge the distance before you land it.",draft
+107:1,8b29f806,"The great sword EX-Action ""Dead End Buster"" is an extremely powerful smash.<br>It's slow to start, so stop the enemy first.",draft
+107:2,8b29f806,"The great sword EX-Action ""Dead End Buster"" is an extremely powerful smash.<br>It's slow to start, so stop the enemy first.",draft
+108:1,33f1fd73,"The whip EX-Action ""Spiral Charge"" spins the whip and charges in.<br>The charge time is very short, so dive in without hesitation!",draft
+108:2,33f1fd73,"The whip EX-Action ""Spiral Charge"" spins the whip and charges in.<br>The charge time is very short, so dive in without hesitation!",draft
+109:1,2aecf645,"The EX-Action ""Ground Shaker"" is a comet-like falling kick from the air<br>that shakes the ground and hits enemies in an area.<br>Enemies lifted into the air can be hit again!",draft
+109:2,2aecf645,"The EX-Action ""Ground Shaker"" is a comet-like falling kick from the air<br>that shakes the ground and hits enemies in an area.<br>Enemies lifted into the air can be hit again!",draft
+110:1,9907e104,"The EX-Action ""Armor Repair"" restores the durability of you and nearby allies.<br>It can be used again and again over time, so use it often.",draft
+110:2,9907e104,"The EX-Action ""Armor Repair"" restores the durability of you and nearby allies.<br>It can be used again and again over time, so use it often.",draft
+111:1,92f25f7d,"Keep using each weapon type's EX-Actions,<br>and GAIOS may come up with even stronger ones.",draft
+111:2,92f25f7d,"Keep using each weapon type's EX-Actions,<br>and GAIOS may come up with even stronger ones.",draft
+112:1,3f75ae4f,"The EX-Action ""Boost Tackle"" blows away the enemies in front of you.",draft
+112:2,3f75ae4f,"The EX-Action ""Boost Tackle"" blows away the enemies in front of you.",draft
+113:1,b4fddc13,"""Heroic Finish"" is an EX-Action where you strike a pose.<br>Trigger it while an Ace Point bonus is on screen<br>to double the points shown!",draft
+113:2,b4fddc13,"""Heroic Finish"" is an EX-Action where you strike a pose.<br>Trigger it while an Ace Point bonus is on screen<br>to double the points shown!",draft
+114:1,97a23eeb,"Double rifles can use rifle EX-Actions,<br>double sabers can use saber EX-Actions.",draft
+114:2,97a23eeb,"Double rifles can use rifle EX-Actions,<br>double sabers can use saber EX-Actions.",draft
+115:1,1c3bdef7,You can re-sortie freely within a normal mission's time limit.<br>But each re-sortie confiscates your spoils.,draft
+115:2,1c3bdef7,You can re-sortie freely within a normal mission's time limit.<br>But each re-sortie confiscates your spoils.,draft
+116:1,52200f97,More party members -> stronger enemies -> better parts more often,draft
+116:2,52200f97,More party members -> stronger enemies -> better parts more often,draft
+117:1,e5980baf,Put parts you don't need in the Parts Stock.<br>Sell them all for GP when you visit the Players' Shop.,draft
+117:2,e5980baf,Put parts you don't need in the Parts Stock.<br>Sell them all for GP when you visit the Players' Shop.,draft
+118:1,f79ba70f,Using the Parts Stock when batch-creating parts<br>automatically sends everything except new parts<br>and parts with more ★ than yours to the stock.,draft
+118:2,f79ba70f,Using the Parts Stock when batch-creating parts<br>automatically sends everything except new parts<br>and parts with more ★ than yours to the stock.,draft
+119:1,59efb40d,The door to the world is open! Gundam Great Front begins!,draft
+119:2,59efb40d,The door to the world is open! Gundam Great Front begins!,draft
+120:1,560def2b,"Each ranged weapon can fire a limited number of times in a row,<br>and you can't shoot for a while after you run out.<br>Meanwhile the circle in the middle of the screen flashes red.",draft
+120:2,560def2b,"Each ranged weapon can fire a limited number of times in a row,<br>and you can't shoot for a while after you run out.<br>Meanwhile the circle in the middle of the screen flashes red.",draft
+121:1,ebcc047c,Multiplayer works in ad hoc mode or over Wi-Fi.<br>Over Wi-Fi you can even play with PlayStation⑲3 players.<br>(Voice chat is not available),draft
+121:2,ebcc047c,Multiplayer works in ad hoc mode or over Wi-Fi.<br>Over Wi-Fi you can even play with PlayStation⑲3 players.<br>(Voice chat is not available),draft
+122:1,1c92398b,"In multiplayer, get close to an ally at 0 durability and press ⑪ to reboot them.<br>They return without a retry penalty, so help each other out.",draft
+122:2,1c92398b,"In multiplayer, get close to an ally at 0 durability and press ⑪ to reboot them.<br>They return without a retry penalty, so help each other out.",draft
+123:1,5a01fef0,"In ""no return"" missions, the mission fails if every player goes down.<br>In multiplayer, rebooting each other is vital.<br>Can you survive?",draft
+123:2,5a01fef0,"In ""no return"" missions, the mission fails if every player goes down.<br>In multiplayer, rebooting each other is vital.<br>Can you survive?",draft
+124:1,35d092c9,"Enhancement modules, rarely found in missions,<br>add all kinds of functions when set in Customize.<br>It's amazing, it'll multiply your Gunpla's power. Install it and try it now.",draft
+124:2,35d092c9,"Enhancement modules, rarely found in missions,<br>add all kinds of functions when set in Customize.<br>It's amazing, it'll multiply your Gunpla's power. Install it and try it now.",draft
+125:1,67250763,Raising your Builder Level unlocks Scratch Build.<br>Get parts that are a little different from usual.,draft
+125:2,67250763,Raising your Builder Level unlocks Scratch Build.<br>Get parts that are a little different from usual.,draft
+126:1,8707374e,Your Builder Level rises as you keep assembling runners.<br>Making new parts or better parts than before<br>gives more experience and raises your level faster.,draft
+126:2,8707374e,Your Builder Level rises as you keep assembling runners.<br>Making new parts or better parts than before<br>gives more experience and raises your level faster.,draft
+127:1,2f22d648,"Earn lots of Ace Points in a mission and a golden Unidentified Machine appears.<br>It's strong and withdraws after a while,<br>but defeating it pays off big.",draft
+127:2,2f22d648,"Earn lots of Ace Points in a mission and a golden Unidentified Machine appears.<br>It's strong and withdraws after a while,<br>but defeating it pays off big.",draft
+128:1,89c6b3e6,"Your spoils shrink with each retry before clearing a mission.<br>Your Ace Points also drop with every retry.<br>War is merciless, you know.",draft
+128:2,89c6b3e6,"Your spoils shrink with each retry before clearing a mission.<br>Your Ace Points also drop with every retry.<br>War is merciless, you know.",draft
+129:1,2830b502,"You still get runners even if a mission fails, such as by time over.<br>Power up your Gunpla and try again.",draft
+129:2,2830b502,"You still get runners even if a mission fails, such as by time over.<br>Power up your Gunpla and try again.",draft
+130:1,afeea0cf,Pass a mission's required Ace Points to get<br>a decal for each part on the mission results.<br>Turn decals on/off in Gunpla Paint.,draft
+130:2,afeea0cf,Pass a mission's required Ace Points to get<br>a decal for each part on the mission results.<br>Turn decals on/off in Gunpla Paint.,draft
+131:1,c0c1f1bc,Some runners only come from certain enemies or giant main machines.<br>Some of them are shown in the mission description.,draft
+131:2,c0c1f1bc,Some runners only come from certain enemies or giant main machines.<br>Some of them are shown in the mission description.,draft
+132:1,761fa081,"With more than 200 runners, 150 parts per slot or 400 enhancement modules<br>you can't sortie on a mission.",draft
+132:2,761fa081,"With more than 200 runners, 150 parts per slot or 400 enhancement modules<br>you can't sortie on a mission.",draft
+133:1,02ce3b22,The boost gauge refills quickly on the ground.<br>Plan your boost dashes in the air.,draft
+133:2,02ce3b22,The boost gauge refills quickly on the ground.<br>Plan your boost dashes in the air.,draft
+134:1,d5f79185,"Even when blown away, if you have boost gauge left,<br>press ⑭ in the air to boost dash and avoid going down.<br>Not yet! It's not over yet!",draft
+134:2,d5f79185,"Even when blown away, if you have boost gauge left,<br>press ⑭ in the air to boost dash and avoid going down.<br>Not yet! It's not over yet!",draft
+135:1,5756e12b,Collect 3 or more types of HG runners of the same machine in missions<br>and a Gunpla with the full set of that machine's HG runners<br>arrives at the Players' Shop.,draft
+135:2,5756e12b,Collect 3 or more types of HG runners of the same machine in missions<br>and a Gunpla with the full set of that machine's HG runners<br>arrives at the Players' Shop.,draft
+136:1,03ac9979,Change your avatar in the VR Hangar at the Players' Shop.<br>More avatars become available as your rank rises.,draft
+136:2,03ac9979,Change your avatar in the VR Hangar at the Players' Shop.<br>More avatars become available as your rank rises.,draft
+137:1,5c8eee66,Customizing tip<br>Build your parts so your aptitude suits the weapons you use.<br>Offense is the best defense. Think only about defending and you'll be stuck.,draft
+137:2,5c8eee66,Customizing tip<br>Build your parts so your aptitude suits the weapons you use.<br>Offense is the best defense. Think only about defending and you'll be stuck.,draft
+138:1,b86f37fd,Customizing tip<br>Prepare strong EX-Actions to fight efficiently.<br>I am captivated by your overwhelming performance.,draft
+138:2,b86f37fd,Customizing tip<br>Prepare strong EX-Actions to fight efficiently.<br>I am captivated by your overwhelming performance.,draft
+139:1,31da623c,"Customizing tip<br>Keep durability and armor above a certain level, even at some cost to attack.<br>Wh-what a Gunpla... rifles have no effect on it at all!",draft
+139:2,31da623c,"Customizing tip<br>Keep durability and armor above a certain level, even at some cost to attack.<br>Wh-what a Gunpla... rifles have no effect on it at all!",draft
+140:1,e3c184f5,"Customizing tip<br>Have a way to restore durability with modules or option equipment.<br>Impossible, that was a direct hit!",draft
+140:2,e3c184f5,"Customizing tip<br>Have a way to restore durability with modules or option equipment.<br>Impossible, that was a direct hit!",draft
+141:1,53447b4b,"Customizing tip<br>Once your machine is built, check its option equipment and EX-Actions again.<br>Don't forget it's thanks to that Gunpla's performance!",draft
+141:2,53447b4b,"Customizing tip<br>Once your machine is built, check its option equipment and EX-Actions again.<br>Don't forget it's thanks to that Gunpla's performance!",draft
+142:1,6c1e813f,Taking constant hits makes you flinch (small).<br>Heavy hits like explosions or long rifles<br>cause a big flinch that pushes you back a few steps.,draft
+142:2,6c1e813f,Taking constant hits makes you flinch (small).<br>Heavy hits like explosions or long rifles<br>cause a big flinch that pushes you back a few steps.,draft
+143:1,dd563561,Trade GP from missions for Gunpla.<br>A Gunpla box has the full set of runners for that machine's parts.,draft
+143:2,dd563561,Trade GP from missions for Gunpla.<br>A Gunpla box has the full set of runners for that machine's parts.,draft
+144:1,5781d8c3,Gunpla traded for GP don't include weapon runners.<br>Weapon runners are found during missions.,draft
+144:2,5781d8c3,Gunpla traded for GP don't include weapon runners.<br>Weapon runners are found during missions.,draft
+145:1,c50c33be,"Attacks can cause a ""part break"" on enemies.<br>Enemies missing parts move strangely.",draft
+145:2,c50c33be,"Attacks can cause a ""part break"" on enemies.<br>Enemies missing parts move strangely.",draft
+146:1,d4a470d3,"Defeat an enemy missing parts,<br>and the parts you cut off will likely become runners.",draft
+146:2,d4a470d3,"Defeat an enemy missing parts,<br>and the parts you cut off will likely become runners.",draft
+147:1,e95a7f8b,"If you want runners, defeat enemies missing parts first.",draft
+147:2,e95a7f8b,"If you want runners, defeat enemies missing parts first.",draft
+148:1,a9469b60,Play well to earn Ace Point bonuses.<br>The bonuses you earn are shown on screen.,draft
+148:2,a9469b60,Play well to earn Ace Point bonuses.<br>The bonuses you earn are shown on screen.,draft
+149:1,3ede08fe,"Charging blindly into a group of enemies is dangerous.<br>If you're not confident in your Gunpla, shoot to lure them out.",draft
+149:2,3ede08fe,"Charging blindly into a group of enemies is dangerous.<br>If you're not confident in your Gunpla, shoot to lure them out.",draft
+150:1,677561a7,Snipers notice you quickly and are a pain.<br>Defeat them first or use the terrain.,draft
+150:2,677561a7,Snipers notice you quickly and are a pain.<br>Defeat them first or use the terrain.,draft
+151:1,3a957fe1,Assemble the runners you get to turn them into Gunpla parts.,draft
+151:2,3a957fe1,Assemble the runners you get to turn them into Gunpla parts.,draft
+152:1,f142db07,"Better runners raise the chance of better parts.<br>But in the end, your model-building skill decides the performance.",draft
+152:2,f142db07,"Better runners raise the chance of better parts.<br>But in the end, your model-building skill decides the performance.",draft
+153:1,3db1ccd0,"Runners get better in this order: white, blue, purple, red, yellow.",draft
+153:2,3db1ccd0,"Runners get better in this order: white, blue, purple, red, yellow.",draft
+154:1,08d089dc,Enhancement modules in the Learning OS boost your Gunpla dramatically.<br>This is a fine thing.,draft
+154:2,08d089dc,Enhancement modules in the Learning OS boost your Gunpla dramatically.<br>This is a fine thing.,draft
+155:1,8942a1b4,The difference in Gunpla performance is the decisive difference in strength.<br>Keep building in better parts and power up your Gunpla.,draft
+155:2,8942a1b4,The difference in Gunpla performance is the decisive difference in strength.<br>Keep building in better parts and power up your Gunpla.,draft
+156:1,94d389a0,"If enemies are too strong to progress,<br>collecting parts to power up your Gunpla is another way to win.",draft
+156:2,94d389a0,"If enemies are too strong to progress,<br>collecting parts to power up your Gunpla is another way to win.",draft
+157:1,920d104a,"Watch out for glowing enemies,<br>but being strong, they often drop good items.",draft
+157:2,920d104a,"Watch out for glowing enemies,<br>but being strong, they often drop good items.",draft
+158:1,cd37d10d,Item boxes placed in the diorama<br>contain recovery items and much more.<br>Looking for them in a pinch is a strategy too.,draft
+158:2,cd37d10d,Item boxes placed in the diorama<br>contain recovery items and much more.<br>Looking for them in a pinch is a strategy too.,draft
+159:1,7bc98b9c,Leave a jammer alone<br>and all sorts of bad things happen to your Gunpla.,draft
+159:2,7bc98b9c,Leave a jammer alone<br>and all sorts of bad things happen to your Gunpla.,draft
+160:1,2d2856ce,Playing with others lets you reboot allies.<br>Get close to a downed ally and press ⑪.,draft
+160:2,2d2856ce,Playing with others lets you reboot allies.<br>Get close to a downed ally and press ⑪.,draft
+161:1,339d5792,"If an ally reboots you after going down, there's no retry penalty.<br>Working together is wonderful.",draft
+161:2,339d5792,"If an ally reboots you after going down, there's no retry penalty.<br>Working together is wonderful.",draft
+162:1,07074d14,Battle with the Gunpla you built yourself!<br>This is the dream system: the Gunpla Battle Simulator!,draft
+162:2,07074d14,Battle with the Gunpla you built yourself!<br>This is the dream system: the Gunpla Battle Simulator!,draft
+163:1,858a7b6d,"The Gunpla Battle Simulator<br>has a groundbreaking system that turns your built Gunpla<br>into data, including how well it was made.",draft
+163:2,858a7b6d,"The Gunpla Battle Simulator<br>has a groundbreaking system that turns your built Gunpla<br>into data, including how well it was made.",draft
+164:1,71300b25,"Each machine part has a weapon aptitude.<br>If damage seems low, check your weapons and aptitude again.",draft
+164:2,71300b25,"Each machine part has a weapon aptitude.<br>If damage seems low, check your weapons and aptitude again.",draft
+165:1,a9d4149c,Head parts matter for raising ranged weapon attack.,draft
+165:2,a9d4149c,Head parts matter for raising ranged weapon attack.,draft
+166:1,2e99e301,"Arm parts strongly affect weapon aptitude.<br>To raise melee attack especially, choose the best arm part.",draft
+166:2,2e99e301,"Arm parts strongly affect weapon aptitude.<br>To raise melee attack especially, choose the best arm part.",draft
+167:1,13e80e2d,The body part greatly changes your durability and armor.,draft
+167:2,13e80e2d,The body part greatly changes your durability and armor.,draft
+168:1,b81d1e10,"Weapons, shields, option equipment and EX-Actions cost capacity to equip.<br>Body and leg parts are key to raising your machine's capacity.",draft
+168:2,b81d1e10,"Weapons, shields, option equipment and EX-Actions cost capacity to equip.<br>Body and leg parts are key to raising your machine's capacity.",draft
+169:1,6c106220,Backpack parts often carry strong option equipment<br>or have excellent performance.<br>And of course they matter for good looks and a good silhouette.,draft
+169:2,6c106220,Backpack parts often carry strong option equipment<br>or have excellent performance.<br>And of course they matter for good looks and a good silhouette.,draft
+170:1,efa8e972,"The Gunpla Battle Simulator projects your Gunpla as a hologram<br>onto a diorama map to battle.<br>The Gunpla itself isn't damaged, so play without worry.",draft
+170:2,efa8e972,"The Gunpla Battle Simulator projects your Gunpla as a hologram<br>onto a diorama map to battle.<br>The Gunpla itself isn't damaged, so play without worry.",draft
+171:1,0d14fcdb,"Your machine is controlled by GAIOS, a Learning OS with AI.<br>It's a cute one that gets happy when you play well.",draft
+171:2,0d14fcdb,"Your machine is controlled by GAIOS, a Learning OS with AI.<br>It's a cute one that gets happy when you play well.",draft
+172:1,79841888,The VR Hangar is a diorama model holding your built Gunpla's data.<br>It works as a virtual lobby for the players taking part.,draft
+172:2,79841888,The VR Hangar is a diorama model holding your built Gunpla's data.<br>It works as a virtual lobby for the players taking part.,draft
+173:1,ec768e84,In the VR Hangar you control your normal suit avatar<br>and can look up at your built Gunpla from a pilot's view.,draft
+173:2,ec768e84,In the VR Hangar you control your normal suit avatar<br>and can look up at your built Gunpla from a pilot's view.,draft
+174:1,e7f82fde,"""HG"" means a 1/144 scale High Grade model,<br>""MG"" a 1/100 scale Master Grade model.",draft
+174:2,e7f82fde,"""HG"" means a 1/144 scale High Grade model,<br>""MG"" a 1/100 scale Master Grade model.",draft
+175:1,3fb43f28,"1/100 scale machines are bigger than 1/144 scale ones,<br>and of course perform better.",draft
+175:2,3fb43f28,"1/100 scale machines are bigger than 1/144 scale ones,<br>and of course perform better.",draft
+176:1,468f79ce,"Some machines are battle-event-only Gunpla not sold to the public,<br>or originally customized Gunpla.",draft
+176:2,468f79ce,"Some machines are battle-event-only Gunpla not sold to the public,<br>or originally customized Gunpla.",draft
+177:1,c092daf9,"Weapons attached to machine parts<br>count as ""option equipment"", separate from the main weapon in hand.<br>Sabers attached to backpacks are an example.",draft
+177:2,c092daf9,"Weapons attached to machine parts<br>count as ""option equipment"", separate from the main weapon in hand.<br>Sabers attached to backpacks are an example.",draft
+178:1,8309096e,"You can sortie without a melee weapon.<br>Your melee attacks become unarmed ""Fist"" attacks.",draft
+178:2,8309096e,"You can sortie without a melee weapon.<br>Your melee attacks become unarmed ""Fist"" attacks.",draft

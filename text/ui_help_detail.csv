@@ -1,0 +1,674 @@
+id,ja_hash,en,notes
+1:1,4b13203a,Select a head part,draft
+2:1,330671db,Select a body part,draft
+3:1,b0a9073e,Select a arm part,draft
+4:1,4df04ea4,Select a leg part,draft
+5:1,e9d61337,Select a backpack part,draft
+6:1,8cfc8570,Select a shield,draft
+7:1,bd2ef9d9,Select a melee weapon,draft
+8:1,3f755af2,Select a ranged weapon,draft
+9:1,70cf3852,Select a slot for the enhancement module,draft
+10:1,dbf6cdb1,Select an enhancement module to set,draft
+11:1,56fe95a3,Select where to set the option equipment,draft
+12:1,5fb47194,Select option equipment to set,draft
+13:1,84a37a67,Select where to set the EX-Action,draft
+14:1,de9203cd,Select an EX-Action to set,draft
+15:1,6e04a69b,Select where to save the machine blueprint,draft
+17:1,80563df9,Select a machine blueprint to load,draft
+18:1,064e4209,Choose a color pattern for the whole machine,draft
+19:1,9fc31751,Set the main color of the whole machine,draft
+20:1,770762a4,Set sub color 1 of the whole machine,draft
+21:1,907169db,Set sub color 2 of the whole machine,draft
+22:1,2219f979,Set sub color 3 of the whole machine,draft
+23:1,71ba6eb2,Turn decals ON/OFF for the whole machine,draft
+24:1,ef851085,Set the gloss strength of the whole machine,draft
+25:1,911562c8,Set the edge paint chipping level of the whole machine,draft
+26:1,aedfe882,Set the shading depth of the whole machine,draft
+27:1,59144329,Set the amount of weathering on the whole machine,draft
+28:1,0e960eb1,Set the amount of scratches on the whole machine,draft
+29:1,28b0d6c5,Reset the paint settings of the whole machine to default.<br>Is that OK?,draft
+30:1,83057d08,Choose a color pattern for the head part,draft
+31:1,1d88ece0,Set the main color of the head part,draft
+32:1,8e1baf88,Set sub color 1 of the head part,draft
+33:1,c72c96c7,Set sub color 2 of the head part,draft
+34:1,f3b0b65a,Set sub color 3 of the head part,draft
+35:1,e93bedf6,Turn decals ON/OFF for the head part,draft
+36:1,af7bea4c,Set the gloss strength of the head part,draft
+37:1,ecf15d31,Set the edge paint chipping level of the head part,draft
+38:1,bd0ee371,Set the shading depth of the head part,draft
+39:1,f2356e1b,Set the amount of weathering on the head part,draft
+40:1,39cb3b19,Set the amount of scratches on the head part,draft
+41:1,8a9719e0,Reset the paint settings of the head part to default.<br>Is that OK?,draft
+42:1,6817494f,Set the amount of dirt around the feet,draft
+43:1,79a6ab7b,Choose a color pattern for the body part,draft
+44:1,8c711da7,Set the main color of the body part,draft
+45:1,af1e6c8f,Set sub color 1 of the body part,draft
+46:1,8edcfb28,Set sub color 2 of the body part,draft
+47:1,e0ac983f,Set sub color 3 of the body part,draft
+48:1,477c450f,Turn decals ON/OFF for the body part,draft
+49:1,140a656f,Set the gloss strength of the body part,draft
+50:1,14212dc9,Set the edge paint chipping level of the body part,draft
+51:1,a5eb4c07,Set the shading depth of the body part,draft
+52:1,5315851e,Set the amount of weathering on the body part,draft
+53:1,5ef3d6a8,Set the amount of scratches on the body part,draft
+54:1,bdaf53c7,Reset the paint settings of the body part to default.<br>Is that OK?,draft
+55:1,2d8a71a4,Choose a color pattern for the arm part,draft
+56:1,48ddda49,Set the main color of the arm part,draft
+57:1,62dad2bd,Set sub color 1 of the arm part,draft
+58:1,8e7c7c85,Set sub color 2 of the arm part,draft
+59:1,dfdd3c8b,Set sub color 3 of the arm part,draft
+60:1,7f04af70,Turn decals ON/OFF for the arm part,draft
+61:1,35cadf7f,Set the gloss strength of the arm part,draft
+62:1,ecd39edc,Set the edge paint chipping level of the arm part,draft
+63:1,a726c23b,Set the shading depth of the arm part,draft
+64:1,681a12f4,Set the amount of weathering on the arm part,draft
+65:1,86103153,Set the amount of scratches on the arm part,draft
+66:1,3d8b4704,Reset the paint settings of the arm part to default.<br>Is that OK?,draft
+67:1,c5150098,Choose a color pattern for the leg part,draft
+68:1,2fd2994e,Set the main color of the leg part,draft
+69:1,2afd6b84,Set sub color 1 of the leg part,draft
+70:1,5e352530,Set sub color 2 of the leg part,draft
+71:1,44085b93,Set sub color 3 of the leg part,draft
+72:1,1ca6010d,Turn decals ON/OFF for the leg part,draft
+73:1,8ce44594,Set the gloss strength of the leg part,draft
+74:1,09470d91,Set the edge paint chipping level of the leg part,draft
+75:1,f1a6f897,Set the shading depth of the leg part,draft
+76:1,aa12b699,Set the amount of weathering on the leg part,draft
+77:1,08f48bc1,Set the amount of scratches on the leg part,draft
+78:1,61561c54,Reset the paint settings of the leg part to default.<br>Is that OK?,draft
+79:1,a37f59d2,Choose a color pattern for the backpack part,draft
+80:1,30ddad65,Set the main color of the backpack part,draft
+81:1,c00e02db,Set sub color 1 of the backpack part,draft
+82:1,1be2d458,Set sub color 2 of the backpack part,draft
+83:1,110f88fd,Set sub color 3 of the backpack part,draft
+84:1,758c7ee8,Turn decals ON/OFF for the backpack part,draft
+85:1,c5b0f7b0,Set the gloss strength of the backpack part,draft
+86:1,64afcf6a,Set the edge paint chipping level of the backpack part,draft
+87:1,979de8ab,Set the shading depth of the backpack part,draft
+88:1,cfecef80,Set the amount of weathering on the backpack part,draft
+89:1,814cc3c4,Set the amount of scratches on the backpack part,draft
+90:1,fe3078bd,Reset the paint settings of the backpack part to default.<br>Is that OK?,draft
+91:1,a9da2aad,Choose a color pattern for the shield,draft
+92:1,b510b883,Set the main color of the shield,draft
+93:1,051384ff,Set sub color 1 of the shield,draft
+94:1,2ec680d8,Set sub color 2 of the shield,draft
+95:1,6471b5f2,Set sub color 3 of the shield,draft
+96:1,56289643,Turn decals ON/OFF for the shield,draft
+97:1,b2893da5,Set the gloss strength of the shield,draft
+98:1,9dcd0af7,Set the edge paint chipping level of the shield,draft
+99:1,1ef87d37,Set the shading depth of the shield,draft
+100:1,cf91bfe5,Set the amount of weathering on the shield,draft
+101:1,eb831ebc,Set the amount of scratches on the shield,draft
+102:1,f17226ab,Reset the paint settings of the shield to default.<br>Is that OK?,draft
+103:1,6ee7768b,Set the gloss strength of the weapons,draft
+104:1,9d0eb59d,Set the edge paint chipping level of the weapons,draft
+105:1,e032316d,Set the shading depth of the weapons,draft
+106:1,33c7cc15,Set the amount of weathering on the weapons,draft
+107:1,ebb9182d,Set the amount of scratches on the weapons,draft
+108:1,cd4198a5,Reset the paint settings of the weapons to default.<br>Is that OK?,draft
+109:1,1031e5a9,Select a palette to save,draft
+110:1,adbba2d9,Overwrite this palette?,draft
+111:1,35ee0709,Select a palette to load,draft
+112:1,413cc7bd,1 more player can join,draft
+113:1,374587b7,2 more players can join,draft
+114:1,d715c9a5,3 more players can join,draft
+115:1,4d8aae94,Waiting for 1 more player to be ready,draft
+116:1,cd0c1dd9,Waiting for 2 more players to be ready,draft
+117:1,a1113d80,Waiting for 3 more players to be ready,draft
+118:1,877b67be,Waiting for you to be ready,draft
+119:1,47d2a653,"Waiting for 2 more players, including you, to be ready",draft
+120:1,c8ef0cc3,"Waiting for 3 more players, including you, to be ready",draft
+121:1,46b5ed63,Waiting for everyone to be ready,draft
+122:1,4498b68d,Change your Gunpla's parts,draft
+123:1,5a280442,Paint your Gunpla,draft
+124:1,6ef64788,Name your Gunpla,draft
+125:1,b7a1077d,Assemble runners to create parts,draft
+126:1,e179b298,Sortie on a mission,draft
+127:1,142190a1,Check your parts stock,draft
+128:1,1c8e4fe5,The host has left. Moving the host...,draft
+129:1,dc4f3c6d, is now the host,draft
+130:1,8355c311,You are now the host,draft
+131:1,9447adb9,The connection was lost.<br>Returning to the main menu.,draft
+132:1,fd9cd4c9,The connection was lost.<br>Returning to the title screen.,draft
+133:1,20059abf, has joined,draft
+134:1,d774ddf6, has left,draft
+135:1,15b091ff,Search for rooms created by other players,draft
+136:1,828545ff,Create a room as its leader,draft
+137:1,ab75114b,Set the conditions for the rooms to search,draft
+138:1,3a53e373,Set up the room to create,draft
+139:1,9c41c366,Change the room settings,draft
+140:1,0b32e738,Select a room to join　<c04>Voice chat is not available</c>,draft
+141:1,27d2133c,Select a room to join,draft
+142:1,3a7f20e6,Your Ace Points passed the required value!<br>The following machine part decals are now available,draft
+143:1,4f28f263,The Learning OS has been upgraded!,draft
+144:1,11c1dc2c,More parts can now be equipped!,draft
+145:1,11c1dc2c,More parts can now be equipped!,draft
+146:1,11c1dc2c,More parts can now be equipped!,draft
+147:1,11c1dc2c,More parts can now be equipped!,draft
+148:1,11c1dc2c,More parts can now be equipped!,draft
+149:1,11c1dc2c,More parts can now be equipped!,draft
+150:1,11c1dc2c,More parts can now be equipped!,draft
+151:1,11c1dc2c,More parts can now be equipped!,draft
+152:1,11c1dc2c,More parts can now be equipped!,draft
+153:1,11c1dc2c,More parts can now be equipped!,draft
+154:1,11c1dc2c,More parts can now be equipped!,draft
+155:1,11c1dc2c,More parts can now be equipped!,draft
+156:1,11c1dc2c,More parts can now be equipped!,draft
+157:1,11c1dc2c,More parts can now be equipped!,draft
+158:1,11c1dc2c,More parts can now be equipped!,draft
+159:1,11c1dc2c,More parts can now be equipped!,draft
+160:1,11c1dc2c,More parts can now be equipped!,draft
+161:1,11c1dc2c,More parts can now be equipped!,draft
+162:1,11c1dc2c,More parts can now be equipped!,draft
+163:1,11c1dc2c,More parts can now be equipped!,draft
+164:1,11c1dc2c,More parts can now be equipped!,draft
+165:1,11c1dc2c,More parts can now be equipped!,draft
+166:1,11c1dc2c,More parts can now be equipped!,draft
+167:1,11c1dc2c,More parts can now be equipped!,draft
+168:1,11c1dc2c,More parts can now be equipped!,draft
+169:1,11c1dc2c,More parts can now be equipped!,draft
+170:1,11c1dc2c,More parts can now be equipped!,draft
+171:1,11c1dc2c,More parts can now be equipped!,draft
+172:1,11c1dc2c,More parts can now be equipped!,draft
+173:1,aaf8e835,A slot for enhancement modules was added to the Learning OS!,draft
+174:1,57f0164a,Enhancement module slots increased to 2!,draft
+175:1,ab7472fb,Enhancement module slots increased to 3!,draft
+176:1,b414cfc9,Enhancement module slots increased to 4!,draft
+177:1,2570d094,Enhancement module slots increased to 5!,draft
+178:1,4ba16b53,Enhancement module slots increased to 6!,draft
+179:1,9c1e7e2b,Enhancement module slots increased to 7!,draft
+180:1,46d18650,Enhancement module slots increased to 8!,draft
+181:1,706b6e35,The Learning OS learned a new EX-Action!<br>The following moves are now available,draft
+182:1,6aeaa26d,Your player rank went up!,draft
+183:1,989b2cd4,New carried items are in stock,draft
+184:1,9e26a9da,New normal suit avatars are in stock,draft
+185:1,ec0f4ff7,New Gunpla are in stock,draft
+186:1,0f3fa5ef,You can't carry any more runners.<br>Get rid of runners you don't need.,draft
+187:1,a02c3762,You can't carry any more enhancement modules.<br>Get rid of modules you don't need.,draft
+188:1,4dcd3763,You can't carry any more runners/enhancement modules.<br>Get rid of runners/modules you don't need.,draft
+189:1,3e8a2b00,Select a mission,draft
+190:1,b855a399,Your Builder Level went up!<br>[Scratch Build] is now available!,draft
+191:1,1eebe370,"Certain runners can be used to create a different kind of part.<br><br>Pick the runner in the ""SCRATCH"" tab added to [Create Parts]<br>to Scratch Build it.<br>*For details, see the mail ""About Scratch Build""",draft
+192:1,7e871488,[Scratch Build] is now available!,draft
+193:1,0619c8a9,HG GM II Arm can now be Scratch Built!<br>HG GM II Leg can now be Scratch Built!<br>HG Gelgoog Cannon Backpack can now be Scratch Built!,draft
+194:1,ea82a669,Your Builder Level went up!,draft
+195:1,3c6b8f80,Higher chance of high-performance parts when creating parts!,draft
+196:1,6ec77052,Now in [Gunpla Paint]: [Top Coat] to change gloss!,draft
+197:1,ce3f4c41,Now in [Gunpla Paint]: [Airbrush] to bring out shading!,draft
+198:1,d076f397,Now in [Gunpla Paint]: [Chipping] to show worn paint!,draft
+199:1,ab09b0cd,Now in [Gunpla Paint]: [Weathering] to show natural dirt!,draft
+200:1,dd2578a7,Now in [Gunpla Paint]: [Scratches] to show battle damage!,draft
+201:1,76f34301,Now in [Gunpla Paint]: [Dirty Feet] to show mud splashes!,draft
+202:1,8a36e073,HG Guntank Head can now be Scratch Built!,draft
+203:1,f0739a81,HG GM II Arm can now be Scratch Built!,draft
+204:1,7f61090e,HG GM II Leg can now be Scratch Built!,draft
+205:1,41b2a7d2,HG Gouf Custom Arm can now be Scratch Built!,draft
+206:1,308c69c6,HG Zaku II Kai Leg can now be Scratch Built!,draft
+207:1,a25f53e0,HG Zaku II Kai Body can now be Scratch Built!,draft
+208:1,5fdade2a,HG Gelgoog Cannon Backpack can now be Scratch Built!,draft
+209:1,c84ab4fa,HG GM III (Missile Pod) Arm can now be Scratch Built!,draft
+210:1,519e75b6,HG Akatsuki Arm can now be Scratch Built!,draft
+211:1,f194a2f1,HG Crossbone Gundam X1 Kai Kai Body can now be Scratch Built!,draft
+212:1,ad22338b,Scratch Build error,draft
+213:1,ad22338b,Scratch Build error,draft
+214:1,80f984db,HG Gundam Virtue Leg can now be Scratch Built!,draft
+215:1,bb8eb159,HG GN Archer Leg can now be Scratch Built!,draft
+216:1,c65430bb,HG Wing Gundam (EW) Backpack can now be Scratch Built!,draft
+217:1,8706c7f4,MG Guntank Head can now be Scratch Built!,draft
+218:1,1c8fb4b6,MG GM II Arm can now be Scratch Built!,draft
+219:1,f1eea59d,MG GM II Leg can now be Scratch Built!,draft
+220:1,083db392,MG Gouf Custom Arm can now be Scratch Built!,draft
+221:1,98277f7a,MG Zaku II Kai Leg can now be Scratch Built!,draft
+222:1,f676a579,MG Zaku II Kai Body can now be Scratch Built!,draft
+223:1,2d97d9c6,MG Gelgoog Cannon Backpack can now be Scratch Built!,draft
+224:1,a4999f47,MG GM III (Missile Pod) Arm can now be Scratch Built!,draft
+225:1,4239c6a2,MG Akatsuki Arm can now be Scratch Built!,draft
+226:1,dce7c194,MG Crossbone Gundam X1 Kai Kai Body can now be Scratch Built!,draft
+227:1,ad22338b,Scratch Build error,draft
+228:1,ad22338b,Scratch Build error,draft
+229:1,9dd94583,MG Gundam Virtue Leg can now be Scratch Built!,draft
+230:1,9f7a98fd,MG GN Archer Leg can now be Scratch Built!,draft
+231:1,3756c0b6,MG Wing Gundam (EW) Backpack can now be Scratch Built!,draft
+232:1,4694ea0e,You can't carry any more head parts.<br>Put unneeded head parts in the Parts Stock<br>or sell them at the Players' Shop.,draft
+233:1,ebff95df,You can't carry any more body parts.<br>Put unneeded body parts in the Parts Stock<br>or sell them at the Players' Shop.,draft
+234:1,5ebf0ed9,You can't carry any more arm parts.<br>Put unneeded arm parts in the Parts Stock<br>or sell them at the Players' Shop.,draft
+235:1,c5d3680d,You can't carry any more leg parts.<br>Put unneeded leg parts in the Parts Stock<br>or sell them at the Players' Shop.,draft
+236:1,9ad1bcbb,You can't carry any more backpack parts.<br>Put unneeded backpack parts in the Parts Stock<br>or sell them at the Players' Shop.,draft
+237:1,95d00ff9,You can't carry any more shields.<br>Put unneeded shields in the Parts Stock<br>or sell them at the Players' Shop.,draft
+238:1,5be1ad3a,You can't carry any more melee weapons.<br>Put unneeded melee weapons in the Parts Stock<br>or sell them at the Players' Shop.,draft
+239:1,d888cbe1,You can't carry any more ranged weapons.<br>Put unneeded ranged weapons in the Parts Stock<br>or sell them at the Players' Shop.,draft
+240:1,2b8e7bb4,"You've reached the limit of parts, weapons and shields.<br>Discard what you don't need on the Customize screen.",draft
+241:1,15eed893,Select a runner to assemble,draft
+242:1,3b7c9d0e,Select a head runner to assemble,draft
+243:1,36834f0e,Select a body runner to assemble,draft
+244:1,e360c04a,Select a arm runner to assemble,draft
+245:1,af6ed0bf,Select a leg runner to assemble,draft
+246:1,9eddf298,Select a backpack runner to assemble,draft
+247:1,45a19519,Select a shield runner to assemble,draft
+248:1,6ee29236,Select a melee weapon runner to assemble,draft
+249:1,3d8590b6,Select a ranged weapon runner to assemble,draft
+250:1,15eed893,Select a runner to assemble,draft
+251:1,43bfc099,Scratch Build: which part do you want to assemble?,draft
+252:1,d5cb2e4e,This runner can be Scratch Built into another part.<br>Create<br>%s<br>anyway?,draft
+253:1,ce717942,Create,draft
+254:1,269b0f92,Cancel,draft
+255:1,cab3e2b6,Scratch Build<br><br>Create<br>%s<br>from this runner?,draft
+256:1,ce717942,Create,draft
+257:1,269b0f92,Cancel,draft
+258:1,6c030137,The following EX-Actions are now available,draft
+259:1,d3ca9229,"To use the EX-Action ""Full Burst"",<br>both of the following parts must be set:<br><br>- Freedom Gundam/Strike Freedom Gundam backpack part<br>- Freedom Gundam/Strike Freedom Gundam leg part<br>　or Strike Freedom Gundam body part",draft
+260:1,2ff42516,Play alone (offline),draft
+261:1,01325522,Play with up to 4 friends nearby (ad hoc),draft
+262:1,5a0d85a2,Play with up to 4 players online (Wi-Fi connection required),draft
+263:1,7f62d871,Set up your machine,draft
+264:1,df20a664,"Trade GP for Gunpla, items and more",draft
+265:1,113047bf,Read your mail,draft
+266:1,70e81dd7,Change the game settings,draft
+267:1,5f638fe3,Share save data with the PlayStation⑲3 version via PlayStation⑲Network,draft
+268:1,e8fb2b30,Packed with content! The official Gundam games portal site,draft
+269:1,bd113834,Change the control settings,draft
+270:1,3a835ad8,Change the volume and screen brightness,draft
+271:1,45a93bbf,Edit radio chat message 1 (up to 20 characters),draft
+272:1,f3b1d44a,Edit radio chat message 2 (up to 20 characters),draft
+273:1,7d82c469,Edit radio chat message 3 (up to 20 characters),draft
+274:1,0309ba2d,Edit radio chat message 4 (up to 20 characters),draft
+275:1,0e3c6cc1,Choose whether to switch melee/ranged automatically when locked on,draft
+276:1,ece9d8f5,Trade GP for Gunpla,draft
+277:1,28b233fb,Trade GP for items,draft
+278:1,0d383bd0,Sell parts for GP,draft
+279:1,095a68a5,Sell runners for GP,draft
+280:1,8930d4c3,Select a Gunpla to trade for,draft
+281:1,8930d4c3,Select a Gunpla to trade for,draft
+282:1,46cb72cd,Select a Gunpla to buy,draft
+283:1,46cb72cd,Select a Gunpla to buy,draft
+284:1,c3f7c15d,Select option equipment to trade for,draft
+285:1,234e99e2,Select a camouflage pattern to trade for,draft
+286:1,b07ec5bd,Select a normal suit avatar (male),draft
+287:1,d816b2a6,Select a normal suit avatar (female),draft
+288:1,8067ad25,Select an item to buy,draft
+289:1,6860b814,Receive bonus items and gifts,draft
+290:1,b7c68c3c,Trade GP for this item?,draft
+291:1,c4f0a952,Use your wallet to get this item?,draft
+292:1,d8ec32a8,Select a mail to read,draft
+293:1,c4040251,Read mail from the operators,draft
+294:1,3a74d686,Read mail from the shop,draft
+295:1,67b306fc,"Read ""Gundam Breaker"" system tips",draft
+296:1,4ea59086,Read mail from the developers,draft
+297:1,d2afe88b,Select a part to take out of the stock,draft
+298:1,0585cf94,"Save the changed settings?<br>If you quit without saving, the changes are undone.",draft
+299:1,6de3fd26,Save and Quit,draft
+300:1,4c7ba1d4,Quit Without Saving,draft
+301:1,269b0f92,Cancel,draft
+302:1,ecc29704,Reset all settings to default.<br>Is that OK?,draft
+303:1,d1dc42fd,Reset,draft
+304:1,18ca8614,Cancel,draft
+305:1,4b19b426,Trade all remaining spoils for GP?,draft
+306:1,6b1f5bd6,Trade All,draft
+307:1,18ca8614,Cancel,draft
+308:1,b5dd91a0,Trade these spoils for GP?,draft
+309:1,e9116947,Trade,draft
+310:1,18ca8614,Cancel,draft
+311:1,e5d1eef7,"When the Final Mission is cleared,<br>the party disbands and you return to the title screen.<br><br>Sortie?",draft
+312:1,c711642a,Sortie,draft
+313:1,269b0f92,Cancel,draft
+314:1,ecad8a81,Leave the VR Hangar?,draft
+315:1,b69aedb3,Leave Hangar,draft
+316:1,18ca8614,Cancel,draft
+317:1,27f1978e,Leave the party and return to the main menu?,draft
+318:1,216a0574,Leave the party and return to the title screen?,draft
+319:1,0064e571,Leave,draft
+320:1,18ca8614,Cancel,draft
+321:1,a47c73b7,You can't accept a mission until<br>the whole party is in the hangar,draft
+322:1,fef26750,You can't sortie with more than 200 runners,draft
+323:1,19bfe3e6,You can't sortie with more than 400 enhancement modules,draft
+324:1,6d11bdaa,Disband the party and return to the main menu?,draft
+325:1,85dc2f31,Disband the party and return to the title screen?,draft
+326:1,8112853d,Disband,draft
+327:1,18ca8614,Cancel,draft
+328:1,fdd342cc,The party was disbanded.<br>Returning to the main menu.,draft
+329:1,54d302ba,The party was disbanded.<br>Returning to the title screen.,draft
+330:1,d2389116,"Not all players are in the hangar,<br>so the party could not be disbanded",draft
+331:1,41a21cd3,"That player is not in the hangar right now,<br>so they could not be removed",draft
+332:1,40366959,The Parts Stock is full.<br>Sell parts you don't need at the shop.,draft
+333:1,44f7e199,Parts set on your machine can't go into the Parts Stock,draft
+334:1,8ffec158,"These parts get in each other's way,<br>so the following combination can't be set together",draft
+335:1,98dc0437,Your OS version is too low to set this part,draft
+336:1,a4bbcd41,The Gatling gun with shield and a shield<br>can't be set at the same time,draft
+337:1,27d9448c,This EX-Action can't be set with the current customization.<br>Check the weapons or parts it needs.,draft
+338:1,a8fdfef3,"<c04>Beam Shield (Strike Freedom)</c> is<br>the shield of the <c00>Strike Freedom Arm</c>,<br>so it can't go into the Parts Stock",draft
+339:1,b4d91f67,"<c04>Beam Gun/Beam Saber</c> is<br>built into the <c00>Qubeley Arm</c>,<br>so it can't go into the Parts Stock",draft
+340:1,ab459081,"<c04>GN Sword III Rifle Mode</c> is<br>the ranged form of the <c00>GN Sword III</c>,<br>so it can't go into the Parts Stock",draft
+341:1,220865ee,"<c04>GN Sword II Rifle Mode</c> is<br>the ranged form of the <c00>GN Sword II</c>,<br>so it can't go into the Parts Stock",draft
+342:1,5f0b7460,"<c04>Long Beam Saber</c> is<br>the melee form of the <c00>Beam Rifle (Z)</c>,<br>so it can't go into the Parts Stock",draft
+343:1,4bb30cf0,"The melee weapon <c04>Twin Sword Rifle</c> is<br>the melee form of the <c00>Twin Sword Rifle</c>,<br>so it can't go into the Parts Stock",draft
+344:1,2dfa88e1,"The ranged weapon <c04>GN Lance</c> is<br>the ranged form of the <c00>GN Lance</c>,<br>so it can't go into the Parts Stock",draft
+345:1,4957e5e9,"<c04>Beam Gun/Beam Saber</c> is<br>built into the <c00>Qubeley Mk-II Arm</c>,<br>so it can't go into the Parts Stock",draft
+346:1,a98bba97,"<c04>Wing Shield</c> is<br>the shield of the <c00>ZZ Gundam Arm</c>,<br>so it can't go into the Parts Stock",draft
+347:1,e2433f6f,"<c04>Beam Shield (Destiny)</c> is<br>the shield of the <c00>Destiny Gundam Arm</c>,<br>so it can't go into the Parts Stock",draft
+348:1,b0eefae4,"The melee weapon <c04>Beam Zanber</c> is<br>the melee form of the <c00>Zanbuster</c>,<br>so it can't go into the Parts Stock",draft
+349:1,f4dac53d,"Save the changes and finish customizing?<br>If you quit without saving, the changes are undone.",draft
+350:1,6de3fd26,Save and Quit,draft
+351:1,4c7ba1d4,Quit Without Saving,draft
+352:1,269b0f92,Cancel,draft
+353:1,5eb18342,: discard this?,draft
+354:1,7ca67446,Discard,draft
+355:1,269b0f92,Cancel,draft
+356:1,5eb18342,: discard this?,draft
+357:1,7ca67446,Discard,draft
+358:1,269b0f92,Cancel,draft
+359:1,378b50a8,Equipped items can't be discarded,draft
+360:1,378b50a8,Equipped items can't be discarded,draft
+361:1,dff1d144,Overwrite this machine blueprint?,draft
+362:1,7fdbb940,Overwrite,draft
+363:1,269b0f92,Cancel,draft
+364:1,cc504b4e,The equipment cost is over your capacity.<br>You can't sortie like this.<br><br>Discard the changes and finish customizing?,draft
+365:1,da372f26,Discard Changes and Quit,draft
+366:1,09be2561,Back to Customize,draft
+367:1,38c714d3,The blueprint was saved.<br><br>Upload an image of the saved machine to the official<br>Gundam games portal site [GUNDAM PERFECT GAMES]?,draft
+368:1,9e0f2f08,Upload,draft
+369:1,e7495c21,Don't Upload,draft
+370:1,a74e956d,The machine image was uploaded,draft
+371:1,6cd1643c,Could not connect to the server.<br>The machine image upload failed.,draft
+372:1,210306f7,The machine image upload failed,draft
+373:1,583d413b,You were signed out.<br>The machine image upload failed.,draft
+374:1,4af8f51a,Load this blueprint?<br>(Your current setup will be overwritten),draft
+375:1,ec0bd0a1,Load,draft
+376:1,269b0f92,Cancel,draft
+377:1,2318cd83,The blueprint was loaded,draft
+378:1,b7f821a9,There is no blueprint to load,draft
+379:1,cba79fdf,The blueprint had weapons/parts/modules you don't have.<br>Only the ones you have were changed.,draft
+380:1,679069f2,"The blueprint could not be loaded.<br><br>It has weapons/parts/modules you don't have,<br>and changing the ones you have<br>would go over your cost.",draft
+381:1,0d8e2b00,The blueprint could not be loaded.<br><br>You don't have any of its weapons/parts/modules.,draft
+382:1,7ec4bbd7,"These parts get in each other's way, so the blueprint could not be loaded.<br>The following combination can't be set together.",draft
+383:1,f0d75525,"Please note the following in advance:<br><br>If you have already uploaded a machine,<br>the uploaded image will be overwritten.<br><br>This service may end without notice.",draft
+384:1,f4f56fb9,Agree and Upload,draft
+385:1,e7495c21,Don't Upload,draft
+386:1,78a9d4c5,"Save the changes and finish painting?<br>If you quit without saving, the changes are undone.",draft
+387:1,6de3fd26,Save and Quit,draft
+388:1,4c7ba1d4,Quit Without Saving,draft
+389:1,269b0f92,Cancel,draft
+390:1,912af302,Reset this part to its default colors.<br>Is that OK?,draft
+391:1,d1dc42fd,Reset,draft
+392:1,269b0f92,Cancel,draft
+393:1,65352d06,Reset the whole machine to its default colors.<br>Is that OK?,draft
+394:1,d1dc42fd,Reset,draft
+395:1,269b0f92,Cancel,draft
+396:1,9cd3f8d6,Overwrite?,draft
+397:1,7fdbb940,Overwrite,draft
+398:1,269b0f92,Cancel,draft
+399:1,27f1978e,Leave the party and return to the main menu?,draft
+400:1,216a0574,Leave the party and return to the title screen?,draft
+401:1,0064e571,Leave,draft
+402:1,269b0f92,Cancel,draft
+403:1,321e7a3e,Retire from the mission?,draft
+404:1,156959a5,Retire,draft
+405:1,269b0f92,Cancel,draft
+406:1,a920977c,The leader retired from the mission.<br>Returning to the hangar.,draft
+407:1,b82836aa,Transfer to the objective area.<br>Is that OK?,draft
+408:1,882d63a6,Ready,draft
+409:1,269b0f92,Cancel,draft
+410:1,b934c931,"Transfer to the objective area.<br>Is that OK?<br>(After the countdown, the whole party is transferred)",draft
+411:1,882d63a6,Ready,draft
+412:1,269b0f92,Cancel,draft
+413:1,4ddfa634,Waiting for the whole party to be ready,draft
+414:1,269b0f92,Cancel,draft
+415:1,631c4a2f,Finish sortie prep and start the mission.<br>Is that OK?,draft
+416:1,c92b4cda,Yes,draft
+417:1,f9015853,No,draft
+418:1,fbcc7db2,Finish sortie prep.<br>Is that OK?<br>(The mission starts when every player is ready),draft
+419:1,c92b4cda,Yes,draft
+420:1,f9015853,No,draft
+421:1,3ff126b9,Change it?,draft
+422:1,c92b4cda,Yes,draft
+423:1,f9015853,No,draft
+424:1,1bdee5be,Accept it?,draft
+425:1,c92b4cda,Yes,draft
+426:1,f9015853,No,draft
+427:1,24f965fe,"You haven't finished the opening event,<br>so you can't select missions in the multiplayer hangar.<br><br>If not every player has finished the tutorial,<br>disband the party or<br>choose ""Leave Hangar"" at the hangar exit.",draft
+428:1,e1d54d39,Force this player out of the party?,draft
+429:1,6d236350,Remove,draft
+430:1,1c6ecf5e,Never Mind,draft
+431:1,dced09b8,Your Builder Level is too low,draft
+432:1,24437c0a,Batch-create all unlocked runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+433:1,2111b3fa,Batch-create all unlocked head runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+434:1,a4265883,Batch-create all unlocked body runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+435:1,11dbad71,Batch-create all unlocked arm runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+436:1,42e4198a,Batch-create all unlocked leg runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+437:1,69d883cb,Batch-create all unlocked backpack runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+438:1,11da95f1,Batch-create all unlocked shield runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+439:1,ad475ffd,Batch-create all unlocked melee weapon runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+440:1,488ce54e,Batch-create all unlocked ranged weapon runners?<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+441:1,3c1a0cd8,"Batch-create all unlocked runners in this tab?<br>They are created as-is, without Scratch Build.<br>To Scratch Build, create them one at a time.<br><br>Use Stock: lower-performance duplicates go to the stock",draft
+442:1,015b900d,Batch Create,draft
+443:1,e9492625,Batch Create (Use Stock),draft
+444:1,269b0f92,Cancel,draft
+445:1,158af152,Batch-create all unlocked runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+446:1,493acb6c,Batch-create all unlocked head runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+447:1,82a33e25,Batch-create all unlocked body runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+448:1,5e909062,Batch-create all unlocked arm runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+449:1,8040759e,Batch-create all unlocked leg runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+450:1,921fdd8a,Batch-create all unlocked backpack runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+451:1,c1cb1820,Batch-create all unlocked shield runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+452:1,dadd05ef,Batch-create all unlocked melee weapon runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+453:1,92d43fb2,Batch-create all unlocked ranged weapon runners?<br>(Sharp Nippers are used from the top down)<br><br>Use Stock: lower-performance duplicates go to the stock,draft
+454:1,667ee129,"Batch-create all unlocked runners in this tab?<br>(Sharp Nippers are used from the top down)<br>They are created as-is, without Scratch Build.<br>To Scratch Build, create them one at a time.<br><br>Use Stock: lower-performance duplicates go to the stock",draft
+455:1,14bbc3ce,You don't have any runners,draft
+456:1,2ac7228e,All runners are locked,draft
+457:1,81c7eb01,This runner is locked and can't be created.<br>Unlock it to create it.,draft
+458:1,f855c87e,You can't carry any more parts.<br>Stopping batch creation.,draft
+459:1,0e96c16d,The Parts Stock is full.<br>Stopping batch creation.,draft
+460:1,34a8856d,You can't carry any more parts.<br>The Parts Stock is full.<br>Stopping batch creation.,draft
+461:1,ae393e09,Create a room with these settings?,draft
+462:1,5fafd86d,Create Room,draft
+463:1,93eecd40,Change Settings,draft
+464:1,2baec7b5,Change the room settings?,draft
+465:1,36b11c2b,Change,draft
+466:1,269b0f92,Cancel,draft
+467:1,c2736ce5,Join this room?,draft
+468:1,e24c8e1a,Join,draft
+469:1,1c6ecf5e,Never Mind,draft
+470:1,98801fbf,Could not join the room,draft
+471:1,03c65b71,A communication error occurred,draft
+472:1,ac736ec6,The network is busy right now,draft
+473:1,b0f04f2c,The server is under maintenance right now,draft
+474:1,23dd803b,You were signed out.<br>Multiplayer (online mode) is no longer available.<br>Returning to the main menu.,draft
+475:1,259033df,You were signed out.<br>Multiplayer (online mode) is no longer available.<br>Returning to the title screen.,draft
+476:1,c70063a5,You were signed out,draft
+477:1,7bfe4273,The LAN cable was disconnected,draft
+478:1,029392a5,This service has not started yet,draft
+479:1,cdd59076,This service has ended,draft
+480:1,d13cc2bb,The room is full,draft
+481:1,495a2dfe,The room does not exist,draft
+482:1,124fdc3f,No rooms were found,draft
+483:1,3ef71234,You joined the room.<br>Moving to the room's hangar.,draft
+484:1,236cba18,Wrong password,draft
+485:1,b8cb125a,The room was created.<br>Moving to the room's hangar.,draft
+486:1,97613849,Could not create the room,draft
+487:1,6d0a1567,The room settings were changed,draft
+488:1,55273185,Could not change the room settings,draft
+489:1,eb644e6b,Gundam Breaker multiplayer has been suspended<br>for this Sony Entertainment Network account,draft
+490:1,cabaf60d,Return to the title screen?,draft
+491:1,60a1005b,Return,draft
+492:1,269b0f92,Cancel,draft
+493:1,406f11ad,Starting a NEW GAME overwrites your LOCAL DATA.<br>Start a NEW GAME?<br><c01>⑳All Gunpla bought on PlayStation⑲Store will be lost</c><br><c05>You will have to buy them again to get them back</c><br><c01>⑳All Gunpla obtained with product codes will be lost</c><br><c05>They can't be obtained again</c>,draft
+494:1,4c1eb7cb,Overwrite and Start,draft
+495:1,269b0f92,Cancel,draft
+496:1,6aa7ae2a,Really overwrite the save data?<br>*Overwritten data can't be restored.,draft
+497:1,4c1eb7cb,Overwrite and Start,draft
+498:1,269b0f92,Cancel,draft
+499:1,c7c0703a,"Your Sony Entertainment Network account<br>has chat restrictions,<br>so you can't use chat",draft
+500:1,e079d805,"Your Sony Entertainment Network account<br>has parental controls set,<br>so you can't use online services",draft
+501:1,098a22a0,"Your Sony Entertainment Network account<br>has chat restrictions,<br>so you can't upload machine images",draft
+502:1,63137fd3,Trade?,draft
+503:1,e9116947,Trade,draft
+504:1,269b0f92,Cancel,draft
+505:1,3764eb4c,Sell for GP?,draft
+506:1,7c70a9e0,Sell for GP,draft
+507:1,269b0f92,Cancel,draft
+508:1,3ff126b9,Change it?,draft
+509:1,36b11c2b,Change,draft
+510:1,269b0f92,Cancel,draft
+511:1,7e436624,Keep the best part and sell all<br>lower-performance duplicates for GP.<br>Count: %d<br>Price: %dGP<br>Is that OK?,draft
+512:1,fba41439,Sell All for GP,draft
+513:1,269b0f92,Cancel,draft
+514:1,7d0e1321,Sell all unlocked runners for GP.<br>Count: %d<br>Price: %dGP<br>Is that OK?,draft
+515:1,fba41439,Sell All for GP,draft
+516:1,269b0f92,Cancel,draft
+517:1,06653f2c,You don't have enough GP,draft
+518:1,0f3fa5ef,You can't carry any more runners.<br>Get rid of runners you don't need.,draft
+519:1,fde0d5a9,You have already bought this item,draft
+520:1,2696a8bd,This is the normal suit avatar you're using,draft
+521:1,c88d3de0,"Could not sign in.<br>To buy wallet items such as useful boosters<br>and Gunpla, please sign in.",draft
+522:1,2faf0091,"To buy wallet items such as useful boosters<br>and Gunpla, please sign in.<br>Sign in?",draft
+523:1,c92b4cda,Yes,draft
+524:1,f9015853,No,draft
+525:1,bc2e34ab,"Could not get the catalog.<br><br>To buy wallet items,<br>check your network and select<br>Players' Shop from the main menu again.",draft
+526:1,7a652f26,"Could not get the item details.<br><br>To buy wallet items,<br>check your network and select the item again.",draft
+527:1,6b5bde7e,"Could not get the license information.<br><br>To buy wallet items,<br>check your network, sign in,<br>and select Players' Shop from the main menu again.",draft
+528:1,8b42a7cb,Could not get the license information.<br><br>Check your network and<br>select Players' Shop from the main menu again.,draft
+529:1,5d088f24,You were signed out.<br>The shop could not be updated.<br>Returning to the main menu.,draft
+530:1,41918347,Sell all parts in the Parts Stock for GP.<br>Count: %d<br>Price: %dGP<br>Is that OK?,draft
+531:1,fba41439,Sell All for GP,draft
+532:1,269b0f92,Cancel,draft
+533:1,2fa3c42a,Could not sell in bulk.<br>There are no lower-performance duplicates.<br><br>Bulk selling keeps the best part and sells<br>all lower-performance duplicates for GP.,draft
+534:1,acdbfd76,You don't have any runners,draft
+535:1,807a70fa,The Parts Stock is empty,draft
+536:1,a4eaf671,You can't carry any more head parts.<br>Sell unneeded head parts at the shop.,draft
+537:1,0cdb4a12,You can't carry any more body parts.<br>Sell unneeded body parts at the shop.,draft
+538:1,af0e4a9d,You can't carry any more arm parts.<br>Sell unneeded arm parts at the shop.,draft
+539:1,ac858ee2,You can't carry any more leg parts.<br>Sell unneeded leg parts at the shop.,draft
+540:1,59d0c3fa,You can't carry any more backpack parts.<br>Sell unneeded backpack parts at the shop.,draft
+541:1,7c8804e4,You can't carry any more shields.<br>Sell unneeded shields at the shop.,draft
+542:1,cde48abd,You can't carry any more melee weapons.<br>Sell unneeded melee weapons at the shop.,draft
+543:1,8472ba00,You can't carry any more ranged weapons.<br>Sell unneeded ranged weapons at the shop.,draft
+544:1,e00b773d,You can't carry any more enhancement modules.<br>Sell unneeded modules at the shop.,draft
+545:1,ee614b86,"Items from product codes and similar can be received<br>with ""Receive Gifts"" in the Players' Shop",draft
+546:1,9b96e4e5,"Thank you for playing the<br>Gundam Breaker BETA!<br><br>As a bonus, one of each part you made in the BETA<br> carries over as a runner!",draft
+547:1,91ada324,You were signed out.<br>Stopping play and returning to the main menu.<br>(Luck Booster is not used up),draft
+548:1,68b4b731,You were signed out.<br>Stopping play and returning to the title screen.<br>(Luck Booster is not used up),draft
+549:1,98ac95cc,Communication with the server failed.<br>Runners could not be received.<br>Returning to the main menu.<br>(Luck Booster is not used up),draft
+550:1,e6507a14,Communication with the server failed.<br>Runners could not be received.<br>Returning to the title screen.<br>(Luck Booster is not used up),draft
+551:1,1643865f,You were signed out.<br>Stopping play and returning to the main menu.<br>(EXP Booster is not used up),draft
+552:1,ad9b0099,You were signed out.<br>Stopping play and returning to the title screen.<br>(EXP Booster is not used up),draft
+553:1,138dad44,Communication with the server failed.<br>Stopping the mission and returning to the main menu.<br>(EXP Booster is not used up),draft
+554:1,dc0f2c2f,Communication with the server failed.<br>Stopping the mission and returning to the title screen.<br>(EXP Booster is not used up),draft
+555:1,99545949,You were signed out.<br>Stopping play and returning to the main menu.<br>(Luck Booster and EXP Booster are not used up),draft
+556:1,b244f425,You were signed out.<br>Stopping play and returning to the title screen.<br>(Luck Booster and EXP Booster are not used up),draft
+557:1,46c06f03,Communication with the server failed.<br>Runners could not be received.<br>Returning to the main menu.<br>(Luck Booster and EXP Booster are not used up),draft
+558:1,d2ee8bc2,Communication with the server failed.<br>Runners could not be received.<br>Returning to the title screen.<br>(Luck Booster and EXP Booster are not used up),draft
+559:1,d89aa9ae,"Communication with the server failed.<br>The EXP Booster worked correctly, but<br>runners could not be received.<br>Returning to the main menu.<br>(Luck Booster is not used up)",draft
+560:1,f796eba3,"Communication with the server failed.<br>The EXP Booster worked correctly, but<br>runners could not be received.<br>Returning to the title screen.<br>(Luck Booster is not used up)",draft
+561:1,a4b2767d,Communication with the server failed.<br>Stopping part creation.<br>(Sharp Nippers are not used up),draft
+562:1,0c3706bc,You can only have up to 99 Luck Boosters,draft
+563:1,e491deff,You can only have up to 99 EXP Boosters,draft
+564:1,6e070f80,You can only have up to 99 Sharp Nippers,draft
+565:1,2554dad4,"Could not use the EXP Booster.<br>Check your network.<br>Retry?<br><c05>⑳If you don't retry, the mission stops</c><br><c05>and the EXP Booster may be used up</c>",draft
+566:1,8d70c0d7,Retry,draft
+567:1,f9015853,No,draft
+568:1,d9a14764,"Could not use the Luck Booster.<br>Check your network.<br>Retry?<br><c05>⑳If you don't retry, no runners are received</c><br><c05>and the Luck Booster may be used up</c>",draft
+569:1,8d70c0d7,Retry,draft
+570:1,f9015853,No,draft
+571:1,4d4210a0,"Could not use the Sharp Nippers.<br>Check your network.<br>Retry?<br><c05>⑳If you don't retry, no runners are assembled</c><br><c05>but the Sharp Nippers may be used up</c>",draft
+572:1,8d70c0d7,Retry,draft
+573:1,f9015853,No,draft
+574:1,3a7a125d,"Could not use the EXP Booster.<br>Please sign in.<br>Retry?<br><c05>⑳If you don't retry, the mission stops</c><br><c05>and the EXP Booster may be used up</c>",draft
+575:1,8d70c0d7,Retry,draft
+576:1,f9015853,No,draft
+577:1,3f63d164,"Could not use the Luck Booster.<br>Please sign in.<br>Retry?<br><c05>⑳If you don't retry, no runners are received</c><br><c05>and the Luck Booster may be used up</c>",draft
+578:1,8d70c0d7,Retry,draft
+579:1,f9015853,No,draft
+580:1,9bfd2a60,"Could not use the Sharp Nippers.<br>Please sign in.<br>Retry?<br><c05>⑳If you don't retry, no runners are assembled</c><br><c05>but the Sharp Nippers may be used up</c>",draft
+581:1,8d70c0d7,Retry,draft
+582:1,f9015853,No,draft
+583:1,d1d2906b,"Could not receive the Gunpla.<br>Connect to the network, sign in,<br>select Players' Shop from the main menu again<br>and choose ""Receive Gifts"".",draft
+584:1,23bb425c,"Could not receive the Gunpla.<br>Check your network.<br>Retry?<br><c05>⑳If you don't retry, you may no longer</c><br><c05>be able to receive this Gunpla</c>",draft
+585:1,8d70c0d7,Retry,draft
+586:1,f9015853,No,draft
+587:1,f9fc3b50,"Could not receive the Gunpla.<br>Please sign in.<br>Retry?<br><c05>⑳If you don't retry, you may no longer</c><br><c05>be able to receive this Gunpla</c>",draft
+588:1,8d70c0d7,Retry,draft
+589:1,f9015853,No,draft
+590:1,c5c45656,Connecting to the network.<br>Please wait.,draft
+591:1,7f71c23e,Searching for rooms.<br>Please wait.,draft
+592:1,a24f3f3f,Creating the room.<br>Please wait.,draft
+593:1,f41a2d4b,Changing the room settings.<br>Please wait.,draft
+594:1,c5e50524,Joining the room.<br>Please wait.,draft
+595:1,84649d2e,Getting the catalog.<br>Please wait.,draft
+596:1,649aea3e,Uploading the machine image to<br>[GUNDAM PERFECT GAMES],draft
+597:1,a9dc1754,Using a Luck Booster,draft
+598:1,b9b3e969,Using an EXP Booster,draft
+599:1,62244156,Using Sharp Nippers,draft
+600:1,9307ea1e,Receiving the Gunpla,draft
+601:1,d0d2bd09,Checking license information,draft
+602:1,1b711726,Enter a room name,draft
+603:1,59e3d4cc,Enter the password,draft
+604:1,bbb3e5a1,Enter a comment,draft
+605:1,d0598279,Enter a machine name (up to 14 characters),draft
+606:1,74fc3ea5,You can't post to the log window in a row (2 seconds),draft
+607:1,9ab46e18,Enter a message (up to 50 characters),draft
+608:1,152b587f,Want to play Gundam Breaker together?,draft
+609:1,09c4a397,Want to clear missions together in Gundam Breaker?\nUp to 4 players can play at once.,draft
+610:1,7c0a579c,"The player who invited you has an older game version,<br>so you could not join the party.<br><br>Ask the player who invited you<br>to update the game.",draft
+611:1,82834df2,"The player who invited you has a newer game version,<br>so you could not join the party.<br><br>Please update the game.",draft
+612:1,901e3828,Ad Hoc Room,draft
+613:1,4e1e860d,Waiting for other players to skip,draft
+614:1,2b0e547f,1 player chose to skip,draft
+615:1,aae0a9bc,2 players chose to skip,draft
+616:1,3c4e079c,3 players chose to skip,draft
+618:1,0175bd4c,Getting news from the<br>official Gundam games portal site<br>[GUNDAM PERFECT GAMES],draft
+619:1,c25437ad,"Could not get news from the<br>official Gundam games portal site<br>[GUNDAM PERFECT GAMES].<br><br>Getting the license information may have failed.<br>To use booster items, check your network<br>and select Players' Shop from the main menu.",draft
+620:1,c9920cdc,"You were signed out.<br><br>Could not get news from the<br>official Gundam games portal site<br>[GUNDAM PERFECT GAMES].<br><br>Getting the license information may have failed.<br>To use booster items, check your network<br>and sign in from Players' Shop in the main menu.",draft
+621:1,78e142d5,Not enough free space. You need at least %d%s more.\nQuit the game and free up the space needed.,draft
+622:1,18c07246,"To receive news from [GUNDAM PERFECT GAMES]\nyou need to sign in to PlayStation®Network here.\nTo use bonus items from product codes\nor items bought on PlayStation®Store,\nsign in here, or sign in when you\nenter the Players' Shop.\n\nSign in to PlayStation®Network?",draft
+623:1,2c2df97d,"The save data is corrupted.<br><br>This save data can't be used,<br>so it will be initialized.",draft
+624:1,b153ac28,"The save data is corrupted.<br><br>This save data can't be used,<br>so it will be deleted.",draft
+625:1,2c35e7a1,"The save data is from a different game version,<br>so loading was canceled.<br>Please update the game.",draft
+626:1,9a7a038d,"The Gundam Breaker BETA<br>save data is corrupted.<br><br>Starting the game without carrying it over.<br><c01>⑳Unless you start over with NEW GAME,</c><br><c01>the BETA data can't be carried over later</c>",draft
+627:1,04698196,Updating the save data version for the game update<br><br>The save data (LOCAL DATA) will be changed<br>to the latest game version.<br><c05>⑳It can no longer be loaded by older game versions</c> ,draft
+628:1,9086ce82,"Upload the save data to PlayStation⑲Network?<br><br><c05>⑳There is no save data on PlayStation⑲Network yet</c><br><br><c01>⑳Save data on PlayStation⑲Network</c><br><c01>can't be accessed repeatedly in a short time,</c><br><c01>so you need to wait a while before accessing it again</c>",draft
+629:1,ad467ff1,Upload,draft
+630:1,269b0f92,Cancel,draft
+631:1,d361c22b,Upload the save data to PlayStation⑲Network?,draft
+632:1,ad467ff1,Upload,draft
+633:1,269b0f92,Cancel,draft
+634:1,709a4449,You're about to upload data with a short play time. <br>Are you sure?,draft
+635:1,ad467ff1,Upload,draft
+636:1,269b0f92,Cancel,draft
+637:1,3cfc6874,The save data was uploaded,draft
+638:1,ec62fcfd,The save data upload failed,draft
+639:1,b7ee69a6,An error occurred while connecting to PlayStation⑲Network.<br>The save data upload failed.<br><br>Check your network and try again.,draft
+640:1,23530fa5,You were signed out and the save data upload failed.<br><br>Sign in and try again.,draft
+641:1,5cfd39b9,"Save data on PlayStation⑲Network<br>can't be accessed repeatedly in a short time.<br><br>To load save data from PlayStation⑲Network,<br>wait a while, then select NETWORK DATA again.",draft
+642:1,8adb85bf,Start with Local Data,draft
+643:1,269b0f92,Cancel,draft
+644:1,c54e6bf9,"Save data on PlayStation⑲Network<br>can't be accessed repeatedly in a short time.<br>To upload save data,<br>wait a while and then try again.",draft
+645:1,6be6ff40,"Your current account and the save data's account differ,<br>so the save data on PlayStation⑲Network could not be accessed",draft
+646:1,8adb85bf,Start with Local Data,draft
+647:1,269b0f92,Cancel,draft
+648:1,295bc04d,"Your current account and the save data's account differ,<br>so the save data could not be uploaded",draft
+649:1,a9003c89,You're about to load the NETWORK DATA save.<br><c05>⑳Loading autosaves and overwrites your LOCAL DATA</c><br><c05>Runners of Gunpla bought on PlayStation⑲Store that are saved in LOCAL DATA will be lost</c><br><c05>Overwritten save data can't be restored</c><br>Really load it?,draft
+650:1,c8382099,Load,draft
+651:1,269b0f92,Cancel,draft
+652:1,e957573e,An error occurred while connecting to PlayStation⑲Network.<br>Loading the save data failed.<br><br>Check your network and try again.,draft
+653:1,60846096,You were signed out and loading the save data failed.<br><br>Sign in and try again.,draft
+654:1,e04aba82,Loading the save data failed.<br>There was no save data on PlayStation⑲Network.,draft
+655:1,a9003c89,You're about to load the NETWORK DATA save.<br><c05>⑳Loading autosaves and overwrites your LOCAL DATA</c><br><c05>Runners of Gunpla bought on PlayStation⑲Store that are saved in LOCAL DATA will be lost</c><br><c05>Overwritten save data can't be restored</c><br>Really load it?,draft
+656:1,c8382099,Load,draft
+657:1,269b0f92,Cancel,draft
+658:1,7aa91c1f,"Loading the save data failed.<br>The save data version is different.<br>Update the game to the latest version,<br>then load again.",draft
+659:1,fe20d3f9,"The save data upload failed.<br>The save data version is different.<br>Update the game to the latest version,<br>then upload the save data again.",draft
+660:1,7658455e,<c05>⑳The save data's game version is different</c><br><c01>The save data on PlayStation⑲Network is from a newer game version than the one on PlayStation⑲Vita</c><br><br>⑳Uploaded data may not work where the game is updated to the latest version.<br>Update the game to the latest version and try again to fix this.,draft
+661:1,ad467ff1,Upload,draft
+662:1,269b0f92,Cancel,draft
+663:1,8175edc3,<c05>⑳The save data's game version is different</c><br><c01>The save data on the network is from an older game version than the one on PlayStation⑲Vita</c><br><br>⑳Uploaded data may not work where the game<br>is not updated to the latest version.,draft
+664:1,ad467ff1,Upload,draft
+665:1,269b0f92,Cancel,draft
+666:1,497e6bcb,Uploading the save data,draft
+667:1,1d924e2c,New Gundam Breaker content available now!,draft
+668:1,246402bb,"To play DLC content<br>you need ""DLC name TBD""",draft
+669:1,536ac1fb,"To enter the selected room you need<br>the additional content ""DLC name TBD""",draft
+670:1,89fd6ef8,"To join the game you were invited to you need<br>the additional content ""DLC name TBD""",draft
+671:1,f34d31e4,"The selected extra mission becomes playable<br>once you get ""DLC name TBD""",draft
+672:1,bcc6a6ca,Installing Gundam Breaker game data.,draft
+673:1,b9171e97,Installing game data.\nDo not turn off the system.,draft
+674:1,d3805e5b,Installation complete.,draft
+675:1,70a350be,Installation failed.,draft
