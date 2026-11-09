@@ -214,3 +214,13 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 未確認機体,Unidentified Machine,system,draft,hidden ace enemies
 リーダー機体,leader machine,system,draft,
 敵主力,enemy main force,system,draft,main enemy machine(s) of a mission
+戦闘情報端末,Battle Info Terminal,system,draft,the tutorial popup points
+再出撃不可,No Re-sortie,system,draft,objective prefix; 再出撃 = sortie again
+戦力ゲージ,Force Gauge,system,draft,Team Attack / Area Raid
+チームアタック,Team Attack,system,draft,mission type
+エリアレイド,Area Raid,system,draft,mission type
+制圧ゲージ,capture gauge,system,draft,Area Raid
+パーツ外れ,part break,system,draft,a part knocked off; GB3 has parts break
+機体セットアップ,Machine Setup,system,draft,"menu name, check against the hangar UI"
+パーツ作成,Create Parts,system,draft,"menu name, check against the hangar UI"
+バトルセッティング,Battle Settings,system,draft,Game Settings tab
