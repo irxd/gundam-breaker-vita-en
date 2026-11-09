@@ -206,3 +206,11 @@ GNソードⅢ,GN Sword III,weapon,gb3,
 MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,weapon,official,
 ラミネートアンチビームシールド,Laminated Anti-Beam Shield,weapon,gb3,
 ゴッドスラッシュ,God Slash,weapon,ok,decided: follows God Gundam
+機体,machine,system,gb3,"GB3: your machine, PG machines; 敵機 = enemy (machine)"
+拠点ユニット,Base Unit,system,draft,"spawns reinforcements, sends jamming"
+回復ポイント,Recovery Point,system,draft,repair and resupply in mission
+転送ゲート,Transfer Gate,system,draft,moves the party to the next area
+ジャマー,Jammer,system,draft,Jammer: Acid / Attack / Defense / Magnet / Scale
+未確認機体,Unidentified Machine,system,draft,hidden ace enemies
+リーダー機体,leader machine,system,draft,
+敵主力,enemy main force,system,draft,main enemy machine(s) of a mission
