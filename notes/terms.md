@@ -32,9 +32,9 @@ GB3 uses full-width （）, but we keep ASCII `()`.
 - **（EW）** etc. keep the parentheses: `(EW)`. Colour variants use the GB3 name where there is one
   (`ガンダムMk-Ⅱ（黒）` → `Gundam Mk-II Titans`), otherwise parentheses: `(Black)`.
 - **Weapon owner in parentheses** stays: `ビーム・サーベル（ジム）` → `Beam Saber (GM)`. GB3 also writes owner-named shields
-  this way: `ジム・シールド` → `Shield (GM)`.
+  this way: `ジム・シールド` → `Shield (GM)`, `ν・シールド` → `Shield (Nu)`, `Mk-Ⅱ・シールド` → `Shield (Mk-II AEUG)`.
 - **Roman numerals** Ⅱ/Ⅲ become `II`/`III` (ASCII). Greek letters are spelled out: `ν` → `Nu` (`Nu Gundam`,
-  `Hi-Nu Gundam`, `Nu Shield`), `∀` → `Turn A` (decided).
+  `Hi-Nu Gundam`, `Shield (Nu)`), `∀` → `Turn A` (decided).
 - **Button icons** (`⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑲ ⑳`, drawn as Vita buttons) are copied as they are. The build checks this.
 - **Markup** (`<br>`, `<cNN>…</c>`, `\n`) is copied as it is. Colour tags keep their order.
 - **Ranks** use the Navy-style ladder of the UC Earth Federation (decided): Chief Petty Officer, Ensign,
