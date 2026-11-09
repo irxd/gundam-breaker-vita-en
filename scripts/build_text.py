@@ -2,9 +2,10 @@
 
   python -I scripts/build_text.py           check, then write build/patched/PCSG00126/masterPSP2/*.dat
   python -I scripts/build_text.py --check   only check the translations (fast, writes nothing)
-  python -I scripts/build_text.py --allow-growth
-                                            accept compressed entries/bundles that grow (tables still may not);
-                                            the archive offsets are rebuilt either way. Being tested in Vita3K.
+  python -I scripts/build_text.py --strict-size
+                                            also fail when a compressed entry or bundle grows. By default that is
+                                            only a warning (archive offsets are rebuilt; a larger bundle works in
+                                            Vita3K, 2026-11-09; not yet tested on a real Vita). Tables never grow.
 
 Lines with an empty `en` keep the Japanese. All problems are collected and the build fails if there are any:
   * id unknown, or ja_hash doesn't match the Japanese in the dump
@@ -14,7 +15,7 @@ Lines with an empty `en` keep the Japanese. All problems are collected and the b
   * a short one-line label (no <br>, at most LABEL_MAX characters) that gets a <br>
   * a real line break in the English (use <br>)
   * a character the font may not have: allowed are printable ASCII and anything used in the Japanese text
-  * a table, archive entry or bundle that would grow (Vita3K tests: keep sizes at or below the original)
+  * a table that would grow (a compressed entry or bundle that grows is only a warning, see --strict-size)
 Only GxArchivedFile000.dat and 002.dat can change; an archive is written only when something in it changed.
 """
 import os
@@ -65,7 +66,7 @@ def check(ja, en, charset):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     check_only = "--check" in sys.argv
-    allow_growth = "--allow-growth" in sys.argv
+    strict_size = "--strict-size" in sys.argv
     tables = gbtext.load_tables(SRC)
     charset = {chr(c) for c in range(0x20, 0x7F)}
     for t in tables:
@@ -132,10 +133,10 @@ def main():
         new = gdat.repack(old, payload)
         if len(new) > len(old):
             msg = f"{what}: compressed entry would grow {len(old)} -> {len(new)} bytes"
-            if allow_growth:
-                print(f"warning: {msg}")
+            if strict_size:
+                size_errors.append(msg)
             else:
-                size_errors.append(msg + " (--allow-growth to accept)")
+                print(f"warning: {msg}")
         return new
 
     # Archive 002: every bundle that holds a changed GP/text member.

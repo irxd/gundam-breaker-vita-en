@@ -165,6 +165,20 @@ about 50–55 Latin characters ("To test your machine and your aptitude as a pil
   variants, UTF-8/UTF-16) gives the hash1 of those probed names. It has to be found in the eboot (follow the
   `stat` → archive fallback).
 
+## Larger entries: work in Vita3K (2026-11-09)
+
+English mission_name compresses 222 bytes larger than the Japanese (the table itself shrinks), so its bundle in
+002 grew 113136 -> 113358 bytes; `gdat.rebuild` recomputed all offsets. In Vita3K (Vulkan) the tutorial mission
+loaded and the pause map showed the English name. So compressed entries and bundles may grow;
+`build_text.py` only warns (`--strict-size` makes it an error). Uncompressed tables still never grow.
+To check on a real Vita before release.
+
+## Text that is not in any table
+
+Not found in any archive, entry or bundle (UTF-8, UTF-16 LE/BE, Shift-JIS) nor in the eboot, so probably drawn
+in UI textures: the pause map buttons 設定変更 / 再開する, and English-looking headers such as MISSION AREA MAP,
+TREASURE LIST. Needs the image work (find the texture, decode DXT, redraw, re-encode).
+
 ## Gundam Breaker 3
 
 Read only as the source for terms (notes/terms.md). Dump: `dump_gb3/app/PCSH10042/` (Vita, Asia, English + Korean;
