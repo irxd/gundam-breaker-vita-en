@@ -7,13 +7,16 @@ a test where the tables grew crashed on mission load.
 
 Everything else stays original (no tags), so the test lines stand out.
   GP/text/voice_event_text (in every pac bundle that has it), first mission:
-    commander "パイロット！　聞こえているか!?"            -> longer English (more bytes than the Japanese)
-    commander "機体性能の確認と…行ってもらう！"            -> English with <br>
-    operator  "……通信回線、開きます！<br>聞こえますか？"   -> English with <br>
-  archive 000 loading tips (000:8a96336f), both copies:
-    "ミッション中に高いエースポイントを…"                -> English
+    595:1 commander's opening call          -> longer English (more bytes than the Japanese)
+    628:1 commander's two-line briefing     -> English with <br>
+    631:1 operator opening the comm line    -> English with <br>
+  archive 000 loading tips (000:8a96336f = GP/text/load_text), 127:1 and 127:2 (gold unknown unit tip):
+                                            -> English
+Lines are found by record:field id and checked against the SHA-1[:8] of the Japanese (as text/*.csv does), so no
+game text is kept in this file.
 Output: build/test_dt2/PCSG00126/masterPSP2/GxArchivedFile000.dat and 002.dat (001 is unchanged)
 """
+import hashlib
 import os
 import sys
 
@@ -27,34 +30,45 @@ SRC = os.path.join(ROOT, "dump", "app", "PCSG00126", "masterPSP2")
 OUT = os.path.join(ROOT, "build", "test_dt2", "PCSG00126", "masterPSP2")
 
 VOICE = "GP/text/voice_event_text"
+# (record, field) -> (ja_hash, English)
 VOICE_EDITS = {
-    "パイロット！　聞こえているか!?":
-        "Pilot! Can you hear me?<br>(Move test: this line is longer than the Japanese.)",
-    "機体性能の確認とパイロット適性のテストをかねて<br>敵支配地域周辺部での威力偵察を行ってもらう！":
-        "To test your machine and your aptitude as a pilot,<br>you'll run a recon-in-force near enemy territory!",
-    "……通信回線、開きます！<br>聞こえますか？": "...Opening the comm line!<br>Can you hear me?",
+    (595, 1): ("ae83c8cd", "Pilot! Can you hear me?<br>(Move test: this line is longer than the Japanese.)"),
+    (628, 1): ("2b68ac5d", "To test your machine and your aptitude as a pilot,<br>"
+                           "you'll run a recon-in-force near enemy territory!"),
+    (631, 1): ("56747f29", "...Opening the comm line!<br>Can you hear me?"),
 }
 TIPS = (0x2C1CF0E2, 0x8A96336F)
-TIP_JA = ("ミッション中に高いエースポイントを獲得していると金色の未確認機体が出現する。<br>"
-          "強敵であり、出現後一定時間で撤退してしまうが<br>撃破に成功した時には得るものが多い。")
 TIP_EN = ("Earn lots of Ace Points in a mission and a gold unknown unit appears.<br>"
           "It's strong and withdraws after a while,<br>but beating it is very rewarding. (repack test)")
+TIP_EDITS = {(127, 1): ("2f22d648", TIP_EN), (127, 2): ("2f22d648", TIP_EN)}
+
+
+def ja_hash(text):
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()[:8]
 
 
 def apply(payload, edits):
     table = dt2.Dt2(payload)
-    todo = {(i, k): edits[text] for i, k, _, text in table.strings() if text in edits}
+    todo = {}
+    for i, k, _, text in table.strings():
+        if (i, k) in edits:
+            want, en = edits[(i, k)]
+            if ja_hash(text) != want:
+                sys.exit(f"{i}:{k}: the Japanese doesn't match (hash {ja_hash(text)}, expected {want})")
+            todo[(i, k)] = en
+    if len(todo) != len(edits):
+        sys.exit(f"found {len(todo)} of {len(edits)} lines")
     table.rebuild(todo)
     cleared = table.clear_unused()
     new = table.to_bytes()
     if len(new) > len(payload):
         sys.exit(f"table grew: {len(payload)} -> {len(new)}")
     # Check: every string reads back; edited ones have the English, the rest are unchanged.
-    before = [t for _, _, _, t in dt2.Dt2(payload).strings()]
+    before = list(dt2.Dt2(payload).strings())
     after = [t for _, _, _, t in dt2.Dt2(new).strings()]
     assert len(before) == len(after)
-    for b, a in zip(before, after):
-        assert a == edits.get(b, b), (b, a)
+    for (i, k, _, b), a in zip(before, after):
+        assert a == todo.get((i, k), b), (i, k)
     return new, f"{len(todo)} strings, {len(payload)} -> {len(new)} bytes, {cleared} leftover bytes cleared"
 
 
@@ -89,7 +103,7 @@ def main():
     path = os.path.join(SRC, "GxArchivedFile000.dat")
     for h0, h1, _, _, _, data in gdat.iter_entries(path, {"dt2"}):
         if (h0, h1) == TIPS:
-            new, hits = apply(gdat.unpack(data), {TIP_JA: TIP_EN})
+            new, hits = apply(gdat.unpack(data), TIP_EDITS)
             print(f"000 tips: {hits}")
             check_size("tips entry", len(data), len(gdat.repack(data, new)))
             break

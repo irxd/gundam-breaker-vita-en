@@ -17,7 +17,7 @@ Rules (nothing moves, only string bytes change):
   * One ID per unique string (base 36, uppercase), so equal strings stay equal across files.
   * Strings that also appear in the eboot are skipped (the code may look them up by name).
   * A leading non-kana character (kanji etc.) is kept: binary fields before a string can decode as one CJK
-    character (e5 8f 97 = 受 in the dialogue tables).
+    character (e5 8f 97 = U+53D7 in the dialogue tables).
   * A tag that doesn't fit is cut.
 
 Output:
@@ -42,10 +42,10 @@ DT2 = 0x2C1CF0E2
 
 U8 = rb"(?:[\x0a\x20-\x7e]|[\xc2-\xdf][\x80-\xbf]|[\xe0-\xef][\x80-\xbf]{2})"
 # No look-behind: a continuation byte can never start a match, and record ID bytes in front of a string can be
-# 0x80-0xBF (e.g. "83 ミッション..."), which a look-behind would wrongly reject.
+# 0x80-0xBF (e.g. 0x83 in front of a katakana word), which a look-behind would wrongly reject.
 STRING = re.compile(U8 + rb"+?\x00")
-JP = re.compile("[　-ヿ一-鿿＀-￯]")
-KANA = re.compile("[　-ヿ＀-￯]")  # kana, Japanese punctuation, full-width forms
+JP = re.compile(r"[\u3000-\u30ff\u4e00-\u9fff\uff00-\uffef]")
+KANA = re.compile(r"[\u3000-\u30ff\uff00-\uffef]")  # kana, Japanese punctuation, full-width forms
 
 
 def b36(n):

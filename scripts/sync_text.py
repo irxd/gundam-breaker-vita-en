@@ -10,7 +10,7 @@ import os
 import re
 import sys
 
-KANA_KANJI = re.compile("[぀-ヿ一-鿿]")
+KANA_KANJI = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import textdb  # noqa: E402
