@@ -1,0 +1,214 @@
+id,ja_hash,en,notes
+670718,f7474c2b,%dh %dm,draft
+676900,e7f42446,"* For the PS3® version's controls, see the online manual on the official website.",draft
+678180,4dc46692,"DiverCity, Odaiba",draft
+6781a8,fc0596a7,"20XX, Odaiba, Tokyo...",draft
+6781cc,f80c9c79,"Where the life-size Gundam statue stands, a huge Gundam event is being held!",draft
+678234,88032fbe,"It has giant dioramas beyond anything seen before,",draft
+678280,d6da999e,"interactive simulations built on cutting-edge tech,",draft
+6782d8,33908143,and many exhibits opening up a new Gundam world.,draft
+678330,16e8b9d8,And the main attraction of the event is...,draft
+67837c,48d04fa5,"the Gunpla battle simulation ""Gundam Breaker""!",draft
+6783e8,953c816b,"Skilled Gundam gamers, famous Gunpla modelers, ",draft
+67843c,5a824d80,"and players picked by lottery from a crowd of entrants gather together,",draft
+6784ac,7633d408,"enter the diorama battlefield with Gunpla they built themselves, and team up",draft
+67851c,9b547a0b,to take on the greatest foe in the Gundam world: the Gundam...,draft
+678580,6026b792,The latest in Gunpla virtual battle simulation:,draft
+6785cc,a1542677,"that is ""Gundam Breaker""!",draft
+6785fc,56234a48,"Gundam Breaker, outside the Battle Space",draft
+678634,cbe41275,Every match is shown live on giant screens at the venue,draft
+678688,369190a4,and streamed online across the whole country.,draft
+6786cc,3b2b3f1e,The dazzling play of the chosen players,draft
+678718,b159cad7,"creates endless new great scenes in a Gundam world no one has seen yet,",draft
+678784,cc177ee4,and all Japan goes wild for these battles!,draft
+6787b0,5522e1fb,"Now, lucky player who won a place against fierce competition!",draft
+67880c,bf16768e,Jump into the battlefield and show us how you fight!,draft
+678870,a24a2194,The battle game and the main menu,draft
+6788ac,d022ea36,"""Set Up"":",draft
+6788d0,63d83de1," A workshop for your Gunpla. Turn Runners won in battle into parts,",draft
+67894c,3a4792c0, and rebuild or paint your Gunpla.,draft
+678998,a30a5cf0,"""VR Hangar"":",draft
+6789b0,ed0eb8df, You sit at a battle terminal and put on the game's own HMD.,draft
+678a14,8d510f6c," Scan data of your Gunpla is placed in the diorama's hangar,",draft
+678a98,521a015f, and your view switches to inside the VR Hangar.,draft
+678aec,ec414a1f, In the VR Hangar you see things as if shrunk down to scale.,draft
+678b50,b88ca8c0, Move around the hangar as your Normal Suit avatar,draft
+678ba4,04de9a5c, and look at your own and other players' Gunpla as giant mobile suits.,draft
+678c20,876cb43d,"Choose ""VR Hangar (Single)"" for single player,",draft
+678c6c,af81aeef,"or ""VR Hangar (Multi)"" to play with other players.",draft
+678cdc,096a9c46," You can still go to the Customize screen after entering the VR Hangar,",draft
+678d4c,86ce853a," so to start playing right away, just pick the VR Hangar you want.",draft
+679954,509d7315,Let's do this!,draft; chat_text uses Nice to meet you! but the eboot slot holds 15 bytes
+679964,5fab82bf,Nice!,draft
+679970,206bdaf7,Over here!,draft
+679988,fb07ff07,Go for it!,draft
+679994,62676286,Thanks!,draft
+6799a8,1ddca22a,Leave this to me!,draft
+6799c0,0b05445f,Sorry!,draft
+6799d0,fb7dd1f6,See you again!,draft
+6799e4,2097cb76,Player %d,draft
+679a04,9ab46e18,Enter a message (up to 50 characters),draft
+679a64,105ef130,Chat restricted,draft
+679a78,979b9855,Mic connected,draft
+67adc8,4099fd91,GM,draft
+67aee0,060a6508,Inventory,draft
+681078,f08b55c4,Notice,draft
+682788,4099fd91,GM,draft
+683348,07d85515,Not equipped,draft
+683bfc,785e2817,Enter a message (up to 20 characters),draft
+684934,eacb4a82,Another player is choosing a mission,draft
+684a84,1031e5a9,Choose a palette to save to,draft
+684ab8,35ee0709,Choose a palette to load,draft
+6865d0,07d85515,Not equipped,draft
+686a00,8cc3c82d,M.Arts,"draft; short form, the eboot slot holds 6 bytes"
+686a18,b2d99d5e,Melee,draft
+686c14,d0598279,Enter a Gunpla name (up to 14 characters),draft
+687514,9fbe1f2f,Parts Created,draft
+68752c,f7f7e6ec,%s Head,draft
+687538,a81624cd,%s Arm,draft
+687544,3a7e1502,%s Leg,draft
+687550,0d02c748,%s Backpack,draft
+687568,fac2d3ad,%s Body,draft
+68757c,38ded0d3,%s%s is complete,draft
+687598,aae26b9f,Builder Level up! %d -> %d,draft
+6875c8,fa1c470e,Builder EXP up! %d -> %d,draft
+6875f8,ae9579b5,EX-Actions learned!,draft
+687620,9329f26f,The following moves are now available.,draft
+687690,60a1005b,Back,draft
+687698,7e753e7b,Builder Level too low,draft
+6876e8,dc0b1dbb,Select Part,draft
+6876f8,8acc9b4b,Builder Lv now %d,draft
+687718,bdb7d934,%s (Builder Lv%d),draft
+687734,e44638d2,%d (Builder Lv%d),draft
+687750,d2a347f1,%s Builder Level too low,draft
+68777c,31b6a260,Head,draft
+687788,2fd92b0e,Body,draft
+687794,b31b489a,Arm,draft
+6877a0,3aba8629,Leg,draft
+6877ac,5c5e02eb,Backpack,draft
+6877c0,63e7b929,Ranged Weapon,draft
+6877d4,ec670012,Melee Weapon,draft
+6877e8,4b2cb4ae,Shield,draft
+687810,81c8d0a8,Select Runner (%s),draft
+687838,bdb955af, No Runners,draft
+687858,73a766c7,Assemble Parts,draft
+687868,a3f75f4a,Head Part,draft
+68787c,e518cd85,Body Part,draft
+687890,9dc19cdf,Arm Part,draft
+6878a4,8489812f,Leg Part,draft
+6878b8,8a84a701,Backpack Part,draft
+6878d4,037cc2b2,Set Up,draft
+6878f0,237dc04f,Customize,draft
+687904,c4e86485,Paint,draft
+687914,a376cd1d,Gunpla Name,draft
+687924,85561028,Restock Items,draft
+688420,7ddb0599,Gundam Breaker,draft
+68843c,fa029d28,Save Data,draft
+689460,4099fd91,GM,draft
+740a80,4099fd91,GM,draft
+745ee4,5be1d1fd,How do you want to play?,draft
+745f0c,da4e33ff,Create a new room,draft
+745f30,0b4162aa,Join an existing room,draft
+745f54,fd487159,Searching for sessions,draft
+745f70,b669d825,Choose a room to join,draft
+745fb0,73669558,Joining session,draft
+745fcc,0e82ccc4,Waiting for the host,draft
+74600c,f42c2f1f,PLAYER%d choosing,draft
+746020,9af4c2c8,PLAYER%d ready,draft
+746038,314c7a82,Create Session,draft
+746050,0226e926,Creating session,draft
+74606c,10aa77c3,Accepting players,draft
+746080,039bec41,Press ○ when you are ready,draft
+7460bc,8d70f878,Another player is choosing,draft
+7460fc,f42c2f1f,PLAYER%d choosing,draft
+746110,9af4c2c8,PLAYER%d ready,draft
+746180,6b0815ee,Connecting to PlayStation Network,draft
+7461b0,03c65b71,A network error occurred,draft
+7461d8,ec725f1a,The server is busy,draft
+746200,1c7d61f7,Under maintenance,draft
+746224,2bc949ac,Matchmaking has not started yet,draft
+746264,a0fac475,Matchmaking has ended,draft
+74629c,dd749d35,Signed out,draft
+7462bc,5be1d1fd,How do you want to play?,draft
+7462e4,95d58466,Create a room,draft
+746300,249ee4af,Join a room,draft
+74631c,aeaddaed,▼Any,draft
+74632c,e6b82beb,▼PO2,draft
+746338,dd7d9e67,▼PO1,draft
+746344,721e8701,▼CPO,draft
+746350,ebc6f175,▼ENS,draft
+74635c,7cce3c6f,▼LTJG,draft
+746368,c77e84f9,▼LT,draft
+746374,d4994338,▼LCDR,draft
+746380,11b75269,▼CDR,draft
+74638c,47b475de,▼CAPT,draft
+746398,2d5de778,▼All welcome,draft
+7463b4,8f438785,▼All out,draft
+7463d0,7289004b,▼Play safe,draft
+7463e0,4df4f031,▼Farming,draft
+7463f0,c0ec7390,PO2,draft
+7463f8,77932dd0,PO1,draft
+746400,4abeda4e,CPO,draft
+746408,2647f764,ENS,draft
+746410,df4d3d02,LTJG,draft
+746418,799cda1b,LT,draft
+746420,8921c909,LCDR,draft
+746428,c084939f,CDR,draft
+746430,1c4c972a,CAPT,draft
+746438,b3d03906,All welcome,draft
+746450,5a5a894f,All out,draft
+74646c,a46c147d,Play safe,draft
+74647c,8c5d5a89,Farming,draft
+74648c,322bafad,Room Search Filters,draft
+7464a8,1ff4c0e5,Leader Rank,draft
+7464bc,72796cd1,Plan,draft
+7464c4,00c9c038,Room Search,draft
+7464e0,558610c0,Searching rooms,draft
+7464f8,0f304481,Room Select,draft
+746510,124fdc3f,No rooms found,draft
+74653c,81449f61,Room: %s  Plan: %s,draft
+74655c,91b6116e,Leader: %s  Rank: %s,draft
+746580,37061ec6,Players: %d/%d  Time %02d:%02d:%02d,draft
+7465bc,e8f7aa05,Members,draft
+7465ec,c5a98784,Joining room,draft
+746600,617c23a3,P2P connecting,draft
+746610,0e82ccc4,Waiting for the host,draft
+746650,f42c2f1f,PLAYER%d choosing,draft
+746664,9af4c2c8,PLAYER%d ready,draft
+74668c,8f563db2,Leaving room,draft
+7466a0,2d5de778,▼All welcome,draft
+7466bc,8f438785,▼All out,draft
+7466d8,7289004b,▼Play safe,draft
+7466e8,4df4f031,▼Farming,draft
+7466f8,9387810f,Room Settings,draft
+746714,72796cd1,Plan,draft
+74671c,0a43d830,Create Room,draft
+746738,de3e3a6b,Creating room,draft
+746750,aadbcb56,P2P starting,draft
+746764,10aa77c3,Accepting players,draft
+746778,039bec41,Press ○ when you are ready,draft
+7467b4,8d70f878,Another player is choosing,draft
+7467f4,f42c2f1f,PLAYER%d choosing,draft
+746808,9af4c2c8,PLAYER%d ready,draft
+7472e4,e0d7a5a4,Coming soon,draft
+7472fc,60a1005b,Back,draft
+747384,d2974ef7,Select Pilot Suit,draft
+7473a4,e572295b,Next,draft
+7473ac,03b8cd31,Opening,draft
+747468,e0d7a5a4,Coming soon,draft
+747480,60a1005b,Back,draft
+747b04,4099fd91,GM,draft
+74b62c,98bc0b60,Connecting via ad hoc,draft
+74b65c,41c9601c,Starting session,draft
+74b67c,03c65b71,A network error occurred,draft
+74b6a4,dd749d35,Signed out,draft
+74b6c4,385dd50c,Choose a room,draft
+74b6ec,df9a1d9e,Room%02d: %d/%d players,draft
+74b70c,c5a98784,Joining room,draft
+74b720,ee5f5058,Joined room,draft
+74cd34,0492422e,Save Blueprint,draft
+74cd48,a7c7d38b,Blueprint %d,draft
+74cd5c,60a1005b,Back,draft
+74cdbc,e3f66e16,Load Blueprint,draft
+74cdd0,a7c7d38b,Blueprint %d,draft
+74cde4,60a1005b,Back,draft
