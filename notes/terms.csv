@@ -324,3 +324,6 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 リペアキットS,Repair Kit S,item,draft,also L
 拳法,Martial Arts,category,gb3,GB3 and GB1's own weapon icons; M.Arts where the eboot slot is 6 bytes
 大剣,Two-Handed Sword,category,gb3,GB3 and GB1's own weapon icons
+決定,OK,system,ok,confirm button in hints (decided 2026-11-25; the game's own English dialog strip says OK)
+戻る,Back,system,ok,button hints
+選択,Select,system,ok,button hints
