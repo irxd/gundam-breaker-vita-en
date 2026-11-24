@@ -22,6 +22,13 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
   is not decoded yet.
 - Vita3K: use **Vulkan** (black 3D world, text fine). OpenGL crashes on mission load even with original files.
   Needs fake-signed eboot and `sce_module` (`scripts/make_eboot.py`).
+- Display names in `GP/unitData/*` (parts, equip, ex, partsList, weaponList, itemSkillParam) are extracted and
+  built (field 0 is the numeric key; see notes/formats.md). Not yet tested in game. `GP/csv/*` is still left out.
+- The eboot has player-visible UTF-8 strings too (default radio chat and Gunpla name, "not equipped", lobby):
+  `scripts/eboot_text.py` patches them in place for 1.00 and 1.02 (`text/eboot.csv`). Not yet tested in game.
+- Many UI labels are baked into textures (`GP/ui/ui_dds/*`, DXT1/DXT5): 322 redrawn (`scripts/draw_ui.py`,
+  `scripts/uidraw/`), injected by `scripts/build_images.py`. See notes/images.md. Not yet tested in game.
+- Build order: `build_text.py`, then `python -E -P scripts/build_images.py`, then `eboot_text.py build`.
 - Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) crashed once, on
   OpenGL, so it's unproven. Re-test on Vulkan before translating those.
 - Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).

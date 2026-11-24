@@ -55,8 +55,8 @@ Entry counts in 000: mpk 88,165 · tex 9,668 · dt2 3,058 · eff 754 · mdc/mdl 
 
 ## Text: `dt2` tables (UTF-8)
 
-- All game text found so far is **UTF-8**, inside `dt2` entries (the eboot only has ~560 short UTF-8 strings, mostly
-  debug motion/state names).
+- Almost all game text is **UTF-8**, inside `dt2` entries. The eboot has more (see "Text in the eboot"; the old
+  count of ~560 was wrong).
 - Layout: `u32 schema id`, `u32 count`, then a table of `count` pairs `(u32 target offset, u32 location)`, then a
   type/layout block, then records. Strings are null-terminated UTF-8 **inline among the record bytes**.
   - The `location` word looks like `(byte position << 8) | sub-field`. The pairs act as a **relocation table**: the
@@ -69,8 +69,8 @@ Entry counts in 000: mpk 88,165 · tex 9,668 · dt2 3,058 · eff 754 · mdc/mdl 
 | schema | files | unique strings | looks like |
 |---|---|---|---|
 | 3 | 10 | 1,521 | missions, menu/help text (largest by characters) |
-| 4 | 107 | 613 | story dialogue (speaker names such as 藤木コウタ) |
-| 6, 10, 21, 23, 25 | many | ~2,900 | parts, weapons, MS names (`HG ガンダム`, `RX-78-2`) |
+| 4 | 107 | 613 | story dialogue (speaker names such as the hero, Kota Fujiki) |
+| 6, 10, 21, 23, 25 | many | ~2,900 | parts, weapons, MS names (grade + name such as "HG Gundam", model numbers such as `RX-78-2`) |
 | 8 | 459 | 249 | shop / tutorial pages (long text) |
 | 2 | 7 | 286 | system messages (network, save data) |
 | 5, 24, 15, 16 | few | ~165 | titles, skills, paint names |
@@ -133,14 +133,14 @@ about 50–55 Latin characters ("To test your machine and your aptitude as a pil
 
 ## Tag build results (Vita3K, mostly OpenGL, 2026-11-08)
 
-- **ASCII renders in the game font**, proportionally spaced (`NEW GAME1GW`, `上1GX`). System dialogs (drawn by
+- **ASCII renders in the game font**, proportionally spaced (`NEW GAME1GW`, and a kanji followed by `1GX`). System dialogs (drawn by
   Vita3K) also show the dt2 text, so the "empty" Yes/No dialog was a Japanese dt2 message Vita3K couldn't draw.
 - **Both sources are live:** dialogue, menus and help come from `GP/text/*` inside the bundles in 002; the loading
   tips come from a dt2 entry in archive 000 (`000:8a96336f`). Patch both.
 - **Changing names in the data tables inside the 002 bundles crashed mission loading** (`GP/csv/NPCParam`,
   `GP/unitData/*`, `GP/csv/MA/*`, `GP/map/*`; render-target error, then an access violation). Tagging only
   `GP/text/*` (13 files in 2 bundles) plus all of archive 000 works. Some names in those data tables are probably
-  used as keys. Translate them only after finding which fields are display-only.
+  used as keys. Translate them only after finding which fields are display-only (done for `GP/unitData/*`, see below).
 - Text drawn from images (e.g. the GUNPLA CONTROL loading screen) stays Japanese.
 - String finding: record ID bytes in front of a string can be 0x80–0xBF, so don't use a "not after a continuation
   byte" look-behind.
@@ -176,7 +176,7 @@ To check on a real Vita before release.
 ## Text that is not in any table
 
 Not found in any archive, entry or bundle (UTF-8, UTF-16 LE/BE, Shift-JIS) nor in the eboot, so probably drawn
-in UI textures: the pause map buttons 設定変更 / 再開する, and English-looking headers such as MISSION AREA MAP,
+in UI textures: the pause map buttons (Settings / Resume), and English-looking headers such as MISSION AREA MAP,
 TREASURE LIST. Needs the image work (find the texture, decode DXT, redraw, re-encode).
 
 ## Gundam Breaker 3
@@ -195,6 +195,68 @@ no update). Checked 2026-11-08.
 - The Japanese text tables are not in this build. Japanese remains only in data tables (`GP/unitData/*`,
   `GP/csv/*`, internal labels), so Japanese and English can't be paired automatically. Terms were matched by
   searching the English for each name.
+
+## unitData name tables (added 2026-11-21, not yet tested in game)
+
+The Set Up screen, option equipment, items and EX-Action screens read names from `GP/unitData/*` in the 002 bundles,
+not from `GP/text/*` (000_bbcf42d0 99:10 "Mirage Shot" did not change the EX-Action learned screen). Every record
+has a **numeric ID in field 0** (part/weapon/EX ID, e.g. 242, 5101, 400) that the tables use to point at each other;
+the names are not keys: no `GP/csv/*` or `GP/map/*` string equals any of them, and partsList names differ from the
+parts/* names for the same ID ("HG Gundam Head" vs "HG Gundam"), so nothing matches names at runtime as far as the data
+shows. Picked by (field count of the record, field index), see `DATA_TABLES` in tools/gbtext.py:
+
+| table | field | content | CSV / id |
+|---|---|---|---|
+| `GP/unitData/partsList` | (6, 1) | part name per slot, e.g. "HG Gundam Head" | `unitData_partsList.csv`, `rec:field` |
+| `GP/unitData/weaponList` | (8, 1) | weapon name, e.g. "HG Beam Saber"; entry 0 = bare hands | `unitData_weaponList.csv` |
+| `GP/unitData/itemSkillParam` | (32, 1) | battle items, e.g. "Repair Kit S", "HG Cracker" | `unitData_itemSkillParam.csv` |
+| `GP/unitData/parts/chrNNNN` (882) | (11, 1) | MS name of the part, e.g. "HG GM" (the Set Up list cuts off `HG `) | `unitData_parts.csv`, `chr0242:1:1` |
+| | (24, 1) | option equipment, e.g. "Head Vulcan (GM)" | `chr0242:31:1` |
+| `GP/unitData/equip/equipNNNN` (308) | (18, 3), (20, 3) | weapon name | `unitData_equip.csv`, `equip5101:1:3` |
+| `GP/unitData/ex/exNNN` (59) | (18, 1) | EX-Action name, e.g. "Mirage Shot" | `unitData_ex.csv`, `ex400:1:1` |
+
+- One combined CSV per folder (parts, equip, ex) with id `<file>:<record>:<field>`, so there aren't ~1,250 files.
+- Copies: each member is in 1–2 bundles of 002 (identical), and parts/equip/ex also have a **loose copy in archive
+  000** (hash1 = `name_hash(path)`, e.g. chr0242 = `a762fe9a`, ex400 = `b22082d9`). The build writes the same payload
+  to every bundle copy and the loose copy (`Table.loose`). Only 002 holds these members (none in 001).
+- Left out as internal labels: equip field 8 (short weapon name, placeholders such as a beam spray gun name on PG weapons
+  and joke spellings of "Zaku bazooka"), equip attack records ("<name>'s attack A", "dummy", `test`), ex sub-records field 2/23 (unit or
+  weapon name next to an ID, e.g. "God Gundam variant", `NULL`), `awakeparam` field 1 ("boss", "escorts",
+  "base: infinite spawns", "HT + awakening: ..."), `effect/*` and `sound/*` comments.
+- Build check added: a grade prefix (`HG `, `MG `, `PG`) at the start of the Japanese must stay at the start of the
+  English, because the Set Up list drops it.
+- Many of these tables are tiny (one or two strings), so the "table must not grow" rule bites: about 60 rows use a
+  shorter form (notes say "short form, the table can't grow"), and HG/MG Hyaku-Shiki (chr0312–0317, chr2312–2317) stays
+  Japanese because `HG Hyaku-Shiki` is 5 bytes longer. If Vulkan shows grown tables are fine, these can be relaxed.
+- The default Gunpla name (GM) and "not equipped" are eboot strings (0x747b04); no data table supplies them
+  (only `GP/text/partner_ms_name` has a bare "GM", which is a partner MS name).
+
+## GP/csv and GP/map: survey (not extracted)
+
+| table | strings | on screen? |
+|---|---|---|
+| `GP/csv/NPCParam` | field 0 of 87-field records: "[HG] GM with shield, beam rifle" | probably not: designer labels (grade tag, loadout). The HUD enemy name likely comes from the parts name. |
+| `GP/csv/BOSSParam` | field 0: "[PG] PG Gundam phase 1" | probably not: labels with phase numbers |
+| `GP/csv/AiIntensificationChipData` | field 1 of 49-field records: chip names such as "Titanium Alloy Armor" (245) | maybe: same names as `GP/text/chip_name`; check whether the chip screen reads this or chip_name |
+| `GP/csv/scoreAchievementsTable` | field 1 = ID (`FIRST_KILL`), field 5 = description ("destroyed the first enemy"), field 7 = comment ("not used at the moment") | field 5 maybe on the result/score screen; field 7 no |
+| `GP/map/map` | field 1 = map name with time of day ("Jaburo, evening"), field 2 = map code `jab_01` | maybe (map name with time of day); mission names already say where |
+| `GP/csv/MA/*` | "bullet spawn offset X", "1_front" | no: parameter labels |
+| `GP/csv/multiplayer` | "grunt HP", "strong enemy HP" | no: parameter labels |
+
+## Text in the eboot (2026-11-24)
+
+`scripts/eboot_text.py` finds 565 Japanese UTF-8 strings in the text segment of each eboot (4-byte aligned, after a zero byte or
+right after a pointer; entries of a kana/kanji conversion table are filtered out). Most are debug/tool names (motion states,
+attack names, material/sound editor properties). Player-visible ones include: the **default radio chat messages**
+and the **default Gunpla name** (both copied into the save when it is created, so an existing save keeps the
+Japanese), "not equipped" on the Set Up screen, keyboard prompts (Gunpla name, chat message), Next/Back, play time,
+palette save/load prompts, the lobby/room strings, and an intro text (Odaiba) plus a main-menu explanation (not yet
+seen in game).
+- Strings are reached through movw/movt relocations, so they are patched **in place**: the English must fit the
+  Japanese bytes plus zero padding up to the next 4-byte boundary. The build fails otherwise.
+- id = offset in the 1.02 ELF; 1.00 is matched by the n-th occurrence of the same Japanese (all match except one 1.01+ string, the PS3 controls note, which is skipped for 1.00).
+- Output: `build/patched_elf/<app|patch>/eboot.bin.elf` and the fake-signed `build/eboot/<app|patch>/eboot.bin`.
+- Untested in game.
 
 ## Open questions
 
