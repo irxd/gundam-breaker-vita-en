@@ -1,0 +1,309 @@
+id,ja_hash,en,notes
+equip0000:1:3,7f095f69,Fists,draft
+equip5100:1:3,549d34fb,HG Beam Rifle,draft
+equip5101:1:3,9d5c86f5,HG Beam Saber,draft
+equip5102:1:3,2b432fee,HG Hyper Bazooka,draft
+equip5103:1:3,6b3f0589,HG Beam Javelin,draft
+equip5105:1:3,e6104171,HG Shield (Gundam),draft
+equip5120:1:3,2c727af0,HG M-120A1 Zaku Machine Gun,draft
+equip5121:1:3,2a37ff98,HG Heat Hawk,draft
+equip5122:1:3,070a79b3,HG Zaku Bazooka,draft
+equip5123:1:3,1d51fe26,HG MMP-80 Zaku Machine Gun,draft
+equip5130:1:3,030d36ae,HG Magella Top Cannon,draft
+equip5131:1:3,1b4c84a9,HG Large Heat Hawk,draft
+equip5132:1:3,a88bc550,HG Dead End G,draft
+equip5170:1:3,45e0976a,HG MA-M21KF High-Energy Beam Rifle,draft
+equip5171:1:3,23eca777,HG Super Lacerta Beam Saber,draft
+equip5175:1:3,db00d3bc,HG Beam Shield (Strike Freedom),draft
+equip5180:1:3,a150ca30,HG Lupus Beam Rifle,draft
+equip5181:1:3,1c05d79b,HG Lacerta Beam Saber,draft
+equip5185:1:3,c395bd2c,HG Laminated Anti-Beam Shield,draft
+equip5210:1:3,c4242370,HG God Slash,draft
+equip5230:1:3,7c2aaaa9,HG Raketen Bazooka,draft
+equip5240:1:3,9a43e596,HG Beam Spray Gun,draft
+equip5241:1:3,baad08f3,HG Twin Beam Spear,draft
+equip5242:1:3,a3310ae3,HG Sniper Beam Rifle,draft
+equip5245:1:3,0ccd7a6f,HG Shield (GM),draft
+equip5250:1:3,91dd80fe,HG Bullpup Machine Gun,draft
+equip5255:1:3,70f40c73,HG Curved Shield (GM Command),draft
+equip5275:1:3,7c0d1f04,HG Curved Shield (GM Custom),draft
+equip5280:1:3,adb49d4f,HG GN Sword III Rifle Mode,draft
+equip5281:1:3,7f904947,HG GN Sword III,draft
+equip5290:1:3,8c2550ee,HG GN Sword II Rifle Mode,draft
+equip5291:1:3,b87bf8b6,HG GN Sword II,draft
+equip5300:1:3,217efa15,HG Beam Rifle (Zeta),draft
+equip5301:1:3,8826a164,HG Beam Saber (Zeta),draft
+equip5303:1:3,e43e5c97,HG Long Beam Saber,draft
+equip5305:1:3,3f80254e,HG Shield (Zeta),draft
+equip5310:1:3,a537feb4,HG Beam Rifle (Hyaku-Shiki),draft
+equip5311:1:3,14f57d33,HG Beam Saber (Hyaku-Shiki),draft
+equip5312:1:3,1b25b5c8,HG Clay Bazooka,draft
+equip5321:1:3,b6996489,HG Beam Scissors,draft
+equip5340:1:3,5509cbd7,HG Beam Gatling,draft
+equip5361:1:3,c0d4a7ed,HG Beam Saber (Wing),draft
+equip5362:1:3,c3080da1,HG Twin Buster Rifle,draft
+equip5380:1:3,7e493436,HG Beam Rifle (Nu),draft
+equip5381:1:3,0869044e,HG Beam Saber (Nu),draft
+equip5382:1:3,a02146d0,HG New Hyper Bazooka,draft
+equip5384:1:3,2893f6b9,HG Hyper Mega Rifle,draft
+equip5385:1:3,3dc5046f,HG Shield (Nu),draft
+equip5395:1:3,c4803933,HG Shield (Hi-Nu),draft
+equip5400:1:3,5b21fdea,HG Beam Shot Rifle,draft
+equip5401:1:3,1e7a20c7,HG Beam Tomahawk (Sazabi),draft
+equip5405:1:3,b1a53ab2,HG Shield (Sazabi),draft
+equip5420:1:3,24ea16c4,HG Beam Gun/Beam Saber,draft
+equip5421:1:3,24ea16c4,HG Beam Gun/Beam Saber,draft
+equip5431:1:3,fd4b1e2d,HG Gerbera Straight/Tiger Pierce,draft
+equip5441:1:3,fec37f21,HG Beam Ribbon,draft
+equip5461:1:3,b68318e4,HG Armor Schneider,draft
+equip5471:1:3,18c1bab4,HG Shiranui/Unryu,draft
+equip5490:1:3,4e3807b0,HG Beam Rifle (Mk-II),draft
+equip5491:1:3,fe32f968,HG Beam Saber (Mk-II),draft
+equip5492:1:3,76989430,HG Hyper Bazooka (Mk-II),draft
+equip5495:1:3,942896ec,HG Shield (Mk-II AEUG),draft
+equip5510:1:3,fe30c4a4,HG Beam Rifle + Bazooka,draft
+equip5513:1:3,5cfa4f13,HG Beam Axe,draft
+equip5515:1:3,8fbe5c77,HG Shield (Sinanju),draft
+equip5530:1:3,f10d10ab,HG Beam Magnum,draft
+equip5531:1:3,69f293d3,HG Beam Saber (Unicorn),draft
+equip5532:1:3,09b68059,HG Beam Gatling Gun,draft
+equip5533:1:3,a7b817cf,HG Hyper Bazooka (Unicorn),draft
+equip5535:1:3,2a2331df,"HG Shield (Unicorn, Unicorn Mode)",draft
+equip5541:1:3,104fffa4,HG Beam Saber (Banshee),draft
+equip5545:1:3,a3cb6904,"HG Shield (Banshee, Unicorn Mode)",draft
+equip5555:1:3,9cb0a1cb,"HG Shield (Unicorn, Destroy Mode)",draft
+equip5565:1:3,a6ef3b5b,"HG Shield (Banshee, Destroy Mode)",draft
+equip5605:1:3,fbaabb51,HG Shield (G-3),draft
+equip5610:1:3,eff0c01e,HG 57mm High-Energy Beam Rifle,draft
+equip5611:1:3,010c02b7,HG Beam Saber (Strike),draft
+equip5615:1:3,b6ba9c4a,HG Anti-Beam Shield (Strike),draft
+equip5619:1:3,5631eabb,HG Grand Slam,draft
+equip5631:1:3,3301d480,HG Schwert Gewehr,draft
+equip5640:1:3,b49c542c,HG Combined Shield,draft
+equip5641:1:3,a57e2290,HG Anti-Ship Sword,"draft; short form, the table can't grow (GB3: Prototype 9.1m Anti-Ship Sword)"
+equip5645:1:3,710723b6,HG Anti-Beam Shield (Strike Rouge),draft
+equip5671:1:3,288efce7,HG Gerbera Straight,draft
+equip5675:1:3,9288fbd7,HG Anti-Beam Shield (Red Frame),draft
+equip5685:1:3,efcd9c60,HG Anti-Beam Shield (Blue Frame),draft
+equip5690:1:3,692da264,HG Twin Sword Rifle,draft
+equip5691:1:3,692da264,HG Twin Sword Rifle,draft
+equip5695:1:3,446458f0,HG Anti-Beam Shield (Green Frame),draft
+equip5705:1:3,72c5771f,HG Shield (Mk-II Titans),draft
+equip5720:1:3,ff8bf967,HG Beam Machine Gun (Geara Doga),draft
+equip5721:1:3,1bccd4ff,HG Beam Sword-Axe,draft
+equip5722:1:3,986d3e59,HG Mega Gatling Gun,draft
+equip5725:1:3,dd7a3d0e,HG Shield (Geara Doga),draft
+equip5735:1:3,1de7c85c,HG Shield (Rezin's Geara Doga),draft
+equip5740:1:3,404a989e,HG Giant Bazooka (Dreissen),draft
+equip5741:1:3,d812ff4e,HG Beam Tomahawk (Dreissen),draft
+equip5750:1:3,e02e3db6,HG Double Beam Rifle,draft
+equip5751:1:3,d3cd1592,HG Hyper Beam Saber,draft
+equip5755:1:3,36c02659,HG Wing Shield,draft
+equip5761:1:3,b6ee68f9,HG Master Cloth,draft
+equip5770:1:3,473fb900,HG Beam Rifle (Turn A),draft
+equip5772:1:3,3da42db1,HG Beam Saber (Turn A),draft
+equip5774:1:3,9edada02,HG Gundam Hammer,draft
+equip5775:1:3,10e7d4d2,HG Shield (Turn A),draft
+equip5780:1:3,9d97287e,HG Zanbuster,draft
+equip5781:1:3,bfb647a2,HG Beam Zanber,draft
+equip5785:1:3,885170e1,HG ABC Mantle,draft
+equip5831:1:3,b37a77ae,HG Heat Sword,draft
+equip5832:1:3,30f5b824,HG Gatling Shield,draft
+equip5833:1:3,57156a77,HG Heat Rod,draft
+equip5850:1:3,6c7b730a,HG Large Beam Machine Gun (Gelgoog J),draft
+equip5860:1:3,9e17acb1,HG MA-BAR73/S High-Energy Beam Rifle,draft
+equip5861:1:3,4e0ea977,HG Arondight,draft
+equip5865:1:3,afbcde39,HG Beam Shield (Destiny),draft
+equip5880:1:3,ab6e3afa,HG Beam Machine Gun (X Divider),draft
+equip5881:1:3,7da4bf16,HG Shield Buster Rifle,draft
+equip5882:1:3,bc19f0af,HG Large Beam Sword,draft
+equip5905:1:3,4c0dadc8,HG Anti-Beam Shield,draft
+equip5910:1:3,28d31499,HG Beam Rifle (Build Strike),draft
+equip5911:1:3,085d2dc2,HG Beam Saber (Build Strike),draft
+equip5912:1:3,88a35b91,HG Modified Rifle (Build Strike),draft
+equip5915:1:3,b61a82e3,HG Shield (Build Strike),draft
+equip5930:1:3,9c0f20bf,HG Mega Beam Rifle,draft
+equip5951:1:3,97e9dfc5,HG Heat Rod (Epyon),draft
+equip5961:1:3,9be3db51,HG Heat Lance,draft
+equip5971:1:3,2a8523c9,HG Chain Mines,draft
+equip5980:1:3,bb8b9935,HG GN Lance,draft
+equip5981:1:3,bb8b9935,HG GN Lance,draft
+equip7100:1:3,a62fe40e,MG Beam Rifle,draft
+equip7101:1:3,11744744,MG Beam Saber,draft
+equip7102:1:3,b13e17cd,MG Hyper Bazooka,draft
+equip7103:1:3,fb6723a2,MG Beam Javelin,draft
+equip7105:1:3,93dc92d6,MG Shield (Gundam),draft
+equip7120:1:3,172a4233,MG M-120A1 Zaku Machine Gun,draft
+equip7121:1:3,30054535,MG Heat Hawk,draft
+equip7122:1:3,4cc0d0d4,MG Zaku Bazooka,draft
+equip7123:1:3,169ea8fb,MG MMP-80 Zaku Machine Gun,draft
+equip7130:1:3,12730f21,MG Magella Top Cannon,draft
+equip7131:1:3,857fc58a,MG Large Heat Hawk,draft
+equip7132:1:3,021ff1f1,MG Dead End G,draft
+equip7170:1:3,f7edfbd0,MG MA-M21KF High-Energy Beam Rifle,draft
+equip7171:1:3,f8be17c7,MG Super Lacerta Beam Saber,draft
+equip7175:1:3,0bea07d8,MG Beam Shield (Strike Freedom),draft
+equip7180:1:3,c2206973,MG Lupus Beam Rifle,draft
+equip7181:1:3,57e1f48c,MG Lacerta Beam Saber,draft
+equip7185:1:3,dbc77ef5,MG Laminated Anti-Beam Shield,draft
+equip7210:1:3,9df8978d,MG God Slash,draft
+equip7230:1:3,86e6c99f,MG Raketen Bazooka,draft
+equip7240:1:3,07e49cec,MG Beam Spray Gun,draft
+equip7241:1:3,521d5551,MG Twin Beam Spear,draft
+equip7242:1:3,4f47f91a,MG Sniper Beam Rifle,draft
+equip7245:1:3,57e211fb,MG Shield (GM),draft
+equip7250:1:3,1016eafb,MG Bullpup Machine Gun,draft
+equip7255:1:3,6f3b7666,MG Curved Shield (GM Command),draft
+equip7275:1:3,3f3b4e5c,MG Curved Shield (GM Custom),draft
+equip7280:1:3,3983bc11,MG GN Sword III Rifle Mode,draft
+equip7281:1:3,127716a0,MG GN Sword III,draft
+equip7290:1:3,a25bd486,MG GN Sword II Rifle Mode,draft
+equip7291:1:3,7e30616c,MG GN Sword II,draft
+equip7300:1:3,0413095a,MG Beam Rifle (Zeta),draft
+equip7301:1:3,0f38e39b,MG Beam Saber (Zeta),draft
+equip7303:1:3,4fa649c2,MG Long Beam Saber,draft
+equip7305:1:3,7180b885,MG Shield (Zeta),draft
+equip7310:1:3,eaa4d1d7,MG Beam Rifle (Hyaku-Shiki),draft
+equip7311:1:3,2bbcfcd0,MG Beam Saber (Hyaku-Shiki),draft
+equip7312:1:3,a92ff0a0,MG Clay Bazooka,draft
+equip7321:1:3,01fa9ebf,MG Beam Scissors,draft
+equip7340:1:3,49c25043,MG Beam Gatling,draft
+equip7361:1:3,5b4084ea,MG Beam Saber (Wing),draft
+equip7362:1:3,509f1b2a,MG Twin Buster Rifle,draft
+equip7380:1:3,cccc6de8,MG Beam Rifle (Nu),draft
+equip7381:1:3,f91e51f7,MG Beam Saber (Nu),draft
+equip7382:1:3,983fdf79,MG New Hyper Bazooka,draft
+equip7384:1:3,1d64c8cf,MG Hyper Mega Rifle,draft
+equip7385:1:3,0149e73c,MG Shield (Nu),draft
+equip7395:1:3,82af2a67,MG Shield (Hi-Nu),draft
+equip7400:1:3,68158895,MG Beam Shot Rifle,draft
+equip7401:1:3,ff9a8d0d,MG Beam Tomahawk (Sazabi),draft
+equip7405:1:3,80e8d4a7,MG Shield (Sazabi),draft
+equip7420:1:3,0400befb,MG Beam Gun/Beam Saber,draft
+equip7421:1:3,0400befb,MG Beam Gun/Beam Saber,draft
+equip7431:1:3,a80c73f7,MG Gerbera Straight/Tiger Pierce,draft
+equip7441:1:3,452ce2eb,MG Beam Ribbon,draft
+equip7461:1:3,1d20cbc5,MG Armor Schneider,draft
+equip7471:1:3,467d699d,MG Shiranui/Unryu,draft
+equip7490:1:3,3c5ac894,MG Beam Rifle (Mk-II),draft
+equip7491:1:3,fde412ea,MG Beam Saber (Mk-II),draft
+equip7492:1:3,cf469bb8,MG Hyper Bazooka (Mk-II),draft
+equip7495:1:3,fa2667ba,MG Shield (Mk-II AEUG),draft
+equip7510:1:3,a956f479,MG Beam Rifle + Bazooka,draft
+equip7513:1:3,97455ac0,MG Beam Axe,draft
+equip7515:1:3,50df7747,MG Shield (Sinanju),draft
+equip7530:1:3,406df1ac,MG Beam Magnum,draft
+equip7531:1:3,c2a11c0b,MG Beam Saber (Unicorn),draft
+equip7532:1:3,d263205d,MG Beam Gatling Gun,draft
+equip7533:1:3,701ba814,MG Hyper Bazooka (Unicorn),draft
+equip7535:1:3,2fcd419e,"MG Shield (Unicorn, Unicorn Mode)",draft
+equip7541:1:3,6fa00e0f,MG Beam Saber (Banshee),draft
+equip7545:1:3,1da8b914,"MG Shield (Banshee, Unicorn Mode)",draft
+equip7555:1:3,99e0d929,"MG Shield (Unicorn, Destroy Mode)",draft
+equip7565:1:3,3698244d,"MG Shield (Banshee, Destroy Mode)",draft
+equip7605:1:3,f562a969,MG Shield (G-3),draft
+equip7610:1:3,a3732095,MG 57mm High-Energy Beam Rifle,draft
+equip7611:1:3,d188fac7,MG Beam Saber (Strike),draft
+equip7615:1:3,5c53e74b,MG Anti-Beam Shield (Strike),draft
+equip7619:1:3,8c2309e7,MG Grand Slam,draft
+equip7631:1:3,48a82899,MG Schwert Gewehr,draft
+equip7640:1:3,83131b41,MG Combined Shield,draft
+equip7641:1:3,eaccc736,MG Anti-Ship Sword,"draft; short form, the table can't grow (GB3: Prototype 9.1m Anti-Ship Sword)"
+equip7645:1:3,9e5026e1,MG Anti-Beam Shield (Strike Rouge),draft
+equip7671:1:3,aee72666,MG Gerbera Straight,draft
+equip7675:1:3,37dddd4a,MG Anti-Beam Shield (Red Frame),draft
+equip7685:1:3,fe11c1eb,MG Anti-Beam Shield (Blue Frame),draft
+equip7690:1:3,7aab1091,MG Twin Sword Rifle,draft
+equip7691:1:3,7aab1091,MG Twin Sword Rifle,draft
+equip7695:1:3,7c6307a9,MG Anti-Beam Shield (Green Frame),draft
+equip7705:1:3,9b4679aa,MG Shield (Mk-II Titans),draft
+equip7720:1:3,1e1b2eef,MG Beam Machine Gun (Geara Doga),draft
+equip7721:1:3,038b7786,MG Beam Sword-Axe,draft
+equip7722:1:3,78406c69,MG Mega Gatling Gun,draft
+equip7725:1:3,1c7c3eb3,MG Shield (Geara Doga),draft
+equip7735:1:3,8fff29be,MG Shield (Rezin's Geara Doga),draft
+equip7740:1:3,dd338087,MG Giant Bazooka (Dreissen),draft
+equip7741:1:3,8de919cb,MG Beam Tomahawk (Dreissen),draft
+equip7750:1:3,e09c3d2f,MG Double Beam Rifle,draft
+equip7751:1:3,a38b5441,MG Hyper Beam Saber,draft
+equip7755:1:3,f28efc1b,MG Wing Shield,draft
+equip7761:1:3,6c5f5f5e,MG Master Cloth,draft
+equip7770:1:3,321651ea,MG Beam Rifle (Turn A),draft
+equip7772:1:3,6967f0a7,MG Beam Saber (Turn A),draft
+equip7774:1:3,b3714fee,MG Gundam Hammer,draft
+equip7775:1:3,d14e9526,MG Shield (Turn A),draft
+equip7780:1:3,2f9d2522,MG Zanbuster,draft
+equip7781:1:3,9c2d6ed5,MG Beam Zanber,draft
+equip7785:1:3,da3c6fcb,MG ABC Mantle,draft
+equip7831:1:3,5574a039,MG Heat Sword,draft
+equip7832:1:3,b4cd4c25,MG Gatling Shield,draft
+equip7833:1:3,264bfd82,MG Heat Rod,draft
+equip7850:1:3,c4c4093e,MG Large Beam Machine Gun (Gelgoog J),draft
+equip7860:1:3,0bb1edf7,MG MA-BAR73/S High-Energy Beam Rifle,draft
+equip7861:1:3,7ace31a2,MG Arondight,draft
+equip7865:1:3,07717d22,MG Beam Shield (Destiny),draft
+equip7880:1:3,86b01050,MG Beam Machine Gun (X Divider),draft
+equip7881:1:3,0e763b71,MG Shield Buster Rifle,draft
+equip7882:1:3,48c08126,MG Large Beam Sword,draft
+equip7905:1:3,452a4dd5,MG Anti-Beam Shield,draft
+equip7910:1:3,e98f96f7,MG Beam Rifle (Build Strike),draft
+equip7911:1:3,d01e45cb,MG Beam Saber (Build Strike),draft
+equip7912:1:3,06c939d4,MG Modified Rifle (Build Strike),draft
+equip7915:1:3,78f0b9b4,MG Shield (Build Strike),draft
+equip7930:1:3,500d8662,MG Mega Beam Rifle,draft
+equip7951:1:3,9ff23e8c,MG Heat Rod (Epyon),draft
+equip7961:1:3,2a4274b6,MG Heat Lance,draft
+equip7971:1:3,646c9eb7,MG Chain Mines,draft
+equip7980:1:3,91d41497,MG GN Lance,draft
+equip7981:1:3,91d41497,MG GN Lance,draft
+equip9090:1:3,5aa5231e,PG Gundam Beam Rifle,draft
+equip9091:1:3,ce9b40f8,PG Gundam Beam Saber,draft
+equip9092:1:3,4132dd56,PG Gundam Hyper Bazooka,draft
+equip9093:1:3,19b02155,PG Gundam Beam Javelin,draft
+equip9099:1:3,591c8350,PG Shield (Gundam),draft
+equip9109:1:3,57e1dd3d,PG Gundam Variant Shield,draft
+equip9110:1:3,efa8aa65,PG Gundam Mk-II Beam Rifle (Mk-II),draft
+equip9111:1:3,0ec1ab7b,PG Gundam Mk-II Hyper Bazooka (Mk-II),draft
+equip9112:1:3,1b312e61,PG Gundam Mk-II Beam Saber (Mk-II),draft
+equip9119:1:3,638f9243,PG Gundam Mk-II Shield (Mk-II),draft
+equip9121:1:3,a97f5882,PG Gundam Mk-II Variant Hyper Bazooka (Mk-II),draft
+equip9122:1:3,a325179f,PG Gundam Mk-II Variant Beam Saber (Mk-II),draft
+equip9129:1:3,3fb6c7eb,PG Gundam Mk-II Variant Shield (Mk-II),draft
+equip9170:1:3,07509db4,PG Strike Freedom MA-M21KF High-Energy Beam Rifle,draft
+equip9172:1:3,58d2c89b,PG Strike Freedom Super Lacerta Beam Saber,draft
+equip9180:1:3,8496739b,PG Strike Freedom MA-M21KF High-Energy Beam Rifle Variant,draft
+equip9182:1:3,4b43c61c,PG Strike Freedom Variant Super Lacerta Beam Saber,draft
+equip9210:1:3,95391334,PG God Gundam God Slash (Right),draft
+equip9280:1:3,f769609e,PG 00 Raiser GN Sword III Rifle Mode,draft
+equip9281:1:3,bf2bba0b,PG 00 Raiser GN Sword III Sword Mode,draft
+equip9282:1:3,8c9de594,PG 00 Raiser GN Sword II Rifle Mode,draft
+equip9284:1:3,feb851d0,PG 00 Raiser GN Sword II Sword Mode,draft
+equip9360:1:3,e15eadb8,PG Wing Gundam Zero Twin Buster Rifle,draft
+equip9363:1:3,2a84ff3d,PG Wing Gundam Zero Beam Saber (Wing),draft
+equip9380:1:3,9cf6c84f,PG Nu Gundam Beam Rifle (Nu),draft
+equip9381:1:3,b15104f0,PG Nu Gundam Beam Saber (Nu),draft
+equip9382:1:3,a22b7a3c,PG Nu Gundam New Hyper Bazooka,draft
+equip9389:1:3,6e8a56a2,PG Nu Gundam Shield (Nu),draft
+equip9390:1:3,45a3ee7e,PG Nu Gundam Variant Beam Rifle (Nu),draft
+equip9391:1:3,803a94bf,PG Nu Gundam Variant Beam Saber (Nu),draft
+equip9392:1:3,c44c2ddf,PG Nu Gundam Variant New Hyper Bazooka,draft
+equip9399:1:3,e3d9a43c,PG Nu Gundam Variant Shield (Nu),draft
+equip9400:1:3,f1247026,PG Astray Red Frame Kai Gerbera Straight/Tiger Pierce,draft
+equip9440:1:3,6b33b443,PG Unicorn Gundam (Destroy Mode) Beam Magnum,draft
+equip9441:1:3,d9b1a80e,PG Unicorn Gundam (Destroy Mode) Beam Saber (Unicorn),draft
+equip9442:1:3,3e42b5f0,PG Unicorn Gundam (Destroy Mode) Beam Gatling Gun,draft
+equip9443:1:3,d451dee5,PG Unicorn Gundam (Destroy Mode) Hyper Bazooka (Unicorn),draft
+equip9449:1:3,7f0833ae,"PG Unicorn Gundam (Destroy Mode) Shield (Unicorn, Destroy Mode)",draft
+equip9459:1:3,e3cd942c,"PG Unicorn Gundam (Destroy Mode) Variant Shield (Unicorn, Destroy Mode)",draft
+equip9470:1:3,ceac638d,PG Zeta Gundam Beam Rifle (Zeta),draft
+equip9471:1:3,fd32060a,PG Zeta Gundam Long Beam Saber,draft
+equip9472:1:3,dabe9cff,PG Zeta Gundam Beam Saber (Zeta),draft
+equip9479:1:3,e2dd36eb,PG Zeta Gundam Shield (Zeta),draft
+equip9489:1:3,66062685,PG Zeta Variant Shield,"draft; short form, the table can't grow"
+equip9580:1:3,b14434ee,PG Aile Strike Gundam 57mm High-Energy Beam Rifle,draft
+equip9581:1:3,fcf704a3,PG Aile Strike Gundam Beam Saber (Strike),draft
+equip9582:1:3,9285f9f6,PG Aile Strike Gundam Grand Slam,draft
+equip9589:1:3,28dc1b43,PG Aile Strike Gundam Anti-Beam Shield,draft
+equip9600:1:3,a4f54370,PG Sword Strike Gundam Schwert Gewehr,draft
+equip9611:1:3,db78d079,PG Aile Strike Gundam Variant Beam Saber (Strike),draft
+equip9619:1:3,ba1afd56,PG Aile Strike Gundam Variant Anti-Beam Shield,draft

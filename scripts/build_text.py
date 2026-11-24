@@ -14,6 +14,8 @@ Lines with an empty `en` keep the Japanese. All problems are collected and the b
   * button icons (circled numbers ①-⑳, drawn as Vita buttons) not the same set
   * a short one-line label (no <br>, at most LABEL_MAX characters) that gets a <br>
   * a real line break in the English (use <br>)
+  * a grade prefix at the start of the Japanese ("HG ", "MG ", "PG") not kept at the start of the English
+    (the game cuts "HG " off part names in the Set Up list)
   * a character the font may not have: allowed are printable ASCII and anything used in the Japanese text
   * a table that would grow (a compressed entry or bundle that grows is only a warning, see --strict-size)
 Only GxArchivedFile000.dat and 002.dat can change; an archive is written only when something in it changed.
@@ -38,6 +40,7 @@ COLOUR = re.compile(r"</?c\d*>")
 ICONS = re.compile("[①-⑳]")
 TAG = re.compile(r"<[^>]*>|\\n")
 LABEL_MAX = 12
+GRADE = re.compile(r"^(?:HG|MG|PG|ＰＧ) ?")
 
 
 def check(ja, en, charset):
@@ -63,6 +66,27 @@ def check(ja, en, charset):
     return problems
 
 
+def rebuild(t, edits, errors):
+    """Return the re-packed payload of table t with edits {(i, k): en}; size problems go to errors."""
+    table = dt2.Dt2(t.payload)
+    table.rebuild(edits)
+    try:
+        table.clear_unused()
+    except ValueError:
+        pass                        # unknown field sizes: leave leftovers alone
+    new = table.to_bytes()
+    if len(new) > len(t.payload):
+        errors.append(f"text/{t.csv} ({t.label}): table would grow {len(t.payload)} -> {len(new)} bytes "
+                      "(shorten lines)")
+    # Read back: edited strings are the English, all others unchanged.
+    before = {(i, k): s for i, k, _, s in dt2.Dt2(t.payload).strings()}
+    after = {(i, k): s for i, k, _, s in dt2.Dt2(new).strings()}
+    assert before.keys() == after.keys()
+    for ik, s in before.items():
+        assert after[ik] == edits.get(ik, s), (t.label, ik)
+    return new
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     check_only = "--check" in sys.argv
@@ -74,48 +98,46 @@ def main():
             charset.update(ja)
 
     errors = []
-    new_tables = {}       # key -> new payload
+    new_tables = {}       # key -> new payload (data tables: under the member path and the loose 000 key)
     translated = 0
+    groups = {}           # csv name -> tables (the unitData folders share one csv)
     for t in tables:
-        rows = textdb.read_text(t.csv)
+        groups.setdefault(t.csv, []).append(t)
+    for name, group in groups.items():
+        rows = textdb.read_text(name)
         if not rows:
             continue
-        lines = {rid: (i, k, ja) for rid, i, k, ja in t.japanese()}
-        edits = {}
+        lines = {rid: (t, i, k, ja) for t in group for rid, i, k, ja in t.japanese()}
+        edits = {}        # table name -> {(i, k): en}
         for rid, r in rows.items():
             if not r["en"]:
                 continue
-            where = f"text/{t.csv} id {rid}"
+            where = f"text/{name} id {rid}"
             if rid not in lines:
                 errors.append(f"{where}: no such Japanese line")
                 continue
-            i, k, ja = lines[rid]
+            t, i, k, ja = lines[rid]
             if r["ja_hash"] != textdb.ja_hash(ja):
                 errors.append(f"{where}: ja_hash {r['ja_hash']} doesn't match the Japanese {ja!r}")
                 continue
             for p in check(ja, r["en"], charset):
                 errors.append(f"{where}: {p}\n    ja: {ja}\n    en: {r['en']}")
-            edits[(i, k)] = r["en"]
-        if not edits:
-            continue
-        table = dt2.Dt2(t.payload)
-        table.rebuild(edits)
-        try:
-            table.clear_unused()
-        except ValueError:
-            pass                        # unknown field sizes: leave leftovers alone
-        new = table.to_bytes()
-        if len(new) > len(t.payload):
-            errors.append(f"text/{t.csv}: table would grow {len(t.payload)} -> {len(new)} bytes (shorten lines)")
-        # Read back: edited strings are the English, all others unchanged.
-        before = {(i, k): s for i, k, _, s in dt2.Dt2(t.payload).strings()}
-        after = {(i, k): s for i, k, _, s in dt2.Dt2(new).strings()}
-        assert before.keys() == after.keys()
-        for ik, s in before.items():
-            assert after[ik] == edits.get(ik, s), (t.csv, ik)
-        new_tables[t.key] = new
-        translated += len(edits)
-        print(f"{t.csv:32} {len(edits):5} lines  {len(t.payload)} -> {len(new)} bytes")
+            edits.setdefault(t.label, {})[(i, k)] = r["en"]
+        old_size = new_size = 0
+        for t in group:
+            if t.label not in edits:
+                continue
+            new = rebuild(t, edits[t.label], errors)
+            new_tables[t.key] = new
+            if t.loose:
+                new_tables[t.loose] = new
+            translated += len(edits[t.label])
+            old_size += len(t.payload)
+            new_size += len(new)
+        if edits:
+            n = sum(len(e) for e in edits.values())
+            files = f" in {len(edits)} files" if len(group) > 1 else ""
+            print(f"{name:32} {n:5} lines{files}  {old_size} -> {new_size} bytes")
 
     if errors:
         print(f"\n{len(errors)} problem(s):")
@@ -139,7 +161,7 @@ def main():
                 print(f"warning: {msg}")
         return new
 
-    # Archive 002: every bundle that holds a changed GP/text member.
+    # Archive 002: every bundle that holds a changed member (GP/text or a data table).
     path = os.path.join(SRC, "GxArchivedFile002.dat")
     replace = {}
     for h0, h1, _, _, _, data in gdat.iter_entries(path, {"pac"}):

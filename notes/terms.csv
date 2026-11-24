@@ -259,3 +259,66 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 スクラッチビルド,Scratch Build,system,draft,
 ビルダーレベル,Builder Level,system,draft,
 フェーズガーダー,Phase Guarder,system,draft,
+ミラージュショット,Mirage Shot,ex,gb3,
+スペクトラルショット,Spectral Shot,ex,gb3,
+スティンガーシュート,Stinger Shoot,ex,gb3,GB3 power label: Stinger Shoot power
+ブレイカーシュート,Breaker Shoot,ex,gb3,GB3 power label: Breaker Shoot power
+ガトリングアサルト,Gatling Assault,ex,gb3,
+ガトリングバスター,Gatling Buster,ex,gb3,
+クロススラッシュ,Cross Slash,ex,gb3,
+クロステンペスト,Cross Tempest,ex,gb3,
+グラウンドシェイカー,Ground Shaker,ex,gb3,
+ゲイルスパイク,Gale Spike,ex,gb3,
+サイクロンアックス,Cyclone Axe,ex,gb3,
+トルネードアックス,Tornado Axe,ex,gb3,
+ソニックスラスト,Sonic Thrust,ex,gb3,
+ソニックスパイク,Sonic Spike,ex,draft,
+デッドエンドインパクト,Dead End Impact,ex,gb3,
+デッドエンドバスター,Dead End Buster,ex,gb3,
+デッドリーブロウ,Deadly Blow,ex,gb3,
+ハンマーブロウ,Hammer Blow,ex,gb3,
+ブーストタックル,Boost Tackle,ex,gb3,
+ブーストスラッシュ,Boost Slash,ex,draft,
+ボルテックスチャージ,Vortex Charge,ex,gb3,
+スパイラルチャージ,Spiral Charge,ex,draft,
+フルバースト,Full Burst,ex,gb3,
+フルオープンアタック,Full Open Attack,ex,gb3,
+サテライトキャノン,Satellite Cannon,ex,gb3,
+トランザム,Trans-Am,ex,gb3,
+トランザムバースト,Trans-Am Burst,ex,gb3,
+ライザーソード,Raiser Sword,ex,gb3,
+石破天驚拳,Sekiha Tenkyoken,ex,gb3,ex561 has to write SekihaTenkyoken (table can't grow)
+超級覇王電影弾,Chokyu Haow Den-eidan,ex,gb3,000_skill_detail still writes Choukyuu Haou Den'eidan
+十二王方牌大車併,Juuni Ouhouhai Daisharin,ex,draft,romanized
+ハイパージャマー,Hyper Jammer,ex,gb3,
+ニュータイプショット,Newtype Shot,ex,draft,
+トリプルパニッシャー,Triple Punisher,ex,draft,GB3 has Multi-punisher
+トリプルブラスト,Triple Blast,ex,draft,
+バーサーカーバレット,Berserker Bullet,ex,draft,
+パワードバレット,Powered Bullet,ex,draft,
+ステップアグニ連射,Step Agni Rapid Fire,ex,draft,Agni = Launcher Strike's cannon
+量子化テレポート,Quantum Teleport,ex,draft,
+オールレンジアタック,All-Range Attack,ex,draft,
+オーラバースト,Aura Burst,ex,draft,
+ヒロイックフィニッシュ,Heroic Finish,ex,draft,
+ライトニングフィンガー,Lightning Finger,ex,draft,
+バーストフィンガー,Burst Finger,ex,draft,
+ハイパーキャノン,Hyper Cannon,ex,draft,
+ハイパーソード,Hyper Sword,ex,draft,
+ハイパートランス,Hyper Trans,ex,draft,maybe Hyper Trance; check
+タクティカルアームズ・ソードフォーム,Tactical Arms Sword Form,ex,draft,also Arrow Form / Gatling Form
+イーゲルシュテルン,Igelstellung,weapon,gb3,
+ピクウス,Picus,weapon,gb3,
+31mm近接防御機関砲,31mm CIWS,weapon,draft,GB3 has CIWS
+マシンキャノン,Machine Cannon,weapon,gb3,
+共通マシンキャノン,Machine Cannon,weapon,draft,generic (shared) machine cannon
+胸部ガトリング砲,Chest Gatling Cannon,weapon,gb3,
+350mmガンランチャー,350mm Gun Launcher,weapon,gb3,
+3連装ミサイル・ポッド,Triple Missile Pod,weapon,gb3,
+アームド・アーマーVN,Armed Armor VN,weapon,gb3,
+アームド・アーマーBS,Armed Armor BS,weapon,gb3,
+ビームサーベル二刀流,Dual Beam Sabers,weapon,draft,
+ビーム・トンファー,Beam Tonfa,weapon,draft,
+素手,Fists,weapon,draft,weaponList entry 0 (no weapon); short because equip0000 can't grow
+亜種,Variant,ms,draft,PG boss colour variants: PG Gundam Variant
+リペアキットS,Repair Kit S,item,draft,also L

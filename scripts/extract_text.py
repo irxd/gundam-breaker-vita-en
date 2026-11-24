@@ -3,7 +3,8 @@
   python -I scripts/extract_text.py
 
 Writes work/<name>.csv (git-ignored) with columns id, ja, en, notes:
-  id     record index:field index inside the original table (stable, used by the build)
+  id     record index:field index inside the original table (stable, used by the build); in the combined
+         unitData_parts/equip/ex.csv it is <file>:record:field (see tools/gbtext.py)
   ja     the Japanese string, exactly as stored (markup such as <br>, <c02>…</c>, \\n kept)
   en     English (empty = keep the Japanese)
   notes  free text
@@ -27,12 +28,15 @@ SRC = os.path.join(ROOT, "dump", "app", "PCSG00126", "masterPSP2")
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     total = chars = 0
+    groups = {}                         # csv name -> tables (the unitData folders share one csv)
     for table in gbtext.load_tables(SRC):
-        rows = [(rid, ja) for rid, _, _, ja in table.japanese()]
+        groups.setdefault(table.csv, []).append(table)
+    for name, tables in groups.items():
+        rows = [(rid, ja) for table in tables for rid, _, _, ja in table.japanese()]
         if not rows:
             continue
-        work = textdb.read_work(table.csv)
-        text = textdb.read_text(table.csv)
+        work = textdb.read_work(name)
+        text = textdb.read_text(name)
         jas = dict(rows)
         out = []
         from_work = from_text = 0
@@ -47,13 +51,14 @@ def main():
                 from_text += 1
             out.append(row)
         stale = [rid for rid, t in text.items() if t["ja_hash"] != textdb.ja_hash(jas.get(rid, ""))]
-        textdb.write_work(table.csv, out)
+        textdb.write_work(name, out)
         total += len(rows)
         chars += sum(len(ja) for _, ja in rows)
         extra = f"  ({from_work} from work, {from_text} from text)" if from_work or from_text else ""
-        print(f"{table.csv:32} {len(rows):5} strings  {table.source:6} {table.label}{extra}")
+        label = tables[0].label if len(tables) == 1 else f"{tables[0].label.rsplit('/', 1)[0]}/* ({len(tables)})"
+        print(f"{name:32} {len(rows):5} strings  {tables[0].source:6} {label}{extra}")
         if stale:
-            print(f"  WARNING: {len(stale)} committed rows in text/{table.csv} don't match the Japanese: {stale[:5]}")
+            print(f"  WARNING: {len(stale)} committed rows in text/{name} don't match the Japanese: {stale[:5]}")
     print(f"total: {total} strings, {chars} characters -> {os.path.relpath(textdb.WORK, ROOT)}/")
 
 
