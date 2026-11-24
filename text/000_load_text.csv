@@ -55,8 +55,8 @@ id,ja_hash,en,notes
 27:2,41f26622,Great sword combo ⑫⑫ on an airborne enemy lifts it.<br>A chance for more follow-ups.,draft
 28:1,62887792,"Great sword combo ⑫⑪ is its only nimble move.<br>If it connects, cancel it with a jump or step; it leaves little opening.",draft
 28:2,62887792,"Great sword combo ⑫⑪ is its only nimble move.<br>If it connects, cancel it with a jump or step; it leaves little opening.",draft
-29:1,ce558381,"With certain arm parts,<br>unarmed melee changes from normal ""Fist"" attacks<br>to very fast martial arts attacks with many hits.",draft
-29:2,ce558381,"With certain arm parts,<br>unarmed melee changes from normal ""Fist"" attacks<br>to very fast martial arts attacks with many hits.",draft
+29:1,ce558381,"With certain arm parts,<br>unarmed melee changes from normal ""Melee"" attacks<br>to very fast martial arts attacks with many hits.",draft
+29:2,ce558381,"With certain arm parts,<br>unarmed melee changes from normal ""Melee"" attacks<br>to very fast martial arts attacks with many hits.",draft
 30:1,c3c8f7bc,"Martial arts ⑪ is a very fast combo.<br>Hold ⑫ to charge a powerful attack.<br>You are fully invincible while charging ⑫, and many have special effects.",draft
 30:2,c3c8f7bc,"Martial arts ⑪ is a very fast combo.<br>Hold ⑫ to charge a powerful attack.<br>You are fully invincible while charging ⑫, and many have special effects.",draft
 31:1,dc845df3,Charge martial arts ⑫ to the max by holding ⑫<br>to lift enemies or send them flying.,draft
@@ -209,8 +209,8 @@ id,ja_hash,en,notes
 104:2,1954a567,"""Powered Bullet"" covers a wide area,<br>but it's also effective right up against large enemies.",draft
 105:1,555a6d89,"The Gatling gun EX-Action ""Gatling Assault""<br>is a tackle into a strong barrage.<br>It shines when a group of enemies closes in.",draft
 105:2,555a6d89,"The Gatling gun EX-Action ""Gatling Assault""<br>is a tackle into a strong barrage.<br>It shines when a group of enemies closes in.",draft
-106:1,b5d10936,"The Fist EX-Action ""Hammer Blow"" is a powerful downward punch.<br>Its reach is short, so judge the distance before you land it.",draft
-106:2,b5d10936,"The Fist EX-Action ""Hammer Blow"" is a powerful downward punch.<br>Its reach is short, so judge the distance before you land it.",draft
+106:1,b5d10936,"The Melee EX-Action ""Hammer Blow"" is a powerful downward punch.<br>Its reach is short, so judge the distance before you land it.",draft
+106:2,b5d10936,"The Melee EX-Action ""Hammer Blow"" is a powerful downward punch.<br>Its reach is short, so judge the distance before you land it.",draft
 107:1,8b29f806,"The great sword EX-Action ""Dead End Buster"" is an extremely powerful smash.<br>It's slow to start, so stop the enemy first.",draft
 107:2,8b29f806,"The great sword EX-Action ""Dead End Buster"" is an extremely powerful smash.<br>It's slow to start, so stop the enemy first.",draft
 108:1,33f1fd73,"The whip EX-Action ""Spiral Charge"" spins the whip and charges in.<br>The charge time is very short, so dive in without hesitation!",draft
@@ -353,5 +353,5 @@ id,ja_hash,en,notes
 176:2,468f79ce,"Some machines are battle-event-only Gunpla not sold to the public,<br>or originally customized Gunpla.",draft
 177:1,c092daf9,"Weapons attached to machine parts<br>count as ""option equipment"", separate from the main weapon in hand.<br>Sabers attached to backpacks are an example.",draft
 177:2,c092daf9,"Weapons attached to machine parts<br>count as ""option equipment"", separate from the main weapon in hand.<br>Sabers attached to backpacks are an example.",draft
-178:1,8309096e,"You can sortie without a melee weapon.<br>Your melee attacks become unarmed ""Fist"" attacks.",draft
-178:2,8309096e,"You can sortie without a melee weapon.<br>Your melee attacks become unarmed ""Fist"" attacks.",draft
+178:1,8309096e,"You can sortie without a melee weapon.<br>Your melee attacks become unarmed ""Melee"" attacks.",draft
+178:2,8309096e,"You can sortie without a melee weapon.<br>Your melee attacks become unarmed ""Melee"" attacks.",draft

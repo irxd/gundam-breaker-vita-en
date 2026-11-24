@@ -270,12 +270,12 @@ id,ja_hash,en,notes
 269:1,07bcd073,"<c05>Usable with a whip</c><br><c04>700％ of whip damage</c><br>Spins the whip fast into a giant vacuum<br>drill and charges ahead, dragging enemies in",draft
 270:1,420dd8ba,<c05>Usable with a lance</c><br><c04>370％ of lance damage</c><br>Fast thrusts into one powerful blow,draft
 271:1,27e8dabc,"<c05>Usable with a lance</c><br><c04>1200％ of lance damage</c><br>Ultra-fast thrusts riddle the enemies in<br>a wide area ahead and around, then a strong<br>thrust blows them away",draft
-272:1,0ee9f5a9,<c05>Usable with no melee weapon</c><br><c04>250％ of Fist damage</c><br>A tightly clenched fist delivers<br>a powerful one-hit-kill blow,draft
-273:1,4b80b273,<c05>Usable with no melee weapon</c><br><c04>1500％ of Fist damage</c><br>Enlarges the fist for a powerful punch<br>that smashes enemies in one hit,draft
-274:1,f5f86976,<c05>Usable with no melee weapon</c><br><c04>800％ of Fist damage (no effect on MA/PG)</c><br>Focuses saber energy into the palm and<br>charges in to discharge it into the enemy,draft
-275:1,eb436fba,"<c05>Usable with no melee weapon</c><br><c04>1500％ of Fist damage (no effect on MA/PG)</c><br>The energized palm burns bright red,<br>roaring to grasp victory in an exploding charge",draft
-276:1,a225ef94,<c04>230％ of melee attack damage</c><br><c04>Power depends on Fist aptitude</c><br>Charges with boost thrust and slams enemies<br>in a straight line with a shoulder tackle<br>Can also be used to dodge,draft
-277:1,179d56f8,<c04>320％ of melee attack damage</c><br><c04>Power depends on Fist aptitude</c><br>A comet-like falling kick from the air<br>that sends a shockwave through the ground<br>Enemies blown away can be hit again,draft
+272:1,0ee9f5a9,<c05>Usable with no melee weapon</c><br><c04>250％ of Melee damage</c><br>A tightly clenched fist delivers<br>a powerful one-hit-kill blow,draft
+273:1,4b80b273,<c05>Usable with no melee weapon</c><br><c04>1500％ of Melee damage</c><br>Enlarges the fist for a powerful punch<br>that smashes enemies in one hit,draft
+274:1,f5f86976,<c05>Usable with no melee weapon</c><br><c04>800％ of Melee damage (no effect on MA/PG)</c><br>Focuses saber energy into the palm and<br>charges in to discharge it into the enemy,draft
+275:1,eb436fba,"<c05>Usable with no melee weapon</c><br><c04>1500％ of Melee damage (no effect on MA/PG)</c><br>The energized palm burns bright red,<br>roaring to grasp victory in an exploding charge",draft
+276:1,a225ef94,<c04>230％ of melee attack damage</c><br><c04>Power depends on Melee aptitude</c><br>Charges with boost thrust and slams enemies<br>in a straight line with a shoulder tackle<br>Can also be used to dodge,draft
+277:1,179d56f8,<c04>320％ of melee attack damage</c><br><c04>Power depends on Melee aptitude</c><br>A comet-like falling kick from the air<br>that sends a shockwave through the ground<br>Enemies blown away can be hit again,draft
 278:1,aac36332,Fires powerful beams from the Balaena plasma<br>beam cannons of the <c00>Freedom Gundam Backpack</c>,draft
 279:1,519047ad,Somehow fires powerful beams from the<br>beam recorder of the <c00>Beargguy Backpack</c>,draft
 280:1,cc77c6f6,"Fires powerful beams from the 320mm hyper<br>impulse cannon ""Agni"" of the<br><c00>Launcher Strike Gundam Backpack</c>",draft

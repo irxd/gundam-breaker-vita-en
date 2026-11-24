@@ -236,7 +236,7 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 掃射,Strafe,attack,draft,
 連射,Rapid Fire,attack,draft,
 シールドガード,Shield Guard,attack,draft,
-格闘（拳法）,Fist (Martial Arts),attack,draft,
+格闘（拳法）,Melee (Martial Arts),attack,draft,"拳法 alone = Martial Arts (GB3, GB1 icons)"
 ライフル系,Rifle,category,draft,
 マシンガン系,Machine Gun,category,draft,
 バズーカ系,Bazooka,category,draft,
@@ -244,10 +244,10 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 ガトリングガン系,Gatling Gun,category,draft,
 サーベル系,Saber,category,draft,
 アックス系,Axe,category,draft,
-大剣系,Greatsword,category,draft,
+大剣系,Two-Handed Sword,category,gb3,GB3 and GB1's own weapon icons (icon_s_wep_*)
 ランス系,Lance,category,draft,
 ムチ系,Whip,category,draft,
-格闘,Fist,category,draft,
+格闘,Melee,category,gb3,unarmed attacks; GB3 and GB1's own weapon icons
 リペアキットM,Repair Kit M,item,draft,
 グレネード,Grenade,item,draft,
 クラッカー,Cracker,item,draft,
@@ -322,3 +322,5 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 素手,Fists,weapon,draft,weaponList entry 0 (no weapon); short because equip0000 can't grow
 亜種,Variant,ms,draft,PG boss colour variants: PG Gundam Variant
 リペアキットS,Repair Kit S,item,draft,also L
+拳法,Martial Arts,category,gb3,GB3 and GB1's own weapon icons; M.Arts where the eboot slot is 6 bytes
+大剣,Two-Handed Sword,category,gb3,GB3 and GB1's own weapon icons
