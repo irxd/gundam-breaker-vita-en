@@ -6,13 +6,17 @@ Bandai Namco, 2013).
 Mobile suit, part, weapon, skill and menu names follow the official English of *Gundam Breaker 3* (Asia English
 release) wherever it has them. Everything else is a new translation.
 
-> **Status: v0.1.0, first full translation pass. Not yet tested on a real PS Vita.** Menus, help, missions,
+> **Status: v0.1.0, first full translation pass, tested on a real PS Vita.** Menus, help, missions,
 > dialogue, part and weapon names, part descriptions and most UI images are in English. Many lines are first
 > drafts that still need a review.
 >
 > **Patch it in your browser with the [web patcher](https://irxd.github.io/gundam-breaker-vita-en/)** or download
 > the patch files from the [Releases](https://github.com/irxd/gundam-breaker-vita-en/releases) page. See
 > [Install](#install).
+
+<p align="center"><img src="docs/screenshots/04-set-up.png" width="420" alt="Set Up screen in English, on a PS Vita"> <img src="docs/screenshots/09-ace-points.png" width="420" alt="Battle with an English ace point message, on a PS Vita"></p>
+
+More screenshots: [Screenshots](#screenshots).
 
 ## What's translated
 
@@ -112,7 +116,6 @@ backup back to `ur0:shell/db/app.db` and restart the Vita.
 
 ## Known issues
 
-- **Not yet tested on a real PS Vita.** It has been tested in the Vita3K emulator only (Vulkan renderer).
 - First translation pass: many lines are drafts, and some may overflow their text box. Please report them with a
   screenshot.
 - Some data tables can't grow, so a few names use a shorter form (for example `HG Type 100` for the Hyaku-Shiki
@@ -123,6 +126,16 @@ backup back to `ur0:shell/db/app.db` and restart the Vita.
 - Credits staff names are still Japanese.
 - The movie subtitles cover the Japanese ones with a dark box; the parts of a movie that show subtitles are re-encoded
   and may look slightly softer than the rest.
+
+## Screenshots
+
+Taken on a PS Vita.
+
+<table>
+<tr><td><img src="docs/screenshots/01-title.png" alt="Title screen"><br><sub>Title screen</sub></td><td><img src="docs/screenshots/02-main-menu.png" alt="Main menu"><br><sub>Main menu</sub></td><td><img src="docs/screenshots/03-game-setting.png" alt="Game settings with the control diagram"><br><sub>Game settings with the control diagram</sub></td></tr>
+<tr><td><img src="docs/screenshots/04-set-up.png" alt="Set Up"><br><sub>Set Up</sub></td><td><img src="docs/screenshots/05-hangar-dialogue.png" alt="VR Hangar dialogue"><br><sub>VR Hangar dialogue</sub></td><td><img src="docs/screenshots/06-mission-select.png" alt="Mission select"><br><sub>Mission select</sub></td></tr>
+<tr><td><img src="docs/screenshots/07-mission-start.png" alt="Mission start"><br><sub>Mission start</sub></td><td><img src="docs/screenshots/08-battle-info.png" alt="Battle info terminal"><br><sub>Battle info terminal</sub></td><td><img src="docs/screenshots/09-ace-points.png" alt="Ace points and radio chat"><br><sub>Ace points and radio chat</sub></td></tr>
+</table>
 
 ---
 
