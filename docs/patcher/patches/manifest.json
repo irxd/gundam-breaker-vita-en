@@ -44,8 +44,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me01.usm",
-    "size": 79782976,
-    "sha1": "dc0dc33ab1a599d430494f717970e8bc934726de"
+    "size": 79623392,
+    "sha1": "93b708c6a24ff3bb13a455940648621d36744b2f"
    },
    "optional": true
   },
@@ -59,8 +59,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me09.usm",
-    "size": 36529696,
-    "sha1": "1d9d206bfb7c5f0317cc68e35700e7315893303a"
+    "size": 36599232,
+    "sha1": "6521420b03104121483c9ce731ad52737e4c2d54"
    },
    "optional": true
   },
@@ -74,8 +74,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me10.usm",
-    "size": 41415360,
-    "sha1": "165ec515bcd6fb976365add6f5a0bc05c88d45be"
+    "size": 41402784,
+    "sha1": "57f74e2068846ad39c01f90124dbcc9b038e4406"
    },
    "optional": true
   },
@@ -89,8 +89,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me_ending.usm",
-    "size": 214254144,
-    "sha1": "428bce7e31215aa08326f065e821108334dbbe97"
+    "size": 212908576,
+    "sha1": "b7729b785c88ee548d7dfdcfe6a78090dc46cc82"
    },
    "optional": true
   },
@@ -104,8 +104,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_01_open.usm",
-    "size": 29514528,
-    "sha1": "4b9974fae2f3191c5678061d693734e4acedd34b"
+    "size": 29449536,
+    "sha1": "ea423b143d97e7f7a9ed32e9367577664e9c3da0"
    },
    "optional": true
   },
@@ -194,8 +194,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_07_talk2.usm",
-    "size": 10036832,
-    "sha1": "cfc358d3431531c332840e63618cec09c71b0684"
+    "size": 10048320,
+    "sha1": "b2db331b15b3c65a46a54cd57c89f76a16a911e1"
    },
    "optional": true
   },
