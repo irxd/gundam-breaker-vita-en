@@ -186,7 +186,7 @@ To publish it, commit `docs/patcher/patches/` from a release build (it is git-ig
 
 - Translation and tools: this project
 - Official English names: *Gundam Breaker 3* (Bandai Namco, PS Vita/PS4, Asia English)
-- Tools used: VitaShell, rePatch, FAGDec, psvpfsparser, Vita3K, xdelta3, capstone, keystone, Pillow
+- Tools used: VitaShell, rePatch, FAGDec, psvpfsparser, xdelta3, capstone, keystone, Pillow
 - Release pipeline and web patcher adapted from the author's
   [Shin Gundam Musou](https://github.com/irxd/shin-gundam-musou-en) and
   [Battride War Sousei](https://github.com/irxd/battride-vita-en) English patches
