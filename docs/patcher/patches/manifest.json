@@ -1,0 +1,263 @@
+{
+ "version": "0.1.0",
+ "titleId": "PCSG00126",
+ "gameVersions": [
+  "1.00",
+  "1.02"
+ ],
+ "files": [
+  {
+   "patch": "masterPSP2/GxArchivedFile000.dat.xdelta",
+   "source": {
+    "path": "masterPSP2/GxArchivedFile000.dat",
+    "origin": "app",
+    "size": 1497701319,
+    "sha1": "0cbdab3cf7c5ea798ead3e9284de9e61ba8e4ede"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/masterPSP2/GxArchivedFile000.dat",
+    "size": 1497531839,
+    "sha1": "5b61bee010b1cbaacb844bc4bc5869b2767f77a4"
+   }
+  },
+  {
+   "patch": "masterPSP2/GxArchivedFile002.dat.xdelta",
+   "source": {
+    "path": "masterPSP2/GxArchivedFile002.dat",
+    "origin": "app",
+    "size": 542262170,
+    "sha1": "cd7f024844cc3eb2421be296625784c6ac0133af"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/masterPSP2/GxArchivedFile002.dat",
+    "size": 542101695,
+    "sha1": "75826a7761db54142ef976d3f045cc47c7f4b014"
+   }
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/me01.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/me01.usm",
+    "origin": "app",
+    "size": 102958240,
+    "sha1": "866aa126ccfe87a973b9a461eab67704396a4a35"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me01.usm",
+    "size": 79454944,
+    "sha1": "0dd771d46b4ae5f07e9ee7f5b4daf6893a644391"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/me09.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/me09.usm",
+    "origin": "app",
+    "size": 49227072,
+    "sha1": "413828f0ff79534e8a259763590c94a058e399bf"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me09.usm",
+    "size": 36722240,
+    "sha1": "b8bc8028e7d2eac98c806556affdccb560e4db64"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/me10.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/me10.usm",
+    "origin": "app",
+    "size": 69768448,
+    "sha1": "c318968f1b45a2df80fc73048bbd12b77b835b3f"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me10.usm",
+    "size": 41166496,
+    "sha1": "1a5a4d8cec84fabf2dfc4b6f7f7f02f944f0f327"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/me_ending.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/me_ending.usm",
+    "origin": "app",
+    "size": 235908704,
+    "sha1": "3ca4749a2f2062f494383aedb3135e526e1e6c18"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/me_ending.usm",
+    "size": 214098912,
+    "sha1": "d6b9250bb537b30ef5876479377f8840dee45c4e"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_01_open.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_01_open.usm",
+    "origin": "app",
+    "size": 55868928,
+    "sha1": "a1c1c020ecb3a897615bd54d092f4d05bdc1d389"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_01_open.usm",
+    "size": 29317408,
+    "sha1": "c5281f688c7f9d472f214449a55ad0a414481871"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_02_welcome.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_02_welcome.usm",
+    "origin": "app",
+    "size": 1865280,
+    "sha1": "617bb837a33f7a003e3c35456ee308531c45cf4f"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_02_welcome.usm",
+    "size": 1239296,
+    "sha1": "fbcf71ef9a710b4392c49c6a0b685eba7f75910b"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_03_ms_add.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_03_ms_add.usm",
+    "origin": "app",
+    "size": 3282144,
+    "sha1": "e300a469f40b5628888b27d8d75924219796eaae"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_03_ms_add.usm",
+    "size": 1704896,
+    "sha1": "c8453463aac113514135c4c0287c9d33bbbc7485"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_04_suits_add.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_04_suits_add.usm",
+    "origin": "app",
+    "size": 3276768,
+    "sha1": "f88a4cd80356abe63dd25d119a5d98404692d739"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_04_suits_add.usm",
+    "size": 1698656,
+    "sha1": "7b5ddbdf527c23365fd475fc5ae3072967b6f7f7"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_05_item_add.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_05_item_add.usm",
+    "origin": "app",
+    "size": 2329600,
+    "sha1": "86a08647651cdc17ef78c052e2efabc64e6aadb8"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_05_item_add.usm",
+    "size": 1157056,
+    "sha1": "33040302abd3ccd8bbcef24daec8868cb72b177c"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_06_talk.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_06_talk.usm",
+    "origin": "app",
+    "size": 6058464,
+    "sha1": "567bd61d142c7a4f0b919f2c3eaedea85dc52cdf"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_06_talk.usm",
+    "size": 3027040,
+    "sha1": "e8e3932c04efb90db662921a438db86eb1a42b16"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_07_talk2.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_07_talk2.usm",
+    "origin": "app",
+    "size": 16817376,
+    "sha1": "5031680173fc3c56393d80e1e8d032675fa665b7"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_07_talk2.usm",
+    "size": 9976672,
+    "sha1": "ac045997cd592b890e0554284cec171b30e38653"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_08_talk3.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_08_talk3.usm",
+    "origin": "app",
+    "size": 3415296,
+    "sha1": "efbcbc7f197946ec91d8511f0ba167403e0c7b94"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_08_talk3.usm",
+    "size": 1813792,
+    "sha1": "cbd4730ee2c0771db9375325609425ab234ec182"
+   },
+   "optional": true
+  },
+  {
+   "patch": "finalizedPSP2/GP/movie/shop_ev_09_talk4.usm.xdelta",
+   "source": {
+    "path": "finalizedPSP2/GP/movie/shop_ev_09_talk4.usm",
+    "origin": "app",
+    "size": 3280832,
+    "sha1": "fa795295b9d1cbdda18d60283729036410af577b"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/finalizedPSP2/GP/movie/shop_ev_09_talk4.usm",
+    "size": 1702880,
+    "sha1": "5e6a60f3991146ece99c4e322a16b5110a41e958"
+   },
+   "optional": true
+  },
+  {
+   "patch": "eboot-1.00.bin.xdelta",
+   "source": {
+    "path": "eboot.bin.elf",
+    "origin": "eboot",
+    "gameVersion": "1.00",
+    "size": 7776902,
+    "sha1": "38e2bb04a26b84526c71c42fa706cb5e3d633b20"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/eboot.bin",
+    "size": 3921464,
+    "sha1": "f6a58711d27cbb2e52affac9ab4f67ad98a06329"
+   }
+  },
+  {
+   "patch": "eboot-1.02.bin.xdelta",
+   "source": {
+    "path": "eboot.bin.elf",
+    "origin": "eboot",
+    "gameVersion": "1.02",
+    "size": 7732198,
+    "sha1": "56c0d94bc0306681ab30df7e003cb21c547376f4"
+   },
+   "target": {
+    "path": "rePatch/PCSG00126/eboot.bin",
+    "size": 3900884,
+    "sha1": "be2085c42f713a49f04eccabf3b7f0e710aca781"
+   }
+  }
+ ]
+}
