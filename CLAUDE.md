@@ -23,12 +23,28 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Vita3K: use **Vulkan** (black 3D world, text fine). OpenGL crashes on mission load even with original files.
   Needs fake-signed eboot and `sce_module` (`scripts/make_eboot.py`).
 - Display names in `GP/unitData/*` (parts, equip, ex, partsList, weaponList, itemSkillParam) are extracted and
-  built (field 0 is the numeric key; see notes/formats.md). Not yet tested in game. `GP/csv/*` is still left out.
+  built (field 0 is the numeric key; see notes/formats.md). Not yet tested in game. Also extracted: part descriptions
+  (`GP/text/parts_phonetic` field 3), decal names (`GP/csv/decalData`, both loose in 000 only), chip names
+  (`GP/csv/AiIntensificationChipData`), ace point texts (`GP/csv/scoreAchievementsTable`), map names (`GP/map/map`).
+  The other `GP/csv/*` strings are designer labels (list in notes/formats.md).
 - The eboot has player-visible UTF-8 strings too (default radio chat and Gunpla name, "not equipped", lobby):
   `scripts/eboot_text.py` patches them in place for 1.00 and 1.02 (`text/eboot.csv`). Not yet tested in game.
-- Many UI labels are baked into textures (`GP/ui/ui_dds/*`, DXT1/DXT5): 322 redrawn (`scripts/draw_ui.py`,
-  `scripts/uidraw/`), injected by `scripts/build_images.py`. See notes/images.md. Not yet tested in game.
-- Build order: `build_text.py`, then `python -E -P scripts/build_images.py`, then `eboot_text.py build`.
+- Many UI labels are baked into textures (`GP/ui/ui_dds/*`, DXT1/DXT5): 346 redrawn (`scripts/draw_ui.py`,
+  `scripts/uidraw/`), injected by `scripts/build_images.py`. 24 of them exist only as loose entries in 000: run
+  `python -E -P scripts/export_tex.py --ui` before `draw_ui.py` on a fresh checkout. See notes/images.md.
+- Optional home-screen title: `tools/rename_title.py` (app.db or param.sfo), also in the web patcher.
+- None of this is tested in game yet.
+- Build order: `build_text.py`, then `python -E -P scripts/build_images.py`, then `eboot_text.py build`, then
+  `python -E -P scripts/build_movies.py`.
+- Movies (`finalizedPSP2/GP/movie/*.usm`, loose files, CRI USM + MPEG-1 with 11-bit DC): burned-in Japanese in me01,
+  me09, me10, shop_ev_01-09 and the me_ending epilogue get English cue overlays (`text/movies/*.json`); only the GOPs
+  with a cue are re-encoded (`tools/usm.py`, `tools/mpeg1.py`). GB_PV1 is never played (not in the eboot); credits
+  names stay Japanese. Not yet tested on hardware. See notes/formats.md.
+- Release: `python -I scripts/make_release.py <version> [--no-build]` runs that chain (`BUILD_HOOKS` for later steps
+  such as movies), lays it out as `build/rePatch/PCSG00126/` and makes xdelta patches (`-B 2147483648`: the source
+  window must cover the 1.5 GB archive) into `release/` and `docs/patcher/patches/` (web patcher, git-ignored). One
+  eboot patch per game version (from FAGDec's ELF). Players: `scripts/apply_patches.py` or the web patcher
+  (`docs/`); `node scripts/test_web_patcher.mjs` tests the web patcher against the dump. Not yet published.
 - Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) crashed once, on
   OpenGL, so it's unproven. Re-test on Vulkan before translating those.
 - Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).

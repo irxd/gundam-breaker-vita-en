@@ -226,22 +226,90 @@ shows. Picked by (field count of the record, field index), see `DATA_TABLES` in 
 - Build check added: a grade prefix (`HG `, `MG `, `PG`) at the start of the Japanese must stay at the start of the
   English, because the Set Up list drops it.
 - Many of these tables are tiny (one or two strings), so the "table must not grow" rule bites: about 60 rows use a
-  shorter form (notes say "short form, the table can't grow"), and HG/MG Hyaku-Shiki (chr0312–0317, chr2312–2317) stays
-  Japanese because `HG Hyaku-Shiki` is 5 bytes longer. If Vulkan shows grown tables are fine, these can be relaxed.
+  shorter form (notes say "short form, the table can't grow"), and HG/MG Hyaku-Shiki is `Type 100` in its part
+  tables (see "Longer strings may use stale bytes" below). If Vulkan shows grown tables are fine, these can be
+  relaxed.
 - The default Gunpla name (GM) and "not equipped" are eboot strings (0x747b04); no data table supplies them
   (only `GP/text/partner_ms_name` has a bare "GM", which is a partner MS name).
 
-## GP/csv and GP/map: survey (not extracted)
+## GP/csv, GP/map and parts_phonetic (added 2026-11-25, not yet tested in game)
 
-| table | strings | on screen? |
+Display fields of these tables are extracted like the unitData ones (`DATA_TABLES` in tools/gbtext.py). Two of them
+exist **only as loose dt2 entries in archive 000** (no bundle copy): `GP/text/parts_phonetic` (`4e461bc6`) and
+`GP/csv/decalData` (`7b592c49`); the build writes those back into 000. The others are members of one 002 bundle each
+and have no loose copy.
+
+| table | field | content | CSV |
+|---|---|---|---|
+| `GP/text/parts_phonetic` | (4, 3) | part / weapon description shown for a part: traits ("no special traits", "movement type becomes Flight"), option equipment, EX-Actions it teaches, weapon type and attacks; `<c00>`–`<c05>` colour tags | `000_parts_phonetic.csv` |
+| `GP/csv/decalData` | (10, 1) | decal name, "HG Gundam Decal B"; field 0 = numeric decal ID (1001…), the rest are numbers | `csv_decalData.csv` |
+| `GP/csv/AiIntensificationChipData` | (49, 1) | chip name, the same strings as `GP/text/chip_name` (translations copied); the other 48 fields are numbers | `csv_AiIntensificationChipData.csv` |
+| `GP/csv/scoreAchievementsTable` | (6, 5), (7, 5), (8, 5) | ace point description; the same text as `acepoint_detail` without the points (translations copied) | `csv_scoreAchievementsTable.csv` |
+| `GP/map/map` | (4, 1) | map name with time of day ("Jaburo (Evening)", "Boss 1", "Home") | `map_map.csv` |
+
+- Left alone in those tables: parts_phonetic field 1 (sort reading: the kit name in katakana without spaces, e.g.
+  "HGGundam"), scoreAchievementsTable field 1 (ID such as `FIRST_KILL`) and field 7 (developer comment: "not used at
+  the moment", "damage dealt to the enemy"), map field 2 (map code `jab_01`).
+- scoreAchievementsTable 18 and 49 ("last enemy of the area", "shooting with head and left arm off") stay Japanese: the
+  matching acepoint_name rows say "if this appears it's a bug" (unused); 22/23 are that bug text itself.
+- Not extracted, because they are internal labels:
+
+| table | strings | why |
 |---|---|---|
-| `GP/csv/NPCParam` | field 0 of 87-field records: "[HG] GM with shield, beam rifle" | probably not: designer labels (grade tag, loadout). The HUD enemy name likely comes from the parts name. |
-| `GP/csv/BOSSParam` | field 0: "[PG] PG Gundam phase 1" | probably not: labels with phase numbers |
-| `GP/csv/AiIntensificationChipData` | field 1 of 49-field records: chip names such as "Titanium Alloy Armor" (245) | maybe: same names as `GP/text/chip_name`; check whether the chip screen reads this or chip_name |
-| `GP/csv/scoreAchievementsTable` | field 1 = ID (`FIRST_KILL`), field 5 = description ("destroyed the first enemy"), field 7 = comment ("not used at the moment") | field 5 maybe on the result/score screen; field 7 no |
-| `GP/map/map` | field 1 = map name with time of day ("Jaburo, evening"), field 2 = map code `jab_01` | maybe (map name with time of day); mission names already say where |
-| `GP/csv/MA/*` | "bullet spawn offset X", "1_front" | no: parameter labels |
-| `GP/csv/multiplayer` | "grunt HP", "strong enemy HP" | no: parameter labels |
+| `GP/csv/NPCParam` field 0 (1,411) | "[HG] GM with shield, beam rifle" | designer labels (grade tag, loadout); enemy names on the HUD come from the parts tables |
+| `GP/csv/BOSSParam` field 0 (191) | "[PG] PG Gundam phase 1" | designer labels with phase numbers |
+| `GP/csv/MA/*` (42) | "bullet spawn offset X", "1_front" | parameter names |
+| `GP/csv/multiplayer` (15) | "grunt HP", "strong enemy HP" | parameter names |
+| `GP/csv/parts_build_viewoffset` (971, loose in 000, `4e253684`) | part names ("HG Gundam Head") | row labels of a camera offset table (an older, longer list than partsList) |
+| `GP/csv/ui_resource` (2, loose in 000, `84485bdb`) | "shown when Start is pressed in the hangar" | developer notes |
+| `GP/unitData/awakeparam` field 1 (26) | "Hyper Mode", "boss", "escorts", "HT + awakening: Wings of Light" | awakening parameter labels |
+| `GP/unitData/effect/*`, `sound/*` (4) | "2-barrel mega beam rifle (ZZ) attack B" | comments |
+
+  No other dt2 with Japanese is left: every bundle member and loose 000 table with Japanese is either extracted or
+  in this list (checked 2026-11-25).
+
+### Longer strings may use stale bytes (tools/dt2.py, 2026-11-25)
+
+Many strings are followed by 1–3 stale bytes before the next field (leftovers of an older, longer string; no field
+points to them). `Dt2.rebuild` now lets a string that gets longer fill those bytes first, so fields only move when that
+room runs out. Even so `HG Hyaku-Shiki` doesn't fit in chr0313/0314/0316/0317 and chr2313/2314/2316/2317: the
+table's only other string is the model number `MSN-00100`, the whole table has just 4 stale bytes, and the name
+needs 5 more bytes than the Japanese, so even a fully compacted table would grow by 1 byte. Decision (2026-11-25):
+all 12 Hyaku-Shiki part tables (chr0312-0317, chr2312-2317) use `HG/MG Type 100` (the literal meaning) so the parts
+of one Gunpla match on the Set Up list; everything else keeps GB3's Hyaku-Shiki. Re-checking the "short form" rows
+with this change restored `PG Zeta Gundam Variant` in chr4482-4487; the others still don't fit.
+
+## Movies (CRI USM, added 2026-11-25, not yet tested on hardware)
+
+`finalizedPSP2/GP/movie/*.usm`: 57 loose files (not in the archives), so rePatch replaces them as
+`ux0:rePatch/PCSG00126/finalizedPSP2/GP/movie/<name>.usm`. The eboot names them as `GP/movie/<name>` (all except
+`GB_PV1` and the character clips, which are reached through `GP/movie/%s`).
+
+- **Container** ([tools/usm.py](../tools/usm.py)): big-endian chunks aligned to 32 bytes (`CRID`, `@SFV` video,
+  `@SFA` audio; header: size, payload offset 0x18, padding, kind 0 data / 1 header / 2 text marker / 3 seek, time,
+  rate). Video data chunks hold one MPEG-1 picture each in coded order. `@UTF` tables: `CRIUSF_DIR_STREAM` (file and
+  stream sizes, avbps = int(bytes * 8 / duration) with 29.97 fps counted as 30000/1001 and audio by samples, minbuf),
+  `VIDEO_HDRINFO` (total_frames, ixsize, mpeg_dcprec 11), `VIDEO_SEEKINFO` (one row per GOP: byte offset of its first
+  chunk and frame number). Parse + rebuild is byte-identical on all 57 files, also when every picture is
+  "replaced" by itself (which recomputes all the tables).
+- **Video**: MPEG-1, closed GOPs of up to 13 pictures (I P B B P B B ... P B B; `advertise` up to 7), 960x544 at
+  30 fps (story, shop), 1280x720 at 29.97 (`GB_PV1`), 960x448 (`advertise`). Every GOP repeats the sequence header
+  with **its own quantiser matrices** (they change from GOP to GOP) and TMPGEnc user data `TMPGEXS ... IDCPREC
+  00000008 00000003`: the intra DC coefficients use **11-bit precision** (as MPEG-2 intra_dc_precision 3). ffmpeg
+  decodes that; its MPEG-1 encoder can't write it, so [tools/mpeg1.py](../tools/mpeg1.py) re-codes the DC
+  differentials of the encoded pictures (x8, extended dct_dc_size tables). The parser round-trips every original
+  picture bit for bit. Audio: ADX, copied untouched.
+- **Burned-in Japanese** (white text with a dark outline, bottom centre, y ~428-490): `me01` (opening narration and
+  the MC), `me09` (closing ceremony), `me10` (the developer), `shop_ev_01`-`09` (shop owner), `me_ending` (epilogue
+  lines revealed one by one over the sunset, upper half; then staff credits). The spoken lines are the same as
+  `GP/text/voice_event_text` 410-424 and 716-762, so the English follows those rows.
+- Clean (no Japanese subtitles): `title_bg`, `main_menu_bg`, `shop_no_talk`, `advertise` (song credit and logo
+  only), the character clips `C10`-`C50`. Left as they are: `GB_PV1` (the PS3 promo trailer; not referenced by
+  name, only a calligraphy tagline card), the staff credits in `me_ending`, the katakana in the logo.
+- **Build** ([scripts/build_movies.py](../scripts/build_movies.py), cues in `text/movies/<name>.json`): only the GOPs
+  that overlap a cue are re-encoded (each on its own, same picture count, the GOP's matrices, original sequence and
+  GOP headers kept); all other pictures are copied byte for byte. A re-encoded GOP may use up to 1.5x its original
+  bytes, and no picture may be larger than the file's largest original picture (the buffer fields stay valid).
 
 ## Text in the eboot (2026-11-24)
 

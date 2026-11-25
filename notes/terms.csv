@@ -108,7 +108,7 @@ G-3ガンダム,G-3 Gundam,ms,gb3,
 ガンダムMk-Ⅱ（黒）,Gundam Mk-II Titans,ms,gb3,the black (Titans) Mk-II; GB3 has Gundam Mk-II Titans / AEUG
 ガンダムMk-Ⅱ【バルカン・ポッド装備】,Gundam Mk-II (Vulcan Pod),ms,gb3,
 Zガンダム,Zeta Gundam,ms,gb3,
-百式,Hyaku-Shiki,ms,gb3,
+百式,Hyaku-Shiki,ms,gb3,"exception: the part tables GP/unitData/parts/chr0312-0317 and chr2312-2317 use HG/MG Type 100 (the full name doesn't fit; the whole set matches on the Set Up list)"
 ZZガンダム,ZZ Gundam,ms,gb3,
 キュベレイ,Qubeley,ms,gb3,
 キュベレイMk-Ⅱ,Qubeley Mk-II,ms,gb3,
@@ -327,3 +327,21 @@ MA-M21KF高エネルギービームライフル,MA-M21KF High-Energy Beam Rifle,
 決定,OK,system,ok,confirm button in hints (decided 2026-11-25; the game's own English dialog strip says OK)
 戻る,Back,system,ok,button hints
 選択,Select,system,ok,button hints
+通常弾,Normal Round,attack,draft,bazooka; as in runners_detail
+誘導弾,Homing Shot,attack,draft,bazooka; as in runners_detail
+拡散弾,Spread Shot,attack,draft,bazooka; as in runners_detail
+振り抜き攻撃,Full Swing,attack,draft,axe; as in runners_detail
+連結チャージショット,Linked Charge Shot,attack,draft,double rifles; as in runners_detail
+チャージ単射,Charged Single Shot,attack,draft,double-barrel beam machine guns
+拡散ショット,Diffuse Shot,attack,draft,Sazabi beam shot rifle
+特性なし,No special traits,system,draft,parts_phonetic (part traits shown in Set Up)
+移動属性,movement type,system,draft,"飛行 = Flight, ホバー = Hover (parts_phonetic)"
+習得パーツ,Teaches EX-Action,system,draft,"parts_phonetic: ≪Teaches EX-Action ""X""≫"
+女性タイプ,female type,system,draft,parts_phonetic: the machine's actions become the female type
+ベアッガイランドセル,Beargguy Randoseru,weapon,draft,"backpack; decalData writes HG Nobel Gundam + Beargguy Randoseru"
+ジャブロー,Jaburo,place,official,GP/map/map; 夕方 = (Evening) and 夜 = (Night) in parentheses
+キリマンジャロ,Kilimanjaro,place,official,
+アクシズ,Axis,place,official,
+タクラマカン砂漠,Taklamakan Desert,place,draft,
+マウンテンサイクル,Mountain Cycle,place,official,
+インダストリアル7,Industrial 7,place,official,
