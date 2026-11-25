@@ -1,0 +1,12 @@
+{"style": "box", "cues": [
+  {"start": 2.0, "end": 9.5, "en": "Everyone gathered in the plaza in front of GGF!\nAnd everyone across the country watching this broadcast!", "box": [292, 435, 668, 494]},
+  {"start": 9.5, "end": 13.633, "en": "The biggest Gundam event in history,\n\"Gundam Great Front\",", "box": [334, 422, 626, 495]},
+  {"start": 13.633, "end": 17.5, "en": "finally closes today!", "box": [302, 435, 658, 470]},
+  {"start": 17.5, "end": 23.833, "en": "This event, held under the theme\n\"The Gundam World Becomes Reality\"...", "box": [282, 434, 678, 485]},
+  {"start": 23.833, "end": 25.867, "en": "Its most popular part of all was...", "box": [368, 435, 592, 456]},
+  {"start": 25.867, "end": 30.467, "en": "the live event using the Gunpla Battle Simulator,\n\"Battle Live-G\"!", "box": [314, 434, 646, 486]},
+  {"start": 30.467, "end": 35.967, "en": "The many heated battles of the players\nthat you all watched", "box": [247, 434, 713, 485]},
+  {"start": 35.967, "end": 42.5, "en": "will surely be told for years to come\nas new great scenes of the Gundam world!", "box": [247, 434, 713, 485]},
+  {"start": 42.5, "end": 47.7, "en": "Now, to close Gundam Great Front,\nas the grand finale,", "box": [236, 415, 724, 495]},
+  {"start": 47.7, "end": 52.5, "en": "we begin an exhibition match\nby the selected players of \"Battle Live-G\"!", "box": [278, 415, 682, 495]}
+]}

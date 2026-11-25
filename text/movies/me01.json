@@ -1,0 +1,21 @@
+{"style": "box", "cues": [
+  {"start": 8.0, "end": 11.0, "en": "Odaiba, Tokyo", "box": [425, 435, 535, 456]},
+  {"start": 11.0, "end": 21.0, "en": "Here, where the life-size Gundam statue towers,\nthe biggest Gundam event in history is being held.", "box": [266, 434, 694, 486]},
+  {"start": 21.0, "end": 31.0, "en": "\"Gundam Great Front\": a Gundam event packed with cutting-edge tech\nunder the theme \"The Gundam World Becomes Reality\".", "box": [230, 418, 730, 495]},
+  {"start": 36.367, "end": 39.533, "en": "Hi there, everyone!", "box": [364, 434, 596, 495]},
+  {"start": 39.533, "end": 44.6, "en": "Welcome to the biggest Gundam event in history,\n\"Gundam Great Front\"!", "box": [289, 422, 671, 495]},
+  {"start": 44.6, "end": 48.667, "en": "\"Gundam Great Front\" finally opens today!", "box": [221, 415, 739, 495]},
+  {"start": 48.667, "end": 53.0, "en": "And the biggest highlight of the event is...", "box": [266, 415, 694, 495]},
+  {"start": 53.0, "end": 57.933, "en": "the \"Gunpla battle game\" everyone dreamed of, finally real!", "box": [187, 415, 773, 495]},
+  {"start": 57.933, "end": 63.867, "en": "A new kind of live event using the Gunpla Battle Simulator:\n\"Battle Live-G\"!", "box": [283, 415, 677, 495]},
+  {"start": 63.867, "end": 69.1, "en": "Can the chosen players defeat\nthe countless swarms of enemy Gunpla", "box": [298, 415, 662, 495]},
+  {"start": 69.1, "end": 74.167, "en": "and beat the \"strongest machine\" waiting beyond:\nthe Gundam?", "box": [280, 415, 680, 495]},
+  {"start": 74.167, "end": 79.2, "en": "The live event using the Gunpla Battle Simulator,\n\"Battle Live-G\"!", "box": [313, 415, 647, 495]},
+  {"start": 79.2, "end": 82.033, "en": "Enjoy it to the fullest!", "box": [355, 418, 605, 495]},
+  {"start": 85.9, "end": 90.467, "en": "An announcement for all\n\"Battle Live-G\" players!", "box": [303, 433, 657, 495]},
+  {"start": 90.467, "end": 96.0, "en": "The battle system is running normally!\nYou can join the battle any time!", "box": [306, 421, 654, 495]},
+  {"start": 96.0, "end": 100.667, "en": "For the systems you play with\nand the rules of battle,", "box": [294, 428, 666, 495]},
+  {"start": 100.667, "end": 105.567, "en": "we've sent mail to your Breakers Mobile,\nso check it from the \"Mobile Menu\"!", "box": [231, 421, 729, 495]},
+  {"start": 105.567, "end": 108.8, "en": "Well then, do your best until the last day of the event!", "box": [265, 420, 695, 495]},
+  {"start": 108.8, "end": 111.567, "en": "We're waiting for your hot plays!", "box": [306, 428, 654, 495]}
+]}

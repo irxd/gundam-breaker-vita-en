@@ -1,0 +1,18 @@
+{"style": "box", "cues": [
+  {"start": 1.0, "end": 4.7, "en": "Hello, come on in.\nThanks for coming.", "box": [388, 436, 572, 485]},
+  {"start": 4.7, "end": 10.7, "en": "This is the special development room\nin my game company's lab.", "box": [254, 423, 706, 489]},
+  {"start": 10.7, "end": 16.133, "en": "GGF's \"Battle Live-G\" was\nquite well received, thankfully.", "box": [302, 423, 658, 489]},
+  {"start": 16.133, "end": 21.833, "en": "Our president wants a version\nwe can roll out nationwide next.", "box": [295, 423, 665, 490]},
+  {"start": 21.833, "end": 27.333, "en": "So I'd like you to help\ndevelop the new version.", "box": [299, 423, 661, 489]},
+  {"start": 27.333, "end": 32.6, "en": "Your job is the same.\nJust keep playing as before.", "box": [230, 423, 730, 490]},
+  {"start": 32.6, "end": 36.133, "en": "You can keep using your machines\nand parts as they are,", "box": [326, 423, 634, 490]},
+  {"start": 36.133, "end": 40.967, "en": "and we'll provide the runners you win in battle\nfree of charge.", "box": [327, 423, 633, 490]},
+  {"start": 40.967, "end": 44.567, "en": "Our goal is to measure,\nfor this battle system...", "box": [314, 418, 646, 485]},
+  {"start": 44.567, "end": 48.9, "en": "the limits of how far\nplayers can handle it.", "box": [306, 418, 654, 485]},
+  {"start": 48.9, "end": 54.8, "en": "So the new missions are\nfar more difficult than before.", "box": [250, 418, 710, 485]},
+  {"start": 54.8, "end": 58.5, "en": "In a sense, no holding back.", "box": [306, 423, 654, 489]},
+  {"start": 58.5, "end": 63.233, "en": "But selected players like you\nwill surely enjoy it.", "box": [309, 423, 651, 489]},
+  {"start": 63.233, "end": 67.033, "en": "So I'd be glad if you started\nplaying again right away.", "box": [345, 434, 615, 491]},
+  {"start": 67.033, "end": 70.167, "en": "I've called the other selected players too.", "box": [259, 423, 701, 490]},
+  {"start": 70.167, "end": 73.8, "en": "You'll be able to play with them again.", "box": [264, 423, 696, 489]}
+]}

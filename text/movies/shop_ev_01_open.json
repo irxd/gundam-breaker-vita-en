@@ -1,0 +1,13 @@
+{"style": "box", "cues": [
+  {"start": 0.867, "end": 2.5, "en": "Welcome!", "box": [404, 431, 556, 448]},
+  {"start": 2.5, "end": 7.467, "en": "This is the \"Players' Shop\",\njust for \"Battle Live-G\" players!", "box": [289, 429, 671, 477]},
+  {"start": 7.467, "end": 14.733, "en": "Here, in exchange for the GP you earn in missions,\nwe offer \"Gunpla\" with a full set of machine parts,", "box": [274, 430, 686, 477]},
+  {"start": 14.733, "end": 20.967, "en": "\"Avatars\" that are you in the VR Hangar,\nand more.", "box": [243, 421, 717, 477]},
+  {"start": 20.967, "end": 25.4, "en": "However, under the battle event's rules,\nfor the \"Gunpla\",", "box": [329, 429, 631, 477]},
+  {"start": 25.4, "end": 28.833, "en": "the weapon runners\nare removed.", "box": [353, 430, 607, 476]},
+  {"start": 28.833, "end": 32.0, "en": "We ask for your understanding.", "box": [366, 429, 594, 448]},
+  {"start": 32.0, "end": 39.533, "en": "The Gunpla and avatars you can get\nare added one after another as you progress.", "box": [263, 429, 697, 476]},
+  {"start": 39.533, "end": 46.0, "en": "We'll send you a mail when new items arrive,\nso check your Breakers Mobile.", "box": [255, 430, 705, 476]},
+  {"start": 46.0, "end": 54.0, "en": "You can also trade the runners you won in battle\nand the parts you made for GP.", "box": [256, 429, 704, 476]},
+  {"start": 54.0, "end": 59.033, "en": "If you have runners or parts you don't need,\nbring them here.", "box": [310, 430, 650, 476]}
+]}

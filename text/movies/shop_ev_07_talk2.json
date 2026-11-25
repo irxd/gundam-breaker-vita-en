@@ -1,0 +1,6 @@
+{"style": "box", "cues": [
+  {"start": 0.5, "end": 4.967, "en": "Nice to see you again!\nWelcome to the Players' Shop!", "box": [340, 430, 620, 476]},
+  {"start": 4.967, "end": 8.133, "en": "To support you\nselected players,", "box": [343, 429, 617, 489]},
+  {"start": 8.133, "end": 13.233, "en": "we moved the same equipment from the event venue\nover here!", "box": [305, 415, 655, 489]},
+  {"start": 13.233, "end": 18.0, "en": "The system is the same as before,\nso we look forward to serving you!", "box": [308, 430, 652, 476]}
+]}
