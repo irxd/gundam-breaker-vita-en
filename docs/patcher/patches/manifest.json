@@ -241,7 +241,7 @@
    "target": {
     "path": "rePatch/PCSG00126/eboot.bin",
     "size": 3921464,
-    "sha1": "f6a58711d27cbb2e52affac9ab4f67ad98a06329"
+    "sha1": "9b87d84541a8db18a3bdf140cb986532f09db378"
    }
   },
   {
@@ -256,7 +256,7 @@
    "target": {
     "path": "rePatch/PCSG00126/eboot.bin",
     "size": 3900884,
-    "sha1": "be2085c42f713a49f04eccabf3b7f0e710aca781"
+    "sha1": "4c2936e4af3ad40b40b3abd710433783ba5e0306"
    }
   }
  ]
