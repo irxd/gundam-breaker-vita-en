@@ -81,6 +81,33 @@ COEF = set("""11 011 0100 0101 00101 00111 00110 000110 000111 000101 000100 000
     0000000000011110 0000000000011101 0000000000011100 0000000000011011""".split())
 
 
+# The same codes with their (run, level): table B.5c/d, used where coefficient positions matter.
+RUN_LEVEL = {code: (int(run), int(level)) for code, run, level in
+             (item.split() for item in """
+    11 0 1; 011 1 1; 0100 0 2; 0101 2 1; 00101 0 3; 00111 3 1; 00110 4 1; 000110 1 2; 000111 5 1; 000101 6 1;
+    000100 7 1; 0000110 0 4; 0000100 2 2; 0000111 8 1; 0000101 9 1; 00100110 0 5; 00100001 0 6; 00100101 1 3;
+    00100100 3 2; 00100111 10 1; 00100011 11 1; 00100010 12 1; 00100000 13 1; 0000001010 0 7; 0000001100 1 4;
+    0000001011 2 3; 0000001111 4 2; 0000001001 5 2; 0000001110 14 1; 0000001101 15 1; 0000001000 16 1;
+    000000011101 0 8; 000000011000 0 9; 000000010011 0 10; 000000010000 0 11; 000000011011 1 5; 000000010100 2 4;
+    000000011100 3 3; 000000010010 4 3; 000000011110 6 2; 000000010101 7 2; 000000010001 8 2; 000000011111 17 1;
+    000000011010 18 1; 000000011001 19 1; 000000010111 20 1; 000000010110 21 1; 0000000011010 0 12;
+    0000000011001 0 13; 0000000011000 0 14; 0000000010111 0 15; 0000000010110 1 6; 0000000010101 1 7;
+    0000000010100 2 5; 0000000010011 3 4; 0000000010010 5 3; 0000000010001 9 2; 0000000010000 10 2;
+    0000000011111 22 1; 0000000011110 23 1; 0000000011101 24 1; 0000000011100 25 1; 0000000011011 26 1;
+    00000000011111 0 16; 00000000011110 0 17; 00000000011101 0 18; 00000000011100 0 19; 00000000011011 0 20;
+    00000000011010 0 21; 00000000011001 0 22; 00000000011000 0 23; 00000000010111 0 24; 00000000010110 0 25;
+    00000000010101 0 26; 00000000010100 0 27; 00000000010011 0 28; 00000000010010 0 29; 00000000010001 0 30;
+    00000000010000 0 31; 000000000011000 0 32; 000000000010111 0 33; 000000000010110 0 34; 000000000010101 0 35;
+    000000000010100 0 36; 000000000010011 0 37; 000000000010010 0 38; 000000000010001 0 39; 000000000010000 0 40;
+    000000000011111 1 8; 000000000011110 1 9; 000000000011101 1 10; 000000000011100 1 11; 000000000011011 1 12;
+    000000000011010 1 13; 000000000011001 1 14; 0000000000010011 1 15; 0000000000010010 1 16;
+    0000000000010001 1 17; 0000000000010000 1 18; 0000000000010100 6 3; 0000000000011010 11 2;
+    0000000000011001 12 2; 0000000000011000 13 2; 0000000000010111 14 2; 0000000000010110 15 2;
+    0000000000010101 16 2; 0000000000011111 27 1; 0000000000011110 28 1; 0000000000011101 29 1;
+    0000000000011100 30 1; 0000000000011011 31 1""".split(";"))}
+assert set(RUN_LEVEL) == COEF
+
+
 class ParseError(Exception):
     pass
 
@@ -473,9 +500,59 @@ def _picture_parts(picture):
     return head, [picture[a:b] for a, b in zip(starts, starts[1:] + [len(picture)])]
 
 
-def reslice(picture, mb_width, mb_height, dc_reset=128):
+def limit_levels(ac, intra, from_pos, limit):
+    """Return (AC bits, number changed) with every coefficient at zigzag position >= from_pos limited to +-limit.
+    Levels above 40 are always escapes, so only escapes change (a 16-bit escape becomes an 8-bit one)."""
+    out, p, first, changed = [], 0, not intra, 0
+    pos = 0 if intra else -1
+    while True:
+        if first and ac[p] == "1":                        # first coefficient of a non-intra block: (0,1)
+            out.append(ac[p:p + 2])
+            p, pos, first = p + 2, pos + 1, False
+            continue
+        first = False
+        if ac.startswith("10", p):
+            out.append("10")
+            return "".join(out), changed
+        if ac.startswith("000001", p):
+            run = int(ac[p + 6:p + 12], 2)
+            lv = ac[p + 12:p + 20]
+            p += 20
+            if lv in ("00000000", "10000000"):
+                v = int(ac[p:p + 8], 2)
+                p += 8
+                v = v if lv == "00000000" else v - 256
+            else:
+                v = int(lv, 2)
+                v = v - 256 if v > 127 else v
+            pos += run + 1
+            if pos >= from_pos and abs(v) > limit:
+                v = limit if v > 0 else -limit
+                changed += 1
+            out.append(_escape(run, v))
+            continue
+        for n in range(2, 17):
+            code = ac[p:p + n]
+            if code in RUN_LEVEL:
+                pos += RUN_LEVEL[code][0] + 1
+                out.append(ac[p:p + n + 1])
+                p += n + 1
+                break
+        else:
+            raise ParseError(f"bad DCT coefficient: {ac[p:p + 20]}")
+
+
+def _escape(run, v):
+    head = "000001" + format(run, "06b")
+    if -127 <= v <= 127:
+        return head + format(v & 0xFF, "08b")
+    return head + ("00000000" if v > 0 else "10000000") + format(v & 0xFF, "08b")
+
+
+def reslice(picture, mb_width, mb_height, dc_reset=128, level_limit=None):
     """Return the picture with one slice per macroblock row (see above). dc_reset: the DC predictor reset value
-    (128 for 8-bit DC as ffmpeg writes it, so reslice before scale_dc)."""
+    (128 for 8-bit DC as ffmpeg writes it, so reslice before scale_dc). level_limit = (from_pos, limit): limit
+    every coefficient at zigzag position >= from_pos to +-limit (see limit_levels)."""
     head, parts = _picture_parts(picture)
     hdr = Reader(_bits(parts[0][4:]))
     hdr.take(10)
@@ -489,6 +566,26 @@ def reslice(picture, mb_width, mb_height, dc_reset=128):
     slices = [part for part in parts if 0x01 <= part[3] <= 0xAF]
     other = [part for part in parts if not 0x01 <= part[3] <= 0xAF]
     mbs = _decode_macroblocks(slices, ptype, fcodes, mb_width, mb_width * mb_height, dc_reset)
+    if level_limit:
+        for mb in mbs:
+            intra = "i" in mb["flags"]
+            mb["blocks"] = [(dc, limit_levels(ac, intra, *level_limit)[0]) for dc, ac in mb["blocks"]]
+    # No vector component may sit on the bottom of its range (-16 << (f_code - 1)): CRI Mana's decoder reads it
+    # as the top (+16 << ...), moving the block 16 pixels (CRI's encoder never writes it). The same vector is
+    # inside the range of the next f_code, so the picture's f_code goes up until none is left; reslice re-codes
+    # every vector anyway, so the picture decodes the same.
+    changed = False
+    for k, key in enumerate(("fwd", "bwd")):
+        while any(mb[key] and -16 << (fcodes[k] - 1) in mb[key] for mb in mbs):
+            if fcodes[k] == 7:
+                raise ParseError("vector on the bottom of the largest range")
+            fcodes[k] += 1
+            changed = True
+    if changed:
+        bits = _bits(parts[0][4:])[:29]
+        for k in range({2: 1, 3: 2}.get(ptype, 0)):
+            bits += "0" + format(fcodes[k], "03b")
+        other[0] = b"\0\0\1\0" + _bytes(bits + "0")                  # extra_bit_picture
     out = [picture[:head]] + other
     for row in range(mb_height):
         bits = _encode_row(mbs[row * mb_width:(row + 1) * mb_width], ptype, fcodes, dc_reset)

@@ -17,16 +17,23 @@ xdelta patches) stay close to the originals:
   1. ffmpeg decodes the whole video with the cue overlays (frame numbers, -fps_mode passthrough).
   2. Each GOP (closed, I P B B ..., 1-13 pictures) that overlaps a cue is encoded on its own as MPEG-1 with
      ffmpeg's mpeg1video: same picture count, closed GOP, the GOP's own quantiser matrices (CRI's encoder uses
-     non-default ones and changes them from GOP to GOP), and **I and P pictures only**. The originals' B pictures
-     never use bidirectional (interpolated) macroblocks; ffmpeg's do, and on a real Vita CRI Mana's decoder showed
-     those B pictures garbled (doubled, shifted text once per GOP). Without B pictures the coded order is the
-     display order; the player takes the order from the temporal references (chunk times just count pictures).
-  3. ffmpeg writes one slice per thread; the originals have one slice per macroblock row. tools/mpeg1.py's
-     reslice() splits every picture into one slice per row without changing what it decodes to.
+     non-default ones and changes them from GOP to GOP), and the originals' I P B B P B B ... structure: when CRI's
+     decoder falls behind it drops B pictures (nothing refers to them), so they keep playback smooth (see 3a).
+  3. tools/mpeg1.py's reslice() rewrites every picture with one slice per macroblock row like the originals,
+     keeps every motion vector off the bottom of its range (raising the picture's f_code; CRI's encoder never
+     writes that value) and limits coefficients from zigzag position 10 on to |level| <= 127 (LEVEL_LIMIT; CRI's
+     encoder practically never writes larger ones there). None of this changes what ffmpeg decodes, except the
+     level limit, which changes a few edge pixels of the text invisibly.
+  3a. **Decoding time.** CRI Mana's decoder (compiled into the eboot) decodes in real time; when it falls behind
+     on a reference picture it shows it half-written: a glitch once per GOP where the picture moves (seen on a
+     real Vita; Vita3K, which runs the same code, shows it too; at half the frame rate the same file is clean).
+     At ffmpeg's q 2 the sharp text edges made our pictures too slow for it, so the quantiser starts at MIN_Q = 5
+     (the originals use about 1-13; q 5 looks the same as q 2 here). Check new movies in Vita3K
+     (notes/formats.md, "Movies").
   3b. The movies use 11-bit intra DC precision (TMPGEnc "IDCPREC" user data in every sequence header, mpeg_dcprec
      11 in the USM header), which ffmpeg's MPEG-1 encoder can't write: tools/mpeg1.py re-codes every intra DC
      differential of the encoded pictures from 8 to 11 bits (exactly the same values).
-  4. The quantiser is the lowest that keeps the GOP within BUDGET (150%) of the original bytes and every picture within the
+  4. The quantiser is the lowest (from MIN_Q) that keeps the GOP within BUDGET (150%) of the original bytes and every picture within the
      file's largest original picture (so the player's buffers still fit).
   5. The encoded GOP's sequence header, user data and GOP header are replaced by the original ones (same matrices,
      DC precision, rate fields and time code), and its pictures replace the original pictures in the USM
@@ -55,7 +62,9 @@ FONT = Path("C:/Windows/Fonts/arialbd.ttf")
 SIZE, MIN_SIZE = 21, 14             # English font size (the Japanese glyphs are ~20 px)
 BUDGET = 1.5                        # a re-encoded GOP may take up to this times the original bytes
 DC_SHIFT = 3                        # 8-bit DC from ffmpeg -> the movies' 11-bit DC (see tools/mpeg1.py)
-PAD = 4                             # frames added before and after each cue (the Japanese fades in and out)
+MIN_Q = 5                           # finest quantiser: CRI's decoder must keep up at 30 fps (see the module doc)
+LEVEL_LIMIT = (10, 127)             # coefficients from zigzag position 10 on: |level| <= 127 (see the module doc)
+PAD = 4                           # frames added before and after each cue (the Japanese fades in and out)
 ZIGZAG = [0, 1, 8, 16, 9, 2, 3, 10, 17, 24, 32, 25, 18, 11, 4, 5, 12, 19, 26, 33, 40, 48, 41, 34, 27, 20, 13, 6, 7,
           14, 21, 28, 35, 42, 49, 56, 57, 50, 43, 36, 29, 22, 15, 23, 30, 37, 44, 51, 58, 59, 52, 45, 38, 31, 39, 46,
           53, 60, 61, 54, 47, 55, 62, 63]
@@ -129,7 +138,7 @@ def natural(zigzag_matrix):
 def encode_gop(ff, frames, size, rate, matrices, q):
     w, h = size
     args = [ff, "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "yuv420p", "-s", f"{w}x{h}", "-r", rate,
-            "-i", "-", "-c:v", "mpeg1video", "-q:v", str(q), "-g", str(len(frames)), "-bf", "0",
+            "-i", "-", "-c:v", "mpeg1video", "-q:v", str(q), "-g", str(len(frames)), "-bf", "2", "-b_strategy", "0",
             "-sc_threshold", "1000000000", "-flags", "+cgop", "-mbd", "rd", "-trellis", "1", "-cmp", "2", "-subcmp", "2"]
     intra, inter = matrices
     if intra:
@@ -299,7 +308,7 @@ def encode_one(ff, u, vid, gop, frames, size, rate, pic_max, stats, name):
     if b"IDCPREC" + bytes(1) + b"0000000800000003" not in prefix_orig:
         raise SystemExit(f"{name}: GOP at {start}: no IDCPREC 3 user data; DC_SHIFT assumes 11-bit DC")
     matrices = ref[3:]                          # CRI's encoder picks the matrices per GOP
-    for q in range(2, 32):
+    for q in range(MIN_Q, 32):
         es = encode_gop(ff, frames, size, rate, matrices, q)
         prefix, pics = split_pictures(es)
         if len(pics) != count:
@@ -309,8 +318,8 @@ def encode_one(ff, u, vid, gop, frames, size, rate, pic_max, stats, name):
         mine = sequence_header(prefix)
         if mine[:2] != ref[:2] or mine[3:] != ref[3:]:
             raise SystemExit(f"{name}: GOP at {start}: encoder's matrices or size differ from the original")
-        # one slice per macroblock row like the originals (the Vita's decoder garbles slices spanning rows)
-        pics = [mpeg1.reslice(p, size[0] // 16, size[1] // 16) for p in pics]
+        # one slice per macroblock row like the originals, and no level above 127 past the 10 lowest frequencies
+        pics = [mpeg1.reslice(p, size[0] // 16, size[1] // 16, level_limit=LEVEL_LIMIT) for p in pics]
         if DC_SHIFT:
             pics = [mpeg1.scale_dc(p, DC_SHIFT) for p in pics]
         if sum(len(p) for p in pics) <= target * BUDGET and max(len(p) for p in pics) <= pic_max:
