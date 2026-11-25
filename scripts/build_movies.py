@@ -18,7 +18,10 @@ xdelta patches) stay close to the originals:
   2. Each GOP (closed, I P B B ..., 1-13 pictures) that overlaps a cue is encoded on its own as MPEG-1 with
      ffmpeg's mpeg1video: same picture count, closed GOP, B-frames, and the GOP's own quantiser matrices (CRI's
      encoder uses non-default ones and changes them from GOP to GOP).
-  3. The movies use 11-bit intra DC precision (TMPGEnc "IDCPREC" user data in every sequence header, mpeg_dcprec
+  3. ffmpeg writes one slice per thread; the originals have one slice per macroblock row, and on a real Vita CRI's
+     decoder shows flickering garbage for slices that span rows (Vita3K/ffmpeg don't mind). tools/mpeg1.py's
+     reslice() splits every picture into one slice per row without changing what it decodes to.
+  3b. The movies use 11-bit intra DC precision (TMPGEnc "IDCPREC" user data in every sequence header, mpeg_dcprec
      11 in the USM header), which ffmpeg's MPEG-1 encoder can't write: tools/mpeg1.py re-codes every intra DC
      differential of the encoded pictures from 8 to 11 bits (exactly the same values).
   4. The quantiser is the lowest that keeps the GOP within BUDGET (150%) of the original bytes and every picture within the
@@ -288,6 +291,8 @@ def encode_one(ff, u, vid, gop, frames, size, rate, pic_max, stats, name):
         mine = sequence_header(prefix)
         if mine[:2] != ref[:2] or mine[3:] != ref[3:]:
             raise SystemExit(f"{name}: GOP at {start}: encoder's matrices or size differ from the original")
+        # one slice per macroblock row like the originals (the Vita's decoder garbles slices spanning rows)
+        pics = [mpeg1.reslice(p, size[0] // 16, size[1] // 16) for p in pics]
         if DC_SHIFT:
             pics = [mpeg1.scale_dc(p, DC_SHIFT) for p in pics]
         if sum(len(p) for p in pics) <= target * BUDGET and max(len(p) for p in pics) <= pic_max:

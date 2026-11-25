@@ -250,3 +250,247 @@ def scale_dc(picture, shift=3):
             raise ParseError(f"slice {code:#x} does not round-trip")
         out.append(part[:4] + new)
     return b"".join(out)
+
+
+# --- re-slicing: one slice per macroblock row --------------------------------------------------------------------
+# The game's movies (TMPGEnc) have exactly one slice per macroblock row, and CRI's decoder on the Vita shows
+# flickering garbage for slices that span rows (ffmpeg's mpeg1video writes one slice per thread, at most 32, never
+# one per row). reslice() rewrites a picture so every row is its own slice, without changing what it decodes to:
+# coefficients are copied, and the motion vector and DC predictors (reset at every slice start) are recomputed.
+# A skipped macroblock can't start or end a slice, so those are written out as the macroblock they stand for
+# (P: forward prediction with a zero vector; B: the previous macroblock's prediction and vectors, no residual).
+
+MBA_CODE = {int(v): k for k, v in MBA.items() if v not in ("stuff", "esc")}
+MBA_ESCAPE = next(k for k, v in MBA.items() if v == "esc")
+MBTYPE_CODE = {t: {v: k for k, v in tab.items()} for t, tab in MBTYPE.items()}
+CBP_CODE = {int(v): k for k, v in CBP.items()}
+MOTION_CODE = {int(v): k for k, v in MOTION.items()}
+
+
+def _mv_read(r, f, pred):
+    """One motion vector component (half-pel, MPEG-1 range wrap) from its motion_code and residual."""
+    mc = int(r.vlc(MOTION, 11)[0])
+    size = 1 << (f - 1)
+    if size == 1 or mc == 0:
+        delta = mc
+    else:
+        delta = ((abs(mc) - 1) * size + int(r.take(f - 1), 2) + 1) * (1 if mc > 0 else -1)
+    v = pred + delta
+    if v > 16 * size - 1:
+        v -= 32 * size
+    elif v < -16 * size:
+        v += 32 * size
+    return v
+
+
+def _mv_code(v, f, pred):
+    size = 1 << (f - 1)
+    delta = v - pred
+    if delta > 16 * size - 1:
+        delta -= 32 * size
+    elif delta < -16 * size:
+        delta += 32 * size
+    if delta == 0:
+        return MOTION_CODE[0]
+    a = abs(delta) - 1
+    mc = a // size + 1
+    code = MOTION_CODE[mc if delta > 0 else -mc]
+    return code + (format(a % size, f"0{f - 1}b") if size > 1 else "")
+
+
+def _vector_read(r, f, pred):
+    h = _mv_read(r, f, pred[0])
+    v = _mv_read(r, f, pred[1])
+    return (h, v)
+
+
+def _dc_read(r, chroma):
+    size = int(r.vlc(DC_CHROMA if chroma else DC_LUMA, 12)[0])
+    if size == 0:
+        return 0
+    raw = int(r.take(size), 2)
+    return raw if raw >> (size - 1) else raw - (1 << size) + 1
+
+
+def _dc_code(diff, chroma):
+    codes = DC_CHROMA_CODE if chroma else DC_LUMA_CODE
+    if diff == 0:
+        return codes[0]
+    n = abs(diff).bit_length()
+    return codes[n] + format(diff if diff > 0 else diff + (1 << n) - 1, f"0{n}b")
+
+
+def _skipped(ptype, prev, q):
+    """The macroblock a skipped one stands for."""
+    if ptype == 2:
+        return {"skip": True, "flags": "f", "q": q, "fwd": (0, 0), "bwd": None, "cbp": 0, "blocks": []}
+    if ptype == 3 and prev is not None and "i" not in prev["flags"]:
+        flags = "".join(c for c in prev["flags"] if c in "fb")
+        return {"skip": True, "flags": flags, "q": q, "fwd": prev["fwd"], "bwd": prev["bwd"], "cbp": 0,
+                "blocks": []}
+    raise ParseError("skipped macroblock where none is allowed")
+
+
+def _decode_macroblocks(slices, ptype, fcodes, mb_width, total, dc_reset):
+    """Every macroblock of the picture in address order, with absolute vectors and DC values."""
+    mbs = []
+    prev = None
+    for part in slices:
+        r = Reader(_bits(part[4:]))
+        q = int(r.take(5), 2)
+        while r.take(1) == "1":
+            r.take(8)
+        pf, pb, dcp = (0, 0), (0, 0), [dc_reset] * 3
+        start = (part[3] - 1) * mb_width
+        if start != len(mbs):
+            raise ParseError("slices don't follow each other")
+        addr = start - 1
+        while True:
+            inc = 0
+            while True:
+                v = r.vlc(MBA, 11)[0]
+                if v == "esc":
+                    inc += 33
+                elif v != "stuff":
+                    inc += int(v)
+                    break
+            if addr + 1 == start and inc != 1:
+                raise ParseError("slice starts with a skipped macroblock")
+            if inc > 1:
+                for _ in range(inc - 1):
+                    prev = _skipped(ptype, prev, q)
+                    mbs.append(prev)
+                dcp = [dc_reset] * 3
+                if ptype == 2:
+                    pf = (0, 0)
+            addr += inc
+            if addr >= total:
+                raise ParseError("macroblock address beyond the picture")
+            flags = r.vlc(MBTYPE[ptype], 6)[0]
+            mb = {"skip": False, "flags": flags, "q": q, "fwd": None, "bwd": None, "cbp": 0, "blocks": []}
+            if "q" in flags:
+                q = int(r.take(5), 2)
+                mb["q"] = q
+            if "f" in flags:
+                pf = mb["fwd"] = _vector_read(r, fcodes[0], pf)
+            if "b" in flags:
+                pb = mb["bwd"] = _vector_read(r, fcodes[1], pb)
+            intra = "i" in flags
+            if intra:
+                pf, pb = (0, 0), (0, 0)
+            elif ptype == 2 and "f" not in flags:
+                pf = (0, 0)
+            if intra:
+                mb["cbp"] = 63
+            elif "p" in flags:
+                mb["cbp"] = int(r.vlc(CBP, 9)[0])
+            for i in range(6):
+                if mb["cbp"] & (32 >> i):
+                    ac = []
+                    if intra:
+                        c = 0 if i < 4 else i - 3
+                        dcp[c] += _dc_read(r, i >= 4)
+                        _coefficients(r, ac, False)
+                        mb["blocks"].append((dcp[c], "".join(ac)))
+                    else:
+                        _coefficients(r, ac, True)
+                        mb["blocks"].append((None, "".join(ac)))
+            if not intra:
+                dcp = [dc_reset] * 3
+            mbs.append(mb)
+            prev = mb
+            if "1" not in r.s[r.p:r.p + 23]:
+                break
+    if len(mbs) != total:
+        raise ParseError(f"{len(mbs)} macroblocks, the picture has {total}")
+    return mbs
+
+
+def _encode_row(mbs, ptype, fcodes, dc_reset):
+    """Slice bits (after the start code) for one macroblock row."""
+    q = mbs[0]["q"]                                   # the quantizer in effect for the row's first macroblock
+    out = [format(q, "05b"), "0"]
+    pf, pb, dcp = (0, 0), (0, 0), [dc_reset] * 3
+    last = -1
+    n = len(mbs)
+    for col, mb in enumerate(mbs):
+        if mb["skip"] and 0 < col < n - 1:
+            continue                                  # stays skipped (same meaning inside the row)
+        inc = col - last
+        if inc > 1:                                   # skipped run inside the row
+            dcp = [dc_reset] * 3
+            if ptype == 2:
+                pf = (0, 0)
+        last = col
+        while inc > 33:
+            out.append(MBA_ESCAPE)
+            inc -= 33
+        out.append(MBA_CODE[inc])
+        flags = mb["flags"]
+        if "q" not in flags and mb["q"] != q:
+            raise ParseError("quantizer mismatch in a re-sliced row")
+        out.append(MBTYPE_CODE[ptype][flags])
+        if "q" in flags:
+            q = mb["q"]
+            out.append(format(q, "05b"))
+        if "f" in flags:
+            out.append(_mv_code(mb["fwd"][0], fcodes[0], pf[0]) + _mv_code(mb["fwd"][1], fcodes[0], pf[1]))
+            pf = mb["fwd"]
+        if "b" in flags:
+            out.append(_mv_code(mb["bwd"][0], fcodes[1], pb[0]) + _mv_code(mb["bwd"][1], fcodes[1], pb[1]))
+            pb = mb["bwd"]
+        intra = "i" in flags
+        if intra:
+            pf, pb = (0, 0), (0, 0)
+        elif ptype == 2 and "f" not in flags:
+            pf = (0, 0)
+        if "p" in flags and not intra:
+            out.append(CBP_CODE[mb["cbp"]])
+        k = 0
+        for i in range(6):
+            if mb["cbp"] & (32 >> i):
+                dc, ac = mb["blocks"][k]
+                k += 1
+                if intra:
+                    c = 0 if i < 4 else i - 3
+                    out.append(_dc_code(dc - dcp[c], i >= 4))
+                    dcp[c] = dc
+                out.append(ac)
+        if not intra:
+            dcp = [dc_reset] * 3
+    return "".join(out)
+
+
+def _picture_parts(picture):
+    head = picture.find(b"\0\0\1\0")
+    if head < 0:
+        raise ParseError("no picture start code")
+    starts = []
+    p = head
+    while p >= 0:
+        starts.append(p)
+        p = picture.find(b"\0\0\1", p + 3)
+    return head, [picture[a:b] for a, b in zip(starts, starts[1:] + [len(picture)])]
+
+
+def reslice(picture, mb_width, mb_height, dc_reset=128):
+    """Return the picture with one slice per macroblock row (see above). dc_reset: the DC predictor reset value
+    (128 for 8-bit DC as ffmpeg writes it, so reslice before scale_dc)."""
+    head, parts = _picture_parts(picture)
+    hdr = Reader(_bits(parts[0][4:]))
+    hdr.take(10)
+    ptype = int(hdr.take(3), 2)
+    hdr.take(16)
+    fcodes = [1, 1]
+    for k in range({2: 1, 3: 2}.get(ptype, 0)):
+        if hdr.take(1) != "0":
+            raise ParseError("full-pel vectors are not supported")
+        fcodes[k] = int(hdr.take(3), 2)
+    slices = [part for part in parts if 0x01 <= part[3] <= 0xAF]
+    other = [part for part in parts if not 0x01 <= part[3] <= 0xAF]
+    mbs = _decode_macroblocks(slices, ptype, fcodes, mb_width, mb_width * mb_height, dc_reset)
+    out = [picture[:head]] + other
+    for row in range(mb_height):
+        bits = _encode_row(mbs[row * mb_width:(row + 1) * mb_width], ptype, fcodes, dc_reset)
+        out.append(bytes([0, 0, 1, row + 1]) + _bytes(bits))
+    return b"".join(out)

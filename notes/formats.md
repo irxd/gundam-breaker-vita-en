@@ -284,7 +284,7 @@ all 12 Hyaku-Shiki part tables (chr0312-0317, chr2312-2317) use `HG/MG Type 100`
 of one Gunpla match on the Set Up list; everything else keeps GB3's Hyaku-Shiki. Re-checking the "short form" rows
 with this change restored `PG Zeta Gundam Variant` in chr4482-4487; the others still don't fit.
 
-## Movies (CRI USM, added 2026-11-25, not yet tested on hardware)
+## Movies (CRI USM, added 2026-11-25)
 
 `finalizedPSP2/GP/movie/*.usm`: 57 loose files (not in the archives), so rePatch replaces them as
 `ux0:rePatch/PCSG00126/finalizedPSP2/GP/movie/<name>.usm`. The eboot names them as `GP/movie/<name>` (all except
@@ -315,6 +315,15 @@ with this change restored `PG Zeta Gundam Variant` in chr4482-4487; the others s
   that overlap a cue are re-encoded (each on its own, same picture count, the GOP's matrices, original sequence and
   GOP headers kept); all other pictures are copied byte for byte. A re-encoded GOP may use up to 1.5x its original
   bytes, and no picture may be larger than the file's largest original picture (the buffer fields stay valid).
+- **One slice per macroblock row (real Vita, 2026-11-25).** Every original picture has exactly one slice per
+  macroblock row (34 at 960x544). ffmpeg's mpeg1video writes one slice per thread (13 here, at most 32), so slices
+  span rows; ffmpeg and Vita3K decode that fine, but on a real Vita the subtitled parts flickered with block
+  garbage. `mpeg1.reslice()` re-cuts each encoded picture into one slice per row: coefficients are copied, the motion
+  vector and DC predictors (reset at each slice start) are recomputed, and skipped macroblocks that would start or
+  end a row are written out (P: forward, zero vector; B: the previous macroblock's prediction). ffmpeg decodes the
+  re-sliced GOP to byte-identical frames (checked with 1- and 13-slice input), about 1% more bytes.
+  (ffmpeg's mpeg2video does write a slice per row, but it doesn't clip coefficients to MPEG-1's +-255, which the
+  high-contrast subtitle box exceeds, so converting its output would need q 9 or more.)
 
 ## Text in the eboot (2026-11-24)
 
@@ -330,6 +339,13 @@ seen in game).
 - id = offset in the 1.02 ELF; 1.00 is matched by the n-th occurrence of the same Japanese (all match except one 1.01+ string, the PS3 controls note, which is skipped for 1.00).
 - Output: `build/patched_elf/<app|patch>/eboot.bin.elf` and the fake-signed `build/eboot/<app|patch>/eboot.bin`.
 - Works on a real Vita (1.02, 2026-11-25): default radio chat and the Gunpla name show in English on a new save.
+
+### Dialogue box width (real Vita, 2026-11-25)
+
+The hangar/event dialogue box (`voice_event_text`) has room for ~538 px per line (text from x ~222 to ~760) and
+3 lines; the game doesn't wrap, so a longer line runs past the box. Tahoma 17 px matches the game's font within
+~3%. `scripts/wrap_dialogue.py` checks the rows (limit 520 px, or the Japanese line's width for rows shown in a
+wider place) and re-wraps them; run it after editing that table.
 
 ### Title screen portal line (code patch, 2026-11-25)
 
