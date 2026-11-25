@@ -363,46 +363,46 @@ id,ja_hash,en,notes
 362:1,633eca1b,Nice heal!,draft
 363:1,aa69a332,Yeaaah!!,draft
 364:1,b9de3a75,Good work!,draft
-368:1,f0366ac6,"Infiltrate the enemy-held war zone and run a recon-in-force!<br>No need to go deep, but hit any enemies that appear without hesitation!",draft
+368:1,f0366ac6,"Infiltrate the enemy-held war zone and run a recon-in-force!<br>No need to go deep, but hit any<br>enemies that appear without hesitation!",draft
 369:1,d6f1d170,An interception mission against an enemy assault force!<br>Hold back the enemy advance until our allies arrive!,draft
 370:1,b0d79fe4,Wipe out the enemy units deployed around the war zone!<br>Scatter them and break the enemy's momentum!,draft
-371:1,1fea77e2,This operation's goal is to stop enemy units coming in from the surrounding areas!<br>Hold off their reinforcements and isolate the enemy garrison in this war zone!,draft
-372:1,d6478387,"This mission is to defend a Data Probe set up by our allies!<br>Defending the probe, which gathers and analyzes intel on the mysterious enemy,<br>is a vital mission that could change the course of the war!",draft
+371:1,1fea77e2,This operation's goal is to stop enemy units coming in<br>from the surrounding areas! Hold off their reinforcements<br>and isolate the enemy garrison in this war zone!,draft
+372:1,d6478387,"This mission is to defend a Data Probe set up by our allies! Defending<br>the probe, which gathers and analyzes intel on the mysterious<br>enemy, is a vital mission that could change the course of the war!",draft
 373:1,4b962e72,The Data Probe is destroyed if it takes too much damage.<br>Protect the probe until data collection is complete!,draft
-374:1,97a47771,"This mission is to recover a Data Probe that drifted into another dimension!<br>Head to a battlefield outside ""this world"", defend the Data Probe and recover it!",draft
+374:1,97a47771,"This mission is to recover a Data Probe that drifted<br>into another dimension! Head to a battlefield outside<br>""this world"", defend the Data Probe and recover it!",draft
 375:1,ef87235d,"A note.<br>This mission isn't set on a battlefield modeled on the Gundam world,<br>but on a map made from virtual data of ""the real world"".<br>Enjoy a battle with a different flavor!",draft
-376:1,b187239d,"The enemy has set up several ""Base Units"" in the war zone!<br>Enemy reinforcements seem to be transferred into the zone by these Base Units.<br>Destroy every enemy Base Unit in the zone and stop the enemy from growing stronger!",draft
-377:1,951f46cc,"Several enemy Base Units confirmed in the war zone!<br>Unless we destroy them, we can't stop the enemy from growing stronger!<br>Find the enemy Base Units and destroy them all!",draft
+376:1,b187239d,"The enemy has set up several ""Base Units"" in the war zone!<br>Enemy reinforcements are sent in through these Base Units.<br>Destroy them all and stop the enemy from growing stronger!",draft
+377:1,951f46cc,"Several enemy Base Units confirmed in the war zone! Unless<br>we destroy them, we can't stop the enemy from growing<br>stronger! Find the enemy Base Units and destroy them all!",draft
 378:1,f56ed993,This mission's goal is to destroy the enemy's chain of command!<br>Defeat all main enemy machines and throw them into chaos!,draft
 379:1,1af44004,A powerful Unidentified Machine has been confirmed in the war zone!<br>Find the target and destroy it within the operation time!,draft
 380:1,83c7c2e8,Several Unidentified Machines seem to be hiding in the war zone!<br>Find the targets and drive them all off within the operation time!,draft
-381:1,66e419e7,This mission is to investigate and destroy a high-energy signal deep in the war zone!<br>It's likely the same mighty machine seen in other war zones!<br>Be careful!,draft
-382:1,327d4fca,The goal is to destroy the enemy PG machine at the heart of their defense line!<br>Break through the front and destroy the main enemy machine beyond it!,draft
-383:1,7f6dff17,"A new main enemy PG machine has been confirmed! Destroy it!<br>Sweep away the swarming grunts, storm the deepest point and take the boss's head!",draft
+381:1,66e419e7,This mission is to investigate and destroy a high-energy signal deep in the war<br>zone! It's likely the same mighty machine seen in other war zones! Be careful!,draft
+382:1,327d4fca,The goal is to destroy the enemy PG machine at the<br>heart of their defense line! Break through the front<br>and destroy the main enemy machine beyond it!,draft
+383:1,7f6dff17,"A new main enemy PG machine has been confirmed! Destroy it!<br>Sweep away the swarming grunts, storm<br>the deepest point and take the boss's head!",draft
 384:1,20ee9c6f,"Several enemy PG machines confirmed in the war zone! Destroy them all!<br>It's expected to be a hard mission, but I believe you'll pull it off!",draft
-385:1,e8781239,The enemy is sending several PG machines into the operation area to reinforce its defenses!<br>Destroy these main enemy machines before the new defenses are in place!,draft
-386:1,148d8439,A top-priority special mission has been issued!<br>A massive unidentified enemy weapon has been spotted at sea outside the war zone.<br>It's heading for a coastal city!<br>Your mission is to destroy this massive enemy weapon!,draft
-387:1,747d2cfe,An allied carrier is under attack right now!<br>Stop the massive enemy weapon's advance and protect our allies and the citizens!,draft
-388:1,b7cbc217,A top-priority special mission!<br>A new giant enemy weapon has been confirmed in the operation area!<br>Your mission is to destroy this giant enemy weapon!,draft
-389:1,acf53622,We've finally secured an attack route into the heart of the enemy's base!<br>This operation's objective is to destroy the giant machine at the enemy's core!,draft
-390:1,7a2012c2,An extremely high energy signal has been detected at the enemy core.<br>This machine is probably what commands the enemy army.<br>Go straight into the enemy core and strike it!,draft
+385:1,e8781239,The enemy is sending several PG machines into<br>the operation area to reinforce its defenses!<br>Destroy these main enemy machines before the new defenses are in place!,draft
+386:1,148d8439,A top-priority special mission has been issued! A<br>massive unidentified enemy weapon has been spotted at<br>sea outside the war zone. It's heading for a coastal city!<br>Your mission is to destroy this massive enemy weapon!,draft
+387:1,747d2cfe,An allied carrier is under attack right now!<br>Stop the massive enemy weapon's advance<br>and protect our allies and the citizens!,draft
+388:1,b7cbc217,A top-priority special mission! A new giant enemy<br>weapon has been confirmed in the operation area!<br>Your mission is to destroy this giant enemy weapon!,draft
+389:1,acf53622,We've finally secured an attack route into the heart<br>of the enemy's base! This operation's objective is<br>to destroy the giant machine at the enemy's core!,draft
+390:1,7a2012c2,An extremely high energy signal has been detected at the<br>enemy core. This machine is probably what commands the<br>enemy army. Go straight into the enemy core and strike it!,draft
 391:1,6e9b77ff,"If it succeeds, this will be our last operation!<br>Succeed without fail, and come back alive without fail!<br>That is all!",draft
-392:1,fe8ab7e3,"This mission is to destroy a large enemy Mobile Armor!<br>You've fought it before, but it's been powered up to match the selected players' skills!<br>Give it a try!",draft
+392:1,fe8ab7e3,"This mission is to destroy a large enemy Mobile<br>Armor! You've fought it before, but it's been powered<br>up to match the selected players' skills! Give it a try!",draft
 393:1,7fa99df6,This is a mission with special settings!<br>Defeat the enemies on a map with unusual settings!,draft
 394:1,9f0a3e51,This is a mission with special settings!<br>The goal is to survive for a set time on a map with unusual settings!,draft
 395:1,1d8d252a,Welcome to GGF! Welcome to Gundam Great Front!<br>The venue is packed! It's full of the excitement of so many visitors!<br>Check the crowding info for each attraction at the entrance!,draft
-396:1,bc6381fd,"This is the Gundam Great Front special live studio!<br>Today's recommended attraction is the ""Psycommu Experience Simulator"", using brainwave detection!<br>Just by thinking, you can freely move the bits<br>in a virtual space!<br>Be sure to try this amazing attraction!",draft
-397:1,dc25fb9f,"GGF News!<br>At the popular ""Psycommu Experience Simulator"", where you control bits with your brainwaves,<br>a player has set an overwhelming kill count, far beyond any record so far!<br>Maybe this person is a real Newtype!<br>If you haven't tried it yet, why not take on this record?",draft
-398:1,0ba1c228,"Welcome to Gundam Great Front!<br>Today's recommended attraction is ""Gundam Fight Battle Match""!<br>Easy two-button controls! Pilot a realistically recreated giant mobile fighter and beat your opponent with punches and kicks!<br>Will God win!? Or Master!?<br>This super-exciting battle game is looking for new challengers! Join in!",draft
-399:1,34ec0026,"GGF News!<br>Gundam Great Front has lots of fun places besides the attractions!<br>Take the express elevator to the ""Bridge Observatory"" overlooking Odaiba!<br>If you're hungry, try the great original menu at the Gundam Restaurant!<br>And the Gundam Shop has GGF-original Gundam goods, like the ""Strike Gundam Phase Shift Battery Checker"" that shows the charge by its armor color!<br>Be sure to drop by!",draft
+396:1,bc6381fd,"This is the Gundam Great Front special live studio! Today's recommended attraction<br>is the ""Psycommu Experience Simulator"", using brainwave detection! Just by thinking,<br>you can freely move the bits in a virtual space! Be sure to try this amazing attraction!",draft
+397:1,dc25fb9f,"GGF News! At the popular ""Psycommu Experience Simulator"", where you control bits with<br>your brainwaves, a player has set an overwhelming kill count, far beyond any record so far!<br>Maybe this person is a real Newtype! If you haven't tried it yet, why not take on this record?",draft
+398:1,0ba1c228,"Welcome to Gundam Great Front! Today's recommended attraction is ""Gundam Fight Battle Match""! Easy<br>two-button controls! Pilot a realistically recreated giant mobile fighter and beat your opponent with punches<br>and kicks! Will God win!? Or Master!? This super-exciting battle game is looking for new challengers! Join in!",draft
+399:1,34ec0026,"GGF News! Gundam Great Front has lots of fun places besides the attractions! Take the express<br>elevator to the ""Bridge Observatory"" overlooking Odaiba! If you're hungry, try the great original menu<br>at the Gundam Restaurant! And the Gundam Shop has GGF-original Gundam goods, like the ""Strike<br>Gundam Phase Shift Battery Checker"" that shows the charge by its armor color! Be sure to drop by!",draft
 400:1,4d9fe6a0,"GGF News!<br>The Gunpla display corner shows many original-design Gunpla built by famous modelers!<br>The builders are also taking part in ""Battle Live-G"",<br>so if you find a Gunpla design you like, cheer for it in ""Battle Live-G"" too!",draft
 401:1,262e2f5a,"GGF News!<br>This evening's outdoor hologram live show is the ""1/1 Scale Dendrobium""!<br>Experience the overwhelming scale of the Dendrobium soaring through the Odaiba sky!<br>The next show is planned to be the ""1/1 Scale Rafflesia""!<br>Look forward to it!",draft
-402:1,80bf27f8,"The Gunpla battle live event ""Battle Live-G""!<br>Skilled Gunpla modelers and Gundam gamers gather in one place!<br>The Gunpla each player built is fully turned into data, workmanship and all!<br>On a diorama battlefield, they fight heated battles against the strongest enemy, ""Gundam""!<br>The battles are always broadcast live on the big monitors in the venue! Enjoy!",draft
-403:1,8fab8dca,"Battle Live-G!<br>Because it's far more popular than expected, we're now recruiting more general players!<br>If you want to take part, apply to the event office!<br>New players, and customized machines never seen before, will create new battle drama!<br>The excitement is building!",draft
+402:1,80bf27f8,"The Gunpla battle live event ""Battle Live-G""! Skilled Gunpla modelers and Gundam gamers<br>gather in one place! The Gunpla each player built is fully turned into data, workmanship<br>and all! On a diorama battlefield, they fight heated battles against the strongest enemy,<br>""Gundam""! The battles are always broadcast live on the big monitors in the venue! Enjoy!",draft
+403:1,8fab8dca,"Battle Live-G! Because it's far more popular than expected, we're now<br>recruiting more general players! If you want to take part, apply to the<br>event office! New players, and customized machines never seen<br>before, will create new battle drama! The excitement is building!",draft
 404:1,63c0237e,"Battle Live-G!<br>In the Gunpla Battle Simulator, a machine's strength isn't decided by looks alone!<br>With great model-building skill, even a Zaku or a GM can easily outperform higher-end machines!<br>And its strength changes a lot with the player's own skill and the weapon combination!<br>Watch the live plays and find the truly strong, skilled players!",draft
 405:1,0fda26db,Gunpla Battle TV!<br>Today again we bring you extreme battle scenes by the selected players!<br>What machines will the selected players take into battle!<br>And can they break through the overwhelmingly difficult missions!<br>Look forward to the heated action! Check it out!,draft
 406:1,60af5763,"Gunpla Battle TV!<br>Gunpla Battle TV is now holding a vote: ""Viewers' Choice! Best Gunpla Battle Scenes""!<br>Tell us your favorite player and your favorite battle scene!<br>The best battle ranking will be decided from the results!<br>Look forward to it!",draft
-407:1,7fa1bd5c,"Gunpla Battle TV!<br>Today again we bring you carefully selected extreme battle scenes by the selected players!<br>Next time we'll take a break from the regular content<br>for a special: ""Behind Gunpla Battle! Selected Player Interviews!""<br>Look forward to it!",draft
+407:1,7fa1bd5c,"Gunpla Battle TV! Today again we bring you carefully selected extreme battle scenes<br>by the selected players! Next time we'll take a break from the regular content for a<br>special: ""Behind Gunpla Battle! Selected Player Interviews!"" Look forward to it!",draft
 408:1,9b853de4,"Gunpla Battle TV!<br>News just in: some of the most popular machines the selected players have used<br>are being considered for plastic model kits!<br>If it's true, you'll be able to build those dream machines yourself!<br>We'll let you know as soon as there's more!",draft
 409:1,ecb4cbdc,"Gunpla Battle TV!<br>Here's a fun bit of Gundam-related news!<br>During an experiment at a thermonuclear fusion facility, an unknown particle was found<br>that lines up in a 3D lattice at a certain density!<br>...Could this be... Minov...<br>If it's true, the Gundam world might become real one day! It's a dream come true!",draft
 410:1,a79d895e,Welcome!,draft
@@ -410,7 +410,7 @@ id,ja_hash,en,notes
 412:1,1be6a9bd,"Here we offer ""Gunpla"" with a full set of machine parts,<br>and ""Avatars"" that are you in the VR Hangar, in exchange for GP earned in missions.",draft
 413:1,629cf2a5,"However, under the battle event's rules, the weapon runners<br>are removed from the ""Gunpla"". We ask for your understanding.",draft
 414:1,4d3f6466,"The Gunpla and avatars you can get<br>are added one after another as you progress.<br>We'll send you a mail when new items arrive,<br>so check your Breakers Mobile.",draft
-415:1,a4cb1876,"You can also trade the runners you won in battle and the parts you made<br>for GP.<br>If you have runners or parts you don't need, bring them here.",draft
+415:1,a4cb1876,"You can also trade the runners you won in battle<br>and the parts you made for GP. If you have<br>runners or parts you don't need, bring them here.",draft
 416:1,1b522cb3,Welcome to the Players' Shop!<br>How can I help you?,draft
 417:1,86e21de8,How is it going? Is your play going smoothly?,draft
 418:1,9b4cae95,The event period is almost over.<br>Play so you have no regrets!,draft
@@ -645,20 +645,20 @@ id,ja_hash,en,notes
 717:1,01c6e0d9,"Here, where a giant life-size Gundam statue towers,<br>the biggest Gundam event in history will be held this summer.",draft
 718:1,863215cd,"A venue built where the Gundam statue's twin cameras gaze.<br>The super-sized event held there...<br>is ""Gundam Great Front.""",draft
 719:1,e2768604,"Large mobile suit models that move like the real thing thanks to robotics,<br>battle stages that turn the real world into a Gundam battlefield with holograms,<br>psycommu control experiences using brainwave detection...",draft
-720:1,0c8c09ab,"Under the theme ""The Gundam World Becomes Reality,""<br>it gathers groundbreaking exhibits that pour cutting-edge science, engineering and IT<br>into recreating the Gundam world: an entirely new kind of Gundam event.",draft
+720:1,0c8c09ab,"Under the theme ""The Gundam World Becomes Reality,"" it gathers<br>groundbreaking exhibits that pour cutting-edge science, engineering and IT<br>into recreating the Gundam world: an entirely new kind of Gundam event.",draft
 721:1,ecae58e5,"Hi there, everyone!<br>Welcome to the biggest Gundam event in history, ""Gundam Great Front""!",draft
-722:1,c08590eb,"This is the GGF special live studio!<br>We bring you fun news from the venue and the highlights of every attraction,<br>live and non-stop!",draft
+722:1,c08590eb,"This is the GGF special live studio! We bring you fun news from<br>the venue and the highlights of every attraction, live and non-stop!",draft
 723:1,6f83a1ba,"""Gundam Great Front"" finally opens today!<br>Giant mobile suit exhibits with overwhelming power that defy common sense,<br>""You can be an ace pilot too!"" --- a super-real interactive experience corner,<br>and many more Gundam experiences you've never seen await you at the venue!",draft
 724:1,d5b8a317,"And the biggest highlight of the event is...<br>the ""Gunpla battle game"" everyone dreamed of, finally real!<br>A new kind of live event using the Gunpla Battle Simulator: ""Battle Live-G""!",draft
-725:1,42727088,"Famous Gunpla modelers and Gundam game players from all over the country gather here!<br>Joined by general players picked by lottery against fierce odds,<br>they pilot the Gunpla they built themselves in fierce yet beautiful battles!",draft
-726:1,24cd8ed3,And these wonderful battles are<br>broadcast live on the big live monitors at the venue throughout the event!<br>Selected battle scenes are streamed online too!,draft
+725:1,42727088,"Famous Gunpla modelers and Gundam gamers from all over the country<br>gather here! Joined by general players who won the lottery, they pilot<br>their own Gunpla in fierce yet beautiful battles!",draft
+726:1,24cd8ed3,And these wonderful battles are broadcast live on the<br>big live monitors at the venue throughout the event!<br>Selected battle scenes are streamed online too!,draft
 727:1,c160d52e,"Now, for everyone waiting outside to get in,<br>let's show you a little of these battles as a special treat!",draft
 728:1,034d1830,Can the chosen players defeat the countless swarms of enemy Gunpla<br>and beat the strongest machine waiting beyond: the Gundam?,draft
-729:1,77f5fab9,"The ""Gundam Breaker Squad"" of top modelers & gamers VS the legendary strongest machines, the Gundams of every era!<br>In this battle, new ""great battle scenes"" even Gundam fans have never seen are born without end!<br>You can't miss a single moment!",draft
+729:1,77f5fab9,"The ""Gundam Breaker Squad"" of top modelers & gamers VS the legendary strongest<br>machines, the Gundams of every era! In this battle, new ""great battle scenes"" even<br>Gundam fans have never seen are born without end! You can't miss a single moment!",draft
 730:1,590ebb63,"""Everything Becomes Gundam"": Gundam Great Front!<br>And the live event using the Gunpla Battle Simulator, ""Battle Live-G""!<br>Enjoy it to the fullest!",draft
 731:1,a9a4ffa9,"Welcome to GGF! Welcome to Gundam Great Front!<br>Everything here is pure excitement!<br>It's very crowded, so please take your time and move slowly!",draft
 732:1,04790ed3,"While you wait for the attractions, enjoy the ""Battle Live-G"" broadcast<br>on the big monitors!<br>Check it out!",draft
-733:1,a58477c6,"An announcement for all ""Battle Live-G"" players!<br>The battle system is running normally! You can join the battle any time!<br>Head to the battle stage area through the players-only entrance!<br>We're waiting for your hot plays!",draft
+733:1,a58477c6,"An announcement for all ""Battle Live-G"" players! The<br>battle system is running normally! You can join the battle<br>any time! Head to the battle stage area through the<br>players-only entrance! We're waiting for your hot plays!",draft
 734:1,c88977a5,"To ""assemble parts"" or ""customize"" your Gunpla, go to the dedicated workshop!<br>With the ""Breakers Mobile"", a terminal handed out only to players,<br>you can also check how your parts and machine perform in battle!",draft
 735:1,b130dfb5,"Once your machine is ready to sortie, join the battle!",draft
 736:1,870ab7f0,"If you're playing alone, go straight to a battle terminal!<br>Scan your machine with the Breakers Mobile<br>and its data is sent to the ""VR Hangar"", a diorama model of a mobile suit hangar!",draft
@@ -686,7 +686,7 @@ id,ja_hash,en,notes
 758:1,9247a441,"GGF's ""Battle Live-G"" was quite well received, thankfully.<br>Our president wants a version we can roll out nationwide next.<br>So I'd like you to help develop the new version.",draft
 759:1,48d19580,"Your job is the same. Just keep playing as before.<br>You can keep using your machines and parts,<br>and we'll provide the runners you win in battle free of charge.",draft
 760:1,04af89a6,"However, our goal is to measure the limits of<br>how far players can handle this battle system.<br>So the new missions are far more difficult than before.",draft
-761:1,e5f3b656,"In a sense, no holding back.<br>We've added enemy combinations and new attack patterns not used in the GGF version.<br>But selected players like you will surely enjoy it.",draft
+761:1,e5f3b656,"In a sense, no holding back. We've added enemy combinations and new attack<br>patterns not used in the GGF version. But selected players like you will surely enjoy it.",draft
 762:1,aba9baf5,So I'd be glad if you started playing again right away.<br>I've called the other selected players too.<br>You'll be able to play with them again.,draft
 763:1,3cd0391c,Congratulations on your first successful mission!<br>Well done!,draft
 764:1,9e2d91d3,Looks like your link with GAIOS has no problems!<br>We've confirmed your machine is responding well.,draft
@@ -694,7 +694,7 @@ id,ja_hash,en,notes
 766:1,b31bedd0,"This is the ""VR Hangar"", our squad's base of operations.",draft
 767:1,91f2b6bd,"In the ""VR Hangar"" you can manage the machine you sortie with<br>and accept missions.",draft
 768:1,54f7d4d3,"This is the ""Mission Counter"".",draft
-769:1,b106535e,"From now on, operation orders will come through this ""Mission Counter"".<br>Access it when you want to accept a new mission.",draft
+769:1,b106535e,"From now on, operation orders will<br>come through this ""Mission Counter"".<br>Access it when you want to accept a new mission.",draft
 770:1,d12964b7,This is your current machine.,draft
 771:1,3f6d212e,"Access the ""Information Panel"" in front of your machine<br>to check all kinds of information managed by GAIOS,<br>the Learning OS that controls your machine.",draft
 772:1,75ff9e9d,"After you accept a mission at the Mission Counter,<br>a ""Sortie"" command appears in the menu.",draft
@@ -709,13 +709,13 @@ id,ja_hash,en,notes
 781:1,c32aca1e,"Accept a mission at the Mission Counter,<br>then ""Sortie"" from the Information Panel in front of your machine!",draft
 782:1,c769ffe3,I'm counting on you!<br>That is all!,draft
 783:1,dc4c1976,I look forward to working with you!,draft
-784:1,a28784ff,Good! From now on we enter full-scale combat with the enemy forces!,draft
-785:1,3ce52e58,"Let me introduce myself properly!<br>I'm the commander who gives operation orders to you, the ""Gundam Breaker Squad""!<br>I'm counting on you!",draft
+784:1,a28784ff,Good! From now on we enter full-scale<br>combat with the enemy forces!,draft
+785:1,3ce52e58,"Let me introduce myself properly! I'm the<br>commander who gives operation orders to you, the<br>""Gundam Breaker Squad""! I'm counting on you!",draft
 786:1,ba966a98,I'm in charge of supporting your operations.<br>I look forward to working with you!,draft
 787:1,7e554fd7,"Right now, this world is being invaded by a mysterious Gunpla army<br>made up of High Grades, Master Grades<br>and Perfect Grades.",draft
 788:1,e53e2373,"Our goal is to stop the advance of these enemy Gunpla forces,<br>then find the source of the enemy and destroy it!",draft
 789:1,dc0cbaa6,"The enemy is overwhelming in both equipment and numbers!<br>For us, outmatched as we are, the only way to fight back<br>is to take equipment from their machines and grow stronger!",draft
-790:1,52134623,"Destroying enemy machines, and destroying enemies that have suffered a ""part break"",<br>earns you Gunpla runners!<br>Use them to rebuild your machine and make it stronger!",draft
+790:1,52134623,"Destroying enemy machines, and destroying enemies that<br>have suffered a ""part break"", earns you Gunpla runners!<br>Use them to rebuild your machine and make it stronger!",draft
 791:1,c294ab89,"Strengthen your machine and earn distinction,<br>and you'll be able to join more important missions<br>and fight on new battlefields!",draft
 792:1,61da27e5,Everything depends on your skill and your machine-building ability!<br>Give it your all!,draft
 793:1,32374660,"The EX-Action ""Armor Repair"" is now available!<br>It restores the durability of a damaged machine.",draft
@@ -731,17 +731,17 @@ id,ja_hash,en,notes
 803:1,60238fbd,"Other players seem to be reaching<br>the Second Phase one after another too!<br>Let's all make ""Battle Live-G"" even more exciting!",draft
 804:1,ab64cd94,"Well then, keep it up!",draft
 805:1,8c36f4b1,"Your work in the special mission was recognized, and HQ has asked<br>our squad to join operations in the desert area<br>and the mountain base area!",draft
-806:1,588b1255,"Both are fierce war zones with harsh environments, scorching heat and freezing cold,<br>where powerful machines are deployed!<br>But I'm sure you can do it!",draft
+806:1,588b1255,"Both are fierce war zones with harsh environments,<br>scorching heat and freezing cold, where powerful<br>machines are deployed! But I'm sure you can do it!",draft
 807:1,8ada84ac,"Hello there.<br>I wanted to talk with you personally,<br>so forgive me for using the hangar's holo-comm system like this.",draft
 808:1,a3daff3a,"I am... the development leader of this Gunpla battle system.<br>I should really meet you in person,<br>but unfortunately I'm somewhere other than the event venue.",draft
-809:1,7fb398a2,"Now, what I want to talk about is... the glowing phenomenon in the last mission<br>on the PG Zeta Gundam and on your machine,<br>and the sudden power-up that came with it.",draft
+809:1,7fb398a2,"Now, what I want to talk about is... the glowing phenomenon<br>in the last mission on the PG Zeta Gundam and on your<br>machine, and the sudden power-up that came with it.",draft
 810:1,ca1f52cd,"Actually, this isn't the first time it has happened.<br>So far it has been seen on PG machines under certain conditions<br>and on some players' machines.",draft
 811:1,fc20bb8c,"We developers call that powered-up state ""Awakening"".",draft
 812:1,807ff4e3,"This ""Awakening"" was not deliberately built in<br>as a function of GAIOS, which controls the machines.",draft
 813:1,d8844386,"In other words, ""Awakening"" is a phenomenon<br>we developers never anticipated.",draft
 814:1,54587c7a,"But as our operator said,<br>the battle system doesn't detect ""Awakening"" as a bug or an error.",draft
 815:1,27528e06,"Unexpected glitches and bugs shouldn't exist,<br>but if it works without problems in the system,<br>and can be used to make the game more fun and strategic...",draft
-816:1,9e50623d,"then after looking into it in detail, we'll put it under the system's control...<br>in other words, we're thinking of making it ""specified"".",draft
+816:1,9e50623d,"then after looking into it in detail, we'll<br>put it under the system's control...<br>in other words, we're thinking of making it ""specified"".",draft
 817:1,09a26879,"Even if it wasn't part of the original design,<br>if it makes the game more fun,<br>we'd like to welcome it.",draft
 818:1,69743497,So we developers are now<br>investigating this phenomenon.,draft
 819:1,9b2505f3,"We'd cast a net to some extent,<br>and then your machine triggered an ""Awakening"",<br>so I'm hoping we managed to track the situation...",draft
@@ -762,20 +762,20 @@ id,ja_hash,en,notes
 834:1,73efb9ce,And! What on earth awaits<br>at the end of this battle!,draft
 835:1,cac7d77a,"For everyone looking forward to Battle Live and your play,<br>please keep doing your best!",draft
 836:1,220fadfc,"Your excellent record so far was recognized, and HQ has asked<br>our squad to join new operations in a space fortress<br>and inside a colony!",draft
-837:1,3a392a4b,"The enemy shows no sign of weakening, and the front has spread into space.<br>We also have reports that top-class machines<br>are being sent to battlefields everywhere.",draft
+837:1,3a392a4b,"The enemy shows no sign of weakening, and the front has<br>spread into space. We also have reports that top-class<br>machines are being sent to battlefields everywhere.",draft
 838:1,a6be7627,This is the moment of truth! Stay sharp!,draft
 839:1,650675b6,Congratulations on defeating the giant Mobile Armor Gells-Ghe!<br>Only a handful of players have cleared the Third Phase so far!<br>You're one of the players most worth watching!,draft
 840:1,17a5e7bf,"The crowds in front of the ""Battle Live-G"" monitors are always wild!<br>And the online battle replays are a big hit too,<br>so Gundam fans all over Japan are watching this battle!",draft
 841:1,1984234c,"Now, having defeated Gells-Ghe,<br>you finally enter the final Fourth Phase!",draft
-842:1,605d4178,"Chasing the root of the mysterious enemy army, you finally cross time and space to the ""Forbidden Place""!<br>The enemy throws in all its strongest machines!<br>A heated final battle unfolds!",draft
+842:1,605d4178,"Chasing the root of the mysterious enemy army, you finally cross<br>time and space to the ""Forbidden Place""! The enemy throws in<br>all its strongest machines! A heated final battle unfolds!",draft
 843:1,606dd9a5,The Gundam Great Front event period<br>is almost over!,draft
 844:1,f9ac2489,"This Gunpla Battle Simulator and ""Battle Live-G""<br>will shut down when the event closes!",draft
 845:1,02368977,Play with no regrets<br>so you can clear every mission before the final day!,draft
-846:1,06d1f8fa,"Now, an important announcement from the Battle Live-G headquarters!",draft
+846:1,06d1f8fa,"Now, an important announcement<br>from the Battle Live-G headquarters!",draft
 847:1,ac7fd887,"Among players who clear all missions during GGF,<br>those with the very best records<br>will be named ""Battle Live-G Selected Players""!",draft
 848:1,78146961,"And on the last day of GGF, as the event's grand finale,<br>it has been decided that these selected members<br>will hold a special exhibition battle!",draft
 849:1,e87e522e,You have a great chance of becoming one of these selected players!<br>Keep going to the very end!,draft
-850:1,3563b500,"HQ has gathered and analyzed enemy intel,<br>and we've finally found the enemy's home base!<br>The enemy's base, and its source, is... a future Earth beyond time and space!",draft
+850:1,3563b500,"HQ has gathered and analyzed enemy intel, and we've<br>finally found the enemy's home base! The enemy's base,<br>and its source, is... a future Earth beyond time and space!",draft
 851:1,ce898fff,"The far future... the end point of Gundam's history.<br>There lies the ""Forbidden Land"", where all Gunpla are buried!<br>The enemy awoke there and has been invading our world!",draft
 852:1,6bded3b5,"HQ has succeeded in opening a space-time gate<br>to the underground corridor of this ""Forbidden Land""!<br>We will now go through the gate and assault the enemy's base!",draft
 853:1,ca89c856,"At last, the battle at the enemy's main camp!<br>Destroy the enemy's core and seize victory!",draft
@@ -794,7 +794,7 @@ id,ja_hash,en,notes
 866:1,8e0eec87,But we really didn't want to do anything like<br>lowering the enemy machines' parameters<br>just so you could clear every mission.,draft
 867:1,444a7624,"...Because we thought that would be disrespectful<br>to all of you fighting so hard,",draft
 868:1,4527468d,"and because your enemy was ""Gundam"".",draft
-869:1,b2ab6c87,"""Gundam is the strongest machine"", or<br>""It's called Gundam because it's the strongest machine"".<br>That was the one thing we couldn't bring ourselves to change. We couldn't change it.",draft
+869:1,b2ab6c87,"""Gundam is the strongest machine"", or ""It's called Gundam<br>because it's the strongest machine"". That was the one thing<br>we couldn't bring ourselves to change. We couldn't change it.",draft
 870:1,3e2a4682,"Because we too... love ""Gundam"".",draft
 871:1,63078a5c,"But you, your Gunpla, and your partner GAIOS<br>overcame it and won.",draft
 872:1,7cf7bc00,"So your Gunpla<br>...is a new hero, a new legendary ""Gundam"".",draft
@@ -812,7 +812,7 @@ id,ja_hash,en,notes
 884:1,b86994b2,"Hi! Long time no see, everyone!<br>This is the live studio of the internet show starting today,<br>""Gunpla Battle TV""!",draft
 885:1,3e3deb0d,"Recently, ""Gundam Great Front"" closed<br>to great acclaim and many regrets!",draft
 886:1,c3216345,"And its biggest attraction,<br>the Gunpla battle live event ""Battle Live-G""!",draft
-887:1,f2e0c935,"Even after the event closed, the excitement of ""Battle Live-G"" hasn't cooled,<br>and we've been flooded with requests:<br>""We want to see more hot battles by the chosen players!""",draft
+887:1,f2e0c935,"Even after the event closed, the excitement of ""Battle<br>Live-G"" hasn't cooled, and we've been flooded with requests:<br>""We want to see more hot battles by the chosen players!""",draft
 888:1,a590ea12,So! The extreme plays of the selected players<br>now taking part in the development project<br>for a new version of the Gunpla Battle Simulator,draft
 889:1,bda4424a,"can be delivered to fans across the country as a special treat,<br>with permission from the development team!",draft
 890:1,7a03e8c3,"Battles of a new dimension, ""The Strongest Selected Players"" VS<br>""The Strongest Gunpla Army"", streamed online!",draft
@@ -821,7 +821,7 @@ id,ja_hash,en,notes
 893:1,20898e97,"Once again, nice to work with you!<br>We're expecting even more amazing, even cooler battles<br>to rival the great scenes born at GGF!",draft
 894:1,754e2617,"Well then, see you again!<br>See you!",draft
 895:1,c89b3e3c,"Hi! This is the ""Gunpla Battle TV"" live studio!",draft
-896:1,34a3258f,"Just what you'd expect from the selected players! Breaking through the fierce attacks of even stronger enemies,<br>they cleared Extra Mission Phase 1!<br>Congratulations!",draft
+896:1,34a3258f,"Just what you'd expect from the selected players! Breaking<br>through the fierce attacks of even stronger enemies, they<br>cleared Extra Mission Phase 1! Congratulations!",draft
 897:1,2d785fd0,"According to the development team, this unlocks<br>an even harder mission phase!<br>Can the selected players break through it!?",draft
 898:1,50eb1772,To all the selected players!<br>I believe you can overcome any hardship!,draft
 899:1,fa3e54ce,"Toward your limits, ready... go!!<br>Keep doing your best!!",draft
