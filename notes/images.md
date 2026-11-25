@@ -52,7 +52,8 @@ on glow edges, DXT1 limit). **Not yet tested in Vita3K.**
 ## Redraw status (2026-11-25)
 
 All 322 catalogued textures are redrawn and built; not yet tested in Vita3K. `python -E -P scripts/draw_ui.py` draws
-them into `game/images_en/`, from two job modules split by style family:
+them into `game/images_en/`, from two job modules split by style family (plus `scripts/uidraw/extra.py`, 24 jobs for
+loose-only textures found later, see "Loose-only UI textures" below; run `export_tex.py --ui` first):
 - `scripts/uidraw/labels.py` (+ `labels_lib.py`), 144 jobs: Game Setting row labels/values, Machine Setup and
   Customize headers and stats, weapon aptitude, Create Parts, mission result, mission-select labels and rank tabs,
   battle captions and counters, ranks, Paint, quantity headers, boosters, title/intro subtitles and cross-save texts.
@@ -235,12 +236,69 @@ hud_pause_key*.
 
 Not in any texture: "not equipped" (it is a UTF-8 string in the eboot, separate job).
 
+## Loose-only UI textures and textures outside GP/ui (checked 2026-11-25)
+
+**Tools.** [scripts/export_tex.py](../scripts/export_tex.py) (`python -E -P`) decodes any `tex` (DXT1/DXT3/DXT5,
+mipmapped, and the few 32-bit RGBA ones; level 0 only) to `game/tex_png/<path>.png` with contact sheets in
+`game/tex_png/_sheets/` and an index `game/tex_index.tsv`. `--loose` adds the 000 entries whose name is unknown as
+`_loose/<hash1>`; normal/specular/control/environment maps are skipped unless `--all-maps`. A full run takes ~20 min.
+`--ui` only writes the loose-only UI textures listed in its `LOOSE_UI` table to `game/ui_png/` (where draw_ui.py looks
+for originals; ~15 s). Header format bytes `12 4L xx Ld`: L = mip levels, xx = 00 DXT1 / 10 DXT3 / 20 DXT5;
+first byte 0x64 = 32-bit RGBA.
+
+**Loose-only textures.** 7,892 of the 9,672 loose `tex` entries in 000 match no pac member name. Most are
+Gunpla/map textures, but some are UI textures that exist **only** in 000 (no 002 copy). Names were recovered from the
+eboot's strings (`title/title_00..05`, `dialog/leadbanner`, `title_demo/*`, hud_map area maps) and by varying the last
+one or two characters of known GP/ui paths (`rank_m_08/09`, `grg_cstm_spec_09..17`, `grg_cstm_help_1`,
+`result_key4`, `icon_s_module_*`, `icon_s_option_*`, `msel_gp`); the rest keep `_loose/<hash1>`.
+`build_images.py` now patches these in 000 (by name_hash(path), or the hash for `_loose/<hash1>`).
+
+Redrawn (jobs in [scripts/uidraw/extra.py](../scripts/uidraw/extra.py), 24 textures, not yet tested in game):
+| texture | English |
+|---|---|
+| title/title_00 (960x544) | piracy notice before the logos: Notice / Distributing game software over the Internet without the rights holder's permission, and downloading it while knowing that it has been distributed illegally, are strictly prohibited by law. / We ask for your understanding and cooperation. |
+| dialog/leadbanner (800x480) | DLC store prompt: Buy the add-on "Giga Break Mission Pack" / New mobile suits join the fight in / new missions - play them now! · ◯ PlayStation®Store · ✕ Cancel (Japanese lines removed by filling from the surrounding glow) |
+| rank/rank_m_08, rank_m_09 | ADM, FADM (copies of rank_m_06/07) |
+| grg_cstm/grg_cstm_spec/grg_cstm_spec_09..14 | Option 1..6 Power |
+| grg_cstm/grg_cstm_spec/grg_cstm_spec_15..17 | EX △/□/◯ Power (the "EX" and the symbol are kept) |
+| grg_cstm/grg_cstm_help_1 | Carried (option equipment's carried count; help_2..4 are Uses, Charge Time, Power) |
+| result/result_key4 | Select · Take All · Sell All · Take · Sell (like result_key3) |
+| title_demo/title_copyright | © SOTSU · SUNRISE / © SOTSU · SUNRISE · MBS (demo build; romanised like title_copyright) |
+| _loose/00d9cea8 (1280x720) | PAUSE screen subtitle: GAME PAUSED (blue PAUSE kept) |
+| _loose/49757e76 | L2 + R2 Free-Word Chat |
+| _loose/c1dad43f | (hand icon) Flick right to close |
+| _loose/d16ee459, d16ee462 | Melee Weapons / Ranged Weapons headers (orange English subtitles kept) |
+| _loose/fa959a56..58 | Runners Held · Parts Held · Modules Held |
+
+Left as they are: title_demo/title_logo and the small red logo `_loose/b8693ec2` (game logo, see below);
+`_loose/2bdf1aac` (white debug placeholder with one kanji and "TOP"); `_loose/9e855617/618` (character portraits
+stamped SAMPLE); title_01..05 (publisher/middleware logos, no Japanese); the English ones (module/option icons,
+INFORMATION CONSOLE, GUNPLA HANGAR 01–04, READY, PREPARATION, area names, NEW GAME/CONTINUE/OPTIONS/PRESS START).
+
+**Outside GP/ui (pac members in 001/002), all clean of UI text:**
+- GP/effect (233): no text except `ef_t_enm_pg_kanji_01`, the kanji of a Master Gundam special attack's name, as in
+  the anime: left (in-universe art).
+- GP/map (417 colour maps of 12 areas): only real-world-style props: paint and marker labels and Gunpla instruction
+  sheets on the b04 desk stage (`b04_ink01/02_col`, `b04_obj02_col`), building signage (`b01_dcity01_col`, English).
+  Left as they are (like decals).
+- GP/model (14,701 colour/emission maps of 992 models; sampled through the identical loose copies and the gimmick
+  `gmk_*` textures), GP/preset (2,705 Gunpla preset textures), GP/texture (black, white, fever_ground): no UI text.
+  Gunpla markings are part of the kit art. Some unused/placeholder part textures are white with a red kanji meaning
+  "provisional"; they are left (not expected to be seen).
+- Loose `_loose/*` sheets were looked at after filtering out normal maps, specular maps and flat textures.
+
+**GP/ui sheets that had only been skimmed**, now looked at at full size: hud/* (ace, awake, bonus, boss, chat,
+damage, drop, enemy, ex, info, lock, mes, npc, obj, range, sight, status, hud_face, sub, touch), hud_map (all areas
+and icons), icons (drop, icon_l, icon_s, icon_progress), ace_medal, num, msel_map, load_scan_bg, meswin, etc: no
+Japanese.
+
+**Logo (title_logo, title_gpg; also title_demo/title_logo, _loose/b8693ec2).** The main logo is the English
+"GUNDAM BREAKER" wordmark with a small katakana reading under it, the way the Japanese packaging shows it; title_gpg
+is the QR code with the Gundam Perfect Games caption and URL. Recommendation: keep all of them. The katakana is part
+of the official logo (like a subtitle on the box art), and redrawing a logo risks looking off. If wanted later, the
+only safe change is erasing the katakana line under the wordmark, nothing else.
+
 ## Not covered yet
 
-- Looked at in detail: every folder above. Checked only at low resolution (no Japanese seen): hud/* except pause,
-  dlcm, obj, info, sub, mes; icons/*; ace_medal; num; msel_map; load_scan_bg. hud_map_* area maps (ids, jab, kmj,
-  mtc) and hud_status/hud_face were not opened one by one.
-- Textures outside GP/ui (GP/texture, GP/effect, GP/map, GP/model, GP/preset) were not checked; effects may hold
-  stylised text.
 - Nothing tested in Vita3K yet: which copy (002 bundle or 000 loose) the game reads, and whether a re-encoded
-  texture shows correctly.
+  texture shows correctly. The loose-only textures above only exist in 000, so 000 must be read for them at least.

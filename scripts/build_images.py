@@ -10,8 +10,10 @@ from game art, so they live in git-ignored game/ for now.
 
 Every copy of a texture is patched: each 002 pac bundle that has the path as a member, and the loose `tex` entry in
 000 whose hash1 = gdat.name_hash(path) (1,889 of the 1,904 GP/ui members have one; which copy the game reads is not
-known yet). Each texture is re-encoded from the ORIGINAL payload in the dump (tex.encode keeps the header and every
-4x4 block whose pixels did not change), so the result does not depend on earlier builds.
+known yet). Some UI textures exist only as loose 000 entries (scripts/export_tex.py LOOSE_UI): those are patched in
+000 only; an unnamed one is given as game/images_en/_loose/<hash1>.png. Each texture is re-encoded from the
+ORIGINAL payload in the dump (tex.encode keeps the header and every 4x4 block whose pixels did not change), so the
+result does not depend on earlier builds.
 
 Layering with the text build: scripts/build_text.py writes build/patched/PCSG00126/masterPSP2/GxArchivedFile000.dat
 and 002.dat from the dump (and deletes an archive it doesn't change). This script uses those files as its base when
@@ -48,6 +50,13 @@ def find_images():
     return found
 
 
+def loose_hash(path):
+    """hash1 of the loose 000 entry: name_hash(path), or the hash itself for unnamed textures (_loose/<hash1>)."""
+    if path.startswith("_loose/"):
+        return int(path[7:], 16)
+    return gdat.name_hash(path)
+
+
 def base_archive(name, from_dump):
     patched = os.path.join(OUT, name)
     if not from_dump and os.path.exists(patched):
@@ -73,9 +82,15 @@ def main():
         for path, typ, entry in pac.parse(gdat.unpack(data)):
             if typ == TEX and path in images and path not in orig:
                 orig[path] = gdat.unpack(entry)
+    # Loose-only textures (no 002 copy, see scripts/export_tex.py LOOSE_UI): original from the 000 entry.
+    want = {loose_hash(p): p for p in set(images) - set(orig)}
+    if want:
+        for _, h1, _, _, _, data in gdat.iter_entries(os.path.join(DUMP, "GxArchivedFile000.dat"), {"tex"}):
+            if h1 in want:
+                orig[want[h1]] = gdat.unpack(data)
     missing = sorted(set(images) - set(orig))
     if missing:
-        sys.exit("not a texture in any 002 bundle: " + ", ".join(missing))
+        sys.exit("not a texture in any 002 bundle nor a loose 000 entry: " + ", ".join(missing))
     new = {}
     for path, png in sorted(images.items()):
         img = Image.open(png).convert("RGBA")
@@ -108,7 +123,7 @@ def main():
         table = {(e[0], e[1]) for e in gdat.read_table(f)}
     replace = {}
     for path, payload in new.items():
-        key = (TEX, gdat.name_hash(path))
+        key = (TEX, loose_hash(path))
         if key in table:
             replace[key] = payload
             copies[path] += 1
