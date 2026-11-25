@@ -329,7 +329,19 @@ seen in game).
   Japanese bytes plus zero padding up to the next 4-byte boundary. The build fails otherwise.
 - id = offset in the 1.02 ELF; 1.00 is matched by the n-th occurrence of the same Japanese (all match except one 1.01+ string, the PS3 controls note, which is skipped for 1.00).
 - Output: `build/patched_elf/<app|patch>/eboot.bin.elf` and the fake-signed `build/eboot/<app|patch>/eboot.bin`.
-- Untested in game.
+- Works on a real Vita (1.02, 2026-11-25): default radio chat and the Gunpla name show in English on a new save.
+
+### Title screen portal line (code patch, 2026-11-25)
+
+The line under the QR code on the title screen (`gpg_txt` in `GP/ui/_little_/title/title_bg`, empty in the layout) is
+filled by the eboot. Its getter (0x810cd048 in 1.02, called only by the title screen at 0x812725f2 and 0x8127dc6c)
+returns the notice the game **downloads from the GUNDAM PERFECT GAMES portal** if there is one (a 2013 promo about a
+customize contest, still served: seen on a real Vita), otherwise `ui_help_detail` text id 60000 (record 268,
+translated), or an empty string. The downloaded text is in no game file, so it can't be translated.
+`eboot_text.py` turns the getter's `cbz r0` (no notice) into `b` to the same target (`CODE_PATCHES`, found by a
+byte pattern in both versions), so the translated built-in line always shows. Other notes from that function:
+`ver_txt` = text 1900000 ("Game Version:") + the eboot constant "1.12"; the portal fetch messages are texts
+2000000-2010010. The licence/booster check doesn't go through this getter.
 
 ## Open questions
 

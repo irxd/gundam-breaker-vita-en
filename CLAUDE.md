@@ -29,12 +29,16 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
   (`GP/csv/AiIntensificationChipData`), ace point texts (`GP/csv/scoreAchievementsTable`), map names (`GP/map/map`).
   The other `GP/csv/*` strings are designer labels (list in notes/formats.md).
 - The eboot has player-visible UTF-8 strings too (default radio chat and Gunpla name, "not equipped", lobby):
-  `scripts/eboot_text.py` patches them in place for 1.00 and 1.02 (`text/eboot.csv`). Not yet tested in game.
+  `scripts/eboot_text.py` patches them in place for 1.00 and 1.02 (`text/eboot.csv`). It also applies
+  `CODE_PATCHES` (byte-pattern instruction changes), currently one: the title screen shows the built-in English portal
+  line instead of the Japanese notice downloaded from the GUNDAM PERFECT GAMES server.
 - Many UI labels are baked into textures (`GP/ui/ui_dds/*`, DXT1/DXT5): 346 redrawn (`scripts/draw_ui.py`,
   `scripts/uidraw/`), injected by `scripts/build_images.py`. 24 of them exist only as loose entries in 000: run
   `python -E -P scripts/export_tex.py --ui` before `draw_ui.py` on a fresh checkout. See notes/images.md.
 - Optional home-screen title: `tools/rename_title.py` (app.db or param.sfo), also in the web patcher.
-- None of this is tested in game yet.
+- **First real-Vita test (2026-11-25, v0.1.0 via rePatch, 1.02 eboot): works.** Title, main menu, settings, Set Up,
+  hangar dialogue, mission select, a full mission with HUD, ace points and radio chat all show English; missions
+  load with the changed `GP/unitData` tables. Fixes from that test are pending. Screenshots: `docs/screenshots/`.
 - Build order: `build_text.py`, then `python -E -P scripts/build_images.py`, then `eboot_text.py build`, then
   `python -E -P scripts/build_movies.py`.
 - Movies (`finalizedPSP2/GP/movie/*.usm`, loose files, CRI USM + MPEG-1 with 11-bit DC): burned-in Japanese in me01,

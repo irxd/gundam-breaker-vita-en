@@ -17,6 +17,9 @@ Japanese among the candidates in 1.02 is the n-th occurrence in 1.00 (the build 
 Candidates: 4-byte aligned, preceded by a zero byte, valid UTF-8 with kana/kanji, no control characters. Many are
 debug/tool names (motion properties, sound editor); leave their en empty and they stay as they are.
 Checks (shared with build_text.check): printf conversions in the same order, markup, button icons, charset.
+
+Code patches (CODE_PATCHES): a few instruction changes, found by a byte pattern that must match exactly once
+in each version (so no per-version offsets).
 """
 import os
 import re
@@ -33,6 +36,31 @@ VERSIONS = ("app", "patch")
 REF = "patch"
 JP = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
 NOISE = re.compile(r"[\u3040-\u9fff][\x21-\x7e]{1,2}")
+
+# (what, pattern, offset of the change inside the match, original bytes, new bytes)
+CODE_PATCHES = [
+    # Title screen line under the GUNDAM PERFECT GAMES QR code (gpg_txt). The getter (called only by the title
+    # screen) returns the notice the game downloads from the portal (live Japanese promo text) if there is one,
+    # otherwise ui_help_detail text 60000 (translated). Its "cbz r0" (no notice -> fallback) becomes an
+    # unconditional "b" to the same place, so the translated line is always shown. Licence/booster checks
+    # don't go through this function.
+    ("title screen: always show the built-in portal line, not the downloaded notice",
+     re.compile(rb"\x10\xb5.{8}\x09\x68\x04\x1c\xd1\xf8\xd0\x10.{4}\x20\x68\x38\xb1", re.S),
+     0x18, b"\x38\xb1", b"\x07\xe0"),
+]
+
+
+def code_patches(d):
+    """Return [(offset, new bytes)] for CODE_PATCHES in ELF d; raise unless each pattern matches once."""
+    out = []
+    for what, pat, at, old, new in CODE_PATCHES:
+        hits = [m.start() for m in pat.finditer(d)]
+        if len(hits) != 1:
+            raise ValueError(f"code patch '{what}': pattern found {len(hits)} times")
+        off = hits[0] + at
+        assert d[off:off + len(old)] == old, what
+        out.append((off, new))
+    return out
 
 
 def elf_path(version):
@@ -155,9 +183,15 @@ def build(check_only):
             if len(en) + 1 > slot:
                 problems.append(f"{rid}: '{r['en']}' is {len(en)} bytes, the slot holds {slot - 1}")
             todo.append((v, off, slot, en))
+    code = {}
+    for v in VERSIONS:
+        try:
+            code[v] = code_patches(open(elf_path(v), "rb").read())
+        except ValueError as e:
+            problems.append(f"{v}: {e}")
     if problems:
         sys.exit("eboot text problems:\n" + "\n".join(f"- {p}" for p in problems))
-    print(f"eboot: {len(todo)} string patches OK")
+    print(f"eboot: {len(todo)} string patches, {len(CODE_PATCHES)} code patch(es) per version OK")
     if check_only:
         return
     import fself
@@ -167,6 +201,8 @@ def build(check_only):
         for vv, off, slot, en in todo:
             if vv == v:
                 d[off:off + slot] = en + b"\x00" * (slot - len(en))
+        for off, new in code[v]:
+            d[off:off + len(new)] = new
         out = os.path.join(ROOT, "build", "patched_elf", v, "eboot.bin.elf")
         os.makedirs(os.path.dirname(out), exist_ok=True)
         open(out, "wb").write(d)
