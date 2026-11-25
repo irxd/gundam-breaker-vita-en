@@ -87,7 +87,7 @@ async function addFiles(list) {
   if (!todo.length) {
     const elf = [...list].find((f) => /\.elf$/i.test(f.name));
     showError(elf ? `${elf.name} is not FAGDec's decrypted eboot of game version 1.00 or 1.02.`
-      : 'No files of this patch in that folder. Choose the decrypted PCSG00126 game folder (with masterPSP2 and finalizedPSP2).');
+      : 'No files of this patch in that folder. Choose the decrypted PCSG00126 game folder (with masterPSP2).');
     return;
   }
   state.checking += todo.length;

@@ -28,10 +28,10 @@ More screenshots: [Screenshots](#screenshots).
   room messages, keyboard prompts (needs the optional eboot step below).
 - **UI images:** about 350 textures with Japanese labels (menu headers, buttons, HUD labels, rank and result
   screens, controller diagrams, the boot notice and the DLC store banner) redrawn in English.
-- **Movies:** English subtitles over the burned-in Japanese ones in the opening, the closing ceremony, the
-  developer's briefing, the shop owner's clips and the ending's epilogue.
-- **Not translated:** credits staff names, the promo trailer, and the game's name on the home screen (optional
-  fix below).
+- **Not translated yet:** the burned-in Japanese subtitles in the movies (the opening, the closing ceremony, the
+  developer's briefing, the shop owner's clips and the ending's epilogue); English subtitles are planned for a later
+  version. Also not translated: credits staff names, the promo trailer, and the game's name on the home screen
+  (optional fix below).
 
 ## Install
 
@@ -51,9 +51,7 @@ You patch files from **your own copy** of the game. No game data is included.
 **1. Copy the decrypted game files to your PC (VitaShell, over FTP)**
 
 1. In VitaShell go to `ux0:app/PCSG00126/`, press △ and choose **Open decrypted**.
-2. Press SELECT to start FTP, and copy the `masterPSP2` and `finalizedPSP2` folders (about 3.3 GB together) to a
-   PC folder, e.g. `game/`. `finalizedPSP2` holds the movies; without it everything except the movie subtitles is
-   still patched.
+2. Press SELECT to start FTP, and copy the `masterPSP2` folder (about 2.2 GB) to a PC folder, e.g. `game/`.
 
 USB mode gives the still-encrypted files, so use FTP (or copy the folder to another place on the Vita with
 VitaShell first, then over USB).
@@ -71,7 +69,8 @@ stays Japanese; everything else is still patched.
 
 1. Open the **[web patcher](https://irxd.github.io/gundam-breaker-vita-en/)** in Chrome or Edge.
 2. Choose the folder you copied under **Game folder**. Only the files the patch needs are checked: the two data
-   archives (about 2 GB, this takes a little while) and the 13 movies with subtitles. If you made `eboot.bin.elf`, choose it under **Game program (eboot)**.
+   archives (about 2 GB, this takes a little while). If you made `eboot.bin.elf`, choose it under
+   **Game program (eboot)**.
 3. Press **Patch** and pick a folder to save into. You get a `rePatch` folder there. Nothing is uploaded.
 
 **3. Copy to the Vita**
@@ -123,9 +122,7 @@ backup back to `ur0:shell/db/app.db` and restart the Vita.
 - Without the FAGDec `eboot.bin.elf`, the default radio chat, the default Gunpla name, "Not equipped" and lobby
   messages stay Japanese. The default radio chat and Gunpla name are copied into your save when it is created, so
   an existing save keeps the Japanese ones until you edit them.
-- Credits staff names are still Japanese.
-- The movie subtitles cover the Japanese ones with a dark box; the parts of a movie that show subtitles are re-encoded
-  and may look slightly softer than the rest.
+- Credits staff names and the movies' burned-in subtitles are still Japanese.
 
 ## Screenshots
 
@@ -162,8 +159,12 @@ python -E -P scripts/build_movies.py       # movie subtitles (text/movies/*.json
 python -I scripts/make_release.py 0.1.0    # all of the above, then xdelta patches -> release/, docs/patcher/patches/
 ```
 
-`make_release.py` needs `xdelta3`, ffmpeg (`pip install imageio-ffmpeg`, or set `FFMPEG`) and the dump. It lays the
-build out as `build/rePatch/PCSG00126/` (the two archives, the subtitled movies and `eboot.bin`), makes one patch per
+Movies are left out of releases for now (`INCLUDE_MOVIES` in `make_release.py`, or `--movies`): the re-encoded movies
+glitched on a real Vita, and the fix (see `notes/formats.md`, "Movies") isn't confirmed on hardware yet.
+
+`make_release.py` needs `xdelta3`, ffmpeg for the movies (`pip install imageio-ffmpeg`, or set `FFMPEG`) and the
+dump. It lays the build out as `build/rePatch/PCSG00126/` (the two archives, `eboot.bin` and, with `--movies`, the
+subtitled movies), makes one patch per
 changed file against the original in `dump/app`, and one eboot patch per
 game version against FAGDec's `eboot.bin.elf`. Each patch is applied again and checked. The archives are 1.5 GB and
 542 MB and their entries shift, so xdelta runs with a source window that covers the whole file (`-B 2147483648`);

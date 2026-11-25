@@ -315,21 +315,34 @@ with this change restored `PG Zeta Gundam Variant` in chr4482-4487; the others s
   that overlap a cue are re-encoded (each on its own, same picture count, the GOP's matrices, original sequence and
   GOP headers kept); all other pictures are copied byte for byte. A re-encoded GOP may use up to 1.5x its original
   bytes, and no picture may be larger than the file's largest original picture (the buffer fields stay valid).
-- **Garbled frames on the real Vita (2026-11-25): no B pictures.** A screen recording showed single frames once
-  per GOP with doubled, shifted text and blocky moving edges. The originals' B pictures never use bidirectional
-  (interpolated) macroblocks and their vectors are almost all zero (CRI's encoder settings); ffmpeg's B pictures use
-  hundreds of bidirectional macroblocks with real vectors, which CRI Mana's decoder gets wrong (ffmpeg and the
-  previews are fine). Re-encoded GOPs are now I + P only (`-bf 0`): same picture count, temporal references in
-  display order. The player orders by temporal reference; chunk times count pictures in stream order and
-  `VIDEO_SEEKINFO.num_skip` is 0, so nothing else changes.
+- **Garbled frames on the real Vita (2026-11-25): decoding time, fixed with q >= 5.** Screen recordings showed one
+  bad frame per GOP: doubled, shifted text and blocky moving edges, i.e. a frame shown while still being decoded
+  (only the parts that move differ). Found by testing in **Vita3K**, which runs the same CRI Mana decoder code and
+  shows the same glitch: put the test movie in place of `title_bg.usm` in Vita3K's copy of the game, boot with
+  `Vita3K.exe --frontend sdl -r PCSG00126`, press Circle (C) for the first-boot dialog, and screen-capture the
+  title screen (it loops the movie). Results: the same file at half the frame rate is clean; every change that
+  made pictures cheaper fixed it, whatever it changed (coarser q, smaller coefficient values); none of slices,
+  DC precision, B pictures or motion vector ranges mattered. At q 2 the sharp text edges made ffmpeg's pictures
+  too slow for CRI's decoder (the originals' own I P B B GOPs get away with more because CRI drops late B
+  pictures). Now `MIN_Q = 5` (originals use about 1-13) and the GOPs keep the I P B B structure. Checked in Vita3K:
+  all 9 shop clips at q 5 (I/P build: 0 glitches; the known-bad q 2 controls: 24-28) and shop_ev_01_open with
+  I P B B; the remaining box "spikes" in shop_ev_01 and me09 also appear in ffmpeg's own decode, so they are
+  encoding, not CRI: at q 5 the I picture draws the text a little softer than the following pictures in a few
+  busy scenes (a faint pulse every 0.43 s; ffmpeg ignores i_qfactor with a fixed q). **Not yet checked:** the
+  final I P B B build of the other movies in Vita3K, and anything on a real Vita.
+- **Movies are left out of releases for now** (`INCLUDE_MOVIES = False` in make_release.py, 2026-11-26). To pick
+  this up: build, check every movie in Vita3K as `title_bg.usm` (scratch scripts used: capture the box area of
+  the SDL window at ~100 fps, merge repeated captures, flag captures that differ from both neighbours inside a
+  cue box; compare with the same measure on ffmpeg's decode), then test on the Vita, then `make_release --movies`.
 - **Subtitle flicker at line changes: overlapping cues.** Each cue was padded by `PAD` frames on both
   sides, so cues that follow each other directly were both drawn for ~8 frames at every change of line (text
   flashing between two lines, the previous box showing behind the new one). `cue_frames()` now never pads into a
   neighbouring cue. Check line changes, not only mid-cue frames, when previewing.
 - **One slice per macroblock row.** Every original picture has exactly one slice per macroblock row (34 at
-  960x544); ffmpeg's mpeg1video writes one slice per thread (13 here, at most 32). This was suspected first for
-  the flicker but didn't fix it; the pictures are re-sliced anyway to match the originals (CRI Mana's own decoder,
-  compiled into the eboot, plays them). `mpeg1.reslice()` re-cuts each encoded picture into one slice per row: coefficients are copied, the motion
+  960x544); ffmpeg's mpeg1video writes one slice per thread (13 here, at most 32). Not the cause of the glitch,
+  but the pictures are re-sliced anyway to match the originals. reslice() also keeps motion vectors off the bottom
+  of their range (the originals never use it; raises the f_code) and limits levels from zigzag position 10 on to
+  +-127 (originals: 1 in ~6,000 large levels there); neither changed the glitch either. `mpeg1.reslice()` re-cuts each encoded picture into one slice per row: coefficients are copied, the motion
   vector and DC predictors (reset at each slice start) are recomputed, and skipped macroblocks that would start or
   end a row are written out (P: forward, zero vector; B: the previous macroblock's prediction). ffmpeg decodes the
   re-sliced GOP to byte-identical frames (checked with 1- and 13-slice input), about 1% more bytes.

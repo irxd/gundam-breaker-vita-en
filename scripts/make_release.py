@@ -59,11 +59,15 @@ WEB = ROOT / 'docs/patcher/patches'
 PLAYER_TOOLS = [ROOT / 'scripts/apply_patches.py', ROOT / 'tools/rename_title.py', ROOT / 'tools/build_sfo.py']
 XDELTA_WINDOW = 1 << 31                              # xdelta3's largest source window (2 GiB) > the 1.5 GB archive
 
+# Movies with English subtitles: left out of releases for now. The re-encoded movies glitched on a real Vita
+# (CRI's decoder falling behind); q >= 5 fixes it in Vita3K but isn't confirmed on hardware yet. See
+# notes/formats.md, "Movies". Set to True (or pass --movies) to build and package them again.
+INCLUDE_MOVIES = False
+
 # Build steps after text, images and eboot: (description, command). Their output must be laid out in repatch().
-BUILD_HOOKS = [
-    ('movies (English subtitles; needs ffmpeg: imageio-ffmpeg or $FFMPEG)',
-     [sys.executable, '-E', '-P', ROOT / 'scripts/build_movies.py']),
-]
+MOVIE_HOOK = ('movies (English subtitles; needs ffmpeg: imageio-ffmpeg or $FFMPEG)',
+              [sys.executable, '-E', '-P', ROOT / 'scripts/build_movies.py'])
+BUILD_HOOKS = []
 
 
 def run(*args):
@@ -95,7 +99,7 @@ def build():
     run(py, '-I', ROOT / 'scripts/build_text.py')
     run(py, '-E', '-P', ROOT / 'scripts/build_images.py')
     run(py, '-I', ROOT / 'scripts/eboot_text.py', 'build')
-    for what, cmd in BUILD_HOOKS:
+    for what, cmd in BUILD_HOOKS + ([MOVIE_HOOK] if INCLUDE_MOVIES else []):
         print(f'build step: {what}')
         run(*cmd)
 
@@ -111,7 +115,7 @@ def repatch(eboot):
             sys.exit(f'{src} not found: run the build first')
         print(f'copy {src.relative_to(ROOT)}')
         shutil.copyfile(src, REPATCH / 'masterPSP2' / name)
-    movies = sorted(MOVIES.glob('*.usm')) if MOVIES.is_dir() else []
+    movies = sorted(MOVIES.glob('*.usm')) if INCLUDE_MOVIES and MOVIES.is_dir() else []
     if movies:
         (REPATCH / 'finalizedPSP2/GP/movie').mkdir(parents=True)
         for src in movies:
@@ -148,7 +152,10 @@ def main():
     ap.add_argument('--no-build', action='store_true', help='package build/ as it is')
     ap.add_argument('--eboot', choices=sorted(EBOOTS), default='patch', help='eboot for build/rePatch (default patch)')
     ap.add_argument('--local-zip', action='store_true', help='also zip build/rePatch (game data, local testing only)')
+    ap.add_argument('--movies', action='store_true', help='include the subtitled movies (see INCLUDE_MOVIES)')
     a = ap.parse_args()
+    global INCLUDE_MOVIES
+    INCLUDE_MOVIES = INCLUDE_MOVIES or a.movies
     xdelta = find_xdelta()
 
     if not a.no_build:

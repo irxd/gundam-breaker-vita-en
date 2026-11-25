@@ -44,8 +44,10 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Movies (`finalizedPSP2/GP/movie/*.usm`, loose files, CRI USM + MPEG-1 with 11-bit DC): burned-in Japanese in me01,
   me09, me10, shop_ev_01-09 and the me_ending epilogue get English cue overlays (`text/movies/*.json`); only the GOPs
   with a cue are re-encoded (`tools/usm.py`, `tools/mpeg1.py`). GB_PV1 is never played (not in the eboot); credits
-  names stay Japanese. Re-encoded GOPs are **I + P only**: CRI Mana's decoder garbles ffmpeg's bidirectional
-  B macroblocks on a real Vita (ffmpeg previews don't show it). Cues must not overlap (`cue_frames`: padding never reaches a neighbouring cue), and
+  names stay Japanese. **Left out of releases for now** (`INCLUDE_MOVIES = False` in make_release.py; `--movies`
+  to include). Re-encode at **q >= 5** (`MIN_Q`): CRI Mana's real-time decoder shows half-decoded frames
+  when ffmpeg's pictures are too costly (q 2 glitched on the Vita; ffmpeg previews never show it). **Test movies in
+  Vita3K** as the title-screen movie (method in notes/formats.md, "Movies"). Cues must not overlap (`cue_frames`: padding never reaches a neighbouring cue), and
   re-encoded pictures get one slice per macroblock row like the originals (`mpeg1.reslice`). See notes/formats.md.
 - Dialogue lines don't wrap in game: check `voice_event_text` widths with `python -E -P scripts/wrap_dialogue.py`.
 - Release: `python -I scripts/make_release.py <version> [--no-build]` runs that chain (`BUILD_HOOKS` for later steps
