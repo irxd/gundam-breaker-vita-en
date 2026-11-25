@@ -315,10 +315,14 @@ with this change restored `PG Zeta Gundam Variant` in chr4482-4487; the others s
   that overlap a cue are re-encoded (each on its own, same picture count, the GOP's matrices, original sequence and
   GOP headers kept); all other pictures are copied byte for byte. A re-encoded GOP may use up to 1.5x its original
   bytes, and no picture may be larger than the file's largest original picture (the buffer fields stay valid).
-- **One slice per macroblock row (real Vita, 2026-11-25).** Every original picture has exactly one slice per
-  macroblock row (34 at 960x544). ffmpeg's mpeg1video writes one slice per thread (13 here, at most 32), so slices
-  span rows; ffmpeg and Vita3K decode that fine, but on a real Vita the subtitled parts flickered with block
-  garbage. `mpeg1.reslice()` re-cuts each encoded picture into one slice per row: coefficients are copied, the motion
+- **Subtitle flicker on the real Vita (2026-11-25): overlapping cues.** Each cue was padded by `PAD` frames on both
+  sides, so cues that follow each other directly were both drawn for ~8 frames at every change of line (text
+  flashing between two lines, the previous box showing behind the new one). `cue_frames()` now never pads into a
+  neighbouring cue. Check line changes, not only mid-cue frames, when previewing.
+- **One slice per macroblock row.** Every original picture has exactly one slice per macroblock row (34 at
+  960x544); ffmpeg's mpeg1video writes one slice per thread (13 here, at most 32). This was suspected first for
+  the flicker but didn't fix it; the pictures are re-sliced anyway to match the originals (CRI Mana's own decoder,
+  compiled into the eboot, plays them). `mpeg1.reslice()` re-cuts each encoded picture into one slice per row: coefficients are copied, the motion
   vector and DC predictors (reset at each slice start) are recomputed, and skipped macroblocks that would start or
   end a row are written out (P: forward, zero vector; B: the previous macroblock's prediction). ffmpeg decodes the
   re-sliced GOP to byte-identical frames (checked with 1- and 13-slice input), about 1% more bytes.

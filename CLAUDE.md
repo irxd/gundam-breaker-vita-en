@@ -44,8 +44,8 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Movies (`finalizedPSP2/GP/movie/*.usm`, loose files, CRI USM + MPEG-1 with 11-bit DC): burned-in Japanese in me01,
   me09, me10, shop_ev_01-09 and the me_ending epilogue get English cue overlays (`text/movies/*.json`); only the GOPs
   with a cue are re-encoded (`tools/usm.py`, `tools/mpeg1.py`). GB_PV1 is never played (not in the eboot); credits
-  names stay Japanese. Re-encoded pictures must have **one slice per macroblock row** (`mpeg1.reslice`), or the
-  real Vita shows flickering garbage (Vita3K doesn't). See notes/formats.md.
+  names stay Japanese. Cues must not overlap (`cue_frames`: padding never reaches a neighbouring cue), and
+  re-encoded pictures get one slice per macroblock row like the originals (`mpeg1.reslice`). See notes/formats.md.
 - Dialogue lines don't wrap in game: check `voice_event_text` widths with `python -E -P scripts/wrap_dialogue.py`.
 - Release: `python -I scripts/make_release.py <version> [--no-build]` runs that chain (`BUILD_HOOKS` for later steps
   such as movies), lays it out as `build/rePatch/PCSG00126/` and makes xdelta patches (`-B 2147483648`: the source
