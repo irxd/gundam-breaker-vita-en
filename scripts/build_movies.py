@@ -216,6 +216,24 @@ def decode(ff, path, w, h, layers, tmp):
     p.wait()
 
 
+def cue_frames(cues, fps, total):
+    """[(first frame, last frame)] for the cues sorted by start: PAD frames added on both sides, but never into a
+    neighbouring cue. Cues that follow each other directly (one ends where the next starts) switch on that frame;
+    with a smaller gap than 2 * PAD the gap is split in the middle. (Overlapping ranges drew both boxes and both
+    lines on top of each other for ~8 frames at every change of line.)"""
+    raw = [(round(c["start"] * fps), round(c["end"] * fps) - 1) for c in sorted(cues, key=lambda c: c["start"])]
+    out = [[max(0, a - PAD), min(total - 1, b + PAD)] for a, b in raw]
+    for i in range(len(out) - 1):
+        if out[i][1] >= out[i + 1][0]:
+            m = (raw[i][1] + 1 + raw[i + 1][0] + 1) // 2      # first frame of the next cue's range
+            m = max(m, raw[i][1] + 1) if raw[i][1] < raw[i + 1][0] else raw[i + 1][0]
+            out[i][1], out[i + 1][0] = m - 1, m
+    for i, (a, b) in enumerate(out):
+        if a > b:
+            raise SystemExit(f"cue {i}: no frames left after removing the overlap with its neighbours")
+    return [tuple(x) for x in out]
+
+
 def build(ff, name, spec, out, tmp):
     src = MOVIES / f"{name}.usm"
     data = src.read_bytes()
@@ -235,9 +253,7 @@ def build(ff, name, spec, out, tmp):
     pic_max = max(len(u.chunks[i].payload) for i in vid)
 
     layers, spans = [], []
-    for c in sorted(spec["cues"], key=lambda c: c["start"]):
-        a = max(0, round(c["start"] * fps) - PAD)
-        b = min(total - 1, round(c["end"] * fps) - 1 + PAD)
+    for c, (a, b) in zip(sorted(spec["cues"], key=lambda c: c["start"]), cue_frames(spec["cues"], fps, total)):
         for kind, img, x, y, lw, lh in cue_layers(spec["style"], c, w, h):
             layers.append((kind, img, x, y, lw, lh, a, b))
         spans.append((a, b))
