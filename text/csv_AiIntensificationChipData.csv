@@ -1,0 +1,246 @@
+id,ja_hash,en,notes
+1:1,8ce2736d,Titanium Alloy Armor,same as 000_chip_name
+2:1,df6c772e,Luna Titanium Alloy Armor,same as 000_chip_name
+3:1,06fdb2da,Anti-Beam Coating,same as 000_chip_name
+4:1,9876007a,I-Field Barrier,same as 000_chip_name
+5:1,62f10f7e,Additional Armor,same as 000_chip_name
+6:1,3a74739e,PS Armor,same as 000_chip_name
+7:1,1114bd32,Nuclear Fusion Reactor,same as 000_chip_name
+8:1,7ad6b95e,Nuclear Fission Reactor,same as 000_chip_name
+9:1,04b4cce2,EX Charger,same as 000_chip_name
+10:1,d8007983,Repair Augmenter,same as 000_chip_name
+11:1,df3c309d,Repair Augmenter+,same as 000_chip_name
+12:1,c885b0ee,Recovery Augmenter,same as 000_chip_name
+13:1,2ce6547d,Recovery Augmenter+,same as 000_chip_name
+14:1,bafafc2a,Shield Reinforcement,same as 000_chip_name
+15:1,d14fa339,Shield Additional Armor,same as 000_chip_name
+16:1,f40b86d3,Shield Large Additional Armor,same as 000_chip_name
+17:1,db713c2f,Joint Precision Upgrade,same as 000_chip_name
+18:1,459d2314,Rifle Program,same as 000_chip_name
+19:1,d5428eca,Rifle Mastery,same as 000_chip_name
+20:1,8c049168,Rifle Mastery+,same as 000_chip_name
+21:1,ea215d6c,Long Rifle Program,same as 000_chip_name
+22:1,3755c838,Long Rifle Mastery,same as 000_chip_name
+23:1,067d4d7d,Long Rifle Mastery+,same as 000_chip_name
+24:1,c8103d1d,Machine Gun Program,same as 000_chip_name
+25:1,4d39db04,Machine Gun Mastery,same as 000_chip_name
+26:1,15bfecdf,Machine Gun Mastery+,same as 000_chip_name
+27:1,713ae293,Gatling Gun Program,same as 000_chip_name
+28:1,40199397,Gatling Gun Mastery,same as 000_chip_name
+29:1,b0a5c75f,Gatling Gun Mastery+,same as 000_chip_name
+30:1,6af47c3d,Bazooka Program,same as 000_chip_name
+31:1,6ce619a7,Bazooka Mastery,same as 000_chip_name
+32:1,4ad007b1,Bazooka Mastery+,same as 000_chip_name
+33:1,e23566cd,Saber Program,same as 000_chip_name
+34:1,307f745a,Saber Mastery,same as 000_chip_name
+35:1,8e4c1d09,Saber Mastery+,same as 000_chip_name
+36:1,c68b596b,Axe Program,same as 000_chip_name
+37:1,08358086,Axe Mastery,same as 000_chip_name
+38:1,b76642a9,Axe Mastery+,same as 000_chip_name
+39:1,851c1c3e,Great Sword Program,same as 000_chip_name
+40:1,4a8b078a,Great Sword Mastery,same as 000_chip_name
+41:1,da7466f8,Great Sword Mastery+,same as 000_chip_name
+42:1,0d3eed36,Whip Program,same as 000_chip_name
+43:1,bc2373bc,Whip Mastery,same as 000_chip_name
+44:1,aa1c15e3,Whip Mastery+,same as 000_chip_name
+45:1,cbe64f52,Lance Program,same as 000_chip_name
+46:1,075cdfae,Lance Mastery,same as 000_chip_name
+47:1,1f73125d,Lance Mastery+,same as 000_chip_name
+48:1,addffa1b,Melee Program,same as 000_chip_name
+49:1,0cdc752f,Melee Mastery,same as 000_chip_name
+50:1,9a40b4dd,Mobile Trace System,same as 000_chip_name
+51:1,057ce107,Eliminate EX Charger,same as 000_chip_name
+52:1,d70cf565,Eliminate EX Charger+,same as 000_chip_name
+53:1,e684d73e,Attack EX Charger,same as 000_chip_name
+54:1,cf34cefc,Attack EX Charger+,same as 000_chip_name
+55:1,68baf6dd,Auto Recovery,same as 000_chip_name
+56:1,2ed07c53,Auto Recovery+,same as 000_chip_name
+57:1,11261c70,Armor Steal,same as 000_chip_name
+58:1,e3411176,Armor Steal+,same as 000_chip_name
+59:1,8ea7668e,Eliminate Recovery,same as 000_chip_name
+60:1,093d7ca7,Eliminate Recovery+,same as 000_chip_name
+61:1,8c5dce4b,Treasure Hunter,same as 000_chip_name
+62:1,9aa65427,Treasure Hunter+,same as 000_chip_name
+63:1,cbb6e63d,Guard EX Charger,same as 000_chip_name
+64:1,ecbae3ff,Guard Recovery,same as 000_chip_name
+65:1,a2479648,Break Supply,same as 000_chip_name
+66:1,a5a2dc6a,Break Supply+,same as 000_chip_name
+67:1,88834e3b,Auto Supply,same as 000_chip_name
+68:1,7eb79080,Auto Supply+,same as 000_chip_name
+69:1,687f32fb,GAIOS Improvement Code,same as 000_chip_name
+70:1,1f713633,GAIOS Improvement Program,same as 000_chip_name
+71:1,de696c7d,GAIOS Expansion Code,same as 000_chip_name
+72:1,d3b5ce80,GAIOS Expansion Program,same as 000_chip_name
+73:1,1ab0b13e,GAIOS Breaker Program,same as 000_chip_name
+74:1,62039026,EX Charge Breaker,same as 000_chip_name
+75:1,9bb2b533,Supply Breaker,same as 000_chip_name
+76:1,13840f50,Stabilizer,same as 000_chip_name
+77:1,9eff577d,Auto Balancer,same as 000_chip_name
+78:1,a981e94d,Vectored Nozzle,same as 000_chip_name
+79:1,9d49baf7,Recruit Program,same as 000_chip_name
+80:1,77e833fb,Trainer Program,same as 000_chip_name
+81:1,7dca80f4,Beginner Program,same as 000_chip_name
+82:1,e32635cd,Berserker Program,same as 000_chip_name
+83:1,c5471c1b,Berserker System,same as 000_chip_name
+84:1,0d28dc56,Anti-Recovery,same as 000_chip_name
+85:1,fe93133a,Magnetic Coating,same as 000_chip_name
+86:1,30daebd4,Bio-Sensor,same as 000_chip_name
+87:1,0e04666f,Additional Thruster,same as 000_chip_name
+88:1,76370cae,Additional Large Thruster,same as 000_chip_name
+89:1,777605ad,Armor Barrier,same as 000_chip_name
+90:1,e84f8c77,Armor Generator,same as 000_chip_name
+91:1,87a4c023,Armor EX Charge,same as 000_chip_name
+92:1,922c5d23,Armor EX Gain,same as 000_chip_name
+93:1,da604348,Armor EX Steal,same as 000_chip_name
+94:1,9686d31d,Armor Regenerator,same as 000_chip_name
+95:1,c5931601,Armor Absorber,same as 000_chip_name
+96:1,e45915b0,Armor Blaster,same as 000_chip_name
+97:1,cad3e23f,Armor EX Defender,same as 000_chip_name
+98:1,23a30985,Armor Defender,same as 000_chip_name
+99:1,af511bb7,Armor Supplier,same as 000_chip_name
+100:1,dfff127c,Armor Loader,same as 000_chip_name
+101:1,3cd9b172,Armor GAI Custom,same as 000_chip_name
+102:1,8d773333,Armor GAI Booster,same as 000_chip_name
+103:1,3bbc7354,Armor GAI Breaker,same as 000_chip_name
+104:1,b8392f54,Armor EX Breaker,same as 000_chip_name
+105:1,2290cefd,Armor Breaker,same as 000_chip_name
+106:1,9ca31937,Reactive Generator,same as 000_chip_name
+107:1,2847b236,Reactive EX Charge,same as 000_chip_name
+108:1,be74bc3c,Reactive EX Gain,same as 000_chip_name
+109:1,87554e18,Reactive EX Steal,same as 000_chip_name
+110:1,92c45f94,Reactive Regenerator,same as 000_chip_name
+111:1,039dab4f,Reactive Absorber,same as 000_chip_name
+112:1,f54d8ac1,Reactive Blaster,same as 000_chip_name
+113:1,2e2b8a8b,Reactive EX Defender,same as 000_chip_name
+114:1,575f6bbf,Reactive Defender,same as 000_chip_name
+115:1,526f3946,Reactive Supplier,same as 000_chip_name
+116:1,b8d6f89c,Reactive Loader,same as 000_chip_name
+117:1,f4349b9c,Reactive GAI Custom,same as 000_chip_name
+118:1,24898740,Reactive GAI Booster,same as 000_chip_name
+119:1,156aacb4,Reactive GAI Breaker,same as 000_chip_name
+120:1,fa7883a1,Reactive EX Breaker,same as 000_chip_name
+121:1,8e54eb45,Reactive Breaker,same as 000_chip_name
+122:1,dc6f02b6,Capacity EX Charge,same as 000_chip_name
+123:1,541586fe,Capacity EX Gain,same as 000_chip_name
+124:1,2d33348f,Capacity EX Steal,same as 000_chip_name
+125:1,894b50e3,Capacity Regenerator,same as 000_chip_name
+126:1,af58a4b1,Capacity Absorber,same as 000_chip_name
+127:1,554697ff,Capacity Blaster,same as 000_chip_name
+128:1,63c8e506,Capacity EX Defender,same as 000_chip_name
+129:1,30b81290,Capacity Defender,same as 000_chip_name
+130:1,f7f7f9c9,Capacity Supplier,same as 000_chip_name
+131:1,d3256ac1,Capacity Loader,same as 000_chip_name
+132:1,ea6a5b1b,Capacity GAI Custom,same as 000_chip_name
+133:1,2e0a30a3,Capacity GAI Booster,same as 000_chip_name
+134:1,0042b72b,Capacity GAI Breaker,same as 000_chip_name
+135:1,cf1fc15c,Capacity EX Breaker,same as 000_chip_name
+136:1,3bddae50,Capacity Breaker,same as 000_chip_name
+137:1,05daed32,Ex EX Gain,same as 000_chip_name
+138:1,578bba9d,Ex EX Steal,same as 000_chip_name
+139:1,b8daf428,Ex Regenerator,same as 000_chip_name
+140:1,1052f0c2,Ex Absorber,same as 000_chip_name
+141:1,ae82f46a,Ex Blaster,same as 000_chip_name
+142:1,b11613d1,Ex EX Defender,same as 000_chip_name
+143:1,da5eefcb,Ex Defender,same as 000_chip_name
+144:1,b0620c70,Ex Supplier,same as 000_chip_name
+145:1,a1910141,Ex Loader,same as 000_chip_name
+146:1,ca023e6a,Ex GAI Custom,same as 000_chip_name
+147:1,9f474088,Ex GAI Booster,same as 000_chip_name
+148:1,86a917f3,Ex GAI Breaker,same as 000_chip_name
+149:1,3c65812d,Ex EX Breaker,same as 000_chip_name
+150:1,6658a49d,Ex Breaker,same as 000_chip_name
+151:1,5ab9264c,Ex-Hunt EX Steal,same as 000_chip_name
+152:1,65748a92,Ex-Hunt Regenerator,same as 000_chip_name
+153:1,1271ed8f,Ex-Hunt Absorber,same as 000_chip_name
+154:1,7bbb2eee,Ex-Hunt Blaster,same as 000_chip_name
+155:1,2a408202,Ex-Hunt EX Defender,same as 000_chip_name
+156:1,5e305bff,Ex-Hunt Defender,same as 000_chip_name
+157:1,daa53eab,Ex-Hunt Supplier,same as 000_chip_name
+158:1,e8d48cdc,Ex-Hunt Loader,same as 000_chip_name
+159:1,d794ff05,Ex-Hunt GAI Custom,same as 000_chip_name
+160:1,0ddab614,Ex-Hunt GAI Booster,same as 000_chip_name
+161:1,065f3ecb,Ex-Hunt GAI Breaker,same as 000_chip_name
+162:1,b4452f79,Ex-Hunt EX Breaker,same as 000_chip_name
+163:1,2aa07f70,Ex-Hunt Breaker,same as 000_chip_name
+164:1,81bd0ed6,Ex-Hit Regenerator,same as 000_chip_name
+165:1,ed6ed9ec,Ex-Hit Absorber,same as 000_chip_name
+166:1,47b4fa56,Ex-Hit Blaster,same as 000_chip_name
+167:1,0efa6d36,Ex-Hit EX Defender,same as 000_chip_name
+168:1,9ae3d5d0,Ex-Hit Defender,same as 000_chip_name
+169:1,31f949c0,Ex-Hit Supplier,same as 000_chip_name
+170:1,d45d437d,Ex-Hit Loader,same as 000_chip_name
+171:1,9df16972,Ex-Hit GAI Custom,same as 000_chip_name
+172:1,6ecfbf2d,Ex-Hit GAI Booster,same as 000_chip_name
+173:1,fc8ccc88,Ex-Hit GAI Breaker,same as 000_chip_name
+174:1,d9c6abaa,Ex-Hit EX Breaker,same as 000_chip_name
+175:1,dac1a1f6,Ex-Hit Breaker,same as 000_chip_name
+176:1,e276b5c4,Recovery Absorber,same as 000_chip_name
+177:1,6fd02c73,Recovery Blaster,same as 000_chip_name
+178:1,412c6c93,Recovery EX Defender,same as 000_chip_name
+179:1,6571df15,Recovery Defender,same as 000_chip_name
+180:1,9927412e,Recovery Supplier,same as 000_chip_name
+181:1,371f52e0,Recovery Loader,same as 000_chip_name
+182:1,b8c46a93,Recovery GAI Custom,same as 000_chip_name
+183:1,33c6fd13,Recovery GAI Booster,same as 000_chip_name
+184:1,92fda093,Recovery GAI Breaker,same as 000_chip_name
+185:1,a08462dc,Recovery EX Breaker,same as 000_chip_name
+186:1,28f6dae9,Recovery Breaker,same as 000_chip_name
+187:1,1864ed22,Steal Blaster,same as 000_chip_name
+188:1,21be59d5,Steal EX Defender,same as 000_chip_name
+189:1,dbcf768a,Steal Defender,same as 000_chip_name
+190:1,ffc712a6,Steal Supplier,same as 000_chip_name
+191:1,63d1dbf0,Steal Loader,same as 000_chip_name
+192:1,c43fcd89,Steal GAI Custom,same as 000_chip_name
+193:1,a7e8fcf3,Steal GAI Booster,same as 000_chip_name
+194:1,e5bdd799,Steal GAI Breaker,same as 000_chip_name
+195:1,f4ec44f9,Steal EX Breaker,same as 000_chip_name
+196:1,d15c9d5d,Steal Breaker,same as 000_chip_name
+197:1,db71acc5,Eliminate EX Defender,same as 000_chip_name
+198:1,5577381c,Eliminate Defender,same as 000_chip_name
+199:1,b6dfcafc,Eliminate Supplier,same as 000_chip_name
+200:1,ff9ef637,Eliminate Loader,same as 000_chip_name
+201:1,8ad7477a,Eliminate GAI Custom,same as 000_chip_name
+202:1,0eb55fa8,Eliminate GAI Booster,same as 000_chip_name
+203:1,570ac43c,Eliminate GAI Breaker,same as 000_chip_name
+204:1,f492c2ad,Eliminate EX Breaker,same as 000_chip_name
+205:1,7c4fb91f,Eliminate Breaker,same as 000_chip_name
+206:1,16eac17e,Ex-Guard Defender,same as 000_chip_name
+207:1,00ca97b6,Ex-Guard Supplier,same as 000_chip_name
+208:1,55c70c17,Ex-Guard Loader,same as 000_chip_name
+209:1,474a27a2,Ex-Guard GAI Custom,same as 000_chip_name
+210:1,e6cbadcc,Ex-Guard GAI Booster,same as 000_chip_name
+211:1,43c51fef,Ex-Guard GAI Breaker,same as 000_chip_name
+212:1,ccc46b2c,Ex-Guard EX Breaker,same as 000_chip_name
+213:1,d737dce4,Ex-Guard Breaker,same as 000_chip_name
+214:1,bb9f24ab,Energy Guard Supplier,same as 000_chip_name
+215:1,53ca080a,Energy Guard Loader,same as 000_chip_name
+216:1,60abd62f,Energy Guard GAI Custom,same as 000_chip_name
+217:1,97f3b504,Energy Guard GAI Booster,same as 000_chip_name
+218:1,95d811e3,Energy Guard GAI Breaker,same as 000_chip_name
+219:1,1923022d,Energy Guard EX Breaker,same as 000_chip_name
+220:1,ade67407,Energy Guard Breaker,same as 000_chip_name
+221:1,175ec2cb,Smash Loader,same as 000_chip_name
+222:1,3a41cbc3,Smash GAI Custom,same as 000_chip_name
+223:1,6106b868,Smash GAI Booster,same as 000_chip_name
+224:1,6539b038,Smash GAI Breaker,same as 000_chip_name
+225:1,8ecc1426,Smash EX Breaker,same as 000_chip_name
+226:1,3d06843c,Smash Breaker,same as 000_chip_name
+227:1,0843c083,Firearm GAI Custom,same as 000_chip_name
+228:1,434d9e5d,Firearm GAI Booster,same as 000_chip_name
+229:1,3e498238,Firearm GAI Breaker,same as 000_chip_name
+230:1,2ec4d5dc,Firearm EX Breaker,same as 000_chip_name
+231:1,189607a0,Firearm Breaker,same as 000_chip_name
+232:1,38840d1a,Burst GAI Booster,same as 000_chip_name
+233:1,49b9b7e2,Burst GAI Breaker,same as 000_chip_name
+234:1,f28d0a2a,Burst EX Breaker,same as 000_chip_name
+235:1,261e28c4,Burst Breaker,same as 000_chip_name
+236:1,ac863a4f,Burst Gain GAI Breaker,same as 000_chip_name
+237:1,751b87f9,Burst Gain EX Breaker,same as 000_chip_name
+238:1,b34d6334,Burst Gain Breaker,same as 000_chip_name
+239:1,a775d354,Burst Off EX Breaker,same as 000_chip_name
+240:1,b8918f2c,Burst Off Breaker,same as 000_chip_name
+241:1,1efc1f72,Ex-Off Breaker,same as 000_chip_name
+242:1,4e10a3a3,Auto Calibrator,same as 000_chip_name
+243:1,4237339e,Feedforward Control Unit,same as 000_chip_name
+244:1,dacf27e9,Neural Linkage,same as 000_chip_name
+245:1,031b9166,Psycho-Frame,same as 000_chip_name

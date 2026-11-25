@@ -93,7 +93,9 @@ class Dt2:
         """Replace strings and re-pack the records. edits: {(record index, field index): text}.
 
         Records keep their order and their start alignment (mod 4). An edited string takes its real length,
-        padded so the change is a multiple of 4; the descriptor offsets of the fields after it are shifted.
+        padded so the change is a multiple of 4; the descriptor offsets of the fields after it are shifted. A
+        string that gets longer first fills the leftover bytes up to the next field of its record (bytes no
+        field points to), so e.g. "HG X" with 2 stale bytes after its NUL has 2 bytes of free room.
         Unedited bytes (other fields, leftovers between fields) are copied as they are. In-game tests showed
         that a table must not grow (see notes/formats.md), so callers should check the size.
         """
@@ -113,6 +115,12 @@ class Dt2:
             for off in sorted(by_target.get(t, {}), reverse=True):
                 old_end = rec.index(0, off) + 1
                 new = by_target[t][off].encode("utf-8") + b"\0"
+                if len(new) > old_end - off:
+                    # A longer string may first use the leftover bytes between its NUL and the next field of the
+                    # record (no field points into them), so fields only move when that room runs out.
+                    later = [o for j, r in enumerate(self.relocs) if r[0] == t for _, o in self.fields(j) if o > off]
+                    if later and min(later) >= old_end:
+                        old_end = min(later)
                 delta = len(new) - (old_end - off)
                 pad = (-delta) % 4
                 new += bytes(pad)

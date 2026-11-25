@@ -14,8 +14,9 @@ Lines with an empty `en` keep the Japanese. All problems are collected and the b
   * button icons (circled numbers ①-⑳, drawn as Vita buttons) not the same set
   * a short one-line label (no <br>, at most LABEL_MAX characters) that gets a <br>
   * a real line break in the English (use <br>)
-  * a grade prefix at the start of the Japanese ("HG ", "MG ", "PG") not kept at the start of the English
-    (the game cuts "HG " off part names in the Set Up list)
+  * in the name fields of the data tables (unitData, csv, map): a grade prefix at the start of the Japanese
+    ("HG ", "MG ", "PG") not kept at the start of the English (the game cuts "HG " off part names in the Set Up
+    list). Sentences that start with a grade (mission text, descriptions) are not checked.
   * a character the font may not have: allowed are printable ASCII and anything used in the Japanese text
   * a table that would grow (a compressed entry or bundle that grows is only a warning, see --strict-size)
 Only GxArchivedFile000.dat and 002.dat can change; an archive is written only when something in it changed.
@@ -41,10 +42,11 @@ ICONS = re.compile("[①-⑳]")
 TAG = re.compile(r"<[^>]*>|\\n")
 LABEL_MAX = 12
 GRADE = re.compile(r"^(?:HG|MG|PG|ＰＧ) ?")
+DESCRIPTION_TABLES = {"000_parts_phonetic.csv"}   # data tables that hold descriptions, not names
 
 
-def check(ja, en, charset):
-    """Return a list of problems with one translation."""
+def check(ja, en, charset, names=False):
+    """Return a list of problems with one translation. names: the line is a name in a data table (grade check)."""
     problems = []
     want = PRINTF.findall(ja)
     if want and (PRINTF.findall(en) != want or "%" in PRINTF.sub("", en).replace("%%", "")):
@@ -60,6 +62,12 @@ def check(ja, en, charset):
         problems.append("one-line label got a <br>")
     if "\n" in en or "\r" in en:
         problems.append("real line break in the English (use <br>)")
+    m = GRADE.match(ja) if names else None
+    if m:
+        grade = m.group(0).strip().replace("ＰＧ", "PG")
+        if not en.startswith(grade):
+            problems.append(f"grade prefix: the Japanese starts with {m.group(0)!r}, the English must start with "
+                            f"{grade!r} (the Set Up list cuts it off)")
     bad = sorted({c for c in en if c not in charset})
     if bad:
         problems.append(f"characters the font may not have: {''.join(bad)!r}")
@@ -120,7 +128,8 @@ def main():
             if r["ja_hash"] != textdb.ja_hash(ja):
                 errors.append(f"{where}: ja_hash {r['ja_hash']} doesn't match the Japanese {ja!r}")
                 continue
-            for p in check(ja, r["en"], charset):
+            names = t.source == "data" and t.csv not in DESCRIPTION_TABLES
+            for p in check(ja, r["en"], charset, names):
                 errors.append(f"{where}: {p}\n    ja: {ja}\n    en: {r['en']}")
             edits.setdefault(t.label, {})[(i, k)] = r["en"]
         old_size = new_size = 0

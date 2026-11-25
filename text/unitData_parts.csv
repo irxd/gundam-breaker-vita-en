@@ -134,14 +134,14 @@ chr0304:1:1,cc4a9019,HG Zeta Gundam,draft
 chr0305:1:1,cc4a9019,HG Zeta Gundam,draft
 chr0306:1:1,cc4a9019,HG Zeta Gundam,draft
 chr0307:1:1,cc4a9019,HG Zeta Gundam,draft
-chr0312:1:1,c6542abf,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
+chr0312:1:1,c6542abf,HG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
 chr0312:31:1,96bd9759,Head Vulcan (Hyaku-Shiki),draft
-chr0313:1:1,c6542abf,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
-chr0314:1:1,c6542abf,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
-chr0315:1:1,c6542abf,HG Hyaku-Shiki,draft
+chr0313:1:1,c6542abf,HG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
+chr0314:1:1,c6542abf,HG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
+chr0315:1:1,c6542abf,HG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
 chr0315:31:1,9ad48d14,Beam Saber (Hyaku-Shiki),draft
-chr0316:1:1,c6542abf,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
-chr0317:1:1,c6542abf,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
+chr0316:1:1,c6542abf,HG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
+chr0317:1:1,c6542abf,HG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
 chr0322:1:1,49bf4c9e,HG Gundam Deathscythe H (EW),draft
 chr0322:31:1,e2f6a2a3,Head Vulcan (Deathscythe H),draft
 chr0323:1:1,49bf4c9e,HG Gundam Deathscythe H (EW),draft
@@ -611,14 +611,14 @@ chr2304:1:1,2f5cd1f5,MG Zeta Gundam,draft
 chr2305:1:1,2f5cd1f5,MG Zeta Gundam,draft
 chr2306:1:1,2f5cd1f5,MG Zeta Gundam,draft
 chr2307:1:1,2f5cd1f5,MG Zeta Gundam,draft
-chr2312:1:1,17391415,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
+chr2312:1:1,17391415,MG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
 chr2312:31:1,96bd9759,Head Vulcan (Hyaku-Shiki),draft
-chr2313:1:1,17391415,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
-chr2314:1:1,17391415,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
-chr2315:1:1,17391415,MG Hyaku-Shiki,draft
+chr2313:1:1,17391415,MG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
+chr2314:1:1,17391415,MG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
+chr2315:1:1,17391415,MG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
 chr2315:31:1,9ad48d14,Beam Saber (Hyaku-Shiki),draft
-chr2316:1:1,17391415,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
-chr2317:1:1,17391415,,kept Japanese: the table can't grow (HG Hyaku-Shiki is 5 bytes longer)
+chr2316:1:1,17391415,MG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
+chr2317:1:1,17391415,MG Type 100,"draft; Type 100 = Hyaku-Shiki; the full name doesn't fit these tables, so the whole set uses it"
 chr2322:1:1,84b65da4,MG Gundam Deathscythe H (EW),draft
 chr2322:31:1,e2f6a2a3,Head Vulcan (Deathscythe H),draft
 chr2323:1:1,84b65da4,MG Gundam Deathscythe H (EW),draft
@@ -1094,13 +1094,13 @@ chr4474:1:1,52abfa0e,PG Zeta Gundam,draft
 chr4475:1:1,52abfa0e,PG Zeta Gundam,draft
 chr4476:1:1,52abfa0e,PG Zeta Gundam,draft
 chr4477:1:1,52abfa0e,PG Zeta Gundam,draft
-chr4482:1:1,17c5182d,PG Zeta Variant,"draft; short form, the table can't grow (elsewhere: see notes/terms.csv)"
+chr4482:1:1,17c5182d,PG Zeta Gundam Variant,draft; full name (fits now that the build uses stale bytes)
 chr4483:1:1,17c5182d,PG Zeta Gundam Variant,draft
 chr4483:31:1,b297f255,Grenade Launcher,draft
-chr4484:1:1,17c5182d,PG Zeta Variant,"draft; short form, the table can't grow (elsewhere: see notes/terms.csv)"
-chr4485:1:1,17c5182d,PG Zeta Variant,"draft; short form, the table can't grow (elsewhere: see notes/terms.csv)"
-chr4486:1:1,17c5182d,PG Zeta Variant,"draft; short form, the table can't grow (elsewhere: see notes/terms.csv)"
-chr4487:1:1,17c5182d,PG Zeta Variant,"draft; short form, the table can't grow (elsewhere: see notes/terms.csv)"
+chr4484:1:1,17c5182d,PG Zeta Gundam Variant,draft; full name (fits now that the build uses stale bytes)
+chr4485:1:1,17c5182d,PG Zeta Gundam Variant,draft; full name (fits now that the build uses stale bytes)
+chr4486:1:1,17c5182d,PG Zeta Gundam Variant,draft; full name (fits now that the build uses stale bytes)
+chr4487:1:1,17c5182d,PG Zeta Gundam Variant,draft; full name (fits now that the build uses stale bytes)
 chr4582:1:1,e21e3a0a,PG Aile Strike Gundam,draft
 chr4583:1:1,e21e3a0a,PG Aile Strike Gundam,draft
 chr4584:1:1,e21e3a0a,PG Aile Strike Gundam,draft

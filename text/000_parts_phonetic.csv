@@ -1,0 +1,847 @@
+id,ja_hash,en,notes
+1:3,dc0476da,"Comes with the option equipment <c02>""Head Vulcan (Gundam)""</c>",draft
+2:3,5df659de,No special traits,draft
+3:3,5df659de,No special traits,draft
+4:3,892410e9,"Comes with the option equipment <c02>""Beam Saber (Gundam)""</c>",draft
+5:3,5df659de,No special traits,draft
+6:3,5df659de,No special traits,draft
+7:3,5df659de,No special traits,draft
+8:3,68dd0451,"<c05>≪Teaches EX-Action ""Ground Shaker""≫</c>",draft
+9:3,5df659de,No special traits,draft
+10:3,5df659de,No special traits,draft
+11:3,5df659de,No special traits,draft
+12:3,b811bf91,"<c05>≪Teaches EX-Action ""Boost Tackle""≫</c>",draft
+13:3,5df659de,No special traits,draft
+14:3,5df659de,No special traits,draft
+15:3,5df659de,No special traits,draft
+16:3,d6851e8c,"Comes with the option equipment <c02>""Head Vulcan (Zaku)""</c>",draft
+17:3,2394629b,No special traits,draft
+18:3,5df659de,No special traits,draft
+19:3,5df659de,No special traits,draft
+20:3,2394629b,No special traits,draft
+21:3,5df659de,No special traits,draft
+22:3,5df659de,No special traits,draft
+23:3,6287d547,"Comes with the option equipment <c02>""Triple Missile Pod""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+24:3,5df659de,No special traits,draft
+25:3,5df659de,No special traits,draft
+26:3,5df659de,No special traits,draft
+27:3,7abbe7d6,"Comes with the option equipment <c02>""Mine""</c>",draft
+28:3,5df659de,No special traits,draft
+29:3,1d04161c,"Comes with the head vulcan-type option equipment<br><c02>""31mm CIWS""</c>",draft
+30:3,1497e144,"Has a beam shield generator: setting this part adds<br><c00>""HG Beam Shield (Strike Freedom)""</c><br>to the shields you can select",draft
+31:3,6fdd5118,"<c00>◆Leg part with strong railguns and high-output sabers</c><br><br>Comes with the option equipment<br><c02>""Xiphias 3 Rail Cannon""</c> and<br><c02>""Super Lacerta Beam Saber""</c><br><br>Set together with a <c00>Strike Freedom Gundam Backpack</c>/<br><c00>Freedom Gundam Backpack</c> to use<br>the EX-Action <c01>""Full Burst""</c>",draft
+32:3,3aabc089,"<c00>◆Super DRAGOON wings capable of all-range attacks</c><br><c05>≪Teaches EX-Actions ""All-Range Attack"", ""Full Burst""≫</c><br><br>Movement type becomes Flight<br><br>- Can use the EX-Action <c01>""All-Range Attack""</c><br>- Set with a <c00>Strike Freedom Gundam Leg/Body</c>/<br>  <c00>Freedom Gundam Leg</c> to use<br>  the EX-Action <c01>""Full Burst""</c>",draft
+33:3,0bf8d36c,"<c00>◆Body part with a built-in, powerful Callidus cannon</c><br><br>Comes with the option equipment<br><c02>""Callidus Multi-Phase Beam Cannon""</c><br><br>Set together with a <c00>Strike Freedom Gundam Backpack</c>/<br><c00>Freedom Gundam Backpack</c> to use<br>the EX-Action <c01>""Full Burst""</c>",draft
+34:3,b30ff218,"Comes with the head vulcan-type option equipment<br><c02>""Picus""</c>",draft
+35:3,5df659de,No special traits,draft
+36:3,5a371a36,"<c00>◆Leg part with a strong railgun and beam sabers</c><br><br>Comes with the option equipment<br><c02>""Xiphias Rail Cannon""</c> and <c02>""Lacerta Beam Saber""</c><br><br>Set together with a <c00>Strike Freedom Gundam Backpack</c>/<br><c00>Freedom Gundam Backpack</c> to use<br>the EX-Action <c01>""Full Burst""</c>",draft
+37:3,e63e6bf9,"<c00>◆Wing binders with devastating plasma beam cannons</c><br><c05>≪Teaches EX-Actions ""Hyper Cannon"", ""Full Burst""≫</c><br><br>Movement type becomes Flight<br><br>- Can use the EX-Action <c01>""Hyper Cannon (Freedom)""</c><br>- Set with a <c00>Strike Freedom Gundam Leg/Body</c>/<br>  <c00>Freedom Gundam Leg</c> to use<br>  the EX-Action <c01>""Full Burst""</c>",draft
+38:3,5df659de,No special traits,draft
+39:3,5df659de,No special traits,draft
+40:3,5df659de,No special traits,draft
+41:3,5df659de,No special traits,draft
+42:3,5df659de,No special traits,draft
+43:3,5df659de,No special traits,draft
+44:3,5df659de,No special traits,draft
+45:3,5df659de,No special traits,draft
+46:3,5df659de,No special traits,draft
+47:3,5df659de,No special traits,draft
+48:3,5df659de,No special traits,draft
+49:3,eb786964,"Comes with the option equipment <c02>""Head Vulcan (God)""</c>",draft
+50:3,2e4ca35a,"<c00>◆Powerful martial arts arm part with a burning soul</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+51:3,113d68d8,"Comes with the option equipment <c02>""God Slash""</c>",draft
+52:3,5df659de,No special traits,draft
+53:3,34a90012,"Comes with the option equipment <c02>""Machine Cannon (God)""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+54:3,5df659de,No special traits,draft
+55:3,5df659de,No special traits,draft
+56:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+57:3,5df659de,No special traits,draft
+58:3,21c21e41,"Comes with the option equipment <c02>""Scattering Beam Gun""</c>",draft
+59:3,5df659de,No special traits,draft
+60:3,5df659de,No special traits,draft
+61:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+62:3,5df659de,No special traits,draft
+63:3,5df659de,No special traits,draft
+64:3,564afcc9,"Comes with the option equipment <c02>""Head Vulcan (GM)""</c>",draft
+65:3,5df659de,No special traits,draft
+66:3,5df659de,No special traits,draft
+67:3,d2032079,"Comes with the option equipment <c02>""Beam Saber (GM)""</c>",draft
+68:3,5df659de,No special traits,draft
+69:3,62dadd01,"Comes with the option equipment<br><c02>""Head Vulcan (GM Command)""</c>",draft
+70:3,5df659de,No special traits,draft
+71:3,d265f6a8,"Comes with the option equipment<br><c02>""Beam Saber (GM Command)""</c>",draft
+72:3,5df659de,No special traits,draft
+73:3,5df659de,No special traits,draft
+74:3,5df659de,No special traits,draft
+75:3,5df659de,No special traits,draft
+76:3,c50510cd,"Comes with the option equipment<br><c02>""Head Vulcan (GM Custom)""</c>",draft
+77:3,5df659de,No special traits,draft
+78:3,5df659de,No special traits,draft
+79:3,2b66ca5d,"Comes with the option equipment <c02>""Beam Saber (GM Custom)""</c>",draft
+80:3,5df659de,No special traits,draft
+81:3,5df659de,No special traits,draft
+82:3,5df659de,No special traits,draft
+83:3,3a2553b9,"Comes with the boomerang-type option equipment<br><c02>""GN Beam Saber""</c>",draft
+84:3,0c70113c,"<c00>◆Support craft that boosts your machine as a backpack</c><br><c05>≪Teaches EX-Actions ""Hyper Trans"", ""Aura Burst""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment <c02>""GN Micro Missile""</c><br><br>Can use the EX-Actions <c01>""Hyper Trans (00 Raiser)""</c> and<br><c01>""Aura Burst (00 Raiser)""</c>",draft
+85:3,5df659de,No special traits,draft
+86:3,5df659de,No special traits,draft
+87:3,0b4becfa,"Comes with the option equipment <c02>""Head Vulcan (Zeta)""</c>",draft
+88:3,87188c3b,"Comes with the option equipment <c02>""Grenade Launcher""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+89:3,5df659de,No special traits,draft
+90:3,ac1b5bb9,Movement type becomes Flight,draft
+91:3,5df659de,No special traits,draft
+92:3,5e3c2a94,"Comes with the option equipment<br><c02>""Head Vulcan (Hyaku-Shiki)""</c>",draft
+93:3,5df659de,No special traits,draft
+94:3,a3f06359,"Comes with the option equipment<br><c02>""Beam Saber (Hyaku-Shiki)""</c>",draft
+95:3,ac1b5bb9,Movement type becomes Flight,draft
+96:3,5df659de,No special traits,draft
+97:3,048cabdc,"Comes with the option equipment<br><c02>""Head Vulcan (Deathscythe H)""</c>",draft
+98:3,5df659de,No special traits,draft
+99:3,5df659de,No special traits,draft
+100:3,ac1b5bb9,Movement type becomes Flight,draft
+101:3,5df659de,No special traits,draft
+102:3,5df659de,No special traits,draft
+103:3,5df659de,No special traits,draft
+104:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+105:3,5df659de,No special traits,draft
+106:3,5df659de,No special traits,draft
+107:3,dab3a0eb,"Comes with the option equipment<br><c02>""Head Vulcan (Heavyarms)""</c>",draft
+108:3,24f30089,"<c05>≪Teaches EX-Action ""Full Open Attack""≫</c><br><br>Comes with the option equipment <c02>""Homing Missile""</c><br><br>Can use the EX-Action <c01>""Full Open Attack""</c><br>",draft
+109:3,8f169c6e,"<c05>≪Teaches EX-Action ""Full Open Attack""≫</c><br><br>Comes with the option equipment <c02>""Micro Missile""</c><br><br>Can use the EX-Action <c01>""Full Open Attack""</c>",draft
+110:3,5df659de,No special traits,draft
+111:3,ba8111a9,"<c05>≪Teaches EX-Action ""Full Open Attack""≫</c><br><br>Comes with the option equipment<br><c02>""Machine Cannon (Heavyarms)""</c> and<br><c02>""Chest Gatling Cannon""</c><br><br>Can use the EX-Action <c01>""Full Open Attack""</c>",draft
+112:3,5df659de,No special traits,draft
+113:3,5df659de,No special traits,draft
+114:3,5df659de,No special traits,draft
+115:3,b12c29a0,<c00>◆Beautiful backpack with four organic-looking wings</c><br><br>Movement type becomes Flight,draft
+116:3,5f264bb1,"Comes with the option equipment <c02>""Machine Cannon (Wing)""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+117:3,5df659de,No special traits,draft
+118:3,6450eabd,"Comes with the option equipment <c02>""Head Vulcan (Nu)""</c>",draft
+119:3,5df659de,No special traits,draft
+120:3,5df659de,No special traits,draft
+121:3,aff3f9e9,"<c00>◆Powerful all-range attacks with six fin funnels</c><br><c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment <c02>""Beam Saber (Nu)""</c><br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+122:3,5df659de,No special traits,draft
+123:3,cbb7986a,"Comes with the option equipment <c02>""Head Vulcan (Hi-Nu)""</c>",draft
+124:3,6dd2b71c,"Comes with the option equipment <c02>""Arm Machine Gun""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+125:3,5df659de,No special traits,draft
+126:3,1cb47d66,"<c00>◆Powerful all-range attacks with six fin funnels</c><br><c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+127:3,5df659de,No special traits,draft
+128:3,5df659de,No special traits,draft
+129:3,5df659de,No special traits,draft
+130:3,5df659de,No special traits,draft
+131:3,f5aba780,"<c00>◆Powerful all-range attacks with six funnels</c><br><c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+132:3,f480c6d8,"Comes with the option equipment <c02>""Diffuse Mega Cannon""</c>",draft
+133:3,5df659de,No special traits,draft
+134:3,13e06459,"Movement type becomes Flight<br>Can boost even without a Backpack part<br><br>A ""Beam Gun/Beam Saber"" is built into the forearm:<br>setting this part adds <c00>""HG Beam Gun/Beam Saber""</c><br>to the ranged and melee weapons you can select",draft
+135:3,5df659de,No special traits,draft
+136:3,88145010,"<c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+137:3,5df659de,No special traits,draft
+138:3,5df659de,No special traits,draft
+139:3,13e06459,"Movement type becomes Flight<br>Can boost even without a Backpack part<br><br>A ""Beam Gun/Beam Saber"" is built into the forearm:<br>setting this part adds <c00>""HG Beam Gun/Beam Saber""</c><br>to the ranged and melee weapons you can select",draft
+140:3,5df659de,No special traits,draft
+141:3,88145010,"<c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+142:3,5df659de,No special traits,draft
+143:3,50fe49f0,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Red Frame Kai)""</c>",draft
+144:3,6a8db45d,"<c05>≪Teaches EX-Action ""Lightning Finger""≫</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+145:3,767db8c4,"Comes with the option equipment<br><c02>""Gerbera Straight/Tiger Pierce""</c>",draft
+146:3,cf8d0efb,"<c00>◆Tactical Arms IIL: a backpack that turns into weapons</c><br><c05>≪Teaches EX-Actions ""Tactical Arms Sword Form""</c><br><c05>  ""Tactical Arms Arrow Form""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Actions <c01>""Tactical Arms Sword Form""</c> and<br><c01>""Tactical Arms Arrow Form""</c>",draft
+147:3,5df659de,No special traits,draft
+148:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+149:3,b6223790,"With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+150:3,bccb176b,The machine's actions become the <c04>female type</c>,draft
+151:3,f3d47239,"<c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (Beargguy)""</c>",draft
+152:3,5df659de,No special traits,draft
+153:3,2e46b150,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Blue Frame SR)""</c>",draft
+154:3,5df659de,No special traits,draft
+155:3,7c713e3b,"Comes with the option equipment<br><c02>""Armor Schneider""</c> and <c02>""Armor Schneider (Leg)""</c>",draft
+156:3,f8bfbede,"<c00>◆Tactical Arms II: a backpack that turns into weapons</c><br><c05>≪Teaches EX-Actions ""Tactical Arms Sword Form""</c><br><c05>  ""Tactical Arms Gatling Form""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Actions <c01>""Tactical Arms Sword Form""</c> and<br><c01>""Tactical Arms Gatling Form""</c>",draft
+157:3,5df659de,No special traits,draft
+158:3,1488851b,"Can use the boomerang-type option equipment<br><c02>""Beam Chakram""</c>",draft
+159:3,5df659de,No special traits,draft
+160:3,800d693e,"<c05>≪Teaches EX-Action ""Hyper Trans""≫</c><br><br>Can use the EX-Action <c01>""Hyper Trans (Susanowo)""</c><br>Comes with the option equipment <c02>""Shiranui/Unryu""</c>",draft
+161:3,ac1b5bb9,Movement type becomes Flight,draft
+162:3,755008b7,"Comes with the option equipment <c02>""GN Vulcan""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+163:3,5df659de,No special traits,draft
+164:3,5df659de,No special traits,draft
+165:3,5df659de,No special traits,draft
+166:3,db9bcc56,"Comes with the option equipment <c02>""Beam Saber (Mk-II)""</c>",draft
+167:3,5df659de,No special traits,draft
+168:3,0d3225cd,"Comes with the option equipment <c02>""Vulcan Pod (Mk-II)""</c>",draft
+169:3,36b688e4,"Comes with the option equipment <c02>""Head Vulcan (Sinanju)""</c>",draft
+170:3,68c650b5,"Comes with the option equipment <c02>""Beam Tonfa (Sinanju)""</c>",draft
+171:3,5df659de,No special traits,draft
+172:3,ac1b5bb9,Movement type becomes Flight,draft
+173:3,5df659de,No special traits,draft
+174:3,8c698fe7,"Comes with the option equipment<br><c02>""Head Vulcan (Unicorn, Unicorn Mode)""</c>",draft
+175:3,5df659de,No special traits,draft
+176:3,5df659de,No special traits,draft
+177:3,09f2900e,"Comes with the option equipment<br><c02>""Beam Saber (Unicorn, Unicorn Mode)""</c>",draft
+178:3,5df659de,No special traits,draft
+179:3,cfc783bd,"Comes with the option equipment<br><c02>""Head Vulcan (Banshee, Unicorn Mode)""</c>",draft
+180:3,5df659de,No special traits,draft
+181:3,5df659de,No special traits,draft
+182:3,e476b810,"Comes with the option equipment<br><c02>""Beam Saber (Banshee, Unicorn Mode)""</c>",draft
+183:3,5df659de,No special traits,draft
+184:3,7c1489c1,"Comes with the option equipment<br><c02>""Head Vulcan (Unicorn, Destroy Mode)""</c>",draft
+185:3,ee2592d6,"Comes with the option equipment <c02>""Beam Tonfa (Unicorn)""</c>",draft
+186:3,5df659de,No special traits,draft
+187:3,019e1fbf,"Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Beam Saber (Unicorn, Destroy Mode)""</c>",draft
+188:3,e72b4890,"<c05>≪Teaches EX-Action ""Hyper Trans""≫</c><br><br>Can use the EX-Action <c01>""Hyper Trans (Unicorn)""</c>",draft
+189:3,11b7842f,"Comes with the option equipment<br><c02>""Head Vulcan (Banshee, Destroy Mode)""</c>",draft
+190:3,42cd274a,"Comes with the option equipment <c02>""Beam Tonfa (Banshee)""</c>",draft
+191:3,5df659de,No special traits,draft
+192:3,68dcf5b7,"Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Beam Saber (Banshee, Destroy Mode)""</c>",draft
+193:3,2a620a41,"<c05>≪Teaches EX-Action ""Hyper Trans""≫</c><br><br>Can use the EX-Action <c01>""Hyper Trans (Banshee)""</c>",draft
+194:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+195:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+196:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+197:3,249804e2,"Comes with the option equipment <c02>""Head Vulcan (G-3)""</c>",draft
+198:3,5df659de,No special traits,draft
+199:3,5df659de,No special traits,draft
+200:3,93190284,"Comes with the option equipment <c02>""Beam Saber (G-3)""</c>",draft
+201:3,5df659de,No special traits,draft
+202:3,41069aae,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Strike)""</c>",draft
+203:3,5df659de,No special traits,draft
+204:3,5df659de,No special traits,draft
+205:3,04eebe61,"Movement type becomes Flight<br><br>Comes with the option equipment <c02>""Beam Saber (Strike)""</c>",draft
+206:3,5df659de,No special traits,draft
+207:3,83091867,"Comes with the option equipment<br><c02>""120mm Anti-Ship Vulcan""</c> and <c02>""350mm Gun Launcher""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+208:3,96d487bc,"<c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (Launcher Strike)""</c>",draft
+209:3,cf9845f6,"Comes with the option equipment<br><c02>""Midas Messer"" and ""Panzer Eisen""</c><br><br>The small anti-beam shield on the elbow<br>doesn't count as a shield in the Battle Simulator,<br>so you can equip any shield",draft
+210:3,a4fba0ca,"Comes with the two-handed sword-type option equipment<br><c02>""Schwert Gewehr""</c>",draft
+211:3,0c512536,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Strike Rouge)""</c>",draft
+212:3,5df659de,No special traits,draft
+213:3,5df659de,No special traits,draft
+214:3,5b45ab0f,"<c00>◆All-in-one Striker Pack: mobility, melee and firepower</c><br><c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""105mm Cannon"" and ""Prototype 9.1m Anti-Ship Sword""</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (IWSP)""</c>",draft
+215:3,5df659de,No special traits,draft
+216:3,41ec547d,"Comes with the option equipment<br><c02>""Armed Armor BS"" and ""Armed Armor VN (Unicorn Mode)""</c>",draft
+217:3,5fd65004,"Comes with the option equipment<br><c02>""Armed Armor BS"", ""Armed Armor VN (Destroy Mode)""</c><br>and <c02>""Beam Tonfa (Banshee)""</c>",draft
+218:3,4bdbccec,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Red Frame)""</c>",draft
+219:3,538968e0,"<c00>◆Arm part that holds the ""memory of martial arts""</c><br><c05>≪Teaches EX-Action ""Lightning Finger""≫</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+220:3,9a0cae89,"Comes with the option equipment <c02>""Gerbera Straight""</c>",draft
+221:3,35d6aebe,"Comes with the option equipment <c02>""Beam Saber (Red Frame)""</c>",draft
+222:3,5df659de,No special traits,draft
+223:3,079c5e5d,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Blue Frame)""</c>",draft
+224:3,5df659de,No special traits,draft
+225:3,5df659de,No special traits,draft
+226:3,bf6cfe8d,"Comes with the option equipment<br><c02>""Beam Saber (Blue Frame)""</c>",draft
+227:3,5df659de,No special traits,draft
+228:3,8c19cb5e,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Green Frame)""</c>",draft
+229:3,b6223790,"With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+230:3,5df659de,No special traits,draft
+231:3,74c98d23,"Comes with the option equipment<br><c02>""Beam Saber (Green Frame)""</c>",draft
+232:3,5df659de,No special traits,draft
+233:3,5df659de,No special traits,draft
+234:3,5df659de,No special traits,draft
+235:3,5df659de,No special traits,draft
+236:3,df89935f,"Comes with the option equipment<br><c02>""Beam Saber (Mk-II Titans)""</c>",draft
+237:3,5df659de,No special traits,draft
+238:3,8b91b8fa,"Comes with the option equipment<br><c02>""Vulcan Pod (Mk-II Titans)""</c>",draft
+239:3,5df659de,No special traits,draft
+240:3,5df659de,No special traits,draft
+241:3,5df659de,No special traits,draft
+242:3,5df659de,No special traits,draft
+243:3,5df659de,No special traits,draft
+244:3,5df659de,No special traits,draft
+245:3,5df659de,No special traits,draft
+246:3,5df659de,No special traits,draft
+247:3,5df659de,No special traits,draft
+248:3,5df659de,No special traits,draft
+249:3,5df659de,No special traits,draft
+250:3,01b82d59,"Comes with the option equipment <c02>""Triple Beam Cannon""</c>",draft
+251:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+252:3,b6671624,"Comes with the option equipment <c02>""Tri-Blade""</c>",draft
+253:3,5df659de,No special traits,draft
+254:3,1dc906b2,"<c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Comes with the option equipment <c02>""Double Vulcan""</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (ZZ)""</c>",draft
+255:3,614dc99f,"This part can carry the detachable Wing Shield:<br>only while it is set, <c00>""HG Wing Shield""</c> is added<br>to the shields you can select<br><br>You can also equip another shield instead",draft
+256:3,5df659de,No special traits,draft
+257:3,f162a8e2,"Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Hyper Beam Saber""</c> and <c02>""21-Tube Missile Pod""</c><br><br><c02>""21-Tube Missile Pod""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+258:3,5df659de,No special traits,draft
+259:3,5df659de,No special traits,draft
+260:3,754bdb32,"<c00>◆Powerful martial arts arm part with a champion's aura</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+261:3,5df659de,No special traits,draft
+262:3,5df659de,No special traits,draft
+263:3,5df659de,No special traits,draft
+264:3,5df659de,No special traits,draft
+265:3,b2518c81,"Comes with the option equipment <c02>""Beam Saber (Turn A)""</c>",draft
+266:3,c69f726e,Can boost even without a Backpack part,draft
+267:3,8abed748,"<c00>◆Body with the Moonlight Butterfly that turns all to sand</c><br><c05>≪Teaches EX-Action ""Aura Burst""≫</c><br><br>Comes with the option equipment<br><c02>""Missile"" and ""Abdominal Beam Cannon""</c><br><br>Can use the EX-Action <c01>""Aura Burst (Turn A)""</c>",draft
+268:3,46c188ef,"Comes with the option equipment<br><c02>""Head Vulcan (Crossbone X1)""</c>",draft
+269:3,50f7aec1,"Comes with the option equipment <c02>""Brand Marker""</c>",draft
+270:3,e70a2f91,"Comes with the option equipment<br><c02>""Scissor Anchor"" and ""Heat Dagger""</c>",draft
+271:3,ac1b5bb9,Movement type becomes Flight,draft
+272:3,dbe17a59,"Comes with the option equipment<br><c02>""Beam Saber (Crossbone X1)""</c> and <c02>""Beam Gun""</c><br><br><c02>""Beam Gun""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+273:3,dbe17a59,"Comes with the option equipment<br><c02>""Beam Saber (Crossbone X1)""</c> and <c02>""Beam Gun""</c><br><br><c02>""Beam Gun""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+274:3,5df659de,No special traits,draft
+275:3,4ee8a312,"Comes with the option equipment <c02>""Shoulder Missile Pod""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+276:3,5df659de,No special traits,draft
+277:3,181d1e2b,Extremely high beam armor,draft
+278:3,70da1609,"Comes with the option equipment <c02>""Beam Cannon""</c>",draft
+279:3,b59aa031,"Comes with the head vulcan-type option equipment<br><c02>""17.5mm CIWS""</c>",draft
+280:3,b5190305,"Comes with the option equipment<br><c02>""Flash Edge 2"" and ""Palma Fiocina""</c><br><br>Has the Solidus Fulgor beam shield generator:<br>setting this part adds <c00>""HG Beam Shield (Destiny)""</c><br>to the shields you can select",draft
+281:3,5df659de,No special traits,draft
+282:3,69f3cbf6,"<c00>◆Wing unit with heavy guns, a sword and Wings of Light</c><br><c05>≪Teaches EX-Actions ""Hyper Cannon"", ""Hyper Trans""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment <c02>""Arondight""</c><br><br>Can use the EX-Actions <c01>""Hyper Cannon (Destiny)""</c> and<br><c01>""Hyper Trans (Destiny)""</c>",draft
+283:3,5df659de,No special traits,draft
+284:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+285:3,5df659de,No special traits,draft
+286:3,5df659de,No special traits,draft
+287:3,5df659de,No special traits,draft
+288:3,09d469f4,"<c00>◆Carries the fearsome strategic weapon Satellite Cannon</c><br><c05>≪Teaches EX-Action ""Satellite Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Large Beam Sword"" and ""Shoulder Vulcan""</c><br>Can use the EX-Action <c01>""Satellite Cannon""</c><br><c02>""Shoulder Vulcan""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+289:3,ada4dd22,"Comes with the option equipment <c02>""Breast Vulcan""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+290:3,bccb176b,The machine's actions become the <c04>female type</c>,draft
+291:3,b439496b,"Comes with the option equipment<br><c02>""Head Vulcan (Build Strike)""</c>",draft
+292:3,5df659de,No special traits,draft
+293:3,d9ec6c26,"Comes with the option equipment<br><c02>""Beam Saber (Build Strike)""</c>",draft
+294:3,8c909344,"Comes with the option equipment<br><c02>""Beam Cannon (Build Booster)""</c><br><br>Movement type becomes Flight",draft
+295:3,5df659de,No special traits,draft
+296:3,dc0476da,"Comes with the option equipment <c02>""Head Vulcan (Gundam)""</c>",draft
+297:3,5df659de,No special traits,draft
+298:3,5df659de,No special traits,draft
+299:3,892410e9,"Comes with the option equipment <c02>""Beam Saber (Gundam)""</c>",draft
+300:3,5df659de,No special traits,draft
+301:3,5df659de,No special traits,draft
+302:3,5df659de,No special traits,draft
+303:3,68dd0451,"<c05>≪Teaches EX-Action ""Ground Shaker""≫</c>",draft
+304:3,5df659de,No special traits,draft
+305:3,5df659de,No special traits,draft
+306:3,5df659de,No special traits,draft
+307:3,b811bf91,"<c05>≪Teaches EX-Action ""Boost Tackle""≫</c>",draft
+308:3,5df659de,No special traits,draft
+309:3,5df659de,No special traits,draft
+310:3,5df659de,No special traits,draft
+311:3,d6851e8c,"Comes with the option equipment <c02>""Head Vulcan (Zaku)""</c>",draft
+312:3,2394629b,No special traits,draft
+313:3,5df659de,No special traits,draft
+314:3,5df659de,No special traits,draft
+315:3,2394629b,No special traits,draft
+316:3,5df659de,No special traits,draft
+317:3,5df659de,No special traits,draft
+318:3,6287d547,"Comes with the option equipment <c02>""Triple Missile Pod""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+319:3,5df659de,No special traits,draft
+320:3,5df659de,No special traits,draft
+321:3,5df659de,No special traits,draft
+322:3,7abbe7d6,"Comes with the option equipment <c02>""Mine""</c>",draft
+323:3,5df659de,No special traits,draft
+324:3,1d04161c,"Comes with the head vulcan-type option equipment<br><c02>""31mm CIWS""</c>",draft
+325:3,1e82575f,"Has a beam shield generator: setting this part adds<br><c00>""MG Beam Shield (Strike Freedom)""</c><br>to the shields you can select",draft
+326:3,6fdd5118,"<c00>◆Leg part with strong railguns and high-output sabers</c><br><br>Comes with the option equipment<br><c02>""Xiphias 3 Rail Cannon""</c> and<br><c02>""Super Lacerta Beam Saber""</c><br><br>Set together with a <c00>Strike Freedom Gundam Backpack</c>/<br><c00>Freedom Gundam Backpack</c> to use<br>the EX-Action <c01>""Full Burst""</c>",draft
+327:3,3aabc089,"<c00>◆Super DRAGOON wings capable of all-range attacks</c><br><c05>≪Teaches EX-Actions ""All-Range Attack"", ""Full Burst""≫</c><br><br>Movement type becomes Flight<br><br>- Can use the EX-Action <c01>""All-Range Attack""</c><br>- Set with a <c00>Strike Freedom Gundam Leg/Body</c>/<br>  <c00>Freedom Gundam Leg</c> to use<br>  the EX-Action <c01>""Full Burst""</c>",draft
+328:3,0bf8d36c,"<c00>◆Body part with a built-in, powerful Callidus cannon</c><br><br>Comes with the option equipment<br><c02>""Callidus Multi-Phase Beam Cannon""</c><br><br>Set together with a <c00>Strike Freedom Gundam Backpack</c>/<br><c00>Freedom Gundam Backpack</c> to use<br>the EX-Action <c01>""Full Burst""</c>",draft
+329:3,b30ff218,"Comes with the head vulcan-type option equipment<br><c02>""Picus""</c>",draft
+330:3,5df659de,No special traits,draft
+331:3,5a371a36,"<c00>◆Leg part with a strong railgun and beam sabers</c><br><br>Comes with the option equipment<br><c02>""Xiphias Rail Cannon""</c> and <c02>""Lacerta Beam Saber""</c><br><br>Set together with a <c00>Strike Freedom Gundam Backpack</c>/<br><c00>Freedom Gundam Backpack</c> to use<br>the EX-Action <c01>""Full Burst""</c>",draft
+332:3,e63e6bf9,"<c00>◆Wing binders with devastating plasma beam cannons</c><br><c05>≪Teaches EX-Actions ""Hyper Cannon"", ""Full Burst""≫</c><br><br>Movement type becomes Flight<br><br>- Can use the EX-Action <c01>""Hyper Cannon (Freedom)""</c><br>- Set with a <c00>Strike Freedom Gundam Leg/Body</c>/<br>  <c00>Freedom Gundam Leg</c> to use<br>  the EX-Action <c01>""Full Burst""</c>",draft
+333:3,5df659de,No special traits,draft
+334:3,5df659de,No special traits,draft
+335:3,5df659de,No special traits,draft
+336:3,5df659de,No special traits,draft
+337:3,5df659de,No special traits,draft
+338:3,5df659de,No special traits,draft
+339:3,5df659de,No special traits,draft
+340:3,5df659de,No special traits,draft
+341:3,5df659de,No special traits,draft
+342:3,5df659de,No special traits,draft
+343:3,5df659de,No special traits,draft
+344:3,eb786964,"Comes with the option equipment <c02>""Head Vulcan (God)""</c>",draft
+345:3,9e1d3c57,"<c00>◆Powerful martial arts arm part with a burning soul</c><br><c05>≪Teaches EX-Action ""Burst Finger""≫</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+346:3,113d68d8,"Comes with the option equipment <c02>""God Slash""</c>",draft
+347:3,5df659de,No special traits,draft
+348:3,34a90012,"Comes with the option equipment <c02>""Machine Cannon (God)""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+349:3,5df659de,No special traits,draft
+350:3,5df659de,No special traits,draft
+351:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+352:3,5df659de,No special traits,draft
+353:3,21c21e41,"Comes with the option equipment <c02>""Scattering Beam Gun""</c>",draft
+354:3,5df659de,No special traits,draft
+355:3,5df659de,No special traits,draft
+356:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+357:3,5df659de,No special traits,draft
+358:3,5df659de,No special traits,draft
+359:3,564afcc9,"Comes with the option equipment <c02>""Head Vulcan (GM)""</c>",draft
+360:3,5df659de,No special traits,draft
+361:3,5df659de,No special traits,draft
+362:3,d2032079,"Comes with the option equipment <c02>""Beam Saber (GM)""</c>",draft
+363:3,5df659de,No special traits,draft
+364:3,62dadd01,"Comes with the option equipment<br><c02>""Head Vulcan (GM Command)""</c>",draft
+365:3,5df659de,No special traits,draft
+366:3,d265f6a8,"Comes with the option equipment<br><c02>""Beam Saber (GM Command)""</c>",draft
+367:3,5df659de,No special traits,draft
+368:3,5df659de,No special traits,draft
+369:3,5df659de,No special traits,draft
+370:3,5df659de,No special traits,draft
+371:3,c50510cd,"Comes with the option equipment<br><c02>""Head Vulcan (GM Custom)""</c>",draft
+372:3,5df659de,No special traits,draft
+373:3,5df659de,No special traits,draft
+374:3,2b66ca5d,"Comes with the option equipment <c02>""Beam Saber (GM Custom)""</c>",draft
+375:3,5df659de,No special traits,draft
+376:3,5df659de,No special traits,draft
+377:3,5df659de,No special traits,draft
+378:3,3a2553b9,"Comes with the boomerang-type option equipment<br><c02>""GN Beam Saber""</c>",draft
+379:3,0c70113c,"<c00>◆Support craft that boosts your machine as a backpack</c><br><c05>≪Teaches EX-Actions ""Hyper Trans"", ""Aura Burst""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment <c02>""GN Micro Missile""</c><br><br>Can use the EX-Actions <c01>""Hyper Trans (00 Raiser)""</c> and<br><c01>""Aura Burst (00 Raiser)""</c>",draft
+380:3,5df659de,No special traits,draft
+381:3,5df659de,No special traits,draft
+382:3,0b4becfa,"Comes with the option equipment <c02>""Head Vulcan (Zeta)""</c>",draft
+383:3,87188c3b,"Comes with the option equipment <c02>""Grenade Launcher""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+384:3,5df659de,No special traits,draft
+385:3,ac1b5bb9,Movement type becomes Flight,draft
+386:3,5df659de,No special traits,draft
+387:3,5e3c2a94,"Comes with the option equipment<br><c02>""Head Vulcan (Hyaku-Shiki)""</c>",draft
+388:3,5df659de,No special traits,draft
+389:3,a3f06359,"Comes with the option equipment<br><c02>""Beam Saber (Hyaku-Shiki)""</c>",draft
+390:3,ac1b5bb9,Movement type becomes Flight,draft
+391:3,5df659de,No special traits,draft
+392:3,048cabdc,"Comes with the option equipment<br><c02>""Head Vulcan (Deathscythe H)""</c>",draft
+393:3,5df659de,No special traits,draft
+394:3,5df659de,No special traits,draft
+395:3,ac1b5bb9,Movement type becomes Flight,draft
+396:3,5df659de,No special traits,draft
+397:3,5df659de,No special traits,draft
+398:3,5df659de,No special traits,draft
+399:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+400:3,5df659de,No special traits,draft
+401:3,5df659de,No special traits,draft
+402:3,dab3a0eb,"Comes with the option equipment<br><c02>""Head Vulcan (Heavyarms)""</c>",draft
+403:3,24f30089,"<c05>≪Teaches EX-Action ""Full Open Attack""≫</c><br><br>Comes with the option equipment <c02>""Homing Missile""</c><br><br>Can use the EX-Action <c01>""Full Open Attack""</c><br>",draft
+404:3,8f169c6e,"<c05>≪Teaches EX-Action ""Full Open Attack""≫</c><br><br>Comes with the option equipment <c02>""Micro Missile""</c><br><br>Can use the EX-Action <c01>""Full Open Attack""</c>",draft
+405:3,5df659de,No special traits,draft
+406:3,ba8111a9,"<c05>≪Teaches EX-Action ""Full Open Attack""≫</c><br><br>Comes with the option equipment<br><c02>""Machine Cannon (Heavyarms)""</c> and<br><c02>""Chest Gatling Cannon""</c><br><br>Can use the EX-Action <c01>""Full Open Attack""</c>",draft
+407:3,5df659de,No special traits,draft
+408:3,5df659de,No special traits,draft
+409:3,5df659de,No special traits,draft
+410:3,b12c29a0,<c00>◆Beautiful backpack with four organic-looking wings</c><br><br>Movement type becomes Flight,draft
+411:3,5f264bb1,"Comes with the option equipment <c02>""Machine Cannon (Wing)""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+412:3,5df659de,No special traits,draft
+413:3,6450eabd,"Comes with the option equipment <c02>""Head Vulcan (Nu)""</c>",draft
+414:3,5df659de,No special traits,draft
+415:3,5df659de,No special traits,draft
+416:3,aff3f9e9,"<c00>◆Powerful all-range attacks with six fin funnels</c><br><c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment <c02>""Beam Saber (Nu)""</c><br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+417:3,5df659de,No special traits,draft
+418:3,cbb7986a,"Comes with the option equipment <c02>""Head Vulcan (Hi-Nu)""</c>",draft
+419:3,6dd2b71c,"Comes with the option equipment <c02>""Arm Machine Gun""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+420:3,5df659de,No special traits,draft
+421:3,1cb47d66,"<c00>◆Powerful all-range attacks with six fin funnels</c><br><c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+422:3,5df659de,No special traits,draft
+423:3,5df659de,No special traits,draft
+424:3,5df659de,No special traits,draft
+425:3,5df659de,No special traits,draft
+426:3,f5aba780,"<c00>◆Powerful all-range attacks with six funnels</c><br><c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+427:3,f480c6d8,"Comes with the option equipment <c02>""Diffuse Mega Cannon""</c>",draft
+428:3,5df659de,No special traits,draft
+429:3,3e092cf6,"Movement type becomes Flight<br>Can boost even without a Backpack part<br><br>A ""Beam Gun/Beam Saber"" is built into the forearm:<br>setting this part adds <c00>""MG Beam Gun/Beam Saber""</c><br>to the ranged and melee weapons you can select",draft
+430:3,5df659de,No special traits,draft
+431:3,88145010,"<c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+432:3,5df659de,No special traits,draft
+433:3,5df659de,No special traits,draft
+434:3,3e092cf6,"Movement type becomes Flight<br>Can boost even without a Backpack part<br><br>A ""Beam Gun/Beam Saber"" is built into the forearm:<br>setting this part adds <c00>""MG Beam Gun/Beam Saber""</c><br>to the ranged and melee weapons you can select",draft
+435:3,5df659de,No special traits,draft
+436:3,88145010,"<c05>≪Teaches EX-Action ""All-Range Attack""≫</c><br><br>Can use the EX-Action <c01>""All-Range Attack""</c>",draft
+437:3,5df659de,No special traits,draft
+438:3,50fe49f0,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Red Frame Kai)""</c>",draft
+439:3,6a8db45d,"<c05>≪Teaches EX-Action ""Lightning Finger""≫</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+440:3,767db8c4,"Comes with the option equipment<br><c02>""Gerbera Straight/Tiger Pierce""</c>",draft
+441:3,cf8d0efb,"<c00>◆Tactical Arms IIL: a backpack that turns into weapons</c><br><c05>≪Teaches EX-Actions ""Tactical Arms Sword Form""</c><br><c05>  ""Tactical Arms Arrow Form""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Actions <c01>""Tactical Arms Sword Form""</c> and<br><c01>""Tactical Arms Arrow Form""</c>",draft
+442:3,5df659de,No special traits,draft
+443:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+444:3,b6223790,"With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+445:3,bccb176b,The machine's actions become the <c04>female type</c>,draft
+446:3,f3d47239,"<c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (Beargguy)""</c>",draft
+447:3,5df659de,No special traits,draft
+448:3,2e46b150,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Blue Frame SR)""</c>",draft
+449:3,5df659de,No special traits,draft
+450:3,7c713e3b,"Comes with the option equipment<br><c02>""Armor Schneider""</c> and <c02>""Armor Schneider (Leg)""</c>",draft
+451:3,f8bfbede,"<c00>◆Tactical Arms II: a backpack that turns into weapons</c><br><c05>≪Teaches EX-Actions ""Tactical Arms Sword Form""</c><br><c05>  ""Tactical Arms Gatling Form""≫</c><br><br>Movement type becomes Flight<br><br>Can use the EX-Actions <c01>""Tactical Arms Sword Form""</c> and<br><c01>""Tactical Arms Gatling Form""</c>",draft
+452:3,5df659de,No special traits,draft
+453:3,1488851b,"Can use the boomerang-type option equipment<br><c02>""Beam Chakram""</c>",draft
+454:3,5df659de,No special traits,draft
+455:3,800d693e,"<c05>≪Teaches EX-Action ""Hyper Trans""≫</c><br><br>Can use the EX-Action <c01>""Hyper Trans (Susanowo)""</c><br>Comes with the option equipment <c02>""Shiranui/Unryu""</c>",draft
+456:3,ac1b5bb9,Movement type becomes Flight,draft
+457:3,755008b7,"Comes with the option equipment <c02>""GN Vulcan""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+458:3,5df659de,No special traits,draft
+459:3,5df659de,No special traits,draft
+460:3,5df659de,No special traits,draft
+461:3,db9bcc56,"Comes with the option equipment <c02>""Beam Saber (Mk-II)""</c>",draft
+462:3,5df659de,No special traits,draft
+463:3,0d3225cd,"Comes with the option equipment <c02>""Vulcan Pod (Mk-II)""</c>",draft
+464:3,36b688e4,"Comes with the option equipment <c02>""Head Vulcan (Sinanju)""</c>",draft
+465:3,68c650b5,"Comes with the option equipment <c02>""Beam Tonfa (Sinanju)""</c>",draft
+466:3,5df659de,No special traits,draft
+467:3,ac1b5bb9,Movement type becomes Flight,draft
+468:3,5df659de,No special traits,draft
+469:3,8c698fe7,"Comes with the option equipment<br><c02>""Head Vulcan (Unicorn, Unicorn Mode)""</c>",draft
+470:3,5df659de,No special traits,draft
+471:3,5df659de,No special traits,draft
+472:3,09f2900e,"Comes with the option equipment<br><c02>""Beam Saber (Unicorn, Unicorn Mode)""</c>",draft
+473:3,5df659de,No special traits,draft
+474:3,cfc783bd,"Comes with the option equipment<br><c02>""Head Vulcan (Banshee, Unicorn Mode)""</c>",draft
+475:3,5df659de,No special traits,draft
+476:3,5df659de,No special traits,draft
+477:3,e476b810,"Comes with the option equipment<br><c02>""Beam Saber (Banshee, Unicorn Mode)""</c>",draft
+478:3,5df659de,No special traits,draft
+479:3,7c1489c1,"Comes with the option equipment<br><c02>""Head Vulcan (Unicorn, Destroy Mode)""</c>",draft
+480:3,ee2592d6,"Comes with the option equipment <c02>""Beam Tonfa (Unicorn)""</c>",draft
+481:3,5df659de,No special traits,draft
+482:3,019e1fbf,"Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Beam Saber (Unicorn, Destroy Mode)""</c>",draft
+483:3,e72b4890,"<c05>≪Teaches EX-Action ""Hyper Trans""≫</c><br><br>Can use the EX-Action <c01>""Hyper Trans (Unicorn)""</c>",draft
+484:3,11b7842f,"Comes with the option equipment<br><c02>""Head Vulcan (Banshee, Destroy Mode)""</c>",draft
+485:3,42cd274a,"Comes with the option equipment <c02>""Beam Tonfa (Banshee)""</c>",draft
+486:3,5df659de,No special traits,draft
+487:3,68dcf5b7,"Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Beam Saber (Banshee, Destroy Mode)""</c>",draft
+488:3,2a620a41,"<c05>≪Teaches EX-Action ""Hyper Trans""≫</c><br><br>Can use the EX-Action <c01>""Hyper Trans (Banshee)""</c>",draft
+489:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+490:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+491:3,6dabe01c,"Comes with the option equipment <c02>""Head Vulcan (Nobel)""</c>",draft
+492:3,249804e2,"Comes with the option equipment <c02>""Head Vulcan (G-3)""</c>",draft
+493:3,5df659de,No special traits,draft
+494:3,5df659de,No special traits,draft
+495:3,93190284,"Comes with the option equipment <c02>""Beam Saber (G-3)""</c>",draft
+496:3,5df659de,No special traits,draft
+497:3,41069aae,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Strike)""</c>",draft
+498:3,5df659de,No special traits,draft
+499:3,5df659de,No special traits,draft
+500:3,04eebe61,"Movement type becomes Flight<br><br>Comes with the option equipment <c02>""Beam Saber (Strike)""</c>",draft
+501:3,5df659de,No special traits,draft
+502:3,83091867,"Comes with the option equipment<br><c02>""120mm Anti-Ship Vulcan""</c> and <c02>""350mm Gun Launcher""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+503:3,c53a299f,"<c00>◆Striker Pack firing the hyper-impulse cannon ""Agni""</c><br><c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (Launcher Strike)""</c>",draft
+504:3,71db5694,"Comes with the option equipment<br><c02>""Midas Messer"" and ""Panzer Eisen""</c><br><br>The small anti-beam shield on the elbow<br>doesn't count as a shield in the Battle Simulator,<br>so you can equip any shield",draft
+505:3,265fcf3e,"<c00>◆Striker Pack for heavy slashes with the Schwert Gewehr</c><br><br>Comes with the two-handed sword-type option equipment<br><c02>""Schwert Gewehr""</c>",draft
+506:3,0c512536,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Strike Rouge)""</c>",draft
+507:3,5df659de,No special traits,draft
+508:3,5df659de,No special traits,draft
+509:3,5b45ab0f,"<c00>◆All-in-one Striker Pack: mobility, melee and firepower</c><br><c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""105mm Cannon"" and ""Prototype 9.1m Anti-Ship Sword""</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (IWSP)""</c>",draft
+510:3,5df659de,No special traits,draft
+511:3,41ec547d,"Comes with the option equipment<br><c02>""Armed Armor BS"" and ""Armed Armor VN (Unicorn Mode)""</c>",draft
+512:3,5fd65004,"Comes with the option equipment<br><c02>""Armed Armor BS"", ""Armed Armor VN (Destroy Mode)""</c><br>and <c02>""Beam Tonfa (Banshee)""</c>",draft
+513:3,4bdbccec,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Red Frame)""</c>",draft
+514:3,6a8db45d,"<c05>≪Teaches EX-Action ""Lightning Finger""≫</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+515:3,9a0cae89,"Comes with the option equipment <c02>""Gerbera Straight""</c>",draft
+516:3,35d6aebe,"Comes with the option equipment <c02>""Beam Saber (Red Frame)""</c>",draft
+517:3,5df659de,No special traits,draft
+518:3,079c5e5d,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Blue Frame)""</c>",draft
+519:3,5df659de,No special traits,draft
+520:3,5df659de,No special traits,draft
+521:3,bf6cfe8d,"Comes with the option equipment<br><c02>""Beam Saber (Blue Frame)""</c>",draft
+522:3,5df659de,No special traits,draft
+523:3,8c19cb5e,"Comes with the head vulcan-type option equipment<br><c02>""Igelstellung (Green Frame)""</c>",draft
+524:3,b6223790,"With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+525:3,5df659de,No special traits,draft
+526:3,74c98d23,"Comes with the option equipment<br><c02>""Beam Saber (Green Frame)""</c>",draft
+527:3,5df659de,No special traits,draft
+528:3,5df659de,No special traits,draft
+529:3,5df659de,No special traits,draft
+530:3,5df659de,No special traits,draft
+531:3,df89935f,"Comes with the option equipment<br><c02>""Beam Saber (Mk-II Titans)""</c>",draft
+532:3,5df659de,No special traits,draft
+533:3,8b91b8fa,"Comes with the option equipment<br><c02>""Vulcan Pod (Mk-II Titans)""</c>",draft
+534:3,5df659de,No special traits,draft
+535:3,5df659de,No special traits,draft
+536:3,5df659de,No special traits,draft
+537:3,5df659de,No special traits,draft
+538:3,5df659de,No special traits,draft
+539:3,5df659de,No special traits,draft
+540:3,5df659de,No special traits,draft
+541:3,5df659de,No special traits,draft
+542:3,5df659de,No special traits,draft
+543:3,5df659de,No special traits,draft
+544:3,5df659de,No special traits,draft
+545:3,01b82d59,"Comes with the option equipment <c02>""Triple Beam Cannon""</c>",draft
+546:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+547:3,b6671624,"Comes with the option equipment <c02>""Tri-Blade""</c>",draft
+548:3,5df659de,No special traits,draft
+549:3,1dc906b2,"<c05>≪Teaches EX-Action ""Hyper Cannon""≫</c><br><br>Comes with the option equipment <c02>""Double Vulcan""</c><br><br>Can use the EX-Action <c01>""Hyper Cannon (ZZ)""</c>",draft
+550:3,657a9e5a,"This part can carry the detachable Wing Shield:<br>only while it is set, <c00>""MG Wing Shield""</c> is added<br>to the shields you can select<br><br>You can also equip another shield instead",draft
+551:3,5df659de,No special traits,draft
+552:3,f162a8e2,"Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Hyper Beam Saber""</c> and <c02>""21-Tube Missile Pod""</c><br><br><c02>""21-Tube Missile Pod""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+553:3,5df659de,No special traits,draft
+554:3,5df659de,No special traits,draft
+555:3,2b2ab109,"<c00>◆Powerful martial arts arm part with a champion's aura</c><br><c05>≪Teaches EX-Action ""Burst Finger""≫</c><br><br>With no melee weapon equipped, melee attacks<br>become <c04>""Melee (Martial Arts)""</c>",draft
+556:3,5df659de,No special traits,draft
+557:3,5df659de,No special traits,draft
+558:3,5df659de,No special traits,draft
+559:3,5df659de,No special traits,draft
+560:3,b2518c81,"Comes with the option equipment <c02>""Beam Saber (Turn A)""</c>",draft
+561:3,c69f726e,Can boost even without a Backpack part,draft
+562:3,8abed748,"<c00>◆Body with the Moonlight Butterfly that turns all to sand</c><br><c05>≪Teaches EX-Action ""Aura Burst""≫</c><br><br>Comes with the option equipment<br><c02>""Missile"" and ""Abdominal Beam Cannon""</c><br><br>Can use the EX-Action <c01>""Aura Burst (Turn A)""</c>",draft
+563:3,46c188ef,"Comes with the option equipment<br><c02>""Head Vulcan (Crossbone X1)""</c>",draft
+564:3,50f7aec1,"Comes with the option equipment <c02>""Brand Marker""</c>",draft
+565:3,e70a2f91,"Comes with the option equipment<br><c02>""Scissor Anchor"" and ""Heat Dagger""</c>",draft
+566:3,ac1b5bb9,Movement type becomes Flight,draft
+567:3,dbe17a59,"Comes with the option equipment<br><c02>""Beam Saber (Crossbone X1)""</c> and <c02>""Beam Gun""</c><br><br><c02>""Beam Gun""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+568:3,dbe17a59,"Comes with the option equipment<br><c02>""Beam Saber (Crossbone X1)""</c> and <c02>""Beam Gun""</c><br><br><c02>""Beam Gun""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+569:3,5df659de,No special traits,draft
+570:3,4ee8a312,"Comes with the option equipment <c02>""Shoulder Missile Pod""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+571:3,5df659de,No special traits,draft
+572:3,181d1e2b,Extremely high beam armor,draft
+573:3,70da1609,"Comes with the option equipment <c02>""Beam Cannon""</c>",draft
+574:3,b59aa031,"Comes with the head vulcan-type option equipment<br><c02>""17.5mm CIWS""</c>",draft
+575:3,f1d0f773,"Comes with the option equipment<br><c02>""Flash Edge 2"" and ""Palma Fiocina""</c><br><br>Has the Solidus Fulgor beam shield generator:<br>setting this part adds <c00>""MG Beam Shield (Destiny)""</c><br>to the shields you can select",draft
+576:3,5df659de,No special traits,draft
+577:3,69f3cbf6,"<c00>◆Wing unit with heavy guns, a sword and Wings of Light</c><br><c05>≪Teaches EX-Actions ""Hyper Cannon"", ""Hyper Trans""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment <c02>""Arondight""</c><br><br>Can use the EX-Actions <c01>""Hyper Cannon (Destiny)""</c> and<br><c01>""Hyper Trans (Destiny)""</c>",draft
+578:3,5df659de,No special traits,draft
+579:3,2b6e97e5,Movement type becomes Hover if no<br>Flight-type part is set elsewhere,draft
+580:3,5df659de,No special traits,draft
+581:3,5df659de,No special traits,draft
+582:3,5df659de,No special traits,draft
+583:3,09d469f4,"<c00>◆Carries the fearsome strategic weapon Satellite Cannon</c><br><c05>≪Teaches EX-Action ""Satellite Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Large Beam Sword"" and ""Shoulder Vulcan""</c><br>Can use the EX-Action <c01>""Satellite Cannon""</c><br><c02>""Shoulder Vulcan""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+584:3,ada4dd22,"Comes with the option equipment <c02>""Breast Vulcan""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
+585:3,bccb176b,The machine's actions become the <c04>female type</c>,draft
+586:3,b439496b,"Comes with the option equipment<br><c02>""Head Vulcan (Build Strike)""</c>",draft
+587:3,5df659de,No special traits,draft
+588:3,d9ec6c26,"Comes with the option equipment<br><c02>""Beam Saber (Build Strike)""</c>",draft
+589:3,8c909344,"Comes with the option equipment<br><c02>""Beam Cannon (Build Booster)""</c><br><br>Movement type becomes Flight",draft
+590:3,5df659de,No special traits,draft
+591:3,2c66a7ae,"The Gundam's standard <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+592:3,5ff0e051,"The Gundam's standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+593:3,2240e389,"A standard <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"" and ""Homing Shot""",draft
+594:3,3aef3ecd,"A spear-like <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+595:3,1063f914,HG Gundam's shield,draft
+596:3,173d297b,"A drum-fed <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+597:3,ae7434f8,"A standard <c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+598:3,2240e389,"A standard <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"" and ""Homing Shot""",draft
+599:3,96877529,"A <c04>machine gun-type ranged weapon</c> with a grenade launcher<br><br>Switches between machine gun ""Rapid Fire""<br>and ""Grenade Launcher""",draft
+600:3,b4602d67,"The turret gun of the Magella Attack tank (Magella Top)<br>converted into a hand-held <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+601:3,35560aee,"An enhanced <c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+602:3,2fc979be,"A huge, long-handled heat hawk<br>Shaped like an axe, but counts as a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+603:3,fe7ba5bf,"The Strike Freedom Gundam's powerful<br><c04>rifle-type (double rifle) ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Linked Charge Shot"", which joins<br>the two rifles end to end to fire a powerful beam",draft
+604:3,4068046e,"<c00>◆High-output double saber, one of the strongest sabers</c><br>The Strike Freedom Gundam's powerful<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+605:3,9e8fc435,"HG Strike Freedom Gundam's own shield<br>Usable only while <c00>""HG Strike Freedom Gundam Arm""</c><br>is set on your machine",draft
+606:3,212439a2,"The Freedom Gundam's powerful <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+607:3,c48bfe1a,"The Freedom Gundam's high-output<br><c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+608:3,0185cc83,HG Freedom Gundam's shield,draft
+609:3,46fa3612,"A <c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+610:3,472aa68e,"A large <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"" and ""Homing Shot""",draft
+611:3,8d4bf32b,"A handgun-style <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+612:3,aea37a80,"Two beam sabers on an extendable rod, forming a<br>spear-like <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+613:3,5395bca4,"A <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+614:3,ab43871c,HG shield that comes with the GM Kai and others,draft
+615:3,d6ef902e,"An easy-to-handle <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+616:3,25240914,HG GM Command's shield,draft
+617:3,44091db3,HG GM Custom's shield,draft
+618:3,627891c7,"Usable only with <c00>""HG GN Sword III""</c> as the melee weapon<br>The GN Sword III transforms into a<br><c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+619:3,7779af59,"<c00>◆Extremely powerful: the strongest HG saber-type weapon</c><br><c05>≪Teaches EX-Action ""Hyper Sword""≫</c><br><br>A powerful <c04>saber-type melee weapon</c><br>Wide ""Horizontal Slash"" and powerful ""Vertical Slash""<br><br>Equipping it adds <c00>""HG GN Sword III Rifle Mode""</c><br>to the ranged weapons you can select, at a cost of 0",draft
+620:3,41fabf00,"Usable only with <c00>""HG GN Sword II""</c> as the melee weapon<br>The GN Sword II transforms into a<br><c04>rifle-type (double rifle) ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+621:3,0cba77f7,"A powerful <c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""<br><br>Equipping it adds <c00>""HG GN Sword II Rifle Mode""</c><br>to the ranged weapons you can select, at a cost of 0",draft
+622:3,807497e3,"A <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot<br><br>Equipping it adds <c00>""HG Long Beam Saber""</c><br>to the melee weapons you can select, at a cost of 0",draft
+623:3,1e2bb9fc,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+624:3,7382ef28,"Usable only with <c00>""HG Beam Rifle (Zeta)""</c><br>as the ranged weapon<br><br>Forms a beam blade at the Beam Rifle (Zeta)'s muzzle<br>and works as a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+625:3,8bbe9860,HG Zeta Gundam's shield,draft
+626:3,3a51ceb5,"A standard <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+627:3,1e2bb9fc,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+628:3,fdbee1e3,"A <c04>bazooka-type ranged weapon</c> that fires spread shots<br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+629:3,02b123d6,"<c00>◆A huge scythe that reaps both armor and soul</c><br>A beam-bladed scythe that counts as a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+630:3,4361eb33,"The Gundam Heavyarms (EW)'s weapon: a<br><c04>gatling gun-type ranged weapon</c> with a shield<br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""<br><br>No other shield can be equipped with it",draft
+631:3,630c2153,"A high-output <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+632:3,37962ccb,"<c00>◆Double rifle with overwhelming power when linked</c><br>A powerful <c04>rifle-type (double rifle) ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Linked Charge Shot"", which joins<br>the two rifles side by side to fire a devastating beam",draft
+633:3,5c2c6fe0,"A high-output <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Grenade Launcher""",draft
+634:3,617c6f28,"<c00>◆Powerful beam saber: easy to use, with amazing power</c><br>A high-output <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+635:3,bb964334,"A powerful <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+636:3,9621ea80,"<c00>◆Top long rifle, as strong as several battleship guns</c><br>An extremely powerful <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+637:3,14ac054e,HG Nu Gundam's shield,draft
+638:3,4d9cb74d,HG Hi-Nu Gundam's shield,draft
+639:3,de9b5450,"Can fire either a focused or a diffuse beam<br>A powerful <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (usable on the move)<br>and ""Diffuse Shot"", which hits a wide area",draft
+640:3,fb325697,"The Sazabi's weapon: a powerful, beam-bladed<br><c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+641:3,6be003fd,HG Sazabi's shield,draft
+642:3,2e5f9212,"Usable only while <c00>HG Qubeley Arm</c> or <c00>HG Qubeley Mk-II Arm</c><br>is set on your machine<br>Works as a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+643:3,f65fe8d2,"Usable only while <c00>HG Qubeley Arm</c> or <c00>HG Qubeley Mk-II Arm</c><br>is set on your machine<br>Works as a <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+644:3,8f6fca3e,"<c00>◆Two famed blades that cut through anything</c><br>Katana-style physical swords: a<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+645:3,362506f2,"A beam formed into a ribbon: a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+646:3,625d46fc,"Two short physical blades that count as a<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use ""Dual Horizontal Slash"" and<br>the powerful ""Dual Vertical Slash""",draft
+647:3,dc38a8c3,"A <c04>saber-type (double saber) melee weapon</c><br>Left-hand sword: Shiranui; right-hand sword: Unryu<br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+648:3,3a51ceb5,"A standard <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+649:3,d807847f,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+650:3,d7ff54b8,"A <c04>bazooka-type ranged weapon</c> that fires spread shots<br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+651:3,01c1400e,HG Gundam Mk-II's shield,draft
+652:3,fd78f5bc,"The Sinanju's beam rifle fitted with a dedicated bazooka<br>A <c04>rifle-type ranged weapon</c> with bazooka rounds<br><br>Switches between ""Beam Rifle Shot"" (rapid fire, usable<br>on the move) and ""Bazooka Shot"" (bazooka rounds)",draft
+653:3,4ee7e27a,"<c00>◆The strongest of the HG axe-type melee weapons</c><br>The Sinanju's weapon: an extremely powerful, beam-bladed<br><c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+654:3,45cc235e,HG Sinanju's shield,draft
+655:3,8e0eb1b7,"<c00>◆Each shot is several times a normal beam rifle's power</c><br>A powerful <c04>rifle-type ranged weapon</c><br>No rapid fire, but every shot is extremely powerful<br><br>Switches between ""Normal Shot"" (usable on the move)<br>and ""Charge Shot"" (aimed high-speed shot)",draft
+656:3,db02d907,"A powerful <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+657:3,5adda2dd,"A powerful <c04>gatling gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""",draft
+658:3,29652494,"A powerful <c04>bazooka-type ranged weapon</c> with spread shots<br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+659:3,066cdbb3,HG Unicorn Gundam (Unicorn Mode)'s shield,draft
+660:3,db02d907,"A powerful <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+661:3,1ba8751e,HG Banshee (Unicorn Mode)'s shield,draft
+662:3,5cfbaae6,HG Unicorn Gundam (Destroy Mode)'s shield,draft
+663:3,62da8c04,HG Banshee (Destroy Mode)'s shield,draft
+664:3,f2296a03,HG G-3 Gundam's shield,draft
+665:3,66690061,"A high-output <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+666:3,1e2bb9fc,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+667:3,936f382f,HG Strike Gundam's shield,draft
+668:3,bd0037cf,"An original Gunpla weapon that comes with the PG Strike<br>Gundam and others, made into an HG part: a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+669:3,90dc5003,"The Sword Strike Gundam's main weapon as a separate<br>weapon part: a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+670:3,d0f4ade9,"Part of the IWSP integrated Striker Pack's weapons<br>made into a separate weapon part:<br>a <c04>gatling gun-type ranged weapon</c> with a shield<br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""<br><br>No other shield can be equipped with it",draft
+671:3,c48505c2,"Part of the IWSP integrated Striker Pack's weapons<br>made into a separate weapon part:<br>a <c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+672:3,f0ae10f9,HG Strike Rouge's shield,draft
+673:3,dc28bd8b,"A katana-style sword: a <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+674:3,6c06c7fe,HG Astray Red Frame's shield,draft
+675:3,0714f939,HG Astray Blue Frame's shield,draft
+676:3,75fe85d3,"The Twin Sword Rifle (ranged and melee) in beam rifle<br>form: works as a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)<br><br>Equipping it also adds <c00>""HG Twin Sword Rifle""</c><br>to the melee weapons you can select, at a cost of 0",draft
+677:3,46bdadc7,"Usable only with <c00>""HG Twin Sword Rifle""</c><br>as the ranged weapon<br><br>The Twin Sword Rifle (ranged and melee) in beam sword<br>form: works as a <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+678:3,14d87dff,HG Astray Green Frame's shield,draft
+679:3,01a8645b,HG Gundam Mk-II Titans's shield,draft
+680:3,aa180618,"A beam-firing <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+681:3,051dbebd,"The Geara Doga's beam-bladed <c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+682:3,7e8f24d9,"A powerful, beam-firing <c04>gatling gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""",draft
+683:3,15506444,HG Geara Doga's shield,draft
+684:3,e082c5f2,HG Rezin Schnyder's Geara Doga's shield,draft
+685:3,f9ea3056,"The Sinanju's bazooka, improved and mass-produced:<br>a <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Homing Shot"" and ""Spread Shot"",<br>which spreads after firing",draft
+686:3,bb589287,"A beam tomahawk joined with a beam lancer for a<br>stronger blade. Counts as a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+687:3,0a033696,"A powerful <c04>rifle-type ranged weapon</c> with twin beams<br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (a high-output beam).",draft
+688:3,dd965acd,"A high-power beam saber with a long beam blade<br>Counts as a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+689:3,bd51807c,"Usable only while <c00>""HG ZZ Gundam Arm""</c> is set<br>Standard part of the HG ZZ Gundam<br>Counts as the ZZ Gundam's own shield",draft
+690:3,9e535576,"A cloth-like weapon made of beams<br>Counts as a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+691:3,dba76209,"<c00>◆Beam rifle that rivals a colony laser at full output</c><br>An ultra-powerful resonance cannon (Rephaser cannon)<br>that counts as a <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" fires at maximum output",draft
+692:3,cd5eb027,"A high-output saber with thin beam blades: a<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+693:3,2f704106,"A huge spiked iron ball on a chain<br>Counts as a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+694:3,356729a9,HG Turn A Gundam's shield,draft
+695:3,9074a5ad,"<c00>◆Combo weapon that can become the ""Beam Zanber"" saber</c><br>A beam rifle made by joining the Buster Gun and<br>Beam Zanber: a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Grenade Launcher""",draft
+696:3,d59a8629,"Usable only with <c00>""HG Zanbuster""</c> as the ranged weapon<br>The Zanbuster's stock and grip, detached, form a<br><c04>saber-type melee weapon</c>, an extremely powerful<br>particle-acceleration beam saber shaped like<br>a pirate's cutlass<br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+697:3,302787e4,Mantle-like extra armor with anti-beam coating<br>Counts as a kind of shield in the Battle Simulator,draft
+698:3,1c54ccfd,"A physical-blade <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+699:3,380cef99,"A <c04>gatling gun-type ranged weapon</c> with a shield<br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""<br><br>No other shield can be equipped with it",draft
+700:3,34d509a5,"A wire weapon with an anchor at the tip<br>Counts as a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+701:3,aa180618,"A beam-firing <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+702:3,4b3c8d80,"The Destiny Gundam's weapon<br>A <c04>rifle-type ranged weapon</c>, strong and fast-firing<br><br>Switches between ""Normal Shot"" (burst fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+703:3,f5b6b862,"<c00>◆Huge anti-ship sword: the strongest HG two-hander</c><br>A long-bladed, extremely powerful<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+704:3,511ee6b2,"HG Destiny Gundam's own shield<br>Usable only while <c00>""HG Destiny Gundam Arm""</c><br>is set on your machine",draft
+705:3,f4abe38d,"An extremely powerful <c04>machine gun-type ranged weapon</c><br>with two stacked barrels<br><br>Switches between ""Rapid Fire"" from both barrels and<br>""Charged Single Shot"", which merges their beams",draft
+706:3,88e0b474,"The Gundam X's weapon: a <c04>rifle-type ranged weapon</c><br><br>It also works as a shield in the original, but its<br>shield function can't be used in the Battle Simulator<br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+707:3,ad11d568,"A large, high-output beam saber with a double-edged blade<br>Counts as a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+708:3,05d76d51,HG Destiny Gundam's shield,draft
+709:3,da4ea2f1,"The Build Strike Gundam's <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+710:3,3e69b315,"The Build Strike Gundam's high-output<br><c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+711:3,01424e78,"The Build Strike Gundam's beam rifle, modified for<br>more output and fire rate: a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (burst fire, usable<br>on the move) and ""Charge Shot"" (a high-output beam).",draft
+712:3,be359101,HG Build Strike Gundam's shield,draft
+713:3,79fcb5fc,"A high-output beam rifle, also called a Beam Smart Gun<br>Counts as a <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+714:3,de989e72,"<c00>◆Cuts any armor: the strongest HG whip-type melee weapon</c><br>A <c04>whip-type melee weapon</c> that heats up to melt enemies<br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+715:3,8c57a5a2,"A <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+716:3,6d129175,"A <c04>whip-type melee weapon</c> made of linked mines<br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+717:3,1c20cd5f,"Usable only with <c00>""HG GN Lance""</c> as the melee weapon<br>Works as a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+718:3,7e21320a,"A powerful <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line<br><br>It also works as a rifle: equipping it adds<br><c00>""HG GN Lance""</c> to the ranged weapons you can select,<br>at a cost of 0",draft
+719:3,2c66a7ae,"The Gundam's standard <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+720:3,5ff0e051,"The Gundam's standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+721:3,2240e389,"A standard <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"" and ""Homing Shot""",draft
+722:3,3aef3ecd,"A spear-like <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+723:3,ca07f4f5,MG Gundam's shield,draft
+724:3,173d297b,"A drum-fed <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+725:3,ae7434f8,"A standard <c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+726:3,2240e389,"A standard <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"" and ""Homing Shot""",draft
+727:3,96877529,"A <c04>machine gun-type ranged weapon</c> with a grenade launcher<br><br>Switches between machine gun ""Rapid Fire""<br>and ""Grenade Launcher""",draft
+728:3,b4602d67,"The turret gun of the Magella Attack tank (Magella Top)<br>converted into a hand-held <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+729:3,35560aee,"An enhanced <c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+730:3,2fc979be,"A huge, long-handled heat hawk<br>Shaped like an axe, but counts as a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+731:3,fe7ba5bf,"The Strike Freedom Gundam's powerful<br><c04>rifle-type (double rifle) ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Linked Charge Shot"", which joins<br>the two rifles end to end to fire a powerful beam",draft
+732:3,4068046e,"<c00>◆High-output double saber, one of the strongest sabers</c><br>The Strike Freedom Gundam's powerful<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+733:3,0d022075,"MG Strike Freedom Gundam's own shield<br>Usable only while <c00>""MG Strike Freedom Gundam Arm""</c><br>is set on your machine",draft
+734:3,212439a2,"The Freedom Gundam's powerful <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+735:3,c48bfe1a,"The Freedom Gundam's high-output<br><c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+736:3,9e5212fe,MG Freedom Gundam's shield,draft
+737:3,46fa3612,"A <c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+738:3,472aa68e,"A large <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"" and ""Homing Shot""",draft
+739:3,8d4bf32b,"A handgun-style <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+740:3,aea37a80,"Two beam sabers on an extendable rod, forming a<br>spear-like <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+741:3,5395bca4,"A <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+742:3,340f251c,MG shield that comes with the GM Kai and others,draft
+743:3,d6ef902e,"An easy-to-handle <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+744:3,054da5f2,MG GM Command's shield,draft
+745:3,c2c63760,MG GM Custom's shield,draft
+746:3,796a2604,"Usable only with <c00>""MG GN Sword III""</c> as the melee weapon<br>The GN Sword III transforms into a<br><c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+747:3,56b2a20e,"<c00>◆Extremely powerful: the strongest MG saber-type weapon</c><br><c05>≪Teaches EX-Action ""Raiser Sword""≫</c><br><br>A powerful <c04>saber-type melee weapon</c><br>Wide ""Horizontal Slash"" and powerful ""Vertical Slash""<br><br>Equipping it adds <c00>""MG GN Sword III Rifle Mode""</c><br>to the ranged weapons you can select, at a cost of 0",draft
+748:3,bbdbd27c,"Usable only with <c00>""MG GN Sword II""</c> as the melee weapon<br>The GN Sword II transforms into a<br><c04>rifle-type (double rifle) ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+749:3,c7011667,"A powerful <c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""<br><br>Equipping it adds <c00>""MG GN Sword II Rifle Mode""</c><br>to the ranged weapons you can select, at a cost of 0",draft
+750:3,1f925e4e,"A <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot<br><br>Equipping it adds <c00>""MG Long Beam Saber""</c><br>to the melee weapons you can select, at a cost of 0",draft
+751:3,1e2bb9fc,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+752:3,5f6f459b,"Usable only with <c00>""MG Beam Rifle (Zeta)""</c><br>as the ranged weapon<br><br>Forms a beam blade at the Beam Rifle (Zeta)'s muzzle<br>and works as a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+753:3,0a6fb93d,MG Zeta Gundam's shield,draft
+754:3,3a51ceb5,"A standard <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+755:3,1e2bb9fc,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+756:3,fdbee1e3,"A <c04>bazooka-type ranged weapon</c> that fires spread shots<br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+757:3,02b123d6,"<c00>◆A huge scythe that reaps both armor and soul</c><br>A beam-bladed scythe that counts as a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+758:3,4361eb33,"The Gundam Heavyarms (EW)'s weapon: a<br><c04>gatling gun-type ranged weapon</c> with a shield<br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""<br><br>No other shield can be equipped with it",draft
+759:3,630c2153,"A high-output <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+760:3,37962ccb,"<c00>◆Double rifle with overwhelming power when linked</c><br>A powerful <c04>rifle-type (double rifle) ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Linked Charge Shot"", which joins<br>the two rifles side by side to fire a devastating beam",draft
+761:3,5c2c6fe0,"A high-output <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Grenade Launcher""",draft
+762:3,617c6f28,"<c00>◆Powerful beam saber: easy to use, with amazing power</c><br>A high-output <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+763:3,23220d55,"<c00>◆Small-caliber bazooka with hugely destructive warheads</c><br>A powerful <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+764:3,9621ea80,"<c00>◆Top long rifle, as strong as several battleship guns</c><br>An extremely powerful <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+765:3,f1527e2e,MG Nu Gundam's shield,draft
+766:3,d46d216a,MG Hi-Nu Gundam's shield,draft
+767:3,de9b5450,"Can fire either a focused or a diffuse beam<br>A powerful <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (usable on the move)<br>and ""Diffuse Shot"", which hits a wide area",draft
+768:3,fb325697,"The Sazabi's weapon: a powerful, beam-bladed<br><c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+769:3,b264fb9c,MG Sazabi's shield,draft
+770:3,fbb15afb,"Usable only while <c00>MG Qubeley Arm</c> or <c00>MG Qubeley Mk-II Arm</c><br>is set on your machine<br>Works as a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+771:3,92cb02a8,"Usable only while <c00>MG Qubeley Arm</c> or <c00>MG Qubeley Mk-II Arm</c><br>is set on your machine<br>Works as a <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+772:3,8f6fca3e,"<c00>◆Two famed blades that cut through anything</c><br>Katana-style physical swords: a<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+773:3,c30d161f,"A beam formed into a ribbon: a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+774:3,625d46fc,"Two short physical blades that count as a<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use ""Dual Horizontal Slash"" and<br>the powerful ""Dual Vertical Slash""",draft
+775:3,dc38a8c3,"A <c04>saber-type (double saber) melee weapon</c><br>Left-hand sword: Shiranui; right-hand sword: Unryu<br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+776:3,3a51ceb5,"A standard <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+777:3,d807847f,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+778:3,d7ff54b8,"A <c04>bazooka-type ranged weapon</c> that fires spread shots<br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+779:3,7ed6d65c,MG Gundam Mk-II's shield,draft
+780:3,fd78f5bc,"The Sinanju's beam rifle fitted with a dedicated bazooka<br>A <c04>rifle-type ranged weapon</c> with bazooka rounds<br><br>Switches between ""Beam Rifle Shot"" (rapid fire, usable<br>on the move) and ""Bazooka Shot"" (bazooka rounds)",draft
+781:3,31dc13bd,"<c00>◆The strongest of the MG axe-type melee weapons</c><br>The Sinanju's weapon: an extremely powerful, beam-bladed<br><c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+782:3,77c0afbb,MG Sinanju's shield,draft
+783:3,8e0eb1b7,"<c00>◆Each shot is several times a normal beam rifle's power</c><br>A powerful <c04>rifle-type ranged weapon</c><br>No rapid fire, but every shot is extremely powerful<br><br>Switches between ""Normal Shot"" (usable on the move)<br>and ""Charge Shot"" (aimed high-speed shot)",draft
+784:3,db02d907,"A powerful <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+785:3,c8627b93,"<c00>◆Huge four-barrel beam gatling: the strongest gatling gun</c><br>A powerful <c04>gatling gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""",draft
+786:3,ea4aba9d,"<c00>◆Destructive bazooka modified for the Unicorn Gundam</c><br>A powerful <c04>bazooka-type ranged weapon</c> with spread shots<br><br>Switches between ""Normal Round"", which explodes on<br>impact, and ""Spread Shot"", which spreads after firing",draft
+787:3,87a6e898,MG Unicorn Gundam (Unicorn Mode)'s shield,draft
+788:3,db02d907,"A powerful <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+789:3,9418f9be,MG Banshee (Unicorn Mode)'s shield,draft
+790:3,ee0387d6,MG Unicorn Gundam (Destroy Mode)'s shield,draft
+791:3,0feb0ac8,MG Banshee (Destroy Mode)'s shield,draft
+792:3,cb9744a5,MG G-3 Gundam's shield,draft
+793:3,66690061,"A high-output <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+794:3,1e2bb9fc,"A standard <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+795:3,c338dec7,MG Strike Gundam's shield,draft
+796:3,416fd006,"An original Gunpla weapon that comes with the MG Strike<br>Gundam: a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+797:3,90dc5003,"The Sword Strike Gundam's main weapon as a separate<br>weapon part: a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+798:3,d0f4ade9,"Part of the IWSP integrated Striker Pack's weapons<br>made into a separate weapon part:<br>a <c04>gatling gun-type ranged weapon</c> with a shield<br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""<br><br>No other shield can be equipped with it",draft
+799:3,c48505c2,"Part of the IWSP integrated Striker Pack's weapons<br>made into a separate weapon part:<br>a <c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+800:3,6a481def,MG Strike Rouge's shield,draft
+801:3,dc28bd8b,"A katana-style sword: a <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+802:3,3abc5acb,MG Astray Red Frame's shield,draft
+803:3,a5f8bde8,MG Astray Blue Frame's shield,draft
+804:3,295c743e,"The Twin Sword Rifle (ranged and melee) in beam rifle<br>form: works as a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)<br><br>Equipping it also adds <c00>""MG Twin Sword Rifle""</c><br>to the melee weapons you can select, at a cost of 0",draft
+805:3,27dfbfdd,"Usable only with <c00>""MG Twin Sword Rifle""</c><br>as the ranged weapon<br><br>The Twin Sword Rifle (ranged and melee) in beam sword<br>form: works as a <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+806:3,e99b3bea,MG Astray Green Frame's shield,draft
+807:3,f489118c,MG Gundam Mk-II Titans's shield,draft
+808:3,aa180618,"A beam-firing <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+809:3,051dbebd,"The Geara Doga's beam-bladed <c04>axe-type melee weapon</c><br><br>Can use the quick ""Horizontal Slash"" and<br>the big, powerful ""Full Swing""",draft
+810:3,7e8f24d9,"A powerful, beam-firing <c04>gatling gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""",draft
+811:3,d433f8a4,MG Geara Doga's shield,draft
+812:3,f3d68bba,MG Rezin Schnyder's Geara Doga's shield,draft
+813:3,f9ea3056,"The Sinanju's bazooka, improved and mass-produced:<br>a <c04>bazooka-type ranged weapon</c><br><br>Switches between ""Homing Shot"" and ""Spread Shot"",<br>which spreads after firing",draft
+814:3,bb589287,"A beam tomahawk joined with a beam lancer for a<br>stronger blade. Counts as a<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+815:3,0a033696,"A powerful <c04>rifle-type ranged weapon</c> with twin beams<br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (a high-output beam).",draft
+816:3,dd965acd,"A high-power beam saber with a long beam blade<br>Counts as a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+817:3,b55013df,"Usable only while <c00>""MG ZZ Gundam Arm""</c> is set<br>Standard part of the MG ZZ Gundam<br>Counts as the ZZ Gundam's own shield",draft
+818:3,9e535576,"A cloth-like weapon made of beams<br>Counts as a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+819:3,dba76209,"<c00>◆Beam rifle that rivals a colony laser at full output</c><br>An ultra-powerful resonance cannon (Rephaser cannon)<br>that counts as a <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" fires at maximum output",draft
+820:3,cd5eb027,"A high-output saber with thin beam blades: a<br><c04>saber-type (double saber) melee weapon</c><br><br>Can use the wide-reaching ""Dual Horizontal Slash""<br>and the powerful ""Dual Vertical Slash""",draft
+821:3,2f704106,"A huge spiked iron ball on a chain<br>Counts as a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+822:3,c13066d6,MG Turn A Gundam's shield,draft
+823:3,fb6d143b,"<c00>◆Combo weapon that can also use the ""Beam Zanber"" saber</c><br>A beam rifle made by joining the Buster Gun and<br>Beam Zanber: a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Grenade Launcher""",draft
+824:3,0840fc79,"Usable only with <c00>""MG Zanbuster""</c> as the ranged weapon<br>The Zanbuster's stock and grip, detached, form a<br><c04>saber-type melee weapon</c>, an extremely powerful<br>particle-acceleration beam saber shaped like<br>a pirate's cutlass<br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+825:3,302787e4,Mantle-like extra armor with anti-beam coating<br>Counts as a kind of shield in the Battle Simulator,draft
+826:3,1c54ccfd,"A physical-blade <c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+827:3,380cef99,"A <c04>gatling gun-type ranged weapon</c> with a shield<br><br>Switches between ""Rapid Fire"" (dense, sustained<br>suppressing fire around the target) and the wide ""Strafe""<br><br>No other shield can be equipped with it",draft
+828:3,34d509a5,"A wire weapon with an anchor at the tip<br>Counts as a <c04>whip-type melee weapon</c><br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+829:3,aa180618,"A beam-firing <c04>machine gun-type ranged weapon</c><br><br>Switches between ""Rapid Fire"" (suppressing fire,<br>usable on the move) and the wide ""Strafe""",draft
+830:3,4b3c8d80,"The Destiny Gundam's weapon<br>A <c04>rifle-type ranged weapon</c>, strong and fast-firing<br><br>Switches between ""Normal Shot"" (burst fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+831:3,daa816e3,"<c00>◆Huge anti-ship sword: the strongest MG two-hander</c><br>A long-bladed, extremely powerful<br><c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+832:3,a7ee7f6c,"MG Destiny Gundam's own shield<br>Usable only while <c00>""MG Destiny Gundam Arm""</c><br>is set on your machine",draft
+833:3,28ad8b45,"<c00>◆Strongest machine gun: a redesigned warship mega cannon</c><br>An extremely powerful <c04>machine gun-type ranged weapon</c><br>with two stacked barrels<br><br>Switches between ""Rapid Fire"" from both barrels and<br>""Charged Single Shot"", which merges their beams",draft
+834:3,88e0b474,"The Gundam X's weapon: a <c04>rifle-type ranged weapon</c><br><br>It also works as a shield in the original, but its<br>shield function can't be used in the Battle Simulator<br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+835:3,ad11d568,"A large, high-output beam saber with a double-edged blade<br>Counts as a <c04>two-handed sword-type melee weapon</c><br><br>Can use ""Horizontal Slash"" for damage over a wide area<br>and ""Vertical Slash"" for heavy damage on one point",draft
+836:3,004ea064,MG Destiny Gundam's shield,draft
+837:3,da4ea2f1,"The Build Strike Gundam's <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+838:3,3e69b315,"The Build Strike Gundam's high-output<br><c04>saber-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Slash"" and<br>the fast, powerful ""Vertical Slash""",draft
+839:3,01424e78,"The Build Strike Gundam's beam rifle, modified for<br>more output and fire rate: a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (burst fire, usable<br>on the move) and ""Charge Shot"" (a high-output beam).",draft
+840:3,7a46e056,MG Build Strike Gundam's shield,draft
+841:3,3f7698f7,"<c00>◆Powerful long rifle using an open-barrel mega cannon</c><br>A high-output beam rifle, also called a Beam Smart Gun<br>Counts as a <c04>long rifle-type ranged weapon</c><br><br>""Normal Shot"" fires high-speed rounds from a braced<br>stance; ""Charge Shot"" is an aimed precision shot",draft
+842:3,575ae645,"<c00>◆Cuts any armor: the strongest MG whip-type melee weapon</c><br>A <c04>whip-type melee weapon</c> that heats up to melt enemies<br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+843:3,8c57a5a2,"A <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line",draft
+844:3,6d129175,"A <c04>whip-type melee weapon</c> made of linked mines<br><br>Can use ""Horizontal Swing"", whose length reaches a<br>wide area, and the fast, powerful ""Vertical Swing""",draft
+845:3,058f0cb8,"Usable only with <c00>""MG GN Lance""</c> as the melee weapon<br>Works as a <c04>rifle-type ranged weapon</c><br><br>Switches between ""Normal Shot"" (rapid fire, usable<br>on the move) and ""Charge Shot"" (aimed high-speed shot)",draft
+846:3,f0c9c154,"<c00>◆Top lance: its GN Field-wrapped tip pierces anything</c><br>A powerful <c04>lance-type melee weapon</c><br><br>Can use the wide-reaching ""Horizontal Swing"" and<br>""Thrust"", which deals heavy damage to enemies in a line<br><br>It also works as a rifle: equipping it adds<br><c00>""MG GN Lance""</c> to the ranged weapons you can select,<br>at a cost of 0",draft
