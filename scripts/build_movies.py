@@ -16,10 +16,12 @@ Only the GOPs that show a cue are re-encoded; every other picture is copied byte
 xdelta patches) stay close to the originals:
   1. ffmpeg decodes the whole video with the cue overlays (frame numbers, -fps_mode passthrough).
   2. Each GOP (closed, I P B B ..., 1-13 pictures) that overlaps a cue is encoded on its own as MPEG-1 with
-     ffmpeg's mpeg1video: same picture count, closed GOP, B-frames, and the GOP's own quantiser matrices (CRI's
-     encoder uses non-default ones and changes them from GOP to GOP).
-  3. ffmpeg writes one slice per thread; the originals have one slice per macroblock row, and on a real Vita CRI's
-     decoder shows flickering garbage for slices that span rows (Vita3K/ffmpeg don't mind). tools/mpeg1.py's
+     ffmpeg's mpeg1video: same picture count, closed GOP, the GOP's own quantiser matrices (CRI's encoder uses
+     non-default ones and changes them from GOP to GOP), and **I and P pictures only**. The originals' B pictures
+     never use bidirectional (interpolated) macroblocks; ffmpeg's do, and on a real Vita CRI Mana's decoder showed
+     those B pictures garbled (doubled, shifted text once per GOP). Without B pictures the coded order is the
+     display order; the player takes the order from the temporal references (chunk times just count pictures).
+  3. ffmpeg writes one slice per thread; the originals have one slice per macroblock row. tools/mpeg1.py's
      reslice() splits every picture into one slice per row without changing what it decodes to.
   3b. The movies use 11-bit intra DC precision (TMPGEnc "IDCPREC" user data in every sequence header, mpeg_dcprec
      11 in the USM header), which ffmpeg's MPEG-1 encoder can't write: tools/mpeg1.py re-codes every intra DC
@@ -127,7 +129,7 @@ def natural(zigzag_matrix):
 def encode_gop(ff, frames, size, rate, matrices, q):
     w, h = size
     args = [ff, "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "yuv420p", "-s", f"{w}x{h}", "-r", rate,
-            "-i", "-", "-c:v", "mpeg1video", "-q:v", str(q), "-g", str(len(frames)), "-bf", "2", "-b_strategy", "0",
+            "-i", "-", "-c:v", "mpeg1video", "-q:v", str(q), "-g", str(len(frames)), "-bf", "0",
             "-sc_threshold", "1000000000", "-flags", "+cgop", "-mbd", "rd", "-trellis", "1", "-cmp", "2", "-subcmp", "2"]
     intra, inter = matrices
     if intra:
