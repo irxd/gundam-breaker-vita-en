@@ -315,7 +315,14 @@ with this change restored `PG Zeta Gundam Variant` in chr4482-4487; the others s
   that overlap a cue are re-encoded (each on its own, same picture count, the GOP's matrices, original sequence and
   GOP headers kept); all other pictures are copied byte for byte. A re-encoded GOP may use up to 1.5x its original
   bytes, and no picture may be larger than the file's largest original picture (the buffer fields stay valid).
-- **Subtitle flicker on the real Vita (2026-11-25): overlapping cues.** Each cue was padded by `PAD` frames on both
+- **Garbled frames on the real Vita (2026-11-25): no B pictures.** A screen recording showed single frames once
+  per GOP with doubled, shifted text and blocky moving edges. The originals' B pictures never use bidirectional
+  (interpolated) macroblocks and their vectors are almost all zero (CRI's encoder settings); ffmpeg's B pictures use
+  hundreds of bidirectional macroblocks with real vectors, which CRI Mana's decoder gets wrong (ffmpeg and the
+  previews are fine). Re-encoded GOPs are now I + P only (`-bf 0`): same picture count, temporal references in
+  display order. The player orders by temporal reference; chunk times count pictures in stream order and
+  `VIDEO_SEEKINFO.num_skip` is 0, so nothing else changes.
+- **Subtitle flicker at line changes: overlapping cues.** Each cue was padded by `PAD` frames on both
   sides, so cues that follow each other directly were both drawn for ~8 frames at every change of line (text
   flashing between two lines, the previous box showing behind the new one). `cue_frames()` now never pads into a
   neighbouring cue. Check line changes, not only mid-cue frames, when previewing.
