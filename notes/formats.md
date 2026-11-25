@@ -16,7 +16,12 @@ fake-signed eboot from the ELF. Converting it back with SGM's `unfself.py` gives
 
 The update (`ux0:patch/PCSG00126`) has **only** the eboot, modules and sce_sys, so all game data comes from the base
 game. 1.01 added a control-scheme screen for PS TV and showed the version on the title screen; 1.02 is "stability".
-No DLC folder has been checked yet.
+**DLC (checked 2026-11-26): probably none was ever released.** The game has DLC code and art: a store banner for a
+"Giga Break Mission Pack" (`GP/ui/ui_dds/dialog/leadbanner`), `hud_dlcm_*` HUD textures, `title_btn_dlc_*`, and three
+help lines (ui_help_detail 668-670) saying the DLC is needed. Those help lines still use a placeholder name ("DLC
+name TBD"), and no web source mentions the pack. The `hud_dlcm_*` HUD matches Area Raid / Team Attack battles,
+which shipped free with the 30 extra missions of the Vita release and PS3 update 1.02 (31 Oct 2013). So there's no
+`ux0:addcont` to dump; the banner and help lines are translated anyway (harmless if never shown).
 
 ## Layout of `app/PCSG00126/`
 

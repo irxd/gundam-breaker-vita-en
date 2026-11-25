@@ -11,7 +11,8 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 
 **Phase 0 done: GO (2026-11-08).** Details in [notes/formats.md](notes/formats.md).
 
-- Title ID: **PCSG00126**. Base 01.00, update 01.02 (the update is only the eboot). DLC: not checked.
+- Title ID: **PCSG00126**. Base 01.00, update 01.02 (the update is only the eboot). DLC: none
+  released as far as we can tell (see notes/formats.md, "DLC").
 - Engine: Crafts & Meister "Gx". Data is in `masterPSP2/GxArchivedFile00x.dat` (GDAT, big-endian, entries are
   zlib "BILZ"). Tool: `tools/gdat.py`.
 - Text: UTF-8 inside `dt2` tables. What the game shows comes from `GP/text/*` inside the `pac` bundles in
