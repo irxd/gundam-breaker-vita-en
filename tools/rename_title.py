@@ -6,7 +6,7 @@ Real Vita: the home screen and LiveArea take the name from the system's app data
 which is filled in when the game is installed (param.sfo is not read again, and rePatch does not apply to
 the system software). Copy app.db to the PC, run this on it, copy it back and restart the Vita.
 Changed: the tbl_appinfo rows and tbl_appinfo_icon.title of PCSG00126 that still hold the Japanese title or
-the two-line short title. Nothing else in the database is touched.
+the two-line short title (or the mixed-case English name of patch 0.1.0). Nothing else in the database is touched.
 
 A param.sfo (sce_sys/param.sfo) is also accepted: its TITLE/STITLE fields are changed.
 
@@ -25,7 +25,9 @@ from build_sfo import NL, STITLE, TITLE, VALUES, set_strings  # noqa: E402
 TITLE_ID = "PCSG00126"
 # The Japanese title as code points (the repo keeps kana out of its files): "Gandamu Bureika".
 JA_TITLE = "".join(map(chr, [0x30AC, 0x30F3, 0x30C0, 0x30E0, 0x30D6, 0x30EC, 0x30A4, 0x30AB, 0x30FC]))
-JA = {JA_TITLE: TITLE, JA_TITLE[:4] + NL + JA_TITLE[4:]: STITLE}
+# Old -> new; the mixed-case names are from patch 0.1.0 and earlier, so a renamed app.db gets updated too.
+JA = {JA_TITLE: TITLE, JA_TITLE[:4] + NL + JA_TITLE[4:]: STITLE,
+      "Gundam Breaker": TITLE, "Gundam" + NL + "Breaker": STITLE}
 
 
 def rename_db(path):

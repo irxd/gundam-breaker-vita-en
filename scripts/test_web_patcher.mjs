@@ -75,7 +75,7 @@ for (const e of manifest.files) {
   check(titleFileKind(sfo) === 'sfo', 'param.sfo recognised');
   const r = renameSfo(sfo);
   const text = new TextDecoder().decode(r.bytes);
-  check(r.changed && text.includes('Gundam Breaker') && text.includes('Gundam\nBreaker'), 'param.sfo renamed');
+  check(r.changed && text.includes('GUNDAM BREAKER') && text.includes('GUNDAM\nBREAKER'), 'param.sfo renamed');
 }
 
 console.log(failed ? `\n${failed} check(s) FAILED` : '\nall checks passed');

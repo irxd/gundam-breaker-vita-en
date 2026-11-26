@@ -13,8 +13,8 @@ import struct
 import sys
 
 NL = chr(10)
-TITLE = "Gundam Breaker"
-STITLE = "Gundam" + NL + "Breaker"      # short title under the icon, two lines like the original
+TITLE = "GUNDAM BREAKER"                # upper case, like the official "GUNDAM BREAKER 3"
+STITLE = "GUNDAM" + NL + "BREAKER"      # short title under the icon, two lines like the original
 VALUES = {"TITLE": TITLE, "TITLE_00": TITLE, "STITLE": STITLE, "STITLE_00": STITLE}
 
 
