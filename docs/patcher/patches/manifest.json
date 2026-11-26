@@ -16,8 +16,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/masterPSP2/GxArchivedFile000.dat",
-    "size": 1497531839,
-    "sha1": "5b61bee010b1cbaacb844bc4bc5869b2767f77a4"
+    "size": 1497531865,
+    "sha1": "1c2ff8a2ae5ca370a6cf0b94c66085edae686e02"
    }
   },
   {
@@ -30,8 +30,8 @@
    },
    "target": {
     "path": "rePatch/PCSG00126/masterPSP2/GxArchivedFile002.dat",
-    "size": 542101821,
-    "sha1": "53ffc37d545a1408208f935c694ff3b04fdb6237"
+    "size": 542101571,
+    "sha1": "1f5f3ace4bef6d9070a385c3430202f8eabf1563"
    }
   },
   {
