@@ -286,7 +286,7 @@ id,ja_hash,en,notes
 285:3,5df659de,No special traits,draft
 286:3,5df659de,No special traits,draft
 287:3,5df659de,No special traits,draft
-288:3,09d469f4,"<c00>◆Carries the fearsome strategic weapon Satellite Cannon</c><br><c05>≪Teaches EX-Action ""Satellite Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Large Beam Sword"" and ""Shoulder Vulcan""</c><br>Can use the EX-Action <c01>""Satellite Cannon""</c><br><c02>""Shoulder Vulcan""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+288:3,09d469f4,"<c00>◆Carries the fearsome strategic weapon Satellite Cannon</c><br><c05>≪Teaches EX-Action ""Satellite Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Large Beam Sword"" and ""Shoulder Vulcan""</c><br>Can use the EX-Action <c01>""Satellite Cannon""</c><br><c02>""Shoulder Vulcan""</c> also fires in <c01>""Full Open Attack""</c>",draft
 289:3,ada4dd22,"Comes with the option equipment <c02>""Breast Vulcan""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
 290:3,bccb176b,The machine's actions become the <c04>female type</c>,draft
 291:3,b439496b,"Comes with the option equipment<br><c02>""Head Vulcan (Build Strike)""</c>",draft
@@ -581,7 +581,7 @@ id,ja_hash,en,notes
 580:3,5df659de,No special traits,draft
 581:3,5df659de,No special traits,draft
 582:3,5df659de,No special traits,draft
-583:3,09d469f4,"<c00>◆Carries the fearsome strategic weapon Satellite Cannon</c><br><c05>≪Teaches EX-Action ""Satellite Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Large Beam Sword"" and ""Shoulder Vulcan""</c><br>Can use the EX-Action <c01>""Satellite Cannon""</c><br><c02>""Shoulder Vulcan""</c> fires as part of<br>the EX-Action <c01>""Full Open Attack""</c>",draft
+583:3,09d469f4,"<c00>◆Carries the fearsome strategic weapon Satellite Cannon</c><br><c05>≪Teaches EX-Action ""Satellite Cannon""≫</c><br><br>Movement type becomes Flight<br><br>Comes with the option equipment<br><c02>""Large Beam Sword"" and ""Shoulder Vulcan""</c><br>Can use the EX-Action <c01>""Satellite Cannon""</c><br><c02>""Shoulder Vulcan""</c> also fires in <c01>""Full Open Attack""</c>",draft
 584:3,ada4dd22,"Comes with the option equipment <c02>""Breast Vulcan""</c><br><br>Fires as part of the EX-Action <c01>""Full Open Attack""</c>",draft
 585:3,bccb176b,The machine's actions become the <c04>female type</c>,draft
 586:3,b439496b,"Comes with the option equipment<br><c02>""Head Vulcan (Build Strike)""</c>",draft

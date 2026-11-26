@@ -88,11 +88,11 @@ id,ja_hash,en,notes
 87:1,3bde4baf,Fires the backpack-mounted beam cannons<br>at the enemies ahead,draft
 88:1,3bde4baf,Fires the backpack-mounted beam cannons<br>at the enemies ahead,draft
 89:1,2040e05d,Fires a beam from the chest beam gun<br>Its output is weak; good only for scaring,draft
-90:1,b1b6570c,Sprays a wide area ahead with spread beams<br>from the abdominal spread mega particle cannon<br>Powerful with a wide range,draft
+90:1,b1b6570c,Sprays a wide area ahead with beams from<br>the abdominal spread mega particle cannon<br>Powerful with a wide range,draft
 91:1,2040e05d,Fires a beam from the chest beam gun<br>Its output is weak; good only for scaring,draft
-92:1,b1b6570c,Sprays a wide area ahead with spread beams<br>from the abdominal spread mega particle cannon<br>Powerful with a wide range,draft
-93:1,d0d6b3b1,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 6 targets</c><br>Fires 8 homing missiles from the sides of<br>both wing binders at the targets and around them,draft
-94:1,d0d6b3b1,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 6 targets</c><br>Fires 8 homing missiles from the sides of<br>both wing binders at the targets and around them,draft
+92:1,b1b6570c,Sprays a wide area ahead with beams from<br>the abdominal spread mega particle cannon<br>Powerful with a wide range,draft
+93:1,d0d6b3b1,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 6 targets</c><br>Fires 8 homing missiles from the sides of<br>both wing binders at and around the targets,draft
+94:1,d0d6b3b1,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 6 targets</c><br>Fires 8 homing missiles from the sides of<br>both wing binders at and around the targets,draft
 95:1,44efae5e,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 2 targets</c><br>Fires the twin missile launcher on the<br>combo weapon pod at the locked targets,draft
 96:1,44efae5e,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 2 targets</c><br>Fires the twin missile launcher on the<br>combo weapon pod at the locked targets,draft
 97:1,011420d3,<c04>Hold ⑬ to multi-lock</c><br><c04>Multi-locks up to 6 targets</c><br>Fires homing missiles from both shoulder<br>armors at the targets and around them,draft
@@ -103,8 +103,8 @@ id,ja_hash,en,notes
 102:1,3d4a0022,Hits the enemies ahead and around them<br>with leg-mounted missile pods,draft
 103:1,a0abfa54,"Fires a stream of micro missiles from<br>launcher pods on both legs, saturating<br>the area ahead",draft
 104:1,a0abfa54,"Fires a stream of micro missiles from<br>launcher pods on both legs, saturating<br>the area ahead",draft
-105:1,9aba6d10,Stalls enemies with a machine gun in the right arm<br>Much faster rounds than head vulcans<br>Quick to use; good for close-mid follow-ups<br>and covering melee/ranged openings,draft
-106:1,9aba6d10,Stalls enemies with a machine gun in the right arm<br>Much faster rounds than head vulcans<br>Quick to use; good for close-mid follow-ups<br>and covering melee/ranged openings,draft
+105:1,9aba6d10,Stalls enemies with the right-arm machine gun<br>Much faster rounds than head vulcans<br>Quick to use; good for close-mid follow-ups<br>and covering melee/ranged openings,draft
+106:1,9aba6d10,Stalls enemies with the right-arm machine gun<br>Much faster rounds than head vulcans<br>Quick to use; good for close-mid follow-ups<br>and covering melee/ranged openings,draft
 107:1,b950e12d,Fires homing rounds from the twin grenade<br>launcher on the right arm<br>Hits the target and the area around it,draft
 108:1,b950e12d,Fires homing rounds from the twin grenade<br>launcher on the right arm<br>Hits the target and the area around it,draft
 109:1,c42944b9,Throws the two beam sabers on the waist<br>forward as beam daggers<br>Small opening and high power,draft
@@ -127,7 +127,7 @@ id,ja_hash,en,notes
 126:1,4d575eb2,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 127:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 128:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
-129:1,2c57e02d,Draws the Gerbera Straight and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
+129:1,2c57e02d,"Draws the Gerbera Straight, slashing upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down",draft
 130:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 131:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 132:1,4d575eb2,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
@@ -147,7 +147,7 @@ id,ja_hash,en,notes
 146:1,4d575eb2,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 147:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 148:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
-149:1,2c57e02d,Draws the Gerbera Straight and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
+149:1,2c57e02d,"Draws the Gerbera Straight, slashing upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down",draft
 150:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 151:1,4877e0da,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
 152:1,4d575eb2,Draws the beam saber and slashes upward<br>Hit falling enemies from the ground or<br>jump and follow up in the air<br>Can't lift enemies who are down,draft
@@ -276,13 +276,13 @@ id,ja_hash,en,notes
 275:1,eb436fba,"<c05>Usable with no melee weapon</c><br><c04>1500％ of Melee damage (no effect on MA/PG)</c><br>The energized palm burns bright red,<br>roaring to grasp victory in an exploding charge",draft
 276:1,a225ef94,<c04>230％ of melee attack damage</c><br><c04>Power depends on Melee aptitude</c><br>Charges with boost thrust and slams enemies<br>in a straight line with a shoulder tackle<br>Can also be used to dodge,draft
 277:1,179d56f8,<c04>320％ of melee attack damage</c><br><c04>Power depends on Melee aptitude</c><br>A comet-like falling kick from the air<br>that sends a shockwave through the ground<br>Enemies blown away can be hit again,draft
-278:1,aac36332,Fires powerful beams from the Balaena plasma<br>beam cannons of the <c00>Freedom Gundam Backpack</c>,draft
+278:1,aac36332,Fires powerful beams from the Balaena<br>plasma beam cannons of the<br><c00>Freedom Gundam Backpack</c>,draft
 279:1,519047ad,Somehow fires powerful beams from the<br>beam recorder of the <c00>Beargguy Backpack</c>,draft
 280:1,cc77c6f6,"Fires powerful beams from the 320mm hyper<br>impulse cannon ""Agni"" of the<br><c00>Launcher Strike Gundam Backpack</c>",draft
 281:1,ca19617e,Fires the powerful 115mm railgun of the<br><c00>Strike Gundam + IWSP Backpack</c>,draft
 282:1,bfb14651,Fires the powerful High Mega Cannon<br>of the <c00>ZZ Gundam Head</c>,draft
 283:1,94b3b4ee,Fires the powerful high-energy long-range<br>beam cannon of the<br><c00>Destiny Gundam Backpack</c>,draft
-284:1,aac36332,Fires powerful beams from the Balaena plasma<br>beam cannons of the <c00>Freedom Gundam Backpack</c>,draft
+284:1,aac36332,Fires powerful beams from the Balaena<br>plasma beam cannons of the<br><c00>Freedom Gundam Backpack</c>,draft
 285:1,519047ad,Somehow fires powerful beams from the<br>beam recorder of the <c00>Beargguy Backpack</c>,draft
 286:1,cc77c6f6,"Fires powerful beams from the 320mm hyper<br>impulse cannon ""Agni"" of the<br><c00>Launcher Strike Gundam Backpack</c>",draft
 287:1,ca19617e,Fires the powerful 115mm railgun of the<br><c00>Strike Gundam + IWSP Backpack</c>,draft

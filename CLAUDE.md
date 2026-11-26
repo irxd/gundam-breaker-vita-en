@@ -51,7 +51,8 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
   when ffmpeg's pictures are too costly (q 2 glitched on the Vita; ffmpeg previews never show it). **Test movies in
   Vita3K** as the title-screen movie (method in notes/formats.md, "Movies"). Cues must not overlap (`cue_frames`: padding never reaches a neighbouring cue), and
   re-encoded pictures get one slice per macroblock row like the originals (`mpeg1.reslice`). See notes/formats.md.
-- Dialogue lines don't wrap in game: check `voice_event_text` widths with `python -E -P scripts/wrap_dialogue.py`.
+- Dialogue lines don't wrap in game: check `voice_event_text` widths with `python -E -P scripts/wrap_dialogue.py`,
+  and all other tables with `python -E -P scripts/check_widths.py [--apply]` (mission briefing box measured).
 - Release: `python -I scripts/make_release.py <version> [--no-build]` runs that chain (`BUILD_HOOKS` for later steps
   such as movies), lays it out as `build/rePatch/PCSG00126/` and makes xdelta patches (`-B 2147483648`: the source
   window must cover the 1.5 GB archive) into `release/` and `docs/patcher/patches/` (web patcher, git-ignored). One

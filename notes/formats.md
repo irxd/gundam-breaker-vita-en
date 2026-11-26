@@ -371,6 +371,22 @@ The hangar/event dialogue box (`voice_event_text`) has room for ~538 px per line
 ~3%. `scripts/wrap_dialogue.py` checks the rows (limit 520 px, or the Japanese line's width for rows shown in a
 wider place) and re-wraps them; run it after editing that table.
 
+### Text widths in the other tables (2026-11-26)
+
+`scripts/check_widths.py` checks every other table in `work/` the same way (same font measure). Box sizes measured
+on the real-Vita mission select screenshot (screen px = 0.78 x the Tahoma-17 units): the briefing
+(`mission_name` field 9) runs from x 439 to ~895 with room for 5 lines above "Clear Condition", limit 575 units;
+Clear/Failure Condition and Rare Runner (fields 6, 7, 12) start at x 508, limit 485-490. Briefings are always
+re-flowed into balanced lines (the Japanese breaks are only wrapping), keeping a "[...]" header and a "*" note
+(the special-rule line) as they are. 27 briefings were shortened to fit (the drafts needed up to 6 lines).
+
+Other tables have no measured box: the limit is the widest Japanese line of the field, which runs ~8% wide (the
+briefings' Japanese measures 632 for a 585 box), so those rows are only listed (CHECK) and fixed by hand. The long
+descriptions (`000_boxes_name`, `000_runners_detail`) were drafted at <= ~465 and are re-flowed at 500 where they
+had more lines than the Japanese. Single-line names wider than the Japanese are listed with `--all` only; most
+boxes have room (the dialogue speaker tag, for one). A colour tag can't span a line break: the build keeps the
+Japanese tags.
+
 ### Title screen portal line (code patch, 2026-11-25)
 
 The line under the QR code on the title screen (`gpg_txt` in `GP/ui/_little_/title/title_bg`, empty in the layout) is
