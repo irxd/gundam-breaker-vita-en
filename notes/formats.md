@@ -125,8 +125,8 @@ mip count (1 = no mips). Swizzle as above. Images with Japanese text are not cat
 - **Vulkan** loads the mission with the original files, but the 3D world is black. HUD and dialogue text render
   fine, so use Vulkan for text tests.
 - So the crashes below that were blamed on the data tables and on tables growing are **not proven**. They all
-  happened on OpenGL. Re-test on Vulkan before relying on them. The build still keeps tables from growing
-  (costs nothing).
+  happened on OpenGL. The changed data tables work on a real Vita (2026-11-25). The build still keeps tables from
+  growing (costs nothing).
 
 ## Re-pack test: confirmed in game (Vita3K Vulkan, 2026-11-08)
 
@@ -201,7 +201,7 @@ no update). Checked 2026-11-08.
   `GP/csv/*`, internal labels), so Japanese and English can't be paired automatically. Terms were matched by
   searching the English for each name.
 
-## unitData name tables (added 2026-11-21, not yet tested in game)
+## unitData name tables (added 2026-11-21, work on a real Vita 2026-11-25)
 
 The Set Up screen, option equipment, items and EX-Action screens read names from `GP/unitData/*` in the 002 bundles,
 not from `GP/text/*` (000_bbcf42d0 99:10 "Mirage Shot" did not change the EX-Action learned screen). Every record
@@ -237,7 +237,7 @@ shows. Picked by (field count of the record, field index), see `DATA_TABLES` in 
 - The default Gunpla name (GM) and "not equipped" are eboot strings (0x747b04); no data table supplies them
   (only `GP/text/partner_ms_name` has a bare "GM", which is a partner MS name).
 
-## GP/csv, GP/map and parts_phonetic (added 2026-11-25, not yet tested in game)
+## GP/csv, GP/map and parts_phonetic (added 2026-11-25, load fine on a real Vita; ace points seen, the rest not yet)
 
 Display fields of these tables are extracted like the unitData ones (`DATA_TABLES` in tools/gbtext.py). Two of them
 exist **only as loose dt2 entries in archive 000** (no bundle copy): `GP/text/parts_phonetic` (`4e461bc6`) and

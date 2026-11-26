@@ -47,11 +47,13 @@ wasn't touched). A later shared `build.py` could call both.
 CPO), `build_images.py --from-dump --out build/images_test`: 279 blocks re-encoded, 2 copies patched (bundle
 `fa528904` in 002, loose `fc397bb3_52ea4fd5` in 000), each archive changed in exactly that one entry (+19 bytes,
 offsets rebuilt). Decoding the texture back from both rebuilt archives gives the drawn image (mean error 3, max 43
-on glow edges, DXT1 limit). **Not yet tested in Vita3K.**
+on glow edges, DXT1 limit). Redrawn textures show up on a real Vita (2026-11-25, see below).
 
 ## Redraw status (2026-11-25)
 
-All 322 catalogued textures are redrawn and built; not yet tested in Vita3K. `python -E -P scripts/draw_ui.py` draws
+All 322 catalogued textures are redrawn and built. On a real Vita (2026-11-25) the title, main menu, settings
+(controller diagram), Set Up, mission select and battle HUD textures showed in English; the other screens aren't
+seen yet. `python -E -P scripts/draw_ui.py` draws
 them into `game/images_en/`, from two job modules split by style family (plus `scripts/uidraw/extra.py`, 24 jobs for
 loose-only textures found later, see "Loose-only UI textures" below; run `export_tex.py --ui` first):
 - `scripts/uidraw/labels.py` (+ `labels_lib.py`), 144 jobs: Game Setting row labels/values, Machine Setup and
@@ -253,7 +255,7 @@ one or two characters of known GP/ui paths (`rank_m_08/09`, `grg_cstm_spec_09..1
 `result_key4`, `icon_s_module_*`, `icon_s_option_*`, `msel_gp`); the rest keep `_loose/<hash1>`.
 `build_images.py` now patches these in 000 (by name_hash(path), or the hash for `_loose/<hash1>`).
 
-Redrawn (jobs in [scripts/uidraw/extra.py](../scripts/uidraw/extra.py), 24 textures, not yet tested in game):
+Redrawn (jobs in [scripts/uidraw/extra.py](../scripts/uidraw/extra.py), 24 textures, not all seen in game yet):
 | texture | English |
 |---|---|
 | title/title_00 (960x544) | piracy notice before the logos: Notice / Distributing game software over the Internet without the rights holder's permission, and downloading it while knowing that it has been distributed illegally, are strictly prohibited by law. / We ask for your understanding and cooperation. |

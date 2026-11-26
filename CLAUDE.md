@@ -24,7 +24,7 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Vita3K: use **Vulkan** (black 3D world, text fine). OpenGL crashes on mission load even with original files.
   Needs fake-signed eboot and `sce_module` (`scripts/make_eboot.py`).
 - Display names in `GP/unitData/*` (parts, equip, ex, partsList, weaponList, itemSkillParam) are extracted and
-  built (field 0 is the numeric key; see notes/formats.md). Not yet tested in game. Also extracted: part descriptions
+  built (field 0 is the numeric key; see notes/formats.md) and work on a real Vita. Also extracted: part descriptions
   (`GP/text/parts_phonetic` field 3), decal names (`GP/csv/decalData`, both loose in 000 only), chip names
   (`GP/csv/AiIntensificationChipData`), ace point texts (`GP/csv/scoreAchievementsTable`), map names (`GP/map/map`).
   The other `GP/csv/*` strings are designer labels (list in notes/formats.md).
@@ -38,7 +38,9 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
 - Optional home-screen title: `tools/rename_title.py` (app.db or param.sfo), also in the web patcher.
 - **First real-Vita test (2026-11-25, v0.1.0 via rePatch, 1.02 eboot): works.** Title, main menu, settings, Set Up,
   hangar dialogue, mission select, a full mission with HUD, ace points and radio chat all show English; missions
-  load with the changed `GP/unitData` tables. Fixes from that test are pending. Screenshots: `docs/screenshots/`.
+  load with the changed `GP/unitData` tables. Fixed after it: dialogue overflow (`wrap_dialogue.py`) and the
+  title-screen portal line (`CODE_PATCHES`); movies left out. Not seen yet: later missions, the ending, mails, the
+  lobby, many redrawn textures, decal/chip/map names. Screenshots: `docs/screenshots/`.
 - Build order: `build_text.py`, then `python -E -P scripts/build_images.py`, then `eboot_text.py build`, then
   `python -E -P scripts/build_movies.py`.
 - Movies (`finalizedPSP2/GP/movie/*.usm`, loose files, CRI USM + MPEG-1 with 11-bit DC): burned-in Japanese in me01,
@@ -55,8 +57,8 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
   window must cover the 1.5 GB archive) into `release/` and `docs/patcher/patches/` (web patcher, git-ignored). One
   eboot patch per game version (from FAGDec's ELF). Players: `scripts/apply_patches.py` or the web patcher
   (`docs/`); `node scripts/test_web_patcher.mjs` tests the web patcher against the dump. Not yet published.
-- Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) crashed once, on
-  OpenGL, so it's unproven. Re-test on Vulkan before translating those.
+- Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) works on a real Vita
+  (the one crash was on Vita3K OpenGL). The build still keeps tables from growing.
 - Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).
 - GB3 English (PCSH10042) is dumped in `dump_gb3/` as the terms source: little-endian GDAT, no Japanese text
   tables (see notes/formats.md). Terms checked against it have status `gb3` in notes/terms.csv.
