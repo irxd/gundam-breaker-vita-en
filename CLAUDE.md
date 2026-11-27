@@ -57,7 +57,8 @@ Read it before working on dumping, formats, fonts, the eboot or releases.
   such as movies), lays it out as `build/rePatch/PCSG00126/` and makes xdelta patches (`-B 2147483648`: the source
   window must cover the 1.5 GB archive) into `release/` and `docs/patcher/patches/` (web patcher, git-ignored). One
   eboot patch per game version (from FAGDec's ELF). Players: `scripts/apply_patches.py` or the web patcher
-  (`docs/`); `node scripts/test_web_patcher.mjs` tests the web patcher against the dump. Not yet published.
+  (`docs/`); `node scripts/test_web_patcher.mjs` tests the web patcher against the dump. **v0.1.0 published 2026-11-27**
+  (GitHub Release with the zip; web patcher on GitHub Pages, `main` /docs).
 - Changing names in the data tables in the 002 bundles (`GP/csv`, `GP/unitData`, `GP/map`) works on a real Vita
   (the one crash was on Vita3K OpenGL). The build still keeps tables from growing.
 - Dump layout: `dump/app/PCSG00126`, `dump/patch/PCSG00126`, `dump/eboot/{app,patch}/eboot.bin.elf` (git-ignored).

@@ -6,9 +6,10 @@ Bandai Namco, 2013).
 Mobile suit, part, weapon, skill and menu names follow the official English of *Gundam Breaker 3* (Asia English
 release) wherever it has them. Everything else is a new translation.
 
-> **Status: v0.1.0, first full translation pass, tested on a real PS Vita.** Menus, help, missions,
-> dialogue, part and weapon names, part descriptions and most UI images are in English. Many lines are first
-> drafts that still need a review.
+> **Status: [v0.1.0 released](https://github.com/irxd/gundam-breaker-vita-en/releases/tag/v0.1.0) (2026-11-27),
+> first full translation pass, tested on a real PS Vita.** Menus, help, missions, dialogue, part and weapon names,
+> part descriptions and most UI images are in English. Many lines are first drafts that still need a review:
+> please report odd lines in [Issues](https://github.com/irxd/gundam-breaker-vita-en/issues).
 >
 > **Patch it in your browser with the [web patcher](https://irxd.github.io/gundam-breaker-vita-en/)** or download
 > the patch files from the [Releases](https://github.com/irxd/gundam-breaker-vita-en/releases) page. See
